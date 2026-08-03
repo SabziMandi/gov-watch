@@ -435,6 +435,18 @@
     "tier": "daily",
     "url": "https://mopng.gov.in/en"
   },
+  "pib-releases": {
+    "chars": 5423,
+    "checked_url": true,
+    "error": "",
+    "fails": 0,
+    "last_check": "2026-08-03T15:09:12+00:00",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "state": "baseline",
+    "tier": "hourly",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1"
+  },
   "power": {
     "checked_url": true,
     "error": "block page returned",

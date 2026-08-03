@@ -11,7 +11,7 @@
 # notes:     why you are watching it. This ends up in the feed and in your copy.
 
 defaults:
-  timeout: 45
+  timeout: 30
   user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
   min_chars: 400          # below this, treat as a failed fetch, not a change
   retries: 2
@@ -41,6 +41,7 @@ sites:
   # what's-new listing page once discover.py has found it, and set a selector.
 
   - slug: mea
+    render: browser
     name: "Ministry of External Affairs"
     url: "https://www.mea.gov.in/"
     tier: daily
@@ -51,17 +52,20 @@ sites:
     tier: daily
     checked: true
   - slug: agriculture
+    render: browser
     name: "Agriculture and Farmers Welfare"
     url: "https://agriwelfare.gov.in/"
     tier: daily
     checked: true
   - slug: mca
+    render: browser
     name: "Corporate Affairs"
     url: "https://www.mca.gov.in/content/mca/global/en/home.html"
     tier: daily
     checked: true
     notes: "Company law amendments and enforcement circulars."
   - slug: moci
+    render: browser
     name: "Commerce and Industry"
     url: "https://www.moci.gov.in/"
     tier: daily
@@ -82,16 +86,19 @@ sites:
     tier: daily
     checked: true
   - slug: defence
+    render: browser
     name: "Defence"
     url: "https://www.mod.gov.in/"
     tier: daily
     checked: true
   - slug: earth-sciences
+    render: browser
     name: "Earth Sciences"
     url: "https://www.moes.gov.in/"
     tier: daily
     checked: true
   - slug: meity
+    render: browser
     name: "Electronics and IT"
     url: "https://www.meity.gov.in/"
     tier: daily
@@ -103,6 +110,7 @@ sites:
     checked: false
     notes: "Switched from the /hi build to English. Confirm the path on first run."
   - slug: mohua
+    render: browser
     name: "Housing and Urban Affairs"
     url: "https://www.mohua.gov.in/"
     tier: daily
@@ -113,29 +121,25 @@ sites:
     tier: daily
     checked: true
   - slug: labour
+    render: browser
     name: "Labour and Employment"
     url: "https://www.labour.gov.in/"
     tier: daily
     checked: true
   - slug: msme
+    render: browser
     name: "MSME"
     url: "https://www.msme.gov.in/"
     tier: daily
     checked: true
   - slug: jal-shakti-dowr
+    render: browser
     name: "Jal Shakti — water resources"
     url: "https://www.jalshakti-dowr.gov.in/"
     tier: daily
     checked: true
-  - slug: finmin
-    name: "Finance Ministry (portal)"
-    url: "https://finmin.nic.in/"
-    tier: daily
-    checked: false
-    verify_tls: false
-    min_chars: 250
-    notes: "Moved to HTTPS with certificate checking off, since nic.in hosts often serve stale chains. Largely a shell either way -- DEA, DoR, DIPAM, CBDT and CBIC below carry the actual releases."
   - slug: mines
+    render: browser
     name: "Mines"
     url: "https://mines.gov.in/webportal/home"
     tier: daily
@@ -146,11 +150,13 @@ sites:
     tier: daily
     checked: true
   - slug: power
+    render: browser
     name: "Power"
     url: "https://www.powermin.gov.in/"
     tier: daily
     checked: true
   - slug: railways
+    render: browser
     name: "Indian Railways"
     url: "https://www.indianrailways.gov.in/"
     tier: daily
@@ -159,22 +165,27 @@ sites:
     name: "Road Transport and Highways"
     url: "https://morth.gov.in/"
     render: browser
-    wait_for: "networkidle"
+    wait_for: "domcontentloaded"
+    settle_ms: 9000
+    timeout: 90
     min_chars: 250
     tier: daily
     checked: true
     notes: "Hash-routed single-page app: fetched with a headless browser after the JS settles. The bare domain is used because the #/ fragment is never sent to the server."
   - slug: rural
+    render: browser
     name: "Rural Development"
     url: "https://www.rural.gov.in/"
     tier: daily
     checked: true
   - slug: msde
+    render: browser
     name: "Skill Development and Entrepreneurship"
     url: "https://www.msde.gov.in/"
     tier: daily
     checked: true
   - slug: mospi
+    render: browser
     name: "Statistics and Programme Implementation"
     url: "https://www.mospi.gov.in/"
     tier: daily
@@ -196,11 +207,13 @@ sites:
     tier: daily
     checked: true
   - slug: tourism
+    render: browser
     name: "Tourism"
     url: "https://www.tourism.gov.in/"
     tier: daily
     checked: true
   - slug: textiles
+    render: browser
     name: "Textiles"
     url: "https://www.texmin.gov.in/"
     tier: daily
@@ -217,6 +230,7 @@ sites:
     checked: true
     notes: "Audit reports land here before they are tabled in the press."
   - slug: cbi
+    render: browser
     name: "Central Bureau of Investigation"
     url: "https://cbi.gov.in/"
     tier: daily
@@ -265,11 +279,13 @@ sites:
     tier: daily
     checked: false
   - slug: cbdt
+    render: browser
     name: "Income Tax Department (CBDT)"
     url: "https://incometaxindia.gov.in/"
     tier: daily
     checked: false
   - slug: cbic
+    render: browser
     name: "CBIC — indirect taxes and customs"
     url: "https://www.cbic.gov.in/"
     tier: daily
@@ -296,6 +312,7 @@ sites:
     tier: daily
     checked: false
   - slug: dgft
+    render: browser
     name: "DGFT — trade notifications"
     url: "https://www.dgft.gov.in/"
     tier: daily

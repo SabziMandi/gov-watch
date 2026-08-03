@@ -1,6 +1,8 @@
 # Watchlist for gov-watch.
 #
-# tier:      hourly | daily      (which workflow picks it up)
+# tier:      hourly | daily | local
+#            hourly and daily run on GitHub. local runs on your own machine,
+#            for hosts that refuse connections from foreign data-centre IPs.
 # url:       page to fetch
 # selector:  optional CSS selector for the content block. Strongly recommended
 #            once you know the page. Without it the whole <body> is compared.
@@ -44,7 +46,7 @@ sites:
     render: browser
     name: "Ministry of External Affairs"
     url: "https://www.mea.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: mha
     name: "Ministry of Home Affairs"
@@ -55,13 +57,13 @@ sites:
     render: browser
     name: "Agriculture and Farmers Welfare"
     url: "https://agriwelfare.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: mca
     render: browser
     name: "Corporate Affairs"
     url: "https://www.mca.gov.in/content/mca/global/en/home.html"
-    tier: daily
+    tier: local
     checked: true
     notes: "Company law amendments and enforcement circulars."
   - slug: moci
@@ -89,19 +91,19 @@ sites:
     render: browser
     name: "Defence"
     url: "https://www.mod.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: earth-sciences
     render: browser
     name: "Earth Sciences"
     url: "https://www.moes.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: meity
     render: browser
     name: "Electronics and IT"
     url: "https://www.meity.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: heavy-industries
     name: "Heavy Industries"
@@ -124,19 +126,19 @@ sites:
     render: browser
     name: "Labour and Employment"
     url: "https://www.labour.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: msme
     render: browser
     name: "MSME"
     url: "https://www.msme.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: jal-shakti-dowr
     render: browser
     name: "Jal Shakti — water resources"
     url: "https://www.jalshakti-dowr.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: mines
     render: browser
@@ -153,13 +155,13 @@ sites:
     render: browser
     name: "Power"
     url: "https://www.powermin.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: railways
     render: browser
     name: "Indian Railways"
     url: "https://www.indianrailways.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: morth
     name: "Road Transport and Highways"
@@ -182,7 +184,7 @@ sites:
     render: browser
     name: "Skill Development and Entrepreneurship"
     url: "https://www.msde.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: mospi
     render: browser
@@ -210,13 +212,13 @@ sites:
     render: browser
     name: "Tourism"
     url: "https://www.tourism.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: textiles
     render: browser
     name: "Textiles"
     url: "https://www.texmin.gov.in/"
-    tier: daily
+    tier: local
     checked: true
   - slug: steel
     name: "Steel"
@@ -233,7 +235,7 @@ sites:
     render: browser
     name: "Central Bureau of Investigation"
     url: "https://cbi.gov.in/"
-    tier: daily
+    tier: local
     checked: true
 
   # --- added: regulators, data bodies and the gazette -------------------------
@@ -282,7 +284,7 @@ sites:
     render: browser
     name: "Income Tax Department (CBDT)"
     url: "https://incometaxindia.gov.in/"
-    tier: daily
+    tier: local
     checked: false
   - slug: cbic
     render: browser
@@ -315,7 +317,7 @@ sites:
     render: browser
     name: "DGFT — trade notifications"
     url: "https://www.dgft.gov.in/"
-    tier: daily
+    tier: local
     checked: false
   - slug: sansad-bills
     name: "Parliament — bills"

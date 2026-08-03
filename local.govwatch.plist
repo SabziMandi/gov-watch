@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>local.govwatch</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>REPLACE_WITH_REPO_PATH/scripts/run-local.sh</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>10</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Hour</key><integer>19</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+
+  <!-- If the Mac was asleep at the scheduled time, run once on waking. -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/govwatch.out</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/govwatch.err</string>
+</dict>
+</plist>

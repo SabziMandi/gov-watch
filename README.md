@@ -86,6 +86,38 @@ cases are logged as errors, surfaced in the digest, and flagged on the feed.
 **Silence from a page is only meaningful if the fetch succeeded.** Check the
 watchlist table before writing that a ministry has said nothing.
 
+## The local tier
+
+GitHub's runners sit in US data centres. Several NIC-hosted ministry portals
+refuse connections from those IP ranges outright, or serve a block page. Those
+sites carry `tier: local` and are checked from your own machine instead, on the
+same repository, so the archive and the feed stay unified.
+
+One-off setup, in Terminal:
+
+```bash
+git clone https://github.com/<your-username>/gov-watch.git
+cd gov-watch
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python -m playwright install chromium
+bash scripts/run-local.sh          # confirm it works before scheduling
+```
+
+To run it twice a day, edit `local.govwatch.plist` and replace
+`REPLACE_WITH_REPO_PATH` with the full path to the cloned folder (run `pwd` to
+get it), then:
+
+```bash
+cp local.govwatch.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/local.govwatch.plist
+```
+
+Logs go to `~/Library/Logs/gov-watch.log`. The obvious limitation: these sites
+are only checked when the Mac is awake and online. If a run is missed, the next
+one still catches the change — it compares against the last snapshot, not
+against yesterday.
+
 ## Costs and limits
 
 Public repositories get unlimited Actions minutes, so the practical ceiling is

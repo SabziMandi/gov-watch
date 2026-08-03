@@ -26,7 +26,12 @@ defaults:
     - '(?i)^\s*\d{1,2}[-/ ](jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*[-/ ]\d{2,4}\s*(\d{1,2}:\d{2}(:\d{2})?\s*(am|pm)?)?\s*$'
     - '(?i)^\s*(posted\s+on|published\s+on|dated)\s*:.*\d{4}.*$'
     - '(?i)^\s*(captcha|please\s+enable\s+javascript).*$'
-    - '^\s*[\d,]+\s*$'
+    - '^\s*[\d,]+(\.\d+)?\s*$'
+    - '^\s*[:\-]?\s*\d{4,}\s*$'
+    - '(?i)^\s*\d+(\.\d+)?\s*(kb|mb|gb|bytes)\s*$'
+    - '(?i)^\s*(view this post on instagram|a post shared by .*)$'
+    - '(?i)^\s*no data available\.?\s*$'
+    - '(?i)^\s*(links|home|skip to main content)\s*:?\s*$'
 
 sites:
 
@@ -115,6 +120,7 @@ sites:
     render: browser
     name: "Housing and Urban Affairs"
     url: "https://www.mohua.gov.in/"
+    ignore_devanagari: true
     tier: daily
     checked: true
   - slug: mib
@@ -278,6 +284,8 @@ sites:
   - slug: dipam
     name: "DIPAM — disinvestment"
     url: "https://dipam.gov.in/"
+    strip_extra:
+      - '^\s*[\d,]+\.\d{2}\s*$'
     tier: daily
     checked: false
   - slug: cbdt

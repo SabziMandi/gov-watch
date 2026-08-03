@@ -30,6 +30,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SNAP = ROOT / "snapshots"
 DATA = ROOT / "data"
 
+DEVANAGARI = re.compile(r"[\u0900-\u097F]")
+
 # Text that means the fetch was blocked, not that the page changed.
 BLOCK_MARKERS = [
     "access denied", "403 forbidden", "request blocked", "are you a robot",
@@ -152,14 +154,19 @@ def extract(html, site, d):
             node = BeautifulSoup("".join(str(p) for p in picked), "html.parser")
 
     text = node.get_text("\n")
-    patterns = [re.compile(p) for p in site.get("strip", d.get("strip", []))]
+    rules = list(site["strip"]) if site.get("strip") else \
+        list(d.get("strip", [])) + list(site.get("strip_extra", []))
+    patterns = [re.compile(p) for p in rules]
+    drop_hindi = site.get("ignore_devanagari", False)
 
     lines = []
     for raw in text.splitlines():
-        line = re.sub(r"[ \t\u00a0]+", " ", raw).strip()
+        line = re.sub(r"[ \t\u00a0\u200b\u200c\u200d\ufeff]+", " ", raw).strip()
         if not line:
             continue
         if any(p.match(line) for p in patterns):
+            continue
+        if drop_hindi and DEVANAGARI.search(line):
             continue
         lines.append(line)
 

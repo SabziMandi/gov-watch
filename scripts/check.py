@@ -49,8 +49,9 @@ def load_config():
 
 
 def candidate_urls(url):
-    """The URL as given, then the other scheme. nic.in hosts flip between the
-    two and sometimes only one of them answers."""
+    """The URL as given, then the other scheme -- only worth trying when the
+    first failure was DNS or TLS. A timeout means the host is unreachable, and
+    retrying on port 80 just burns another 45 seconds."""
     yield url
     if url.startswith("https://"):
         yield "http://" + url[8:]
@@ -58,51 +59,84 @@ def candidate_urls(url):
         yield "https://" + url[7:]
 
 
-def fetch_http(site, d):
-    headers = {
+RETRY_OTHER_SCHEME = (requests.exceptions.SSLError, requests.exceptions.ConnectionError)
+
+
+def browser_headers(site, d):
+    """Headers a real Chrome sends. Several .gov.in hosts 403 anything else."""
+    return {
         "User-Agent": site.get("user_agent", d["user_agent"]),
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-GB,en;q=0.9,hi;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,"
+                  "image/webp,*/*;q=0.8",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "Connection": "keep-alive",
     }
+
+
+def fetch_http(site, d):
+    headers = browser_headers(site, d)
     verify = site.get("verify_tls", True)
-    last = None
-    for url in candidate_urls(site["url"]):
+    timeout = site.get("timeout", d["timeout"])
+    first_error = None
+
+    for i, url in enumerate(candidate_urls(site["url"])):
         for attempt in range(site.get("retries", d.get("retries", 2)) + 1):
             try:
-                r = requests.get(url, headers=headers,
-                                 timeout=site.get("timeout", d["timeout"]),
+                r = requests.get(url, headers=headers, timeout=timeout,
                                  verify=verify, allow_redirects=True)
                 r.raise_for_status()
                 r.encoding = r.encoding or r.apparent_encoding
-                if url != site["url"]:
+                if i:
                     print(f"         (reached via {url})")
                 return r.text
             except requests.exceptions.SSLError as exc:
-                # Broken chain: drop verification once, then carry on.
-                last = exc
+                first_error = first_error or exc
                 if verify:
-                    verify = False
+                    verify = False          # broken chain: drop verification once
                     continue
                 break
+            except requests.exceptions.Timeout as exc:
+                first_error = first_error or exc
+                break                        # unreachable, not a scheme problem
             except Exception as exc:  # noqa: BLE001
-                last = exc
-                time.sleep(3 * (attempt + 1))
-    raise last
+                first_error = first_error or exc
+                time.sleep(2 * (attempt + 1))
+        if not isinstance(first_error, RETRY_OTHER_SCHEME):
+            break
+    raise first_error
 
 
 def fetch_browser(site, d):
     from playwright.sync_api import sync_playwright
 
+    timeout = site.get("timeout", d["timeout"]) * 1000
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page(user_agent=site.get("user_agent", d["user_agent"]))
-        page.goto(site["url"], timeout=site.get("timeout", d["timeout"]) * 1000,
-                  wait_until=site.get("wait_for", "networkidle"))
-        if site.get("wait_selector"):
-            page.wait_for_selector(site["wait_selector"], timeout=20000)
-        page.wait_for_timeout(3000)
-        html = page.content()
-        browser.close()
+        browser = p.chromium.launch(
+            args=["--disable-blink-features=AutomationControlled"])
+        ctx = browser.new_context(
+            user_agent=site.get("user_agent", d["user_agent"]),
+            locale="en-IN",
+            timezone_id="Asia/Kolkata",
+            viewport={"width": 1440, "height": 900},
+            ignore_https_errors=not site.get("verify_tls", True),
+            extra_http_headers={"Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8"},
+        )
+        page = ctx.new_page()
+        try:
+            page.goto(site["url"], timeout=timeout,
+                      wait_until=site.get("wait_for", "domcontentloaded"))
+            if site.get("wait_selector"):
+                page.wait_for_selector(site["wait_selector"], timeout=25000)
+            else:
+                page.wait_for_timeout(site.get("settle_ms", 6000))
+            html = page.content()
+        finally:
+            browser.close()
     return html
 
 

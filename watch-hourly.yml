@@ -1,0 +1,47 @@
+name: watch hourly (PIB)
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gov-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Check hourly tier
+        run: python scripts/check.py --tier hourly
+
+      - name: Email immediately if anything changed
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: python scripts/notify.py --mode immediate
+
+      - name: Rebuild feed
+        run: python scripts/build_site.py
+
+      - name: Commit
+        run: |
+          git config user.name "gov-watch"
+          git config user.email "actions@github.com"
+          git add -A snapshots data docs
+          git diff --staged --quiet || git commit -m "hourly check $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

@@ -67,10 +67,21 @@ def render(events, mode):
     return subject, "".join(parts)
 
 
+REQUIRED = ["SMTP_HOST", "SMTP_USER", "SMTP_PASS", "ALERT_TO"]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", choices=["immediate", "digest"], default="digest")
     args = ap.parse_args()
+
+    # A missing GitHub secret arrives as an empty string, not as an absent
+    # variable. Skip quietly rather than failing the run -- losing the
+    # snapshots because email is misconfigured would be the worse outcome.
+    missing = [k for k in REQUIRED if not os.environ.get(k, "").strip()]
+    if missing:
+        print(f"email not configured, skipping ({', '.join(missing)} unset)")
+        return
 
     events = json.loads(RUN.read_text()) if RUN.exists() else []
     if not events:
@@ -91,11 +102,16 @@ def main():
     msg.set_content("This message needs an HTML-capable client.")
     msg.add_alternative(body, subtype="html")
 
-    with smtplib.SMTP(os.environ["SMTP_HOST"], int(os.environ.get("SMTP_PORT", 587))) as s:
-        s.starttls()
-        s.login(os.environ["SMTP_USER"], os.environ["SMTP_PASS"])
-        s.send_message(msg)
-    print(f"sent: {subject}")
+    port = int(os.environ.get("SMTP_PORT", "").strip() or 587)
+    try:
+        with smtplib.SMTP(os.environ["SMTP_HOST"].strip(), port, timeout=60) as s:
+            s.starttls()
+            s.login(os.environ["SMTP_USER"].strip(), os.environ["SMTP_PASS"].strip())
+            s.send_message(msg)
+        print(f"sent: {subject}")
+    except Exception as exc:  # noqa: BLE001
+        # Never let a mail failure discard the run's snapshots.
+        print(f"email failed, continuing: {type(exc).__name__}: {exc}")
 
 
 if __name__ == "__main__":

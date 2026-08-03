@@ -170,8 +170,12 @@ def extract(html, site, d):
 
 def looks_blocked(text, previous, floor):
     low = text.lower()
-    if any(m in low for m in BLOCK_MARKERS):
-        return "block page returned"
+    for m in BLOCK_MARKERS:
+        if m in low:
+            # Say which marker fired and show the opening of the page, so the
+            # digest is diagnostic rather than just discouraging.
+            head = " ".join(text.split())[:180]
+            return f"block marker {m!r} | page began: {head!r}"
     if len(text) < floor:
         return f"only {len(text)} chars extracted (floor {floor})"
     if previous and len(text) < len(previous) * 0.35:

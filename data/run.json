@@ -1,54 +1,22 @@
 [
   {
-    "ts": "2026-08-03T12:37:22+00:00",
-    "slug": "mea",
-    "name": "Ministry of External Affairs",
-    "url": "https://www.mea.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
+    "ts": "2026-08-03T12:56:16+00:00",
+    "slug": "moci",
+    "name": "Commerce and Industry",
+    "url": "https://www.moci.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 0,
+    "removed": 2,
+    "sample_added": [],
+    "sample_removed": [
+      "\u200c",
+      "No Data Available."
+    ],
+    "diff": "@@ -68,6 +68,4 @@\n open_in_new\n-\u200c\n Connect with\n In Social Media\n-No Data Available.\n Rate this translation"
   },
   {
-    "ts": "2026-08-03T12:37:32+00:00",
-    "slug": "agriculture",
-    "name": "Agriculture and Farmers Welfare",
-    "url": "https://agriwelfare.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:37:39+00:00",
-    "slug": "mca",
-    "name": "Corporate Affairs",
-    "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:37:54+00:00",
-    "slug": "defence",
-    "name": "Defence",
-    "url": "https://www.mod.gov.in/",
-    "type": "error",
-    "detail": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.mod.gov.in/\nCall log:\n  - navigating to \"https://www.mod.gov.in/\", waiting until \"domcontentloaded\"\n"
-  },
-  {
-    "ts": "2026-08-03T12:38:01+00:00",
-    "slug": "earth-sciences",
-    "name": "Earth Sciences",
-    "url": "https://www.moes.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:38:09+00:00",
-    "slug": "meity",
-    "name": "Electronics and IT",
-    "url": "https://www.meity.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:38:11+00:00",
+    "ts": "2026-08-03T12:56:35+00:00",
     "slug": "heavy-industries",
     "name": "Heavy Industries",
     "url": "https://heavyindustries.gov.in/en",
@@ -58,111 +26,124 @@
     "removed": 0,
     "sample_added": [],
     "sample_removed": [],
-    "diff": "@@ -333,7 +333,7 @@\n Notifications\n+27-07-2026 To 26-08-2026\n+Notice Inviting e-Tender for Selection of Manufacturers for Setting Up 10 GWh Manufacturi\n+Read More\n 27-07-2026 To 24-08-2026\n Direct recruitment to the Posts of Research Engineers and Junior Research Engineers at FCR\n-Read More\n-27-07-2026 To 26-08-2026\n-Notice Inviting e-Tender for Selection of Manufacturers for Setting Up 10 GWh Manufacturi\n Read More"
+    "diff": "@@ -333,7 +333,7 @@\n Notifications\n+27-07-2026 To 24-08-2026\n+Direct recruitment to the Posts of Research Engineers and Junior Research Engineers at FCR\n+Read More\n 27-07-2026 To 26-08-2026\n Notice Inviting e-Tender for Selection of Manufacturers for Setting Up 10 GWh Manufacturi\n-Read More\n-27-07-2026 To 24-08-2026\n-Direct recruitment to the Posts of Research Engineers and Junior Research Engineers at FCR\n Read More"
   },
   {
-    "ts": "2026-08-03T12:38:31+00:00",
-    "slug": "labour",
-    "name": "Labour and Employment",
-    "url": "https://www.labour.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
+    "ts": "2026-08-03T12:56:43+00:00",
+    "slug": "mohua",
+    "name": "Housing and Urban Affairs",
+    "url": "https://www.mohua.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 4,
+    "removed": 6,
+    "sample_added": [
+      "Explore User Personas",
+      "Important Links",
+      "Press Information Bureau",
+      "Holiday Homes/Government Residential Accommodation"
+    ],
+    "sample_removed": [
+      "\u0905\u0927\u093f\u0915 \u0926\u0947\u0916\u0947\u0902",
+      "Filling up of the post of Officer on Special Duty (Urban Transport) [OSD (UT) in the Ministry of Housing and Urban Affairs on deputation (including short-term contract) basis - Extention of last date for receipt of application",
+      "\u0909\u092a\u092f\u094b\u0917\u0915\u0930\u094d\u0924\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0924\u094d\u0935 \u0915\u093e \u0905\u0928\u094d\u0935\u0947\u0937\u0923 \u0915\u0930\u0947\u0902",
+      "\u092e\u0939\u0924\u094d\u0935\u092a\u0942\u0930\u094d\u0923 \u0932\u093f\u0902\u0915",
+      "\u092a\u094d\u0930\u0947\u0938 \u0938\u0942\u091a\u0928\u093e \u092c\u094d\u092f\u0942\u0930\u094b",
+      "\u0905\u0935\u0915\u093e\u0936 \u0917\u0943\u0939/\u0938\u0930\u0915\u093e\u0930\u0940 \u0906\u0935\u093e\u0938\u0940\u092f \u0906\u0935\u093e\u0938"
+    ],
+    "diff": "@@ -175,3 +175,3 @@\n arrow_forward_ios\n-\u0905\u0927\u093f\u0915 \u0926\u0947\u0916\u0947\u0902\n+View more\n chevron_right\n@@ -182,3 +182,3 @@\n arrow_forward_ios\n-Filling up of the post of Officer on Special Duty (Urban Transport) [OSD (UT) in the Ministry of Housing and Urban Affairs on deputation (including short-term contract) basis - Extention of last date for receipt of application\n+\u0906\u0935\u093e\u0938 \u0914\u0930 \u0936\u0939\u0930\u0940 \u092e\u093e\u092e\u0932\u094b\u0902 \u0915\u0947 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u092e\u0947\u0902 \u0935\u093f\u0936\u0947\u0937 \u0915\u093e\u0930\u094d\u092f \u0905\u0927\u093f\u0915\u093e\u0930\u0940 (\u0936\u0939\u0930\u0940 \u092a\u0930\u093f\u0935\u0939\u0928) [\u0913\u090f\u0938\u0921\u0940 (\u0915\u0947\u0902\u0926\u094d\u0930 \u0936\u093e\u0938\u093f\u0924 \u092a\u094d\u0930\u0926\u0947\u0936) \u0915\u0947 \u092a\u0926 \u0915\u094b \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f (\u0905\u0932\u094d\u092a\u0915\u093e\u0932\u093f\u0915 \u0905\u0928\u0941\u092c\u0902\u0927 \u0938\u0939\u093f\u0924) \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u092d\u0930\u0928\u093e-\u0906\u0935\u0947\u0926\u0928 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0905\u0902\u0924\u093f\u092e \u0924\u093f\u0925\u093f \u0915\u093e \u0935\u093f\u0938\u094d\u0924\u093e\u0930\n arrow_forward_ios\n@@ -201,3 +201,3 @@\n chevron_right\n-\u0909\u092a\u092f\u094b\u0917\u0915\u0930\u094d\u0924\u093e \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0924\u094d\u0935 \u0915\u093e \u0905\u0928\u094d\u0935\u0947\u0937\u0923 \u0915\u0930\u0947\u0902\n+Explore User Personas\n chevron_left\n@@ -209,6 +209,6 @@\n Skill Seeker\n-\u092e\u0939\u0924\u094d\u0935\u092a\u0942\u0930\u094d\u0923 \u0932\u093f\u0902\u0915\n-\u092a\u094d\u0930\u0947\u0938 \u0938\u0942\u091a\u0928\u093e \u092c\u094d\u092f\u0942\u0930\u094b\n-arrow_forward_ios\n-\u0905\u0935\u0915\u093e\u0936 \u0917\u0943\u0939/\u0938\u0930\u0915\u093e\u0930\u0940 \u0906\u0935\u093e\u0938\u0940\u092f \u0906\u0935\u093e\u0938\n+Important Links\n+Press Information Bureau\n+arrow_forward_ios\n+Holiday Homes/Government Residential Accommodation\n arrow_forward_ios"
   },
   {
-    "ts": "2026-08-03T12:38:37+00:00",
-    "slug": "msme",
-    "name": "MSME",
-    "url": "https://www.msme.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
+    "ts": "2026-08-03T12:57:37+00:00",
+    "slug": "mospi",
+    "name": "Statistics and Programme Implementation",
+    "url": "https://www.mospi.gov.in/",
+    "notes": "GDP, CPI and IIP releases. Repoint at the press-release listing once confirmed.",
+    "type": "change",
+    "added": 0,
+    "removed": 2,
+    "sample_added": [],
+    "sample_removed": [
+      "View this post on Instagram",
+      "A post shared by Ministry of Statistics & PI (@goistats)"
+    ],
+    "diff": "@@ -156,4 +156,2 @@\n Instagram\n-View this post on Instagram\n-A post shared by Ministry of Statistics & PI (@goistats)\n Facebook"
   },
   {
-    "ts": "2026-08-03T12:38:44+00:00",
-    "slug": "jal-shakti-dowr",
-    "name": "Jal Shakti \u2014 water resources",
-    "url": "https://www.jalshakti-dowr.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
+    "ts": "2026-08-03T12:57:52+00:00",
+    "slug": "rbi-press",
+    "name": "RBI \u2014 press releases",
+    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+    "notes": "Highest-yield page on the list for a business desk.",
+    "type": "change",
+    "added": 2,
+    "removed": 0,
+    "sample_added": [
+      "Auction of Government of India Dated Securities",
+      "370 kb"
+    ],
+    "sample_removed": [],
+    "diff": "@@ -98,2 +98,4 @@\n Aug 03, 2026\n+Auction of Government of India Dated Securities\n+370 kb\n Money Market Operations as on August 02, 2026"
   },
   {
-    "ts": "2026-08-03T12:39:04+00:00",
-    "slug": "power",
-    "name": "Power",
-    "url": "https://www.powermin.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:39:05+00:00",
-    "slug": "railways",
-    "name": "Indian Railways",
-    "url": "https://www.indianrailways.gov.in/",
-    "type": "error",
-    "detail": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.indianrailways.gov.in/\nCall log:\n  - navigating to \"https://www.indianrailways.gov.in/\", waiting until \"domcontentloaded\"\n"
-  },
-  {
-    "ts": "2026-08-03T12:39:36+00:00",
-    "slug": "msde",
-    "name": "Skill Development and Entrepreneurship",
-    "url": "https://www.msde.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:40:12+00:00",
-    "slug": "tourism",
-    "name": "Tourism",
-    "url": "https://www.tourism.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:40:19+00:00",
-    "slug": "textiles",
-    "name": "Textiles",
-    "url": "https://www.texmin.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:40:55+00:00",
-    "slug": "cbi",
-    "name": "Central Bureau of Investigation",
-    "url": "https://cbi.gov.in/",
-    "type": "error",
-    "detail": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://cbi.gov.in/\", waiting until \"domcontentloaded\"\n"
-  },
-  {
-    "ts": "2026-08-03T12:41:18+00:00",
-    "slug": "cbdt",
-    "name": "Income Tax Department (CBDT)",
-    "url": "https://incometaxindia.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
-  },
-  {
-    "ts": "2026-08-03T12:41:58+00:00",
-    "slug": "trai",
-    "name": "TRAI",
-    "url": "https://www.trai.gov.in/",
+    "ts": "2026-08-03T12:57:53+00:00",
+    "slug": "rbi-notifications",
+    "name": "RBI \u2014 notifications",
+    "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx",
     "notes": "",
     "type": "change",
     "added": 1,
     "removed": 1,
     "sample_added": [
-      "TRAI Assesses Mobile Network Quality Across in Mumbai LSA."
+      "Links :"
     ],
     "sample_removed": [
-      "TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway."
+      "Links"
     ],
-    "diff": "@@ -238,5 +238,2 @@\n 23rd July 2026\n-TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA.\n-Explore\n-23rd July 2026\n TRAI Assesses Mobile Network Quality along river Ganga from Kolkata to Kachubaria-Gangasagar under West Bengal LSA.\n@@ -246,2 +243,5 @@\n Explore\n+23rd July 2026\n+TRAI Assesses Mobile Network Quality across South Tripura District and adjoining areas in the State of Tripura under North East LSA.\n+Explore\n 22nd July 2026\n@@ -250,3 +250,3 @@\n 20th July 2026\n-TRAI Assesses Network Quality Across Hamirpur & Bilaspur City, Amb to Hamirpur and Hamirpur to Bilaspur Highway.\n+TRAI Assesses Mobile Network Quality Across in Mumbai LSA.\n Explore\n@@ -299,2 +299,9 @@\n Chhindwara , Madhya Pradesh\n+Consumer Awareness Program at Uttarkashi (Uttarakhand) by Indian Institute Of Technology & Entrepreneur Development (IITED), Uttarakhand\n+Date :\n+11/08/2026\n+Time :\n+11:00 AM\n+Location :\n+Uttarkashi, Uttarakhand\n Consumer Awareness Programme at Una (Himachal Pradesh) by IITED - HP\n@@ -306,9 +313,2 @@\n Una, Himachal Pradesh\n-Consumer Awareness Program at Uttarkashi (Uttarakhand) by Indian Institute Of Technology & Entrepreneur Development (IITED), Uttarakhand\n-Date :\n-11/08/2026\n-Time :\n-11:00 AM\n-Location :\n-Uttarkashi, Uttarakhand\n Consumer Awareness Program at Sirsa (Haryana) by Rashtriya Samuddeshiya Vikas Sansthan"
+    "diff": "@@ -805,3 +805,3 @@\n More\n-Links\n+Links :\n Bank Holidays"
   },
   {
-    "ts": "2026-08-03T12:42:09+00:00",
-    "slug": "dgft",
-    "name": "DGFT \u2014 trade notifications",
-    "url": "https://www.dgft.gov.in/",
-    "type": "error",
-    "detail": "block page returned"
+    "ts": "2026-08-03T12:58:03+00:00",
+    "slug": "dipam",
+    "name": "DIPAM \u2014 disinvestment",
+    "url": "https://dipam.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 6,
+    "removed": 6,
+    "sample_added": [
+      "4,660.10",
+      "223,266.52",
+      "311,655.84",
+      "1,036.30",
+      "526,417.11",
+      "956,568.90"
+    ],
+    "sample_removed": [
+      "4,646.15",
+      "222,598.17",
+      "310,722.90",
+      "1,026.80",
+      "521,591.33",
+      "947,799.81"
+    ],
+    "diff": "@@ -149,7 +149,7 @@\n Closing Price :\n-4,646.15\n+4,660.10\n Market Capitalization of GOI Shares ( In Crore) :\n-222,598.17\n+223,266.52\n Total Market Capitalization :\n-310,722.90\n+311,655.84\n Total % of GOI Shares :\n@@ -168,7 +168,7 @@\n Closing Price :\n-1,026.80\n+1,036.30\n Market Capitalization of GOI Shares ( In Crore) :\n-521,591.33\n+526,417.11\n Total Market Capitalization :\n-947,799.81\n+956,568.90\n Total % of GOI Shares :"
+  },
+  {
+    "ts": "2026-08-03T12:58:37+00:00",
+    "slug": "cbic",
+    "name": "CBIC \u2014 indirect taxes and customs",
+    "url": "https://www.cbic.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      ": 24823278"
+    ],
+    "sample_removed": [
+      ": 24823004"
+    ],
+    "diff": "@@ -103,3 +103,3 @@\n Visitor's Count\n-: 24823004\n+: 24823278\n \u00a9 This is the official website of Central Board of Indirect Taxes and Customs (CBIC), Department of Revenue, Ministry of Finance, Government of India."
   }
 ]

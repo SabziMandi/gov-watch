@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "ts": "2026-08-04T03:28:58+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "Vehicle-to-Vehicle Communication Systems"
+    ],
+    "sample_removed": [
+      "Prime Minister expresses pride in Indian contingent\u2019s performance at Commonwealth Games 2026"
+    ],
+    "diff": "@@ -128,3 +128,3 @@\n MOST VIEWED\n-Prime Minister expresses pride in Indian contingent\u2019s performance at Commonwealth Games 2026\n+Vehicle-to-Vehicle Communication Systems\n Department of Posts releases Commemorative Postage Stamp to Mark the Centenary of Sat..."
+  }
+]

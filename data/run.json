@@ -1,14 +1,24 @@
 [
   {
-    "ts": "2026-08-05T09:42:37+00:00",
+    "ts": "2026-08-05T12:05:54+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 14,
-    "removed": 9,
+    "added": 16,
+    "removed": 16,
     "sample_added": [
+      "Government Aims to Keep India's Internet Free from Unlawful and Obscene Content while...",
+      "Government Ensures Welfare, Healthcare and Accreditation Support for Journalists Thro...",
+      "DRI busts illegal drug manufacturing unit in Satara district in Maharashtra; two arre...",
+      "FOREST PRODUCE-BASED COOPERATIVE SOCIETIES",
+      "\u2018EXPANSION OF PMBJK THROUGH PACS\u2019",
+      "CENTRAL ASSISTANCE TO COOPERATIVES IN KARNATAKA",
+      "Government Highlights Digital India Initiatives for Strengthening Digital Infrastruct...",
+      "Government Examines Global Developments While Reviewing Policy and Legal Framework fo..."
+    ],
+    "sample_removed": [
       "TRAI releases consultation paper on draft amendments in \u2018The Standards of Quality of ...",
       "PARLIAMENT QUESTION: CPGRAMS & DIGITAL PENSION REFORMS",
       "PARLIAMENT QUESTION: MISSION KARMAYOGI & iGOT DIGITAL CAPACITY BUILDING",
@@ -18,16 +28,6 @@
       "PARLIAMENT QUESTION: COLLISION AVOIDANCE MANOEUVRES (CAMs) EXECUTED BY ISRO",
       "PARLIAMENT QUESTION: HUMAN SPACEFLIGHT MISSION"
     ],
-    "sample_removed": [
-      "Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...",
-      "Department of Posts - Delhi Circle Makes Special Arrangements for posting of Rakhi Ma...",
-      "NCS PORTAL",
-      "Union Minister of Communications, Shri Jyotiraditya M. Scindia along with Chief Minis...",
-      "Farmers voice strong support for Ethanol after meeting Union Agriculture Minister Shr...",
-      "Union Minister Scindia, MP CM Mohan Yadav Secure Cumulative \u20b95,500 Crore Investment C...",
-      "Union Minister of State for Rural Development Dr. Pemmasani Chandrasekhar Reviews Pro...",
-      "Government Ensures Adequate Availability of Urea and DAP During Ongoing Kharif 2026 S..."
-    ],
-    "diff": "@@ -128,13 +128,17 @@\n MOST VIEWED\n-Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...\n-Roads Reimagined: The Rise of India\u2019s Electric Vehicles Ecosystem\n-Department of Posts - Delhi Circle Makes Special Arrangements for posting of Rakhi Ma...\n-NCS PORTAL\n-Union Minister of Communications, Shri Jyotiraditya M. Scindia along with Chief Minis...\n-Farmers voice strong support for Ethanol after meeting Union Agriculture Minister Shr...\n-Union Minister Scindia, MP CM Mohan Yadav Secure Cumulative \u20b95,500 Crore Investment C...\n Incident involving Air India Flight AI2379 (Phuket\u2013Delhi) on 04.08.2026\n-Union Minister of State for Rural Development Dr. Pemmasani Chandrasekhar Reviews Pro...\n-Government Ensures Adequate Availability of Urea and DAP During Ongoing Kharif 2026 S...\n-Government Intensifies Promotion of Nano Fertilizers to Enhance Nutrient Use Efficien...\n+TRAI releases consultation paper on draft amendments in \u2018The Standards of Quality of ...\n+PARLIAMENT QUESTION: CPGRAMS & DIGITAL PENSION REFORMS\n+PARLIAMENT QUESTION: MISSION KARMAYOGI & iGOT DIGITAL CAPACITY BUILDING\n+Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Fo...\n+PARLIAMENT QUESTION: GAGANYAAN MISSION AND BHARATIYA ANTARIKSH STATION\n+PARLIAMENT QUESTION: SPACE VENTURE CAPITAL FUND\n+PARLIAMENT QUESTION: COLLISION AVOIDANCE MANOEUVRES (CAMs) EXECUTED BY ISRO\n+PARLIAMENT QUESTION: HUMAN SPACEFLIGHT MISSION\n+SVAMITVA SCHEME AND RURAL PROPERTY OWNERSHIP RIGHTS\n+Prime Minister marks seven years of the abrogation of Articles 370 and 35(A)\n+PARLIAMENT QUESTION: INNOVATION PURSUIT FOR INSPIRED RESEARCH (INSPIRE)\n+Ministry of Minority Affairs leverages AI and digital technologies to boost efficienc...\n+Government Strengthens Livestock Development, Dairy Productivity and Animal Health Ac...\n+REFORMS IN COAL SECTOR\n Latest Explainers"
+    "diff": "@@ -129,16 +129,16 @@\n Incident involving Air India Flight AI2379 (Phuket\u2013Delhi) on 04.08.2026\n-TRAI releases consultation paper on draft amendments in \u2018The Standards of Quality of ...\n-PARLIAMENT QUESTION: CPGRAMS & DIGITAL PENSION REFORMS\n-PARLIAMENT QUESTION: MISSION KARMAYOGI & iGOT DIGITAL CAPACITY BUILDING\n-Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Fo...\n-PARLIAMENT QUESTION: GAGANYAAN MISSION AND BHARATIYA ANTARIKSH STATION\n-PARLIAMENT QUESTION: SPACE VENTURE CAPITAL FUND\n-PARLIAMENT QUESTION: COLLISION AVOIDANCE MANOEUVRES (CAMs) EXECUTED BY ISRO\n-PARLIAMENT QUESTION: HUMAN SPACEFLIGHT MISSION\n-SVAMITVA SCHEME AND RURAL PROPERTY OWNERSHIP RIGHTS\n-Prime Minister marks seven years of the abrogation of Articles 370 and 35(A)\n-PARLIAMENT QUESTION: INNOVATION PURSUIT FOR INSPIRED RESEARCH (INSPIRE)\n-Ministry of Minority Affairs leverages AI and digital technologies to boost efficienc...\n-Government Strengthens Livestock Development, Dairy Productivity and Animal Health Ac...\n-REFORMS IN COAL SECTOR\n+Government Aims to Keep India's Internet Free from Unlawful and Obscene Content while...\n+Government Ensures Welfare, Healthcare and Accreditation Support for Journalists Thro...\n+DRI busts illegal drug manufacturing unit in Satara district in Maharashtra; two arre...\n+FOREST PRODUCE-BASED COOPERATIVE SOCIETIES\n+\u2018EXPANSION OF PMBJK THROUGH PACS\u2019\n+CENTRAL ASSISTANCE TO COOPERATIVES IN KARNATAKA\n+Government Highlights Digital India Initiatives for Strengthening Digital Infrastruct...\n+Government Examines Global Developments While Reviewing Policy and Legal Framework fo...\n+\u2018SAHAKAR SE SAMRIDDHI\u2019 INITIATIVE IN HIMACHAL PRADESH\n+Cinematograph (Amendment) Act and IT Framework Strengthen Anti-Piracy Enforcement; 7,...\n+INITIATIVES UNDER WHITE REVOLUTION 2.0\n+REVITALISING COOPERATIVE ECOSYSTEM IN JAMMU AND KASHMIR\n+Monthly review of accounts of Government of India upto June 2026 (FY 2026-27)\n+One Stop Centre provides integrated and immediate support and assistance under one ro...\n Latest Explainers\n@@ -152,4 +152,4 @@\n Media Invitations\n-Release of the report \u201cReimagining Care: Strategies for Empowering Car...\n-(Event Date :05 Aug 2026 5:00PM)\n+Shri Gajendra Singh Shekhawat, Union Minister of Culture and Tourism ...\n+(Event Date :06 Aug 2026 3:00PM)\n Media Engagements"
   }
 ]

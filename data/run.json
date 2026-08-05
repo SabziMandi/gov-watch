@@ -1,33 +1,127 @@
 [
   {
-    "ts": "2026-08-05T12:05:54+00:00",
-    "slug": "pib-releases",
-    "name": "PIB \u2014 release stream (reg 48)",
-    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
-    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "ts": "2026-08-05T12:36:40+00:00",
+    "slug": "mca",
+    "name": "Corporate Affairs",
+    "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.mca.gov.in/content/mca/global/en/home.html\" on this server. Reference #18.4092e17.1785933394.8a4ca2c0 https://errors.e'"
+  },
+  {
+    "ts": "2026-08-05T12:36:59+00:00",
+    "slug": "earth-sciences",
+    "name": "Earth Sciences",
+    "url": "https://www.moes.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.moes.gov.in/\" on this server. Reference #18.a5653817.1785933413.137d9e3 https://errors.edgesuite.net/18.a5653817.17859'"
+  },
+  {
+    "ts": "2026-08-05T12:37:06+00:00",
+    "slug": "meity",
+    "name": "Electronics and IT",
+    "url": "https://www.meity.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.meity.gov.in/\" on this server. Reference #18.9e653817.1785933420.17dcff12 https://errors.edgesuite.net/18.9e653817.178'"
+  },
+  {
+    "ts": "2026-08-05T12:37:13+00:00",
+    "slug": "labour",
+    "name": "Labour and Employment",
+    "url": "https://www.labour.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.labour.gov.in/\" on this server. Reference #18.84653817.1785933427.16b97a0a https://errors.edgesuite.net/18.84653817.17'"
+  },
+  {
+    "ts": "2026-08-05T12:37:20+00:00",
+    "slug": "msme",
+    "name": "MSME",
+    "url": "https://www.msme.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.msme.gov.in/\" on this server. Reference #18.ae653817.1785933434.179c59be https://errors.edgesuite.net/18.ae653817.1785'"
+  },
+  {
+    "ts": "2026-08-05T12:37:27+00:00",
+    "slug": "jal-shakti-dowr",
+    "name": "Jal Shakti \u2014 water resources",
+    "url": "https://www.jalshakti-dowr.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.jalshakti-dowr.gov.in/\" on this server. Reference #18.14653817.1785933440.1a1a020e https://errors.edgesuite.net/18.146'"
+  },
+  {
+    "ts": "2026-08-05T12:37:33+00:00",
+    "slug": "power",
+    "name": "Power",
+    "url": "https://www.powermin.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.powermin.gov.in/\" on this server. Reference #18.4e653817.1785933447.18b525b9 https://errors.edgesuite.net/18.4e653817.'"
+  },
+  {
+    "ts": "2026-08-05T12:37:41+00:00",
+    "slug": "railways",
+    "name": "Indian Railways",
+    "url": "https://www.indianrailways.gov.in/",
+    "notes": "",
     "type": "change",
-    "added": 16,
-    "removed": 16,
+    "added": 1,
+    "removed": 1,
     "sample_added": [
-      "Government Aims to Keep India's Internet Free from Unlawful and Obscene Content while...",
-      "Government Ensures Welfare, Healthcare and Accreditation Support for Journalists Thro...",
-      "DRI busts illegal drug manufacturing unit in Satara district in Maharashtra; two arre...",
-      "FOREST PRODUCE-BASED COOPERATIVE SOCIETIES",
-      "\u2018EXPANSION OF PMBJK THROUGH PACS\u2019",
-      "CENTRAL ASSISTANCE TO COOPERATIVES IN KARNATAKA",
-      "Government Highlights Digital India Initiatives for Strengthening Digital Infrastruct...",
-      "Government Examines Global Developments While Reviewing Policy and Legal Framework fo..."
+      "\u092c\u0941\u0927, \u0905\u0917\u0938\u094d\u0924 5, 2026, 6: \u0936\u093e\u092e 07 \u092c\u091c\u0947"
     ],
     "sample_removed": [
-      "TRAI releases consultation paper on draft amendments in \u2018The Standards of Quality of ...",
-      "PARLIAMENT QUESTION: CPGRAMS & DIGITAL PENSION REFORMS",
-      "PARLIAMENT QUESTION: MISSION KARMAYOGI & iGOT DIGITAL CAPACITY BUILDING",
-      "Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Fo...",
-      "PARLIAMENT QUESTION: GAGANYAAN MISSION AND BHARATIYA ANTARIKSH STATION",
-      "PARLIAMENT QUESTION: SPACE VENTURE CAPITAL FUND",
-      "PARLIAMENT QUESTION: COLLISION AVOIDANCE MANOEUVRES (CAMs) EXECUTED BY ISRO",
-      "PARLIAMENT QUESTION: HUMAN SPACEFLIGHT MISSION"
+      "\u092c\u0941\u0927, \u0905\u0917\u0938\u094d\u0924 5, 2026, 6:02 \u092c\u091c\u0947"
     ],
-    "diff": "@@ -129,16 +129,16 @@\n Incident involving Air India Flight AI2379 (Phuket\u2013Delhi) on 04.08.2026\n-TRAI releases consultation paper on draft amendments in \u2018The Standards of Quality of ...\n-PARLIAMENT QUESTION: CPGRAMS & DIGITAL PENSION REFORMS\n-PARLIAMENT QUESTION: MISSION KARMAYOGI & iGOT DIGITAL CAPACITY BUILDING\n-Government Notifies Inventory-based Cross-border E-Commerce Export Framework under Fo...\n-PARLIAMENT QUESTION: GAGANYAAN MISSION AND BHARATIYA ANTARIKSH STATION\n-PARLIAMENT QUESTION: SPACE VENTURE CAPITAL FUND\n-PARLIAMENT QUESTION: COLLISION AVOIDANCE MANOEUVRES (CAMs) EXECUTED BY ISRO\n-PARLIAMENT QUESTION: HUMAN SPACEFLIGHT MISSION\n-SVAMITVA SCHEME AND RURAL PROPERTY OWNERSHIP RIGHTS\n-Prime Minister marks seven years of the abrogation of Articles 370 and 35(A)\n-PARLIAMENT QUESTION: INNOVATION PURSUIT FOR INSPIRED RESEARCH (INSPIRE)\n-Ministry of Minority Affairs leverages AI and digital technologies to boost efficienc...\n-Government Strengthens Livestock Development, Dairy Productivity and Animal Health Ac...\n-REFORMS IN COAL SECTOR\n+Government Aims to Keep India's Internet Free from Unlawful and Obscene Content while...\n+Government Ensures Welfare, Healthcare and Accreditation Support for Journalists Thro...\n+DRI busts illegal drug manufacturing unit in Satara district in Maharashtra; two arre...\n+FOREST PRODUCE-BASED COOPERATIVE SOCIETIES\n+\u2018EXPANSION OF PMBJK THROUGH PACS\u2019\n+CENTRAL ASSISTANCE TO COOPERATIVES IN KARNATAKA\n+Government Highlights Digital India Initiatives for Strengthening Digital Infrastruct...\n+Government Examines Global Developments While Reviewing Policy and Legal Framework fo...\n+\u2018SAHAKAR SE SAMRIDDHI\u2019 INITIATIVE IN HIMACHAL PRADESH\n+Cinematograph (Amendment) Act and IT Framework Strengthen Anti-Piracy Enforcement; 7,...\n+INITIATIVES UNDER WHITE REVOLUTION 2.0\n+REVITALISING COOPERATIVE ECOSYSTEM IN JAMMU AND KASHMIR\n+Monthly review of accounts of Government of India upto June 2026 (FY 2026-27)\n+One Stop Centre provides integrated and immediate support and assistance under one ro...\n Latest Explainers\n@@ -152,4 +152,4 @@\n Media Invitations\n-Release of the report \u201cReimagining Care: Strategies for Empowering Car...\n-(Event Date :05 Aug 2026 5:00PM)\n+Shri Gajendra Singh Shekhawat, Union Minister of Culture and Tourism ...\n+(Event Date :06 Aug 2026 3:00PM)\n Media Engagements"
+    "diff": "@@ -51,3 +51,3 @@\n Powered by\n-\u092c\u0941\u0927, \u0905\u0917\u0938\u094d\u0924 5, 2026, 6:02 \u092c\u091c\u0947\n+\u092c\u0941\u0927, \u0905\u0917\u0938\u094d\u0924 5, 2026, 6: \u0936\u093e\u092e 07 \u092c\u091c\u0947\n \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930"
+  },
+  {
+    "ts": "2026-08-05T12:37:48+00:00",
+    "slug": "msde",
+    "name": "Skill Development and Entrepreneurship",
+    "url": "https://www.msde.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.msde.gov.in/\" on this server. Reference #18.45653817.1785933462.236bb6e https://errors.edgesuite.net/18.45653817.17859'"
+  },
+  {
+    "ts": "2026-08-05T12:37:55+00:00",
+    "slug": "tourism",
+    "name": "Tourism",
+    "url": "https://www.tourism.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.tourism.gov.in/\" on this server. Reference #18.14653817.1785933469.1a1a40c0 https://errors.edgesuite.net/18.14653817.1'"
+  },
+  {
+    "ts": "2026-08-05T12:38:01+00:00",
+    "slug": "textiles",
+    "name": "Textiles",
+    "url": "https://www.texmin.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.texmin.gov.in/\" on this server. Reference #18.24653817.1785933475.104c2b94 https://errors.edgesuite.net/18.24653817.17'"
+  },
+  {
+    "ts": "2026-08-05T12:38:17+00:00",
+    "slug": "cbdt",
+    "name": "Income Tax Department (CBDT)",
+    "url": "https://incometaxindia.gov.in/",
+    "type": "error",
+    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.incometaxindia.gov.in/\" on this server. Reference #18.96f43717.1785933490.8163ea50 https://errors.edgesuite.net/18.96f'"
+  },
+  {
+    "ts": "2026-08-05T12:38:24+00:00",
+    "slug": "dgft",
+    "name": "DGFT \u2014 trade notifications",
+    "url": "https://www.dgft.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 2,
+    "removed": 3,
+    "sample_added": [
+      "15/2026-27",
+      "Availability of License-wise Voluntary Duty Payment Details for processing of Export Obligation Discharge Certificate (EODC) applications under Advance Authorisation (AA) and Export Promotion Capital Goods (EPCG) Schemes \u2013 reg"
+    ],
+    "sample_removed": [
+      "26/2026-27",
+      "Harmonisation of Schedule-II (Export Policy), ITS (HS) 2022 with Finance Act 2026",
+      "27/07/2026"
+    ],
+    "diff": "@@ -203,4 +203,4 @@\n Trade Notices\n-25/2026-27\n-Operationalisation of the Inventory-based Cross-border E-Commerce Facilitation Framework under the Handbook of Procedures, 2023\n+15/2026-27\n+Availability of License-wise Voluntary Duty Payment Details for processing of Export Obligation Discharge Certificate (EODC) applications under Advance Authorisation (AA) and Export Promotion Capital Goods (EPCG) Schemes \u2013 reg\n 05/08/2026\n@@ -213,2 +213,7 @@\n Download (Type : PDF)\n+25/2026-27\n+Operationalisation of the Inventory-based Cross-border E-Commerce Facilitation Framework under the Handbook of Procedures, 2023\n+05/08/2026\n+|\n+Download (Type : PDF)\n Fixation of new seven Standard Input Output Norms (SIONs) at SION No. No. A-3708, A-3709, A-3710, A-3711, \u0410-3712, A-3713 & A-3714 under \"Chemical and Allied Product\" (Product Code-'A').\n@@ -220,7 +225,2 @@\n 03/08/2026\n-|\n-Download (Type : PDF)\n-26/2026-27\n-Harmonisation of Schedule-II (Export Policy), ITS (HS) 2022 with Finance Act 2026\n-27/07/2026\n |\n@@ -251,2 +251,6 @@\n Services\n+Importer Exporter Code (IEC)\n+An Importer-Exporter Code (IEC) is a key business identification number which mandatory for export from\n+India or Import to India. Click to explore the IEC services offered by DGFT.\n+View More\n Advance Authorisation\n@@ -286,6 +290,2 @@\n complaints and disputes. Click to access the application.\n-View More\n-Importer Exporter Code (IEC)\n-An Importer-Exporter Code (IEC) is a key business identification number which mandatory for export from\n-India or Import to India. Click to explore the IEC services offered by DGFT.\n View More"
   }
 ]

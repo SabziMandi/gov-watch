@@ -1,228 +1,31 @@
 [
   {
-    "ts": "2026-08-05T06:24:37+00:00",
-    "slug": "civil-aviation",
-    "name": "Civil Aviation",
-    "url": "https://www.civilaviation.gov.in/",
-    "notes": "",
-    "type": "change",
-    "added": 50,
-    "removed": 46,
-    "sample_added": [
-      "On 04 August 2026",
-      "On 04 August 2026",
-      "On 04 August 2026",
-      "91.50%",
-      "82.39%",
-      "42.90%",
-      "83.90%",
-      "56.00%"
-    ],
-    "sample_removed": [
-      "On 03 August 2026",
-      "On 03 August 2026",
-      "On 03 August 2026",
-      "89.50%",
-      "83.53%",
-      "48.30%",
-      "78.34%",
-      "54.00%"
-    ],
-    "diff": "@@ -84,3 +84,3 @@\n Domestic traffic\n-On 03 August 2026\n+On 04 August 2026\n \u092a\u094d\u0930\u0938\u094d\u0925\u093e\u0928 \u0909\u095c\u093e\u0928\u0947\u0902\n@@ -99,3 +99,3 @@\n International traffic\n-On 03 August 2026\n+On 04 August 2026\n \u092a\u094d\u0930\u0938\u094d\u0925\u093e\u0928 \u0909\u095c\u093e\u0928\u0947\u0902\n@@ -114,43 +114,42 @@\n On Time Performance\n-On 03 August 2026\n+On 04 August 2026\n \u0907\u0902\u0921\u093f\u0917\u094b\n IndiGo\n-89.50%\n+91.50%\n \u090f\u0905\u0930 \u0907\u0902\u0921\u093f\u092f\u093e\n Air India\n-83.53%\n+82.39%\n \u0938\u094d\u092a\u093e\u0907\u0938\u091c\u0947\u091f\n SpiceJet\n-48.30%\n+42.90%\n \u090f\u092f\u0930 \u0907\u0902\u0921\u093f\u092f\u093e \u090f\u0915\u094d\u0938\u092a\u094d\u0930\u0947\u0938\n Air India Express\n-78.34%\n+83.90%\n \u090f\u0932\u093e\u0907\u0902\u0938 \u090f\u092f\u0930\n Alliance Air\n-54.00%\n+56.00%\n \u0905\u0915\u093e\u0938\u093e \u090f\u092f\u0930\n AKASA AIR\n-94.32%\n+91.86%\n \u092a\u0948\u0938\u0947\u0902\u091c\u0930 \u0932\u094b\u0921 \u092b\u0948\u0915\u094d\u091f\u0930\n Passenger Load Factor\n-On 03 August 2026\n+On 04 August 2026\n \u0907\u0902\u0921\u093f\u0917\u094b\n IndiGo\n-74.95%\n+75.60%\n \u090f\u0905\u0930 \u0907\u0902\u0921\u093f\u092f\u093e\n Air India\n-77.50%\n-On 02 August 2026\n+72.00%\n \u0938\u094d\u092a\u093e\u0907\u0938\u091c\u0947\u091f\n SpiceJet\n-82.10%\n+85.00%\n \u090f\u092f\u0930 \u0907\u0902\u0921\u093f\u092f\u093e \u090f\u0915\u094d\u0938\u092a\u094d\u0930\u0947\u0938\n Air India Express\n-77.11%\n+78.03%\n \u090f\u0932\u093e\u092f\u0902\u0938 \u090f\u092f\u0930\n Alliance Air\n-62.00%\n+60.00%\n \u0905\u0915\u093e\u0938\u093e \u090f\u092f\u0930\n AKASA AIR\n-86.63%\n+86.31%\n \u0909\u095c\u093e\u0928 (\u0906\u0930\u0938\u0940\u090f\u0938)\n@@ -177,3 +176,3 @@\n Air Sewa Grievances (by volume)\n-On 03 August 2026\n+On 04 August 2026\n \u092a\u094d\u0930\u093e\u092a\u094d\u0924\n@@ -184,3 +183,3 @@\n Resolved\n-+Previous 2\n++Previous 41\n \u0939\u0932 \u0915\u093f\u092f\u093e (\u0924\u093e\u0930\u0940\u0916 \u0924\u0915)\n@@ -193,3 +192,3 @@\n Air Sewa Grievances (by type)\n-On 03 August 2026\n+On 04 August 2026\n \u0930\u093f\u092b\u0902\u0921\n@@ -208,15 +207,15 @@\n Air Sewa Grievances (by entity)\n-On 03 August 2026\n+On 04 August 2026\n+\u0921\u0940\u091c\u0940\u0938\u0940\u090f\n+DGCA\n \u090f\u092f\u0930 \u0907\u0902\u0921\u093f\u092f\u093e\n Air India\n-\u0921\u0940\u091c\u0940\u0938\u0940\u090f\n-DGCA\n+\u0938\u093f\u0915\u094d\u092f\u094b\u0930\u093f\u091f\u0940\n+Security\n+\u090f\u0924\u093f\u0939\u093e\u0926 \u090f\u092f\u0930\u0935\u0947\u091c\n+Etihad Airways\n \u0938\u094d\u092a\u093e\u0907\u0938\u091c\u0947\u091f\n Spicejet\n-\u090f\u0924\u093f\u0939\u093e\u0926 \u090f\u092f\u0930\u0935\u0947\u091c\n-Etihad Airways\n-\u0938\u093f\u0915\u094d\u092f\u094b\u0930\u093f\u091f\u0940\n-Security\n-\u0907\u0902\u0921\u093f\u0917\u094b\n-Indigo\n+\u0915\u0947\u090f\u0932\u090f\u092e \u090f\u092f\u0930\u0932\u093e\u0907\u0902\u0938\n+KLM Airlines\n \u0939\u0935\u093e\u0908\u0905\u0921\u094d\u0921\u0947\n@@ -325,2 +324,3 @@\n Press Release\n+Incident involving Air India Flight AI2379 (Phuket\u2013Delhi) on 04.08.2026 Posted On: 04 Aug 2026\n Minister Ram Mohan Naidu reviews India\u2019s preparedness for SAF and CORSIA implementation Posted On: 29 Jul 2026\n@@ -329,3 +329,2 @@\n Union Minister Ram Mohan Naidu flags off inaugural flight from NAMO Airport, Daman Posted On: 17 Jul 2026\n-Civil Aviation Minister Ram Mohan Naidu inaugurates stakeholder workshop on Modified UDAN Posted On: 16 Jul 2026\n View All\n@@ -333,23 +332,6 @@\n X\n-Hon\u2019ble Minister for Civil Aviation Shri Ram Mohan Naidu Ji, along with MoCA Secretary Shri Samir Kumar Sinha and other senior officials, reviewed India\u2019s growing role in global aerospace manufacturing, with a focus on strengthening the country\u2019s participation in international\u2026\n-pic.twitter.com/juC9YR5Uta"
-  },
-  {
-    "ts": "2026-08-05T06:24:42+00:00",
-    "slug": "heavy-industries",
-    "name": "Heavy Industries",
-    "url": "https://heavyindustries.gov.in/en",
-    "notes": "Switched from the /hi build to English. Confirm the path on first run.",
-    "type": "change",
-    "added": 1,
-    "removed": 1,
-    "sample_added": [
-      "Last Upated : 05/08/2026 Total visitor: 2320582"
-    ],
-    "sample_removed": [
-      "Last Upated : 04/08/2026 Total visitor: 2320582"
-    ],
-    "diff": "@@ -331,7 +331,7 @@\n Notifications\n+27-07-2026 To 26-08-2026\n+Notice Inviting e-Tender for Selection of Manufacturers for Setting Up 10 GWh Manufacturi\n+Read More\n 27-07-2026 To 24-08-2026\n Direct recruitment to the Posts of Research Engineers and Junior Research Engineers at FCR\n-Read More\n-27-07-2026 To 26-08-2026\n-Notice Inviting e-Tender for Selection of Manufacturers for Setting Up 10 GWh Manufacturi\n Read More\n@@ -403,2 +403,2 @@\n reserved\n-Last Upated : 04/08/2026 Total visitor: 2320582\n+Last Upated : 05/08/2026 Total visitor: 2320582"
-  },
-  {
-    "ts": "2026-08-05T06:24:51+00:00",
-    "slug": "mohua",
-    "name": "Housing and Urban Affairs",
-    "url": "https://www.mohua.gov.in/",
-    "notes": "",
-    "type": "change",
-    "added": 4,
-    "removed": 4,
-    "sample_added": [
-      "Swachh Bharat Mission",
-      "Atal Mission for Rejuvenation and Urban Transformation -AMRUT 2.0",
-      "Urban Challenge Fund",
-      "Filling up of the post of Officer on Special Duty (Urban Transport) [OSD (UT) in the Ministry of Housing and Urban Affairs on deputation (including short-term contract) basis - Extention of last date for receipt of application"
-    ],
-    "sample_removed": [
-      "Explore User Personas",
-      "Important Links",
-      "Press Information Bureau",
-      "Holiday Homes/Government Residential Accommodation"
-    ],
-    "diff": "@@ -114,2 +114,10 @@\n 2026.06.05\n+Schemes and Services\n+Vacancies\n+Tenders\n+Swachh Bharat Mission\n+arrow_forward_ios\n+Atal Mission for Rejuvenation and Urban Transformation -AMRUT 2.0\n+arrow_forward_ios\n+Urban Challenge Fund\n arrow_forward_ios\n@@ -119,4 +127,5 @@\n arrow_forward_ios\n-View more\n chevron_right\n+arrow_forward_ios\n+Filling up of the post of Officer on Special Duty (Urban Transport) [OSD (UT) in the Ministry of Housing and Urban Affairs on deputation (including short-term contract) basis - Extention of last date for receipt of application\n arrow_forward_ios\n@@ -139,3 +148,2 @@\n chevron_right\n-Explore User Personas\n chevron_left\n@@ -147,6 +155,2 @@\n Skill Seeker\n-Important Links\n-Press Information Bureau\n-arrow_forward_ios\n-Holiday Homes/Government Residential Accommodation\n arrow_forward_ios"
-  },
-  {
-    "ts": "2026-08-05T06:25:23+00:00",
-    "slug": "morth",
-    "name": "Road Transport and Highways",
-    "url": "https://morth.gov.in/",
-    "notes": "Hash-routed single-page app: fetched with a headless browser after the JS settles. The bare domain is used because the #/ fragment is never sent to the server.",
-    "type": "change",
-    "added": 4,
-    "removed": 0,
-    "sample_added": [
-      "Revised Allocation and release of funds to the National Highways & Infrastructure Development Corporation Limited (NHIDCL) for projects under National Highways (Original)-TSP during the Financial Year 2026-27.",
-      "Revised Allocation and release of funds to the National Highways & Infrastructure Development Corporation Limited (NHIDCL) for projects under National Highways (Original)-General Component during the Financial Year 2026-27.",
-      "Revised Allocation and release of funds to the National Highways & Infrastructure Development Corporation Limited (NHIDCL) for projects under National Highways (Original)-TSP during the Financial Year 2026-27.",
-      "Revised Allocation and release of funds to the National Highways & Infrastructure Development Corporation Limited (NHIDCL) for projects under National Highways (Original)-General Component during the Financial Year 2026-27."
-    ],
-    "sample_removed": [],
-    "diff": "@@ -60,11 +60,13 @@\n ::\n+Sensitization Workshop for Phase-II of Mobile Quality Control Vans (MQCVs) for Non-Destructive Testing (NDT) on National Highway/Expressway Projects\n+::\n+Distribution of Consolidated Fee deposited in the All Indian Tourist Vehicles Permit among the States & Union Territories on pro-rata basis for the month of October, 2025\n+::\n+AIS-197 (Rev 1) - Bharat New Car Assessment Program\n+::\n+Adherence to MoRT&H Circulars on Mandatory Training and Capacity Building for Personnel of Consultants, Contractors, IEs and AEs working in National Highway Projects\n+::\n Use of National Database for Emergency Management (NDEM) Portal in Planning and DPR Preparation of Highway Project\n ::\n-Adherence to MoRT&H Circulars on Mandatory Training and Capacity Building for Personnel of Consultants, Contractors, IEs and AEs working in National Highway Projects\n-::\n-AIS-197 (Rev 1) - Bharat New Car Assessment Program\n-::\n-Distribution of Consolidated Fee deposited in the All Indian Tourist Vehicles Permit among the States & Union Territories on pro-rata basis for the month of October, 2025\n-::\n-Sensitization Workshop for Phase-II of Mobile Quality Control Vans (MQCVs) for Non-Destructive Testing (NDT) on National Highway/Expressway Projects\n+Office Order dated 11.11.2025 regarding appointment of Shri Ashish Nath, IDSE (1999) to the post of Chief Vigilance Officer, National Highways Authority of India (NHAI)\n ::\n@@ -78,3 +80,5 @@\n ::\n-Office Order dated 11.11.2025 regarding appointment of Shri Ashish Nath, IDSE (1999) to the post of Chief Vigilance Officer, National Highways Authority of India (NHAI)\n+Revised Allocation and release of funds to the National Highways & Infrastructure Development Corporation Limited (NHIDCL) for projects under National Highways (Original)-TSP during the Financial Year 2026-27.\n+::\n+Revised Allocation and release of funds to the National Highways & Infrastructure Development Corporation Limited (NHIDCL) for projects under National Highways (Original)-General Component during the Financial Year 2026-27.\n ::\n@@ -696,2 +700,4 @@\n ::\n+NHAI-PIU-NSK - Lr. No. 1005, Dtd. 28.04.2026 - PNG - Invitation of Public Comments - NMC, Nashik\n+::\n INVITATION OF PUBLIC COMMENTS- 4-laning of Indore-Gujarat border section of NH-47 from Km 9.500 to Km 171.000 on DBFOT in the State of Madhya Pradesh under NHDP-III \u2013 Proposal for the permission for overhead crossing of Eco Panther conductor on 132KV D/C\n@@ -702,3 +708,17 @@\n ::\n-NHAI-PIU-NSK - Lr. No. 1005, Dtd. 28.04.2026 - PNG - Invitation of Public Comments - NMC, Nashik\n+Allocation and release of funds to the NHAI for project under NH (O)- TSP for the FY 2026-27\n+::\n+Allocation and release of fund to NHAI under EAP works, JICA Loanpart during the FY 2026-27\n+::\n+Allocation of funds to the NHAI for projects under NH (O) - General during the FY 2026-27\n+::\n+Release of Toll fund to NHAI under Toll Remittances for the Financial Year 2026-27\n+::\n+Allocation and release of funds to the NHIDCL for project under NH (O) TSP during the FY 2026-27\n+::\n+Allocation and release of funds to the NHIDCL for project under NH (O)- NE component for the FY 2026-27\n+::\n+Allocation and release of fund to NHIDCL for incurring expenditure on the EAP Works, Asian Development Bank (ADB) Scheme Counterpart during the Financial year 2026-27\n+::\n+Allocation and release of funds to NHIDCL for incurring expenditure under SARDP-NE Scheme during the financial year 2026-27\n ::\n@@ -706,4 +726,2 @@\n ::\n-Allocation and release of funds to NHIDCL for incurring expenditure under SARDP-NE Scheme during the financial year 2026-27\n-::\n Allocation and release fund to NHIDCL for incurring expenditure on the EAP Works, Japan International Cooperation Agency (JICA) Counterpart during the Financial Year 2026-27\n@@ -720,15 +738,3 @@\n ::\n-Allocation and release of funds to the NHAI for project under NH (O)- TSP for the FY 2026-27\n-::\n-Allocation and release of fund to NHAI under EAP works, JICA Loanpart during the FY 2026-27\n-::\n-Allocation of funds to the NHAI for projects under NH (O) - General during the FY 2026-27\n-::\n-Release of Toll fund to NHAI under Toll Remittances for the Financial Year 2026-27\n-::\n-Allocation and release of funds to the NHIDCL for project under NH (O) TSP during the FY 2026-27\n-::\n-Allocation and release of funds to the NHIDCL for project under NH (O)- NE component for the FY 2026-27\n-::\n-Allocation and release of fund to NHIDCL for incurring expenditure on the EAP Works, Asian Development Bank (ADB) Scheme Counterpart during the Financial year 2026-27\n+ROW permission required on NH-130 A for Laying of Water Pipeline left & right side along the road between Chainage 19+750 to 19+984 Km (Both Side), Chainage 19+984 to 20+229 Km (Both Side), Chainage-20+229 to 20+525 Km (Both Side), Chainage-20+535 to 20+ 791 Km (LHS), Chainage-20+535 to 20+913 Km (RHS), Chainage-20+ 791 to 21 +304 Km (LHS), Chainage-20+913 to 21 +335 Km (RHS), Chainage-21+304 to 21+375 Km (LHS), Chainage-21+375 to 21+522 Km(LHS), Chainage-21+522 to 21+742 Km (LHS), Chainage-21+742 to 22+140 Km (LHS), Chainage-21+335 to 22+101 Km (RHS), Chainage-22+140 to 22+163 Km (RHS), Chainage-22+163 to 22+245 Km (RHS), 21+243 to 22+100 (RHS), 21+335 to 21+360 (RHS), 19+984 to 21+335 (RHS) by Open Trenching method & Chainage for Crossing 1: 19+984 km(2Nos), Crossing 2: 21+337 km, Crossing 3: 21+380 km, Crossing 4: 22+140 km, by HOD/Pushing Pipe method at Bilaspur-Takhatpur-Mungeli in the State of Chhattisgarh - Reg.\n ::\n@@ -736,4 +742,2 @@\n ::\n-ROW permission required on NH-130 A for Laying of Water Pipeline left & right side along the road between Chainage 19+750 to 19+984 Km (Both Side), Chainage 19+984 to 20+229 Km (Both Side), Chainage-20+229 to 20+525 Km (Both Side), Chainage-20+535 to 20+ 791 Km (LHS), Chainage-20+535 to 20+913 Km (RHS), Chainage-20+ 791 to 21 +304 Km (LHS), Chainage-20+913 to 21 +335 Km (RHS), Chainage-21+304 to 21+375 Km (LHS), Chainage-21+375 to 21+522 Km(LHS), Chainage-21+522 to 21+742 Km (LHS), Chainage-21+742 to 22+140 Km (LHS), Chainage-21+335 to 22+101 Km (RHS), Chainage-22+140 to 22+163 Km (RHS), Chainage-22+163 to 22+245 Km (RHS), 21+243 to 22+100 (RHS), 21+335 to 21+360 (RHS), 19+984 to 21+335 (RHS) by Open Trenching method & Chainage for Crossing 1: 19+984 km(2Nos), Crossing 2: 21+337 km, Crossing 3: 21+380 km, Crossing 4: 22+140 km, by HOD/Pushing Pipe method at Bilaspur-Takhatpur-Mungeli in the State of Chhattisgarh - Reg.\n-::\n Invitation of Public Comments - reg.\n@@ -750,8 +754,8 @@\n ::\n+INVITATION OF PUBLIC COMMENTS-Deori-Kesli Multi Village Rural Water Supply Scheme District- Sagar. Regarding permission for excavation and laying of DI & HDPE Pipe along & across the NH-44.\n+::\n+Proposal for 'ROW Permission' for laying of 33kV underground electric cable (Double Run cable) by pipe pushing method with casing of HOD pipe of 150mm diameter across NH- 753BE at km 185.430 near village -Hingona, Tal- Yawal, Dist. Jalgaon & km 204.250 ne\n+::\n Invitation of Public Comments - reg.\n ::\n-Proposal for 'ROW Permission' for laying of 33kV underground electric cable (Double Run cable) by pipe pushing method with casing of HOD pipe of 150mm diameter across NH- 753BE at km 185.430 near village -Hingona, Tal- Yawal, Dist. Jalgaon & km 204.250 ne\n-::\n-INVITATION OF PUBLIC COMMENTS-Deori-Kesli Multi Village Rural Water Supply Scheme District- Sagar. Regarding permission for excavation and laying of DI & HDPE Pipe along & across the NH-44.\n-::\n The Proposal of Permission for laying of water Pipeline of across NH-320B, Kulhi-Sikidri road -Gola Charu Road at Km. 63+752 at Village - Tongatu,Ramgarh District -reg\n@@ -764,7 +768,9 @@\n ::\n+Procedure for Type Approval and Certification of Trailer Caravans for compliance to Central Motor Vehicles Rules\n+::\n+Specific Requirements for Type Approval of Troop Carriers under the Central Motor Vehicles Rules, 1989\n+::\n Agricultural Tractor- Air conditioning and Heating system performance and Method of Measurement\n ::\n-Procedure for Type Approval and Certification of Trailer Caravans for compliance to Central Motor Vehicles Rules\n-::\n-Specific Requirements for Type Approval of Troop Carriers under the Central Motor Vehicles Rules, 1989\n+\u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915 \u091f\u093f\u092a\u094d\u092a\u0923\u0940\u092f\u094b \u0915\u093e \u0906\u092e\u0902\u0924\u094d\u0930\u0923 - \u092a\u0941\u0923\u0947 \u0938\u094b\u0932\u093e\u092a\u0942\u0930 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u092e\u0939\u093e\u092e\u093e\u0930\u094d\u0917 \u0915\u094d\u0930. \u096c\u096b - \u0938\u094b\u0932\u093e\u092a\u0942\u0930 \u0936\u0939\u0930 \u092d\u0942\u092e\u093f\u0917\u0924 \u091c\u0932 \u0928\u093f\u0915\u093e\u0938\u0940 \u092a\u093e\u0908\u092a\u0932\u093e\u0908\u0928 \u0915\u094b \u092a\u093e\u0930 \u0915\u0930\u0928\u0947 \u0939\u0947\u0924\u0942 \u0906\u0930\u0913\u0921\u092c\u094d\u0932\u094d\u092f\u0942 \u0905\u0928\u0941\u092e\u0924\u0940 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u092f\u0947 \u092a\u094d\u0930\u0938\u094d\u0924\u093e\u0935 \u092a\u094d\u0930\u0938\u094d\u0924\u0941\u0924 \u0915\u0930\u0928\u0947 \u0915\u093f \u0905\u0928\u0941\u092e\u0924\u0940 I\n ::\n@@ -776,4 +782,2 @@\n ::\n-\u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915 \u091f\u093f\u092a\u094d\u092a\u0923\u0940\u092f\u094b \u0915\u093e \u0906\u092e\u0902\u0924\u094d\u0930\u0923 - \u092a\u0941\u0923\u0947 \u0938\u094b\u0932\u093e\u092a\u0942\u0930 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u092e\u0939\u093e\u092e\u093e\u0930\u094d\u0917 \u0915\u094d\u0930. \u096c\u096b - \u0938\u094b\u0932\u093e\u092a\u0942\u0930 \u0936\u0939\u0930 \u092d\u0942\u092e\u093f\u0917\u0924 \u091c\u0932 \u0928\u093f\u0915\u093e\u0938\u0940 \u092a\u093e\u0908\u092a\u0932\u093e\u0908\u0928 \u0915\u094b \u092a\u093e\u0930 \u0915\u0930\u0928\u0947 \u0939\u0947\u0924\u0942 \u0906\u0930\u0913\u0921\u092c\u094d\u0932\u094d\u092f\u0942 \u0905\u0928\u0941\u092e\u0924\u0940 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u092f\u0947 \u092a\u094d\u0930\u0938\u094d\u0924\u093e\u0935 \u092a\u094d\u0930\u0938\u094d\u0924\u0941\u0924 \u0915\u0930\u0928\u0947 \u0915\u093f \u0905\u0928\u0941\u092e\u0924\u0940 I\n-::\n Minutes of the Meeting of 43rd Transport Development Council (TDC) held on 08.01.2026- reg.\n@@ -788,13 +792,15 @@\n ::\n+773-2026-NHAI- RO-Kerala-Invitation of Public Comments\u2013Kazhakuttom-Mukkola section of NH-66- Laying of 11 KV underground cable by HDD method along NH 66 from Km 3+760 to Km 3+880 RHS-Reg\n+::\n+770-2026-NHAI- RO-Kerala-Invitation of Public Comments\u2013Laying 11 KV HT 3C \u00d7 300SQ MM XLPE Aluminium Armoured UG in underground manner by HDD method from Km.7+256 to Km.8+187 RHS about 931 meters-Reg\n+::\n+769-2026-NHAI- RO-Kerala-Invitation of Public Comments\u2013\n+::\n+768-2026-NHAI- RO-Kerala-Invitation of Public Comments\u2013Four Laning of Thiruvananthapuram Bypass from Kazhakuttom to Mukkola section of NH 66-Laying of 11 KV HT 3C*300 Sqmm XLPE UG Cable in Underground manner by HDD between Km.2+859 to Km.2+920 (RHS)-Reg\n+::"
-  },
-  {
-    "ts": "2026-08-05T06:26:06+00:00",
-    "slug": "rbi-press",
-    "name": "RBI \u2014 press releases",
-    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
-    "notes": "Highest-yield page on the list for a business desk.",
+    "ts": "2026-08-05T06:36:41+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
     "added": 6,
-    "removed": 6,
+    "removed": 10,
     "sample_added": [
-      "Aug 05, 2026",
-      "Statement on Developmental and Regulatory Policies",
-      "Governor\u2019s Statement: August 5, 2026",
-      "Monetary Policy Statement, 2026-27 Resolution of the Monetary Policy Committee August 3 to 5, 2026",
-      "Money Market Operations as on August 4, 2026",
-      "Website last updated date: Aug 05, 2026"
+      "Roads Reimagined: The Rise of India\u2019s Electric Vehicles Ecosystem",
+      "Department of Posts - Delhi Circle Makes Special Arrangements for posting of Rakhi Ma...",
+      "NCS PORTAL",
+      "Government Ensures Adequate Availability of Urea and DAP During Ongoing Kharif 2026 S...",
+      "Government Intensifies Promotion of Nano Fertilizers to Enhance Nutrient Use Efficien...",
+      "Roads Reimagined: The Rise of India\u2019s Electric Vehicles Ecosystem"
     ],
     "sample_removed": [
-      "Jul 28, 2026",
-      "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on July 29, 2026",
-      "Winding up of Paytm Payments Bank Limited",
-      "Result of Buyback Auction of Government of India Dated Securities",
-      "Money Market Operations as on July 27, 2026",
-      "Website last updated date: Aug 04, 2026"
+      "Six Coal Blocks Successfully Auctioned in the 15th Round and 2nd attempt of 13th Roun...",
+      "CAQM extends Monitoring and Enforcement of Dust Mitigation measures across NCR; More ...",
+      "Online Registrations for Yuva Sangam Phase VII Commence from 4 August 2026",
+      "BRICS-TCA Symposium and JMC Meeting Convenes under the Guidance of MSDE, Government o...",
+      "Empowering Rural Dairy Entrepreneurship: How VCF-SC Enabled a Scheduled Caste Entrepr...",
+      "Strengthening Rural Agriculture Through Modern Cold Storage: How VCF-SC Enabled Meena...",
+      "Over 2.65 Lakh Scheduled Caste Beneficiaries Covered Under Education Domain in 17,067...",
+      "Government Strengthens Post-Matric Scholarship Scheme to Boost Higher Education Among..."
     ],
-    "diff": "@@ -94,2 +94,7 @@\n Press Releases\n+Aug 05, 2026\n+Statement on Developmental and Regulatory Policies\n+Governor\u2019s Statement: August 5, 2026\n+Monetary Policy Statement, 2026-27 Resolution of the Monetary Policy Committee August 3 to 5, 2026\n+Money Market Operations as on August 4, 2026\n Aug 04, 2026\n@@ -134,9 +139,2 @@\n Money Market Operations as on July 28, 2026\n-Jul 28, 2026\n-RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on July 29, 2026\n-State Government Securities - Full Auction Result\n-Winding up of Paytm Payments Bank Limited\n-Result of Buyback Auction of Government of India Dated Securities\n-Result of Yield/Price Based Auction of State Government Securities\n-Money Market Operations as on July 27, 2026\n All Months\n@@ -660,3 +658,3 @@\n Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in\n-Website last updated date: Aug 04, 2026\n+Website last updated date: Aug 05, 2026\n Supports: Google Chrome 147+ | Firefox 150+ | Microsoft Edge Version 147+ | Safari 17+"
-  },
-  {
-    "ts": "2026-08-05T06:26:08+00:00",
-    "slug": "rbi-notifications",
-    "name": "RBI \u2014 notifications",
-    "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx",
-    "notes": "",
-    "type": "change",
-    "added": 1,
-    "removed": 1,
-    "sample_added": [
-      "Website last updated date: Aug 05, 2026"
-    ],
-    "sample_removed": [
-      "Website last updated date: Aug 04, 2026"
-    ],
-    "diff": "@@ -725,3 +725,3 @@\n Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in\n-Website last updated date: Aug 04, 2026\n+Website last updated date: Aug 05, 2026\n Supports: Google Chrome 147+ | Firefox 150+ | Microsoft Edge Version 147+ | Safari 17+"
-  },
-  {
-    "ts": "2026-08-05T06:26:14+00:00",
-    "slug": "egazette",
-    "name": "eGazette",
-    "url": "https://egazette.gov.in/",
-    "notes": "Rules and tariff notifications appear here before any press release.",
-    "type": "change",
-    "added": 12,
-    "removed": 12,
-    "sample_added": [
-      "Ministry of Petroleum and Natural Gas",
-      "Publication of a Notification under Section 3...",
-      "CG-DL-E-05082026-275197",
-      "Government of The National Capital Territory of Delhi",
-      "Amendment in notification...",
-      "SG-DL-E-04082026-275195",
-      "Government of The National Capital Territory of Delhi",
-      "Delhi Legal Metrology (Enforcement) Amendment..."
-    ],
-    "sample_removed": [
-      "Ministry of Mines",
-      "Notification under second proviso to sub sect...",
-      "CG-DL-E-04082026-275181",
-      "Ministry of Railways",
-      "SC Railway Publication of Notification under ...",
-      "CG-TL-E-04082026-275180",
-      "Ministry of Mines",
-      "Notification under second proviso to sub sect..."
-    ],
-    "diff": "@@ -58,14 +58,14 @@\n Download\n-Ministry of Mines\n-Notification under second proviso to sub sect...\n-CG-DL-E-04082026-275181\n-Ministry of Railways\n-SC Railway Publication of Notification under ...\n-CG-TL-E-04082026-275180\n-Ministry of Mines\n-Notification under second proviso to sub sect...\n-CG-DL-E-04082026-275179\n-Ministry of Road Transport and Highways\n-Publication of notification under Section 3D...\n-CG-DL-E-04082026-275178\n+Ministry of Petroleum and Natural Gas\n+Publication of a Notification under Section 3...\n+CG-DL-E-05082026-275197\n+Government of The National Capital Territory of Delhi\n+Amendment in notification...\n+SG-DL-E-04082026-275195\n+Government of The National Capital Territory of Delhi\n+Delhi Legal Metrology (Enforcement) Amendment...\n+SG-DL-E-04082026-275194\n+Lok Sabha Secretariat\n+The Taxation and Other Laws AMDT Bill 2026 an...\n+CG-DL-E-04082026-275193\n View All....."
-  },
-  {
-    "ts": "2026-08-05T06:26:19+00:00",
-    "slug": "dipam",
-    "name": "DIPAM \u2014 disinvestment",
-    "url": "https://dipam.gov.in/",
-    "notes": "",
-    "type": "change",
-    "added": 1,
-    "removed": 1,
-    "sample_added": [
-      "Market Monitor - 04.08.2026"
-    ],
-    "sample_removed": [
-      "Market Monitor - 03.08.2026"
-    ],
-    "diff": "@@ -303,3 +303,3 @@\n View All\n-Market Monitor - 03.08.2026\n+Market Monitor - 04.08.2026\n View All \u2192"
-  },
-  {
-    "ts": "2026-08-05T06:26:56+00:00",
-    "slug": "cci",
-    "name": "Competition Commission of India",
-    "url": "https://www.cci.gov.in/",
-    "notes": "Merger clearances and penalty orders.",
-    "type": "change",
-    "added": 1,
-    "removed": 1,
-    "sample_added": [
-      "Website last updated on : 04/08/2026 |"
-    ],
-    "sample_removed": [
-      "Website last updated on : 03/08/2026 |"
-    ],
-    "diff": "@@ -132,2 +132,2 @@\n Copyright \u00a9 2026 Competition Commission of India, Government of India.\n-Website last updated on : 03/08/2026 |\n+Website last updated on : 04/08/2026 |"
-  },
-  {
-    "ts": "2026-08-05T06:26:59+00:00",
-    "slug": "trai",
-    "name": "TRAI",
-    "url": "https://www.trai.gov.in/",
-    "notes": "",
-    "type": "change",
-    "added": 0,
-    "removed": 0,
-    "sample_added": [],
-    "sample_removed": [],
-    "diff": "@@ -238,6 +238,6 @@\n 28th July 2026\n+TRAI Assesses Mobile Network Quality Across Godda Lok Sabha Constituency comprising parts of Deoghar, Godda and Dumka Districts and adjoining areas in the State of Jharkhand under Bihar LSA.\n+Explore\n+28th July 2026\n TRAI releases Telecom Subscription Data as on June 2026\n-Explore\n-28th July 2026\n-TRAI Assesses Mobile Network Quality Across Godda Lok Sabha Constituency comprising parts of Deoghar, Godda and Dumka Districts and adjoining areas in the State of Jharkhand under Bihar LSA.\n Explore"
-  },
-  {
-    "ts": "2026-08-05T06:27:08+00:00",
-    "slug": "prs-bills",
-    "name": "PRS Legislative Research \u2014 bill track",
-    "url": "https://prsindia.org/billtrack",
-    "notes": "Cleaner secondary source than sansad.in when the portal is down.",
-    "type": "change",
-    "added": 1,
-    "removed": 0,
-    "sample_added": [
-      "The Taxation and Other Laws (Amendment) Bill, 2026"
-    ],
-    "sample_removed": [],
-    "diff": "@@ -132,2 +132,4 @@\n Search\n+The Taxation and Other Laws (Amendment) Bill, 2026\n+Pending\n The Indian Statistical Institute Bill, 2026\n@@ -137,3 +139,3 @@\n The Registration of Births and Deaths (Amendment) Bill, 2026\n-Pending\n+Passed\n The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026"
+    "diff": "@@ -129,2 +129,5 @@\n Under the leadership of Prime Minister Shri Narendra Modi and guidance of Union Home Minister Shri Amit Shah, 274 fugiti...\n+Roads Reimagined: The Rise of India\u2019s Electric Vehicles Ecosystem\n+Department of Posts - Delhi Circle Makes Special Arrangements for posting of Rakhi Ma...\n+NCS PORTAL\n Union Minister of Communications, Shri Jyotiraditya M. Scindia along with Chief Minis...\n@@ -134,12 +137,6 @@\n Union Minister of State for Rural Development Dr. Pemmasani Chandrasekhar Reviews Pro...\n-Six Coal Blocks Successfully Auctioned in the 15th Round and 2nd attempt of 13th Roun...\n-CAQM extends Monitoring and Enforcement of Dust Mitigation measures across NCR; More ...\n-Online Registrations for Yuva Sangam Phase VII Commence from 4 August 2026\n-BRICS-TCA Symposium and JMC Meeting Convenes under the Guidance of MSDE, Government o...\n-Empowering Rural Dairy Entrepreneurship: How VCF-SC Enabled a Scheduled Caste Entrepr...\n-Strengthening Rural Agriculture Through Modern Cold Storage: How VCF-SC Enabled Meena...\n-Over 2.65 Lakh Scheduled Caste Beneficiaries Covered Under Education Domain in 17,067...\n-Government Strengthens Post-Matric Scholarship Scheme to Boost Higher Education Among...\n-Government Strengthens Scholarship Delivery Through DBT; Over 47.53 Lakh Post-Matric ...\n+Government Ensures Adequate Availability of Urea and DAP During Ongoing Kharif 2026 S...\n+Government Intensifies Promotion of Nano Fertilizers to Enhance Nutrient Use Efficien...\n Latest Explainers\n+Roads Reimagined: The Rise of India\u2019s Electric Vehicles Ecosystem\n GI Tags: Scaling Traditional Wealth into Global Brands\n@@ -148,3 +145,2 @@\n India's Solar Growth Enters a New Era\n-Naxal-Free India\n Media Corner"
   }
 ]

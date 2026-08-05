@@ -1,33 +1,20 @@
 [
   {
-    "ts": "2026-08-05T16:47:37+00:00",
+    "ts": "2026-08-05T18:40:52+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 9,
-    "removed": 13,
+    "added": 1,
+    "removed": 2,
     "sample_added": [
-      "Centre Deploys National Joint Outbreak Response Team as Multi-Institutional Probe Intensifies into Chandipura Virus Outb...",
-      "Civil Aviation Minister Ram Mohan Naidu awards Letters of Intent for Establishment of...",
-      "NITI Aayog Launches Report on \u201cReimagining Care: Strategies for Empowering Caregivers...",
-      "Ministry of Culture and Ministry of Tourism partner with Netflix to showcase India's ...",
-      "Civil Aviation Minister Shri Ram Mohan Naidu witnesses Pawan Hans MoU with Norway\u2019s N...",
-      "Good News for Container Train Operators as They Can Operate Across All Routes with a ...",
-      "LALIT KALA AKADEMI CELEBRATES ITS 72nd FOUNDATION DAY",
-      "Union Minister Shri Nitin Gadkari Confers Sarvottam Jeevan Raksha Padak on 12 Rat Min..."
+      "Ministry of Tourism and Netflix Partner to Showcase India's Tourism Experiences Throu..."
     ],
     "sample_removed": [
-      "Incident involving Air India Flight AI2379 (Phuket\u2013Delhi) on 04.08.2026",
-      "MoS for Women and Child Development Smt. Savitri Thakur congratulates Aasha Malviya o...",
-      "Centre Releases \u20b9747.17 Crore to Uttar Pradesh Since 2019-20 for Implementation of SC...",
-      "Government Clarifies Objective and Eligibility Criteria for Reservation to Economical...",
-      "Fresh nationwide survey during 2024-25 finds no manual scavengers",
-      "Misleading EdTech platforms and fake Universities",
-      "Status of Vidyanjali and Community Participation in School Education",
-      "Time-Bound Recognition and Accreditation Reforms in Higher Education"
+      "CCI approves proposed combination inter alia involving share acquisition(s) and merge...",
+      "Light-activated nano-robots can help targeted breast cancer therapy"
     ],
-    "diff": "@@ -128,17 +128,13 @@\n MOST VIEWED\n-Incident involving Air India Flight AI2379 (Phuket\u2013Delhi) on 04.08.2026\n+Centre Deploys National Joint Outbreak Response Team as Multi-Institutional Probe Intensifies into Chandipura Virus Outb...\n+Civil Aviation Minister Ram Mohan Naidu awards Letters of Intent for Establishment of...\n+NITI Aayog Launches Report on \u201cReimagining Care: Strategies for Empowering Caregivers...\n+Ministry of Culture and Ministry of Tourism partner with Netflix to showcase India's ...\n+Civil Aviation Minister Shri Ram Mohan Naidu witnesses Pawan Hans MoU with Norway\u2019s N...\n+Good News for Container Train Operators as They Can Operate Across All Routes with a ...\n+LALIT KALA AKADEMI CELEBRATES ITS 72nd FOUNDATION DAY\n+Union Minister Shri Nitin Gadkari Confers Sarvottam Jeevan Raksha Padak on 12 Rat Min...\n+Union Home Minister and Minister of Cooperation Shri Amit Shah receives dividend cheq...\n CCI approves proposed combination inter alia involving share acquisition(s) and merge...\n Light-activated nano-robots can help targeted breast cancer therapy\n-MoS for Women and Child Development Smt. Savitri Thakur congratulates Aasha Malviya o...\n-Centre Releases \u20b9747.17 Crore to Uttar Pradesh Since 2019-20 for Implementation of SC...\n-Government Clarifies Objective and Eligibility Criteria for Reservation to Economical...\n-Fresh nationwide survey during 2024-25 finds no manual scavengers\n-Misleading EdTech platforms and fake Universities\n-Status of Vidyanjali and Community Participation in School Education\n-Time-Bound Recognition and Accreditation Reforms in Higher Education\n-Artificial Intelligence (AI) and Digital Education in Government Schools\n-The Central Government is Committed to Upgrading Urban Infrastructure with World-Clas...\n-Centres of Excellence in Artificial Intelligence\n-Hygiene practices and environmental consciousness among school children\n-Funding pattern in higher education\n Latest Explainers"
+    "diff": "@@ -129,2 +129,3 @@\n Centre Deploys National Joint Outbreak Response Team as Multi-Institutional Probe Intensifies into Chandipura Virus Outb...\n+Ministry of Tourism and Netflix Partner to Showcase India's Tourism Experiences Throu...\n Civil Aviation Minister Ram Mohan Naidu awards Letters of Intent for Establishment of...\n@@ -137,4 +138,2 @@\n Union Home Minister and Minister of Cooperation Shri Amit Shah receives dividend cheq...\n-CCI approves proposed combination inter alia involving share acquisition(s) and merge...\n-Light-activated nano-robots can help targeted breast cancer therapy\n Latest Explainers"
   }
 ]

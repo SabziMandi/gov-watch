@@ -1,107 +1,33 @@
 [
   {
-    "ts": "2026-08-05T13:06:12+00:00",
-    "slug": "mca",
-    "name": "Corporate Affairs",
-    "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.mca.gov.in/content/mca/global/en/home.html\" on this server. Reference #18.4d092e17.1785935166.c6fd5282 https://errors.'"
-  },
-  {
-    "ts": "2026-08-05T13:06:41+00:00",
-    "slug": "earth-sciences",
-    "name": "Earth Sciences",
-    "url": "https://www.moes.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.moes.gov.in/\" on this server. Reference #18.a5653817.1785935195.14292dc https://errors.edgesuite.net/18.a5653817.17859'"
-  },
-  {
-    "ts": "2026-08-05T13:06:57+00:00",
-    "slug": "meity",
-    "name": "Electronics and IT",
-    "url": "https://www.meity.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.meity.gov.in/\" on this server. Reference #18.14653817.1785935211.1a288c61 https://errors.edgesuite.net/18.14653817.178'"
-  },
-  {
-    "ts": "2026-08-05T13:07:14+00:00",
-    "slug": "labour",
-    "name": "Labour and Employment",
-    "url": "https://www.labour.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.labour.gov.in/\" on this server. Reference #18.3e653817.1785935228.145011df https://errors.edgesuite.net/18.3e653817.17'"
-  },
-  {
-    "ts": "2026-08-05T13:07:31+00:00",
-    "slug": "msme",
-    "name": "MSME",
-    "url": "https://www.msme.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.msme.gov.in/\" on this server. Reference #18.9e653817.1785935245.17e5479b https://errors.edgesuite.net/18.9e653817.1785'"
-  },
-  {
-    "ts": "2026-08-05T13:07:48+00:00",
-    "slug": "jal-shakti-dowr",
-    "name": "Jal Shakti \u2014 water resources",
-    "url": "https://www.jalshakti-dowr.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.jalshakti-dowr.gov.in/\" on this server. Reference #18.14653817.1785935262.1a28db0b https://errors.edgesuite.net/18.146'"
-  },
-  {
-    "ts": "2026-08-05T13:08:04+00:00",
-    "slug": "power",
-    "name": "Power",
-    "url": "https://www.powermin.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.powermin.gov.in/\" on this server. Reference #18.4e653817.1785935278.18c3c8b2 https://errors.edgesuite.net/18.4e653817.'"
-  },
-  {
-    "ts": "2026-08-05T13:08:13+00:00",
-    "slug": "railways",
-    "name": "Indian Railways",
-    "url": "https://www.indianrailways.gov.in/",
-    "notes": "",
+    "ts": "2026-08-05T14:28:13+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 1,
-    "removed": 1,
+    "added": 15,
+    "removed": 15,
     "sample_added": [
-      "\u092c\u0941\u0927, \u0905\u0917\u0938\u094d\u0924 5, 2026, 6:38 \u092c\u091c\u0947"
+      "CCI approves proposed combination inter alia involving share acquisition(s) and merge...",
+      "Light-activated nano-robots can help targeted breast cancer therapy",
+      "MoS for Women and Child Development Smt. Savitri Thakur congratulates Aasha Malviya o...",
+      "Centre Releases \u20b9747.17 Crore to Uttar Pradesh Since 2019-20 for Implementation of SC...",
+      "Government Clarifies Objective and Eligibility Criteria for Reservation to Economical...",
+      "Fresh nationwide survey during 2024-25 finds no manual scavengers",
+      "Misleading EdTech platforms and fake Universities",
+      "Status of Vidyanjali and Community Participation in School Education"
     ],
     "sample_removed": [
-      "\u092c\u0941\u0927, \u0905\u0917\u0938\u094d\u0924 5, 2026, 6:33 \u092c\u091c\u0947"
+      "Government Aims to Keep India's Internet Free from Unlawful and Obscene Content while...",
+      "Government Ensures Welfare, Healthcare and Accreditation Support for Journalists Thro...",
+      "DRI busts illegal drug manufacturing unit in Satara district in Maharashtra; two arre...",
+      "FOREST PRODUCE-BASED COOPERATIVE SOCIETIES",
+      "\u2018EXPANSION OF PMBJK THROUGH PACS\u2019",
+      "CENTRAL ASSISTANCE TO COOPERATIVES IN KARNATAKA",
+      "Government Highlights Digital India Initiatives for Strengthening Digital Infrastruct...",
+      "Government Examines Global Developments While Reviewing Policy and Legal Framework fo..."
     ],
-    "diff": "@@ -51,3 +51,3 @@\n Powered by\n-\u092c\u0941\u0927, \u0905\u0917\u0938\u094d\u0924 5, 2026, 6:33 \u092c\u091c\u0947\n+\u092c\u0941\u0927, \u0905\u0917\u0938\u094d\u0924 5, 2026, 6:38 \u092c\u091c\u0947\n \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930"
-  },
-  {
-    "ts": "2026-08-05T13:08:30+00:00",
-    "slug": "msde",
-    "name": "Skill Development and Entrepreneurship",
-    "url": "https://www.msde.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.msde.gov.in/\" on this server. Reference #18.45653817.1785935304.24bea87 https://errors.edgesuite.net/18.45653817.17859'"
-  },
-  {
-    "ts": "2026-08-05T13:08:47+00:00",
-    "slug": "tourism",
-    "name": "Tourism",
-    "url": "https://www.tourism.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.tourism.gov.in/\" on this server. Reference #18.14653817.1785935321.1a2943d3 https://errors.edgesuite.net/18.14653817.1'"
-  },
-  {
-    "ts": "2026-08-05T13:09:03+00:00",
-    "slug": "textiles",
-    "name": "Textiles",
-    "url": "https://www.texmin.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.texmin.gov.in/\" on this server. Reference #18.e653817.1785935337.24585d2e https://errors.edgesuite.net/18.e653817.1785'"
-  },
-  {
-    "ts": "2026-08-05T13:09:29+00:00",
-    "slug": "cbdt",
-    "name": "Income Tax Department (CBDT)",
-    "url": "https://incometaxindia.gov.in/",
-    "type": "error",
-    "detail": "block marker 'access denied' | page began: 'Access Denied You don\\'t have permission to access \"http://www.incometaxindia.gov.in/\" on this server. Reference #18.281cc517.1785935363.60f48a68 https://errors.edgesuite.net/18.281'"
+    "diff": "@@ -129,16 +129,16 @@\n Incident involving Air India Flight AI2379 (Phuket\u2013Delhi) on 04.08.2026\n-Government Aims to Keep India's Internet Free from Unlawful and Obscene Content while...\n-Government Ensures Welfare, Healthcare and Accreditation Support for Journalists Thro...\n-DRI busts illegal drug manufacturing unit in Satara district in Maharashtra; two arre...\n-FOREST PRODUCE-BASED COOPERATIVE SOCIETIES\n-\u2018EXPANSION OF PMBJK THROUGH PACS\u2019\n-CENTRAL ASSISTANCE TO COOPERATIVES IN KARNATAKA\n-Government Highlights Digital India Initiatives for Strengthening Digital Infrastruct...\n-Government Examines Global Developments While Reviewing Policy and Legal Framework fo...\n-\u2018SAHAKAR SE SAMRIDDHI\u2019 INITIATIVE IN HIMACHAL PRADESH\n-Cinematograph (Amendment) Act and IT Framework Strengthen Anti-Piracy Enforcement; 7,...\n-INITIATIVES UNDER WHITE REVOLUTION 2.0\n-REVITALISING COOPERATIVE ECOSYSTEM IN JAMMU AND KASHMIR\n-Monthly review of accounts of Government of India upto June 2026 (FY 2026-27)\n-One Stop Centre provides integrated and immediate support and assistance under one ro...\n+CCI approves proposed combination inter alia involving share acquisition(s) and merge...\n+Light-activated nano-robots can help targeted breast cancer therapy\n+MoS for Women and Child Development Smt. Savitri Thakur congratulates Aasha Malviya o...\n+Centre Releases \u20b9747.17 Crore to Uttar Pradesh Since 2019-20 for Implementation of SC...\n+Government Clarifies Objective and Eligibility Criteria for Reservation to Economical...\n+Fresh nationwide survey during 2024-25 finds no manual scavengers\n+Misleading EdTech platforms and fake Universities\n+Status of Vidyanjali and Community Participation in School Education\n+Time-Bound Recognition and Accreditation Reforms in Higher Education\n+Artificial Intelligence (AI) and Digital Education in Government Schools\n+The Central Government is Committed to Upgrading Urban Infrastructure with World-Clas...\n+Centres of Excellence in Artificial Intelligence\n+Hygiene practices and environmental consciousness among school children\n+Funding pattern in higher education\n Latest Explainers\n@@ -152,3 +152,3 @@\n Media Invitations\n-Shri Gajendra Singh Shekhawat, Union Minister of Culture and Tourism ...\n+Shri Gajendra Singh Shekhawat, Union Minister of Culture and Tou...\n (Event Date :06 Aug 2026 3:00PM)"
   }
 ]

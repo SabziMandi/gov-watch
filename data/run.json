@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ts": "2026-08-06T03:29:43+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 0,
+    "sample_added": [
+      "Mr. Ted Sarandos meets the Prime Minister"
+    ],
+    "sample_removed": [],
+    "diff": "@@ -129,2 +129,3 @@\n Centre Deploys National Joint Outbreak Response Team as Multi-Institutional Probe Intensifies into Chandipura Virus Outb...\n+Mr. Ted Sarandos meets the Prime Minister\n Ministry of Tourism and Netflix Partner to Showcase India's Tourism Experiences Throu..."
+  }
+]

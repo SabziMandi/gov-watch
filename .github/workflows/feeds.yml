@@ -2,7 +2,7 @@ name: feeds
 
 on:
   schedule:
-    - cron: "20 * * * *"
+    - cron: "35 * * * *"
     - cron: "40 */3 * * *"
     - cron: "10 1 * * *"
   workflow_dispatch:

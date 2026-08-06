@@ -466,12 +466,12 @@
     "url": "https://mopng.gov.in/en"
   },
   "pib-releases": {
-    "chars": 5924,
+    "chars": 5961,
     "checked_url": true,
     "error": "",
     "fails": 0,
-    "last_change": "2026-08-06T10:04:09+00:00",
-    "last_check": "2026-08-06T10:04:07+00:00",
+    "last_change": "2026-08-06T10:24:39+00:00",
+    "last_check": "2026-08-06T10:24:38+00:00",
     "name": "PIB \u2014 release stream (reg 48)",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "state": "changed",
@@ -479,14 +479,15 @@
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1"
   },
   "pib-rss-releases": {
-    "chars": 6237,
+    "chars": 3040,
     "checked_url": false,
     "error": "",
     "fails": 0,
-    "last_check": "2026-08-06T10:04:09+00:00",
+    "last_change": "2026-08-06T10:24:41+00:00",
+    "last_check": "2026-08-06T10:24:39+00:00",
     "name": "PIB \u2014 releases RSS",
     "notes": "RSS carries FULL headlines, unlike the HTML listing. Verify it returns English: PIB keeps language in a session, so the Lang parameter alone may not hold.",
-    "state": "baseline",
+    "state": "changed",
     "tier": "hourly",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
   },

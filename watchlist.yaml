@@ -301,11 +301,17 @@ sites:
     tier: daily
     checked: false
   - slug: sebi
-    name: "SEBI"
-    url: "https://www.sebi.gov.in/"
+    name: "SEBI — all listings"
+    url: "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes"
     tier: daily
-    checked: false
-    notes: "Board decisions, orders, consultation papers. Needs a selector on the media block."
+    checked: true
+    notes: "Every SEBI posting in one dated stream, newest first. Server-rendered."
+  - slug: sebi-committee-reports
+    name: "SEBI — committee reports"
+    url: "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=36"
+    tier: daily
+    checked: true
+    notes: "Slow: 45 records, latest November 2025. Silence here is normal; a change is not."
   - slug: egazette
     name: "eGazette"
     url: "https://egazette.gov.in/"

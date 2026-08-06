@@ -113,21 +113,59 @@ def fetch_http(site, d):
     raise first_error
 
 
+# Removes the obvious tells an automated browser leaves behind. Akamai's bot
+# manager checks these before serving the page.
+STEALTH = """
+Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+Object.defineProperty(navigator, 'languages', {get: () => ['en-GB','en-US','en','hi']});
+Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});
+window.chrome = {runtime: {}, app: {}, loadTimes: function(){}, csi: function(){}};
+const q = window.navigator.permissions.query;
+window.navigator.permissions.query = (p) => (
+  p.name === 'notifications'
+    ? Promise.resolve({state: Notification.permission})
+    : q(p));
+"""
+
+
 def fetch_browser(site, d):
     from playwright.sync_api import sync_playwright
 
     timeout = site.get("timeout", d["timeout"]) * 1000
     with sync_playwright() as p:
-        browser = p.chromium.launch(
-            args=["--disable-blink-features=AutomationControlled"])
+        launch = {
+            "headless": site.get("headless", d.get("headless", True)),
+            "args": [
+                "--disable-blink-features=AutomationControlled",
+                "--disable-features=IsolateOrigins,site-per-process",
+                "--no-sandbox",
+            ],
+        }
+        # A real Chrome install passes more checks than bundled Chromium.
+        channel = site.get("browser_channel", d.get("browser_channel"))
+        if channel:
+            launch["channel"] = channel
+        try:
+            browser = p.chromium.launch(**launch)
+        except Exception:  # noqa: BLE001 - fall back if that channel is absent
+            launch.pop("channel", None)
+            browser = p.chromium.launch(**launch)
+
         ctx = browser.new_context(
             user_agent=site.get("user_agent", d["user_agent"]),
             locale="en-IN",
             timezone_id="Asia/Kolkata",
             viewport={"width": 1440, "height": 900},
+            device_scale_factor=2,
+            has_touch=False,
+            is_mobile=False,
             ignore_https_errors=not site.get("verify_tls", True),
-            extra_http_headers={"Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8"},
+            extra_http_headers={
+                "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+                "Upgrade-Insecure-Requests": "1",
+            },
         )
+        ctx.add_init_script(STEALTH)
         page = ctx.new_page()
         try:
             page.goto(site["url"], timeout=timeout,
@@ -136,7 +174,13 @@ def fetch_browser(site, d):
                 page.wait_for_selector(site["wait_selector"], timeout=25000)
             else:
                 page.wait_for_timeout(site.get("settle_ms", 6000))
+            # A bot-manager interstitial often resolves itself on a second look.
             html = page.content()
+            if "access denied" in html.lower() or "errors.edgesuite.net" in html.lower():
+                page.wait_for_timeout(4000)
+                page.reload(wait_until="domcontentloaded")
+                page.wait_for_timeout(site.get("settle_ms", 6000))
+                html = page.content()
         finally:
             browser.close()
     return html
@@ -190,7 +234,7 @@ def looks_blocked(text, previous, floor):
     return None
 
 
-def diff_summary(old, new, context_lines=8):
+def diff_summary(old, new, context_lines=40):
     added = [l for l in new.splitlines() if l not in set(old.splitlines())]
     removed = [l for l in old.splitlines() if l not in set(new.splitlines())]
     udiff = list(difflib.unified_diff(
@@ -200,7 +244,7 @@ def diff_summary(old, new, context_lines=8):
         "removed": len(removed),
         "sample_added": added[:context_lines],
         "sample_removed": removed[:context_lines],
-        "diff": "\n".join(udiff[:120]),
+        "diff": "\n".join(udiff[:400]),
     }
 
 

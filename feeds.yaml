@@ -1,0 +1,1184 @@
+# Source registry for the news layer of gov-watch.
+#
+# This file is PUBLIC. It contains only source URLs — no watch terms, no
+# indication of what you are working on. Your beat lives in
+# watch-terms.local.yaml, which is gitignored and never leaves your Mac.
+#
+# FIELD NOTES
+#
+# tier:      1 | 2 | 3  — editorial weight, NOT a schedule.
+#              1  wires, nationals, broadcasters. Fast, high confidence.
+#              2  independent, investigative, long-form. Slower, deeper.
+#              3  vernacular. Feeds the language-lag detection; without a
+#                 populated tier 3 that feature cannot work at all.
+#            (gov-watch's watchlist.yaml uses `tier` for scheduling. Different
+#            file, different meaning. `cadence` below is the schedule here.)
+#
+# cadence:   fast | standard | slow   — fast runs hourly, standard every 3h,
+#            slow once a day. Default standard.
+#
+# kind:      rss    a real feed URL
+#            gnews  a Google News RSS query, for outlets whose own feed is dead
+#                   (Reuters and several others killed theirs). Give `query`.
+#            gdelt  GDELT DOC 2.0 API query. Free, no key, 65 languages.
+#                   Give `query`, optionally `sourcecountry` / `sourcelang`.
+#
+# lang:      ISO 639-1. Drives the language-lag detection. Be accurate here.
+# country:   ISO 3166-1 alpha-2 of the PUBLISHER, not the story.
+#
+# verified:  false means the URL has NOT been confirmed to parse. Run
+#              python scripts/feeds.py --verify
+#            fix whatever fails, then set true. Unverified sources are still
+#            ingested but are tagged provisional and are EXCLUDED from alerts.
+#            This is deliberate: see the note on movement primary sources below.
+#
+# trust:     primary | reported | commentary | unconfirmed
+#            `unconfirmed` never triggers an alert on its own, ever. Viral
+#            movements attract lookalike domains that publish invented claims
+#            with real-looking branding. Verify by hand before promoting.
+
+defaults:
+  timeout: 30
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+  retries: 2
+  cadence: standard
+  max_items_per_feed: 60
+  retain_days: 90
+  gdelt_maxrecords: 200
+  gdelt_timespan: "3h"
+
+feeds:
+
+  # ==================================================================
+  # TIER 1 — wires, agencies
+  # ==================================================================
+
+  - slug: pti-national
+    name: "PTI — national"
+    kind: gnews
+    query: "site:ptinews.com"
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: primary
+    verified: true
+    notes: "PTI has no dependable public RSS. Google News scoping is the free route."
+
+  - slug: ani-national
+    name: "ANI News"
+    kind: gnews
+    query: "site:aninews.in (india OR delhi OR government)"
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: primary
+    verified: true
+
+  - slug: reuters-india
+    name: "Reuters — India"
+    kind: gnews
+    query: "site:reuters.com india"
+    tier: 1
+    cadence: fast
+    lang: en
+    country: GB
+    trust: primary
+    verified: true
+    notes: "Reuters retired its public RSS. This is the working substitute."
+
+  - slug: ap-south-asia
+    name: "AP — South Asia"
+    kind: gnews
+    query: "site:apnews.com (india OR pakistan OR bangladesh OR nepal OR afghanistan)"
+    tier: 1
+    cadence: fast
+    lang: en
+    country: US
+    trust: primary
+    verified: true
+
+  - slug: afp-south-asia
+    name: "AFP — South Asia"
+    kind: gdelt
+    query: '(india OR pakistan OR bangladesh) AND domain:afp.com'
+    tier: 1
+    cadence: standard
+    lang: en
+    country: FR
+    trust: primary
+    verified: false
+
+  # ==================================================================
+  # TIER 1 — Indian nationals and broadcasters
+  # ==================================================================
+
+  - slug: hindu-national
+    name: "The Hindu — National"
+    url: "https://www.thehindu.com/news/national/feeder/default.rss"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: hindu-business
+    name: "The Hindu — Business"
+    url: "https://www.thehindu.com/business/feeder/default.rss"
+    kind: rss
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: indian-express
+    name: "The Indian Express"
+    url: "https://indianexpress.com/section/india/feed/"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: indian-express-business
+    name: "The Indian Express — Business"
+    url: "https://indianexpress.com/section/business/feed/"
+    kind: rss
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: hindustan-times
+    name: "Hindustan Times — India"
+    url: "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: toi-india
+    name: "Times of India — India"
+    url: "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: mint
+    name: "Mint"
+    url: "https://www.livemint.com/rss/news"
+    kind: rss
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: business-standard
+    name: "Business Standard"
+    kind: gnews
+    query: "site:business-standard.com"
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: economic-times
+    name: "Economic Times"
+    url: "https://economictimes.indiatimes.com/rssfeedstopstories.cms"
+    kind: rss
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: telegraph-india
+    name: "The Telegraph India"
+    kind: gnews
+    query: "site:telegraphindia.com"
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+    notes: "Broke the early CJP framing. Strong on Bengal and the east."
+
+  - slug: deccan-herald
+    name: "Deccan Herald"
+    kind: gnews
+    query: "site:deccanherald.com"
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: ndtv
+    name: "NDTV — India"
+    url: "https://feeds.feedburner.com/ndtvnews-india-news"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: india-today
+    name: "India Today"
+    url: "https://www.indiatoday.in/rss/1206578"
+    kind: rss
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: theprint
+    name: "ThePrint"
+    kind: gnews
+    query: "site:theprint.in"
+    tier: 1
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: bbc-india
+    name: "BBC News — India"
+    url: "https://feeds.bbci.co.uk/news/world/asia/india/rss.xml"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: GB
+    trust: reported
+    verified: true
+
+  # ==================================================================
+  # TIER 2 — independent, investigative, long-form
+  # ==================================================================
+
+  - slug: scroll
+    name: "Scroll.in"
+    kind: gnews
+    query: "site:scroll.in"
+    tier: 2
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: the-wire
+    name: "The Wire"
+    kind: gnews
+    query: "site:thewire.in"
+    tier: 2
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: caravan
+    name: "The Caravan"
+    kind: gnews
+    query: "site:caravanmagazine.in"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: newslaundry
+    name: "Newslaundry"
+    kind: gnews
+    query: "site:newslaundry.com"
+    tier: 2
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: article14
+    name: "Article 14"
+    kind: gnews
+    query: "site:article-14.com"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: news-minute
+    name: "The News Minute"
+    kind: gnews
+    query: "site:thenewsminute.com"
+    tier: 2
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: down-to-earth
+    name: "Down To Earth"
+    kind: gnews
+    query: "site:downtoearth.org.in"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: mongabay-india
+    name: "Mongabay India"
+    url: "https://india.mongabay.com/feed/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: indiaspend
+    name: "IndiaSpend"
+    kind: gnews
+    query: "(indiaspend OR isignal) (india OR data OR report)"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+    notes: "Data journalism. Useful anchor for the numbers watch."
+
+  - slug: boom-live
+    name: "Boom Live — fact check"
+    kind: gnews
+    query: "site:boomlive.in (fact OR check OR claim OR viral)"
+    tier: 2
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+    notes: "Citation of record on contested quotes. High value for the claim ledger."
+
+  - slug: alt-news
+    name: "Alt News"
+    url: "https://www.altnews.in/feed/"
+    kind: rss
+    tier: 2
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: rest-of-world
+    name: "Rest of World"
+    url: "https://restofworld.org/feed/latest/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: reported
+    verified: true
+
+  # ==================================================================
+  # TIER 3 — vernacular
+  # This tier IS the language-lag feature. An empty tier 3 disables it.
+  # ==================================================================
+
+  - slug: bbc-hindi
+    name: "BBC Hindi"
+    url: "https://feeds.bbci.co.uk/hindi/rss.xml"
+    kind: rss
+    tier: 3
+    cadence: fast
+    lang: hi
+    country: GB
+    trust: reported
+    verified: true
+
+  - slug: bbc-urdu
+    name: "BBC Urdu"
+    url: "https://feeds.bbci.co.uk/urdu/rss.xml"
+    kind: rss
+    tier: 3
+    cadence: fast
+    lang: ur
+    country: GB
+    trust: reported
+    verified: true
+
+  - slug: dainik-bhaskar
+    name: "Dainik Bhaskar — national"
+    url: "https://www.bhaskar.com/rss-v1--category-1061.xml"
+    kind: rss
+    tier: 3
+    lang: hi
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: dainik-jagran
+    name: "Dainik Jagran — national"
+    kind: gnews
+    query: "site:jagran.com (समाचार OR सरकार OR दिल्ली)"
+    tier: 3
+    lang: hi
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: amar-ujala
+    name: "Amar Ujala — India"
+    url: "https://www.amarujala.com/rss/india-news.xml"
+    kind: rss
+    tier: 3
+    lang: hi
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: navbharat-times
+    name: "Navbharat Times"
+    kind: gnews
+    query: "site:navbharattimes.indiatimes.com (समाचार OR सरकार)"
+    tier: 3
+    lang: hi
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: siasat-urdu
+    name: "The Siasat Daily — Urdu"
+    url: "https://urdu.siasat.com/feed/"
+    kind: rss
+    tier: 3
+    lang: ur
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: inquilab
+    name: "Roznama Inquilab"
+    kind: gnews
+    gnews_locale: ["en-IN", "IN", "IN:en"]
+    query: "site:inquilab.com"
+    tier: 3
+    lang: ur
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: urdu-gdelt-in
+    name: "Urdu press — India (GDELT sweep)"
+    kind: gdelt
+    query: 'sourcelang:urdu sourcecountry:IN'
+    tier: 3
+    lang: ur
+    country: IN
+    trust: reported
+    verified: false
+    notes: "Catches Urdu outlets with no usable RSS. Broad by design; scoring filters it."
+
+  - slug: loksatta
+    name: "Loksatta"
+    kind: gnews
+    query: "site:loksatta.com"
+    tier: 3
+    lang: mr
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: maharashtra-times
+    name: "Maharashtra Times"
+    kind: gnews
+    query: "site:maharashtratimes.com"
+    tier: 3
+    lang: mr
+    country: IN
+    trust: reported
+    verified: true
+
+  - slug: bhojpuri-gdelt
+    name: "Bhojpuri (GDELT sweep)"
+    kind: gdelt
+    query: 'sourcelang:hindi (bhojpuri OR भोजपुरी)'
+    tier: 3
+    cadence: slow
+    lang: bho
+    country: IN
+    trust: unconfirmed
+    verified: false
+    notes: >
+      Honest gap. Bhojpuri has almost no indexed text press and GDELT does not
+      cover it as a language. This is a proxy, not a solution. If Bhojpuri
+      matters to a story, YouTube channel feeds are the real route —
+      https://www.youtube.com/feeds/videos.xml?channel_id=<ID>, free, no key.
+      Add channel IDs by hand once you pick the channels.
+
+  # ==================================================================
+  # SOUTH ASIA
+  # ==================================================================
+
+  - slug: dawn
+    name: "Dawn"
+    url: "https://www.dawn.com/feeds/home"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: PK
+    trust: reported
+    verified: true
+
+  - slug: the-news-pk
+    name: "The News International"
+    url: "https://www.thenews.com.pk/rss/1/1"
+    kind: rss
+    tier: 1
+    lang: en
+    country: PK
+    trust: reported
+    verified: true
+
+  - slug: express-tribune
+    name: "The Express Tribune"
+    url: "https://tribune.com.pk/feed/home"
+    kind: rss
+    tier: 1
+    lang: en
+    country: PK
+    trust: reported
+    verified: true
+
+  - slug: geo-news
+    name: "Geo News"
+    url: "https://www.geo.tv/rss/1/53"
+    kind: rss
+    tier: 1
+    lang: en
+    country: PK
+    trust: reported
+    verified: true
+
+  - slug: business-recorder
+    name: "Business Recorder"
+    url: "https://www.brecorder.com/feeds/latest-news"
+    kind: rss
+    tier: 2
+    lang: en
+    country: PK
+    trust: reported
+    verified: true
+
+  - slug: daily-star-bd
+    name: "The Daily Star"
+    url: "https://www.thedailystar.net/frontpage/rss.xml"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: BD
+    trust: reported
+    verified: true
+
+  - slug: prothom-alo
+    name: "Prothom Alo"
+    url: "https://www.prothomalo.com/feed"
+    kind: rss
+    tier: 3
+    lang: bn
+    country: BD
+    trust: reported
+    verified: true
+
+  - slug: bdnews24
+    name: "bdnews24"
+    kind: gnews
+    query: "site:bdnews24.com (bangladesh OR dhaka OR hasina OR government)"
+    tier: 1
+    lang: en
+    country: BD
+    trust: reported
+    verified: true
+
+  - slug: new-age-bd
+    name: "New Age"
+    kind: gnews
+    query: "site:newagebd.net (bangladesh OR dhaka OR government OR politics)"
+    tier: 2
+    lang: en
+    country: BD
+    trust: reported
+    verified: true
+
+  - slug: netra-news
+    name: "Netra News"
+    url: "https://netra.news/feed/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: BD
+    trust: reported
+    verified: true
+
+  - slug: kathmandu-post
+    name: "The Kathmandu Post"
+    url: "https://kathmandupost.com/rss"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: NP
+    trust: reported
+    verified: true
+
+  - slug: online-khabar
+    name: "Online Khabar — English"
+    url: "https://english.onlinekhabar.com/feed"
+    kind: rss
+    tier: 1
+    lang: en
+    country: NP
+    trust: reported
+    verified: true
+
+  - slug: setopati
+    name: "Setopati"
+    url: "https://www.setopati.com/feed"
+    kind: rss
+    tier: 3
+    lang: ne
+    country: NP
+    trust: reported
+    verified: true
+
+  - slug: nepali-times
+    name: "Nepali Times"
+    kind: gnews
+    query: "site:nepalitimes.com"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: NP
+    trust: reported
+    verified: true
+
+  - slug: record-nepal
+    name: "The Record"
+    kind: gnews
+    gnews_window: "30d"
+    query: "site:recordnepal.com"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: NP
+    trust: reported
+    verified: false
+
+  - slug: daily-mirror-lk
+    name: "Daily Mirror"
+    kind: gnews
+    query: "site:dailymirror.lk"
+    tier: 1
+    lang: en
+    country: LK
+    trust: reported
+    verified: true
+
+  - slug: ada-derana
+    name: "Ada Derana"
+    url: "https://www.adaderana.lk/rss.php"
+    kind: rss
+    tier: 1
+    lang: en
+    country: LK
+    trust: reported
+    verified: true
+
+  - slug: economynext
+    name: "EconomyNext"
+    url: "https://economynext.com/feed"
+    kind: rss
+    tier: 2
+    lang: en
+    country: LK
+    trust: reported
+    verified: true
+
+  - slug: tolonews
+    name: "TOLOnews"
+    kind: gnews
+    query: "site:tolonews.com"
+    tier: 1
+    cadence: fast
+    lang: en
+    country: AF
+    trust: reported
+    verified: true
+
+  - slug: afghanistan-intl
+    name: "Afghanistan International"
+    kind: gnews
+    query: "site:afintl.com"
+    tier: 1
+    lang: en
+    country: AF
+    trust: reported
+    verified: true
+
+  - slug: etilaatroz
+    name: "Etilaat Roz"
+    url: "https://www.etilaatroz.com/feed/"
+    kind: rss
+    tier: 2
+    lang: fa
+    country: AF
+    trust: reported
+    verified: true
+
+  - slug: hasht-e-subh
+    name: "Hasht-e Subh Daily"
+    url: "https://8am.media/eng/feed/"
+    kind: rss
+    tier: 2
+    lang: en
+    country: AF
+    trust: reported
+    verified: true
+
+  - slug: amu-tv
+    name: "Amu TV"
+    url: "https://amu.tv/feed/"
+    kind: rss
+    tier: 2
+    lang: en
+    country: AF
+    trust: reported
+    verified: true
+
+  - slug: afghanistan-analysts
+    name: "Afghanistan Analysts Network"
+    url: "https://www.afghanistan-analysts.org/en/feed/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: AF
+    trust: reported
+    verified: true
+
+  - slug: irrawaddy
+    name: "The Irrawaddy"
+    kind: gnews
+    gnews_window: "7d"
+    query: "Myanmar (junta OR resistance OR Rakhine OR conscription)"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: MM
+    trust: reported
+    verified: true
+
+  - slug: frontier-myanmar
+    name: "Frontier Myanmar"
+    kind: gnews
+    query: "site:frontiermyanmar.net (myanmar OR yangon OR junta)"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: MM
+    trust: reported
+    verified: true
+
+  - slug: adhadhu
+    name: "Adhadhu"
+    kind: gnews
+    query: "site:adhadhu.com (maldives OR government OR majlis)"
+    tier: 2
+    cadence: slow
+    lang: dv
+    country: MV
+    trust: reported
+    verified: true
+
+  # ==================================================================
+  # INTERNATIONAL with a South Asia desk
+  # ==================================================================
+
+  - slug: al-jazeera
+    name: "Al Jazeera English"
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
+    kind: rss
+    tier: 1
+    cadence: fast
+    lang: en
+    country: QA
+    trust: reported
+    verified: true
+
+  - slug: guardian-south-asia
+    name: "The Guardian — South Asia"
+    url: "https://www.theguardian.com/world/india/rss"
+    kind: rss
+    tier: 1
+    lang: en
+    country: GB
+    trust: reported
+    verified: true
+
+  - slug: nyt-asia
+    name: "New York Times — Asia Pacific"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/AsiaPacific.xml"
+    kind: rss
+    tier: 1
+    lang: en
+    country: US
+    trust: reported
+    verified: true
+
+  - slug: ft-india
+    name: "Financial Times — India"
+    kind: gnews
+    query: "site:ft.com india"
+    tier: 1
+    lang: en
+    country: GB
+    trust: reported
+    verified: true
+
+  - slug: nikkei-asia-india
+    name: "Nikkei Asia — India"
+    kind: gnews
+    query: "site:asia.nikkei.com india"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: JP
+    trust: reported
+    verified: true
+
+  # ==================================================================
+  # COURTS, LEGAL, LEGISLATIVE
+  # ==================================================================
+
+  - slug: livelaw
+    name: "LiveLaw"
+    kind: gnews
+    query: "site:livelaw.in"
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: primary
+    verified: true
+    notes: "Usually first on Supreme Court oral remarks and listings."
+
+  - slug: bar-and-bench
+    name: "Bar and Bench"
+    kind: gnews
+    query: "site:barandbench.com"
+    tier: 1
+    lang: en
+    country: IN
+    trust: primary
+    verified: true
+
+  - slug: sc-observer
+    name: "Supreme Court Observer"
+    url: "https://www.scobserver.in/feed/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: primary
+    verified: true
+
+  - slug: prs-india
+    name: "PRS Legislative Research"
+    kind: gnews
+    query: "site:prsindia.org (bill OR legislation OR parliament)"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: primary
+    verified: true
+    notes: "Bill track. Primary feedstock for the futures desk."
+
+  # ==================================================================
+  # THINK TANKS, DATA, IGOs — these publish on calendars, so they are
+  # the futures desk's raw material as much as the news layer's.
+  # ==================================================================
+
+  - slug: carnegie-india
+    name: "Carnegie India"
+    kind: gnews
+    query: 'site:carnegieendowment.org (india OR "south asia")'
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: commentary
+    verified: true
+
+  - slug: orf
+    name: "Observer Research Foundation"
+    kind: gnews
+    query: "site:orfonline.org (india OR expert OR commentary)"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: commentary
+    verified: true
+
+  - slug: takshashila
+    name: "Takshashila Institution"
+    kind: gnews
+    query: "site:takshashila.org.in (analysis OR policy OR discussion)"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: commentary
+    verified: true
+
+  - slug: imf-news
+    name: "IMF — news"
+    kind: gnews
+    query: "site:imf.org india"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: primary
+    verified: true
+
+  - slug: world-bank-india
+    name: "World Bank — South Asia"
+    kind: gnews
+    query: 'site:worldbank.org ("south asia" OR india)'
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: primary
+    verified: true
+
+  - slug: acled
+    name: "ACLED"
+    kind: gnews
+    query: 'site:acleddata.com (india OR pakistan OR bangladesh OR nepal OR "sri lanka")'
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: primary
+    verified: true
+    notes: "Conflict and protest event data. Backbone for the protest cluster."
+
+  - slug: hrw-asia
+    name: "Human Rights Watch — Asia"
+    kind: gnews
+    query: "site:hrw.org (india OR pakistan OR bangladesh OR nepal)"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: primary
+    verified: true
+
+  - slug: cpj
+    name: "Committee to Protect Journalists"
+    url: "https://cpj.org/feed/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: primary
+    verified: true
+
+  # ==================================================================
+  # BEAT-SPECIFIC
+  # These are source URLs only. What you are looking FOR lives in
+  # watch-terms.local.yaml, on your Mac.
+  # ==================================================================
+
+  # ---- aviation --------------------------------------------------
+  - slug: air-india-newsroom
+    name: "Air India — newsroom"
+    kind: gnews
+    query: "site:airindia.com (statement OR press OR announcement OR media OR results)"
+    tier: 1
+    lang: en
+    country: IN
+    trust: primary
+    verified: true
+    notes: "Corporate statements. Pair with the NSE/BSE filing watch in watchlist.yaml."
+
+  - slug: ntsb-gnews
+    name: "NTSB (Google News fallback)"
+    kind: gnews
+    query: "site:ntsb.gov (aviation OR crash OR investigation OR preliminary)"
+    tier: 1
+    lang: en
+    country: US
+    trust: primary
+    verified: true
+
+  - slug: aviation-herald
+    name: "The Aviation Herald"
+    kind: gnews
+    query: "site:avherald.com"
+    tier: 2
+    lang: en
+    country: AT
+    trust: primary
+    verified: true
+
+  - slug: air-current
+    name: "The Air Current"
+    url: "https://theaircurrent.com/feed/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: reported
+    verified: true
+
+  - slug: leeham
+    name: "Leeham News"
+    url: "https://leehamnews.com/feed/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: reported
+    verified: true
+
+  # ---- space -----------------------------------------------------
+  - slug: isro
+    name: "ISRO — updates"
+    kind: gnews
+    query: "site:isro.gov.in (launch OR mission OR satellite OR spacecraft) -tender -recruitment"
+    tier: 1
+    lang: en
+    country: IN
+    trust: primary
+    verified: true
+
+  - slug: spacenews
+    name: "SpaceNews"
+    url: "https://spacenews.com/feed/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: reported
+    verified: true
+
+  - slug: nasaspaceflight
+    name: "NASASpaceflight"
+    kind: gnews
+    gnews_window: "7d"
+    query: "(Gaganyaan OR ISRO OR PSLV OR GSLV OR launch)"
+    tier: 2
+    cadence: slow
+    lang: en
+    country: US
+    trust: reported
+    verified: true
+
+  - slug: jatans-space
+    name: "Jatan's Space"
+    url: "https://blog.jatan.space/rss/"
+    kind: rss
+    tier: 2
+    cadence: slow
+    lang: en
+    country: IN
+    trust: commentary
+    verified: true
+
+  # ---- energy, shipping, Middle East transmission ----------------
+  - slug: shipping-gdelt
+    name: "Red Sea / Hormuz shipping (GDELT)"
+    kind: gdelt
+    query: '("red sea" OR "strait of hormuz" OR "suez canal") AND (shipping OR tanker OR freight OR insurance)'
+    tier: 2
+    lang: en
+    trust: reported
+    verified: false
+
+  - slug: seafarers-gdelt
+    name: "Seafarer abandonment (GDELT)"
+    kind: gdelt
+    query: '(seafarer OR "crew abandoned" OR "abandoned ship") AND (india OR "flag state" OR ITF)'
+    tier: 2
+    cadence: slow
+    lang: en
+    trust: reported
+    verified: false
+    notes: "Your own beat. Cheap to keep running."
+
+  # ---- protest / youth movement cluster --------------------------
+  # Kept as ONE cluster on purpose: India, Nepal, Bangladesh and Sri Lanka
+  # are reported as a single South Asian pattern, and the connections are
+  # the story. Splitting them into separate watches loses that.
+  - slug: southasia-youth-gdelt
+    name: "South Asia youth movements (GDELT)"
+    kind: gdelt
+    query: '(protest OR demonstration OR "hunger strike" OR unemployment) AND sourcecountry:IN'
+    tier: 2
+    cadence: fast
+    lang: en
+    trust: reported
+    verified: false
+
+  - slug: cjp-reported
+    name: "CJP — reported coverage"
+    kind: gnews
+    query: '"Cockroach Janta Party" OR "Cockroach Janata Party"'
+    tier: 1
+    cadence: fast
+    lang: en
+    country: IN
+    trust: reported
+    verified: true
+    notes: >
+      Reported coverage only. The movement's own domains are deliberately NOT
+      in this file. At least five sites present themselves as the official CJP
+      home and they publish conflicting versions of the demands, so at least
+      one is fabricating. Wikipedia gives cockroachjantaparty.org as official.
+      Verify by hand, then add it as a separate entry with trust: primary.
+      Until then, nothing from a movement domain can trigger an alert.

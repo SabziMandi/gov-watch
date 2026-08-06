@@ -17,6 +17,9 @@ defaults:
   user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
   min_chars: 400          # below this, treat as a failed fetch, not a change
   retries: 2
+  # Use the real Chrome on your Mac rather than bundled Chromium: it passes
+  # more of Akamai's checks. Ignored automatically if Chrome is not installed.
+  browser_channel: chrome
   # Lines matching these patterns are removed before comparison. This is what
   # stops visitor counters and "last updated" stamps firing false alarms.
   strip:
@@ -244,6 +247,36 @@ sites:
     tier: local
     checked: true
 
+  - slug: pib-rss-releases
+    name: "PIB — releases RSS"
+    url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+    tier: hourly
+    checked: false
+    min_chars: 200
+    notes: "RSS carries FULL headlines, unlike the HTML listing. Verify it returns English: PIB keeps language in a session, so the Lang parameter alone may not hold."
+
+  - slug: pib-rss-advisories
+    name: "PIB — media advisories RSS"
+    url: "https://pib.gov.in/RssMain.aspx?ModId=10&Lang=1&Regid=3"
+    tier: daily
+    checked: false
+    min_chars: 200
+    notes: "Press conferences and briefings, often the earliest signal of an announcement."
+
+  - slug: finmin
+    name: "Finance Ministry"
+    url: "https://finmin.gov.in/"
+    tier: daily
+    checked: false
+    notes: "Correct domain, per PIB's own links list. The earlier finmin.nic.in did not resolve."
+
+  - slug: commerce-dept
+    name: "Department of Commerce"
+    url: "https://commerce.gov.in/"
+    tier: daily
+    checked: false
+    notes: "Separate from moci.gov.in; carries the trade-negotiation releases."
+
   # --- added: regulators, data bodies and the gazette -------------------------
   # URLs below are from general knowledge, not confirmed live. discover.py will
   # flag any that 404 or redirect; fix, then set checked: true.
@@ -339,3 +372,47 @@ sites:
     tier: daily
     checked: false
     notes: "Cleaner secondary source than sansad.in when the portal is down."
+# --- added: Middle East transmission and exam integrity --------------------
+
+  - slug: fertilisers
+    name: "Department of Fertilizers"
+    url: "https://www.fert.nic.in/"
+    tier: daily
+    checked: false
+    notes: >
+      Gap in the original 51. Urea and DAP sourcing from the Gulf, Jordan and
+      Iran is the cleanest route by which a Middle East disruption becomes an
+      Indian subsidy-bill story.
+
+  - slug: nta
+    name: "National Testing Agency"
+    url: "https://www.nta.ac.in/"
+    tier: daily
+    checked: false
+    notes: >
+      The exam agency behind the paper-leak story. The underlying subject, as
+      against the movement that formed around it.
+
+  # --- added: exchange filings ----------------------------------------------
+  # Statutorily prompt and timestamped, unlike corporate press pages. For a
+  # business desk these lead; the press release lags.
+
+  - slug: bse-announcements
+    name: "BSE — corporate announcements"
+    url: "https://www.bseindia.com/corporates/ann.html"
+    render: browser
+    tier: local
+    checked: false
+    notes: "JavaScript-built. Needs the browser fetcher, so it runs on your Mac."
+
+  - slug: nse-announcements
+    name: "NSE — corporate announcements"
+    url: "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    render: browser
+    tier: local
+    checked: false
+    notes: >
+      NSE rejects data-centre IPs outright, which is why this is tier local.
+      Watch: ONGC, ONGC Videsh, Reliance, IOC, BPCL, HPCL, GAIL, SCI,
+      Great Eastern Shipping, Air India's listed counterparties.
+

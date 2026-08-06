@@ -1,0 +1,12 @@
+# Your beat. Never commit this.
+watch-terms.local.yaml
+watch-terms.*.local.yaml
+
+# Local output: briefs, matcher state, anything derived from private terms.
+local/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

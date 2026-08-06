@@ -1,0 +1,29 @@
+# Template, safe to commit. Copy it and edit the copy:
+#     cp watch-terms.example.yaml watch-terms.local.yaml
+#
+# watch-terms.local.yaml is gitignored. Keep it that way — a watch-term file
+# is a readable list of what you are working on, and this repository is public.
+
+settings:
+  brief_score: 0
+  breaking_score: 6.0
+  lag_min_hours: 6
+  silence_days: 3
+  diary_days: 14
+
+watches:
+  - name: "Example watch"
+    slug: example
+    any:
+      - "a phrase"
+      - /a ?regex/
+    all: []
+    none:
+      - "something that means this is the wrong story"
+    limit: 15
+    watch_silence: true
+
+diary:
+  - date: 2026-12-31
+    event: "An event you want flagged in advance"
+    note: "Why it matters, and what you would need ready."

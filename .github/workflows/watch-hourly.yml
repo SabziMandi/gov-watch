@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gov-watch
+  group: gov-watch-push
   cancel-in-progress: false
 
 jobs:
@@ -46,5 +46,22 @@ jobs:
           git config user.name "gov-watch"
           git config user.email "actions@github.com"
           git add -A snapshots data docs
-          git diff --staged --quiet || git commit -m "hourly check $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --staged --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "hourly check $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          # Another runner (or the Mac) may have pushed while we were fetching.
+          # Rebase onto whatever landed and try again rather than failing.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin main || exit 1
+            sleep $((attempt * 5))
+          done
+          echo "could not push after 5 attempts"
+          exit 1

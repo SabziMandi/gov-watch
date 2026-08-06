@@ -201,26 +201,38 @@ def fetch_browser(site, d):
     return html
 
 
+ITEM_RE = re.compile(r"<(item|entry)\b.*?</\1>", re.S | re.I)
+TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.S | re.I)
+LINK_RE = re.compile(r"<link[^>]*?href=[\"'](.*?)[\"']|<link[^>]*>(.*?)</link>", re.S | re.I)
+TAG_RE = re.compile(r"<[^>]+>")
+
+
+def _unescape(s):
+    import html as _h
+    return _h.unescape(_h.unescape(TAG_RE.sub("", s))).strip()
+
+
 def extract_feed(xml, site, d):
-    """Titles from an RSS/Atom feed, one per line, links kept alongside."""
-    try:
-        soup = BeautifulSoup(xml, "xml")          # needs lxml
-    except Exception:  # noqa: BLE001
-        soup = BeautifulSoup(xml, "html.parser")  # good enough for RSS items
+    """Titles from an RSS/Atom feed, one per line, each with its link.
+
+    Parsed with regular expressions rather than a DOM: the HTML parser treats
+    <link> as a void element and silently drops every URL, and lxml is not
+    guaranteed to be installed.
+    """
     lines = []
-    for item in soup.find_all(["item", "entry"]):
-        title = item.find("title")
-        title = " ".join(title.get_text(" ", strip=True).split()) if title else ""
+    for m in ITEM_RE.finditer(xml):
+        block = m.group(0)
+        tm = TITLE_RE.search(block)
+        title = " ".join(_unescape(tm.group(1)).split()) if tm else ""
         if not title:
             continue
         if site.get("ignore_devanagari") and DEVANAGARI.search(title):
             continue
         lines.append(title)
         if site.get("feed_links", True):
-            link = item.find("link")
-            href = (link.get("href") if link and link.get("href")
-                    else (link.get_text(strip=True) if link else ""))
-            if href:
+            lm = LINK_RE.search(block)
+            href = _unescape((lm.group(1) or lm.group(2) or "")) if lm else ""
+            if href.startswith("http"):
                 lines.append(f"    {href}")
     return "\n".join(lines)
 

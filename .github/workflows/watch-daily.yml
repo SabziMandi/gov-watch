@@ -43,6 +43,12 @@ jobs:
         if: always()
         run: python scripts/build_site.py
 
+      - name: Package the site for Pages
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
       - name: Commit
         if: always()
         run: |
@@ -55,8 +61,6 @@ jobs:
           fi
           git commit -m "daily check $(date -u +'%Y-%m-%d %H:%M UTC')"
 
-          # Another runner (or the Mac) may have pushed while we were fetching.
-          # Rebase onto whatever landed and try again rather than failing.
           for attempt in 1 2 3 4 5; do
             if git push; then
               echo "pushed on attempt $attempt"
@@ -68,3 +72,21 @@ jobs:
           done
           echo "could not push after 5 attempts"
           exit 1
+
+  publish:
+    needs: check
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages-deploy
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,1 +1,62 @@
-pbcopy < .github/workflows/feeds.yml
+name: feeds
+
+on:
+  schedule:
+    - cron: "20 * * * *"
+    - cron: "40 */3 * * *"
+    - cron: "10 1 * * *"
+  workflow_dispatch:
+    inputs:
+      cadence:
+        description: "fast | standard | slow | all"
+        required: false
+        default: "fast"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gov-watch
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Pick cadence from the schedule that fired
+        id: pick
+        run: |
+          case "${{ github.event.schedule }}" in
+            "20 * * * *")   echo "cadence=fast"     >> "$GITHUB_OUTPUT" ;;
+            "40 */3 * * *") echo "cadence=standard" >> "$GITHUB_OUTPUT" ;;
+            "10 1 * * *")   echo "cadence=slow"     >> "$GITHUB_OUTPUT" ;;
+            *)              echo "cadence=${{ inputs.cadence || 'fast' }}" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Ingest
+        run: python scripts/feeds.py --cadence ${{ steps.pick.outputs.cadence }}
+
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name  "gov-watch"
+          git config user.email "actions@github.com"
+          git add -A data
+          git diff --staged --quiet && { echo "nothing new"; exit 0; }
+          git commit -m "feeds: ${{ steps.pick.outputs.cadence }} $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "push rejected, rebasing (attempt $i)"
+            git pull --rebase --autostash || true
+            sleep $((i * 5))
+          done
+          echo "could not push after 3 attempts"; exit 1

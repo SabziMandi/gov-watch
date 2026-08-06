@@ -40,6 +40,12 @@ jobs:
         if: always()
         run: python scripts/build_site.py
 
+      - name: Package the site for Pages
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
       - name: Commit
         if: always()
         run: |
@@ -65,3 +71,21 @@ jobs:
           done
           echo "could not push after 5 attempts"
           exit 1
+
+  publish:
+    needs: check
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages-deploy
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

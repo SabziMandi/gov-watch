@@ -147,7 +147,6 @@ def fetch_browser(site, d):
                 "--no-sandbox",
             ],
         }
-        # A real Chrome install passes more checks than bundled Chromium.
         channel = site.get("browser_channel", d.get("browser_channel"))
         if channel:
             launch["channel"] = channel
@@ -163,8 +162,6 @@ def fetch_browser(site, d):
             timezone_id="Asia/Kolkata",
             viewport={"width": 1440, "height": 900},
             device_scale_factor=2,
-            has_touch=False,
-            is_mobile=False,
             ignore_https_errors=not site.get("verify_tls", True),
             extra_http_headers={
                 "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
@@ -174,13 +171,25 @@ def fetch_browser(site, d):
         ctx.add_init_script(STEALTH)
         page = ctx.new_page()
         try:
+            # Some sites (PIB) keep language and section in the session and
+            # ignore query parameters. Visit a page that sets the session the
+            # way we want it, then request the target with those cookies.
+            for url in site.get("preload", []):
+                page.goto(url, timeout=timeout, wait_until="domcontentloaded")
+                page.wait_for_timeout(2500)
+
+            if site.get("format") == "feed":
+                # Fetch XML through the context so cookies carry, but without
+                # the browser's XML viewer wrapping it in HTML.
+                resp = ctx.request.get(site["url"], timeout=timeout)
+                return resp.text()
+
             page.goto(site["url"], timeout=timeout,
                       wait_until=site.get("wait_for", "domcontentloaded"))
             if site.get("wait_selector"):
                 page.wait_for_selector(site["wait_selector"], timeout=25000)
             else:
                 page.wait_for_timeout(site.get("settle_ms", 6000))
-            # A bot-manager interstitial often resolves itself on a second look.
             html = page.content()
             if "access denied" in html.lower() or "errors.edgesuite.net" in html.lower():
                 page.wait_for_timeout(4000)
@@ -194,7 +203,10 @@ def fetch_browser(site, d):
 
 def extract_feed(xml, site, d):
     """Titles from an RSS/Atom feed, one per line, links kept alongside."""
-    soup = BeautifulSoup(xml, "xml")
+    try:
+        soup = BeautifulSoup(xml, "xml")          # needs lxml
+    except Exception:  # noqa: BLE001
+        soup = BeautifulSoup(xml, "html.parser")  # good enough for RSS items
     lines = []
     for item in soup.find_all(["item", "entry"]):
         title = item.find("title")

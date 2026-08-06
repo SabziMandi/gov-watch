@@ -250,17 +250,25 @@ sites:
   - slug: pib-rss-releases
     name: "PIB — releases RSS"
     url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+    render: browser
+    preload:
+      - "https://www.pib.gov.in/indexd.aspx?reg=3&lang=1"
     tier: hourly
     checked: false
-    min_chars: 200
-    notes: "RSS carries FULL headlines, unlike the HTML listing. Verify it returns English: PIB keeps language in a session, so the Lang parameter alone may not hold."
+    format: feed
+    min_chars: 100
+    notes: "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases."
 
   - slug: pib-rss-advisories
     name: "PIB — media advisories RSS"
     url: "https://pib.gov.in/RssMain.aspx?ModId=10&Lang=1&Regid=3"
+    render: browser
+    preload:
+      - "https://www.pib.gov.in/indexd.aspx?reg=3&lang=1"
     tier: daily
     checked: false
-    min_chars: 200
+    format: feed
+    min_chars: 100
     notes: "Press conferences and briefings, often the earliest signal of an announcement."
 
   - slug: finmin
@@ -372,47 +380,3 @@ sites:
     tier: daily
     checked: false
     notes: "Cleaner secondary source than sansad.in when the portal is down."
-# --- added: Middle East transmission and exam integrity --------------------
-
-  - slug: fertilisers
-    name: "Department of Fertilizers"
-    url: "https://www.fert.nic.in/"
-    tier: daily
-    checked: false
-    notes: >
-      Gap in the original 51. Urea and DAP sourcing from the Gulf, Jordan and
-      Iran is the cleanest route by which a Middle East disruption becomes an
-      Indian subsidy-bill story.
-
-  - slug: nta
-    name: "National Testing Agency"
-    url: "https://www.nta.ac.in/"
-    tier: daily
-    checked: false
-    notes: >
-      The exam agency behind the paper-leak story. The underlying subject, as
-      against the movement that formed around it.
-
-  # --- added: exchange filings ----------------------------------------------
-  # Statutorily prompt and timestamped, unlike corporate press pages. For a
-  # business desk these lead; the press release lags.
-
-  - slug: bse-announcements
-    name: "BSE — corporate announcements"
-    url: "https://www.bseindia.com/corporates/ann.html"
-    render: browser
-    tier: local
-    checked: false
-    notes: "JavaScript-built. Needs the browser fetcher, so it runs on your Mac."
-
-  - slug: nse-announcements
-    name: "NSE — corporate announcements"
-    url: "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
-    render: browser
-    tier: local
-    checked: false
-    notes: >
-      NSE rejects data-centre IPs outright, which is why this is tier local.
-      Watch: ONGC, ONGC Videsh, Reliance, IOC, BPCL, HPCL, GAIL, SCI,
-      Great Eastern Shipping, Air India's listed counterparties.
-

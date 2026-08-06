@@ -1,0 +1,378 @@
+# Watchlist for gov-watch.
+#
+# tier:      hourly | daily | local
+#            hourly and daily run on GitHub. local runs on your own machine,
+#            for hosts that refuse connections from foreign data-centre IPs.
+# url:       page to fetch
+# selector:  optional CSS selector for the content block. Strongly recommended
+#            once you know the page. Without it the whole <body> is compared.
+# render:    http (default) | browser   -- browser is for JavaScript-built pages
+# verify_tls: false only for sites with broken certificates
+# checked:   false means the URL has NOT been confirmed live yet. Run
+#            scripts/discover.py, fix the URL, then set this to true.
+# notes:     why you are watching it. This ends up in the feed and in your copy.
+
+defaults:
+  timeout: 30
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+  min_chars: 400          # below this, treat as a failed fetch, not a change
+  retries: 2
+  # Use the real Chrome on your Mac rather than bundled Chromium: it passes
+  # more of Akamai's checks. Ignored automatically if Chrome is not installed.
+  browser_channel: chrome
+  # Lines matching these patterns are removed before comparison. This is what
+  # stops visitor counters and "last updated" stamps firing false alarms.
+  strip:
+    - '(?i)^\s*last\s+(updated|modified|reviewed)\b.*$'
+    - '(?i)^\s*(page\s+)?visitor(s)?\s*(count|counter)?\s*[:\-]?\s*[\d,]+\s*$'
+    - '(?i)^\s*total\s+visitors?\b.*$'
+    - '(?i)^\s*\d{1,2}[-/ ](jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*[-/ ]\d{2,4}\s*(\d{1,2}:\d{2}(:\d{2})?\s*(am|pm)?)?\s*$'
+    - '(?i)^\s*(posted\s+on|published\s+on|dated)\s*:.*\d{4}.*$'
+    - '(?i)^\s*(captcha|please\s+enable\s+javascript).*$'
+    - '^\s*[\d,]+(\.\d+)?\s*$'
+    - '^\s*[:\-]?\s*\d{4,}\s*$'
+    - '(?i)^\s*\d+(\.\d+)?\s*(kb|mb|gb|bytes)\s*$'
+    - '(?i)^\s*(view this post on instagram|a post shared by .*)$'
+    - '(?i)^\s*no data available\.?\s*$'
+    - '(?i)^\s*(links|home|skip to main content)\s*:?\s*$'
+
+sites:
+
+  # ---------------------------------------------------------------- hourly ---
+  - slug: pib-releases
+    name: "PIB — release stream (reg 48)"
+    url: "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1"
+    tier: hourly
+    checked: true
+    notes: "Primary government announcement wire. Timestamps are stripped before diffing."
+
+  # ----------------------------------------------------------------- daily ---
+  # Ministries, exactly as supplied. Point `url` at the press-release or
+  # what's-new listing page once discover.py has found it, and set a selector.
+
+  - slug: mea
+    render: browser
+    name: "Ministry of External Affairs"
+    url: "https://www.mea.gov.in/"
+    tier: local
+    checked: true
+  - slug: mha
+    name: "Ministry of Home Affairs"
+    url: "https://www.mha.gov.in/en"
+    tier: daily
+    checked: true
+  - slug: agriculture
+    render: browser
+    name: "Agriculture and Farmers Welfare"
+    url: "https://agriwelfare.gov.in/"
+    tier: local
+    checked: true
+  - slug: mca
+    render: browser
+    name: "Corporate Affairs"
+    url: "https://www.mca.gov.in/content/mca/global/en/home.html"
+    tier: local
+    checked: true
+    notes: "Company law amendments and enforcement circulars."
+  - slug: moci
+    render: browser
+    name: "Commerce and Industry"
+    url: "https://www.moci.gov.in/"
+    tier: daily
+    checked: true
+  - slug: civil-aviation
+    name: "Civil Aviation"
+    url: "https://www.civilaviation.gov.in/"
+    tier: daily
+    checked: true
+  - slug: chemicals
+    name: "Chemicals and Fertilisers"
+    url: "https://chemicals.gov.in/"
+    tier: daily
+    checked: true
+  - slug: coal
+    name: "Coal"
+    url: "https://coal.nic.in/"
+    tier: daily
+    checked: true
+  - slug: defence
+    render: browser
+    name: "Defence"
+    url: "https://www.mod.gov.in/"
+    tier: local
+    checked: true
+  - slug: earth-sciences
+    render: browser
+    name: "Earth Sciences"
+    url: "https://www.moes.gov.in/"
+    tier: local
+    checked: true
+  - slug: meity
+    render: browser
+    name: "Electronics and IT"
+    url: "https://www.meity.gov.in/"
+    tier: local
+    checked: true
+  - slug: heavy-industries
+    name: "Heavy Industries"
+    url: "https://heavyindustries.gov.in/en"
+    tier: daily
+    checked: false
+    notes: "Switched from the /hi build to English. Confirm the path on first run."
+  - slug: mohua
+    render: browser
+    name: "Housing and Urban Affairs"
+    url: "https://www.mohua.gov.in/"
+    ignore_devanagari: true
+    tier: daily
+    checked: true
+  - slug: mib
+    name: "Information and Broadcasting"
+    url: "https://www.mib.gov.in/"
+    tier: daily
+    checked: true
+  - slug: labour
+    render: browser
+    name: "Labour and Employment"
+    url: "https://www.labour.gov.in/"
+    tier: local
+    checked: true
+  - slug: msme
+    render: browser
+    name: "MSME"
+    url: "https://www.msme.gov.in/"
+    tier: local
+    checked: true
+  - slug: jal-shakti-dowr
+    render: browser
+    name: "Jal Shakti — water resources"
+    url: "https://www.jalshakti-dowr.gov.in/"
+    tier: local
+    checked: true
+  - slug: mines
+    render: browser
+    name: "Mines"
+    url: "https://mines.gov.in/webportal/home"
+    tier: daily
+    checked: true
+  - slug: shipping
+    name: "Ports, Shipping and Waterways"
+    url: "https://shipmin.gov.in/"
+    tier: daily
+    checked: true
+  - slug: power
+    render: browser
+    name: "Power"
+    url: "https://www.powermin.gov.in/"
+    tier: local
+    checked: true
+  - slug: railways
+    render: browser
+    name: "Indian Railways"
+    url: "https://www.indianrailways.gov.in/"
+    tier: local
+    checked: true
+  - slug: morth
+    name: "Road Transport and Highways"
+    url: "https://morth.gov.in/"
+    render: browser
+    wait_for: "domcontentloaded"
+    settle_ms: 9000
+    timeout: 90
+    min_chars: 250
+    tier: daily
+    checked: true
+    notes: "Hash-routed single-page app: fetched with a headless browser after the JS settles. The bare domain is used because the #/ fragment is never sent to the server."
+  - slug: rural
+    render: browser
+    name: "Rural Development"
+    url: "https://www.rural.gov.in/"
+    tier: daily
+    checked: true
+  - slug: msde
+    render: browser
+    name: "Skill Development and Entrepreneurship"
+    url: "https://www.msde.gov.in/"
+    tier: local
+    checked: true
+  - slug: mospi
+    render: browser
+    name: "Statistics and Programme Implementation"
+    url: "https://www.mospi.gov.in/"
+    tier: daily
+    checked: true
+    notes: "GDP, CPI and IIP releases. Repoint at the press-release listing once confirmed."
+  - slug: petroleum
+    name: "Petroleum and Natural Gas"
+    url: "https://mopng.gov.in/en"
+    tier: daily
+    checked: true
+  - slug: mnre
+    name: "New and Renewable Energy"
+    url: "https://mnre.gov.in/"
+    tier: daily
+    checked: true
+  - slug: dst
+    name: "Science and Technology"
+    url: "https://dst.gov.in/"
+    tier: daily
+    checked: true
+  - slug: tourism
+    render: browser
+    name: "Tourism"
+    url: "https://www.tourism.gov.in/"
+    tier: local
+    checked: true
+  - slug: textiles
+    render: browser
+    name: "Textiles"
+    url: "https://www.texmin.gov.in/"
+    tier: local
+    checked: true
+  - slug: steel
+    name: "Steel"
+    url: "https://steel.gov.in/"
+    tier: daily
+    checked: true
+  - slug: cag
+    name: "Comptroller and Auditor General"
+    url: "https://cag.gov.in/en"
+    tier: daily
+    checked: true
+    notes: "Audit reports land here before they are tabled in the press."
+  - slug: cbi
+    render: browser
+    name: "Central Bureau of Investigation"
+    url: "https://cbi.gov.in/"
+    tier: local
+    checked: true
+
+  - slug: pib-rss-releases
+    name: "PIB — releases RSS"
+    url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+    tier: hourly
+    checked: false
+    format: feed
+    ignore_devanagari: true
+    min_chars: 100
+    notes: "Full headlines plus release links. PIB keeps language in a session and often serves Hindi regardless of Lang=1, so Devanagari titles are dropped."
+
+  - slug: pib-rss-advisories
+    name: "PIB — media advisories RSS"
+    url: "https://pib.gov.in/RssMain.aspx?ModId=10&Lang=1&Regid=3"
+    tier: daily
+    checked: false
+    format: feed
+    ignore_devanagari: true
+    min_chars: 100
+    notes: "Press conferences and briefings, often the earliest signal of an announcement."
+
+  - slug: finmin
+    name: "Finance Ministry"
+    url: "https://finmin.gov.in/"
+    tier: daily
+    checked: false
+    notes: "Correct domain, per PIB's own links list. The earlier finmin.nic.in did not resolve."
+
+  - slug: commerce-dept
+    name: "Department of Commerce"
+    url: "https://commerce.gov.in/"
+    tier: daily
+    checked: false
+    notes: "Separate from moci.gov.in; carries the trade-negotiation releases."
+
+  # --- added: regulators, data bodies and the gazette -------------------------
+  # URLs below are from general knowledge, not confirmed live. discover.py will
+  # flag any that 404 or redirect; fix, then set checked: true.
+
+  - slug: rbi-press
+    name: "RBI — press releases"
+    url: "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx"
+    tier: daily
+    checked: false
+    notes: "Highest-yield page on the list for a business desk."
+  - slug: rbi-notifications
+    name: "RBI — notifications"
+    url: "https://www.rbi.org.in/Scripts/NotificationUser.aspx"
+    tier: daily
+    checked: false
+  - slug: sebi
+    name: "SEBI"
+    url: "https://www.sebi.gov.in/"
+    tier: daily
+    checked: false
+    notes: "Board decisions, orders, consultation papers. Needs a selector on the media block."
+  - slug: egazette
+    name: "eGazette"
+    url: "https://egazette.gov.in/"
+    tier: daily
+    checked: false
+    notes: "Rules and tariff notifications appear here before any press release."
+  - slug: dea
+    name: "Economic Affairs (DEA)"
+    url: "https://dea.gov.in/"
+    tier: daily
+    checked: false
+  - slug: dor
+    name: "Revenue Department"
+    url: "https://dor.gov.in/"
+    tier: daily
+    checked: false
+  - slug: dipam
+    name: "DIPAM — disinvestment"
+    url: "https://dipam.gov.in/"
+    strip_extra:
+      - '^\s*[\d,]+\.\d{2}\s*$'
+    tier: daily
+    checked: false
+  - slug: cbdt
+    render: browser
+    name: "Income Tax Department (CBDT)"
+    url: "https://incometaxindia.gov.in/"
+    tier: local
+    checked: false
+  - slug: cbic
+    render: browser
+    name: "CBIC — indirect taxes and customs"
+    url: "https://www.cbic.gov.in/"
+    tier: daily
+    checked: false
+  - slug: cci
+    name: "Competition Commission of India"
+    url: "https://www.cci.gov.in/"
+    tier: daily
+    checked: false
+    notes: "Merger clearances and penalty orders."
+  - slug: trai
+    name: "TRAI"
+    url: "https://www.trai.gov.in/"
+    tier: daily
+    checked: false
+  - slug: dgca
+    name: "DGCA"
+    url: "https://www.dgca.gov.in/"
+    tier: daily
+    checked: false
+  - slug: ibbi
+    name: "IBBI — insolvency"
+    url: "https://ibbi.gov.in/"
+    tier: daily
+    checked: false
+  - slug: dgft
+    render: browser
+    name: "DGFT — trade notifications"
+    url: "https://www.dgft.gov.in/"
+    tier: local
+    checked: false
+  - slug: sansad-bills
+    name: "Parliament — bills"
+    url: "https://sansad.in/ls/legislation/bills"
+    tier: daily
+    checked: false
+    notes: "Confirm the path; the portal restructures often."
+  - slug: prs-bills
+    name: "PRS Legislative Research — bill track"
+    url: "https://prsindia.org/billtrack"
+    tier: daily
+    checked: false
+    notes: "Cleaner secondary source than sansad.in when the portal is down."

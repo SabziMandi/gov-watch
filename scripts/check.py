@@ -92,7 +92,13 @@ def fetch_http(site, d):
                 r = requests.get(url, headers=headers, timeout=timeout,
                                  verify=verify, allow_redirects=True)
                 r.raise_for_status()
-                r.encoding = r.encoding or r.apparent_encoding
+                # PIB and several NIC hosts send a wrong charset header while the
+                # document declares utf-8. Believe the document.
+                declared = re.search(rb'encoding=["\']([\w-]+)["\']', r.content[:200])
+                if declared:
+                    r.encoding = declared.group(1).decode("ascii", "ignore")
+                elif not r.encoding or r.encoding.lower() in ("iso-8859-1", "latin-1"):
+                    r.encoding = r.apparent_encoding or "utf-8"
                 if i:
                     print(f"         (reached via {url})")
                 return r.text
@@ -186,7 +192,30 @@ def fetch_browser(site, d):
     return html
 
 
+def extract_feed(xml, site, d):
+    """Titles from an RSS/Atom feed, one per line, links kept alongside."""
+    soup = BeautifulSoup(xml, "xml")
+    lines = []
+    for item in soup.find_all(["item", "entry"]):
+        title = item.find("title")
+        title = " ".join(title.get_text(" ", strip=True).split()) if title else ""
+        if not title:
+            continue
+        if site.get("ignore_devanagari") and DEVANAGARI.search(title):
+            continue
+        lines.append(title)
+        if site.get("feed_links", True):
+            link = item.find("link")
+            href = (link.get("href") if link and link.get("href")
+                    else (link.get_text(strip=True) if link else ""))
+            if href:
+                lines.append(f"    {href}")
+    return "\n".join(lines)
+
+
 def extract(html, site, d):
+    if site.get("format") == "feed":
+        return extract_feed(html, site, d)
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(["script", "style", "noscript", "iframe", "svg", "head"]):
         tag.decompose()

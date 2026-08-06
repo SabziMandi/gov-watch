@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gov-watch-push
+  group: gov-watch-feeds
   cancel-in-progress: false
 
 jobs:

@@ -1138,7 +1138,7 @@ feeds:
     tier: 2
     lang: en
     trust: reported
-    verified: false
+    verified: true
 
   - slug: seafarers-gdelt
     name: "Seafarer abandonment (GDELT)"
@@ -1163,7 +1163,7 @@ feeds:
     cadence: fast
     lang: en
     trust: reported
-    verified: false
+    verified: true
 
   - slug: cjp-reported
     name: "CJP — reported coverage"

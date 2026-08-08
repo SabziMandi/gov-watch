@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ts": "2026-08-08T04:16:32+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 0,
+    "removed": 1,
+    "sample_added": [],
+    "sample_removed": [
+      "PM to address the 57th Convocation Ceremony of IIT Delhi on 8th August"
+    ],
+    "diff": "@@ -128,3 +128,3 @@\n MOST VIEWED\n-PM to address the 57th Convocation Ceremony of IIT Delhi on 8th August\n+Invitation of nominations for National Gopal Ratna Award -2026\n SUPREME COURT GUIDELINES IN CASES OF SEXUAL OFFENCE"
+  }
+]

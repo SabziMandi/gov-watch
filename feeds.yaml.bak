@@ -492,20 +492,15 @@ feeds:
     verified: true
 
   - slug: urdu-gdelt-in
-    name: "Urdu press — Muslims in India"
+    name: "Urdu press — India (GDELT sweep)"
     kind: gdelt
-    query: '(muslim OR muslims OR minority OR madrasa OR waqf) AND (india OR indian) AND sourcelang:urdu'
-    timespan: 6h
+    query: 'sourcelang:urdu sourcecountry:IN'
     tier: 3
     lang: ur
     country: IN
     trust: reported
     verified: false
-    notes: >
-      Retargeted 08 Aug 2026. Was a blanket sourcelang:urdu sweep, which
-      returned nothing — GDELT will not answer a query made only of
-      operators. Now carries keywords, and drops sourcecountry:IN so the
-      Pakistani Urdu press writing on Indian Muslims is included too.
+    notes: "Catches Urdu outlets with no usable RSS. Broad by design; scoring filters it."
 
   - slug: loksatta
     name: "Loksatta"
@@ -527,6 +522,22 @@ feeds:
     trust: reported
     verified: true
 
+  - slug: bhojpuri-gdelt
+    name: "Bhojpuri (GDELT sweep)"
+    kind: gdelt
+    query: 'sourcelang:hindi (bhojpuri OR भोजपुरी)'
+    tier: 3
+    cadence: slow
+    lang: bho
+    country: IN
+    trust: unconfirmed
+    verified: false
+    notes: >
+      Honest gap. Bhojpuri has almost no indexed text press and GDELT does not
+      cover it as a language. This is a proxy, not a solution. If Bhojpuri
+      matters to a story, YouTube channel feeds are the real route —
+      https://www.youtube.com/feeds/videos.xml?channel_id=<ID>, free, no key.
+      Add channel IDs by hand once you pick the channels.
 
   # ==================================================================
   # SOUTH ASIA
@@ -1133,7 +1144,6 @@ feeds:
     name: "Seafarer abandonment (GDELT)"
     kind: gdelt
     query: '(seafarer OR "crew abandoned" OR "abandoned ship") AND (india OR "flag state" OR ITF)'
-    timespan: 7d
     tier: 2
     cadence: slow
     lang: en

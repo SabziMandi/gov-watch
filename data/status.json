@@ -487,12 +487,12 @@
     "url": "https://mopng.gov.in/en"
   },
   "pib-releases": {
-    "chars": 5658,
+    "chars": 5668,
     "checked_url": true,
     "error": "",
     "fails": 0,
-    "last_change": "2026-08-08T11:36:04+00:00",
-    "last_check": "2026-08-08T11:36:03+00:00",
+    "last_change": "2026-08-08T13:05:03+00:00",
+    "last_check": "2026-08-08T13:05:00+00:00",
     "name": "PIB \u2014 release stream (reg 48)",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "state": "changed",
@@ -512,15 +512,15 @@
     "url": "https://pib.gov.in/RssMain.aspx?ModId=10&Lang=1&Regid=3"
   },
   "pib-rss-releases": {
-    "chars": 3206,
+    "chars": 3218,
     "checked_url": false,
-    "error": "Error: APIRequestContext.get: write EPROTO 401DAB574E7F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n\nCall log:\n  - \u2192 GET https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3\n    - user-agent: M",
-    "fails": 1,
-    "last_change": "2026-08-08T09:47:44+00:00",
-    "last_check": "2026-08-08T11:36:04+00:00",
+    "error": "",
+    "fails": 0,
+    "last_change": "2026-08-08T13:05:14+00:00",
+    "last_check": "2026-08-08T13:05:03+00:00",
     "name": "PIB \u2014 releases RSS",
     "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
-    "state": "error",
+    "state": "changed",
     "tier": "hourly",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
   },

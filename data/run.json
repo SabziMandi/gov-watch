@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "ts": "2026-08-08T11:36:04+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 6,
+    "removed": 6,
+    "sample_added": [
+      "Union Minister Dr Jitendra Singh dedicates to the nation first-of-its-kind 'Eco-Educa...",
+      "Prime Minister, Shri Narendra Modi Addresses the 57th Convocation Ceremony of IIT Del...",
+      "Indian Railways Approves Merger of Chitrakutdham Karwi-Kanpur Central and Pratapgarh-...",
+      "Indian Railways Approves Introduction of Daily Itarsi-Madan Mahal Passenger Service i...",
+      "Where Every Purchase Finds a GeM",
+      "Where Every Purchase Finds a GeM"
+    ],
+    "sample_removed": [
+      "PRESS NOTE",
+      "Prime Minister condoles loss of lives in a mishap in Chamba, Himachal Pradesh",
+      "Oil Marketing Companies (OMCs) test for Moisture & Chloride presence in E20 Petrol: C...",
+      "DigiLocker Partners with AAERI to Fast-Track Document Verification for Indian Student...",
+      "Coordinators' Conclave-cum-Meeting of the Monitoring Committee for the First Year of ...",
+      "Roads Reimagined: The Rise of India\u2019s Electric Vehicles Ecosystem"
+    ],
+    "diff": "@@ -129,2 +129,7 @@\n The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026 passed by Parliament\n+Union Minister Dr Jitendra Singh dedicates to the nation first-of-its-kind 'Eco-Educa...\n+Prime Minister, Shri Narendra Modi Addresses the 57th Convocation Ceremony of IIT Del...\n+Indian Railways Approves Merger of Chitrakutdham Karwi-Kanpur Central and Pratapgarh-...\n+Indian Railways Approves Introduction of Daily Itarsi-Madan Mahal Passenger Service i...\n+Where Every Purchase Finds a GeM\n APEDA Facilitates First-Ever Export of GI-tagged Mithila Makhana by Sea Route from Bi...\n@@ -138,8 +143,4 @@\n Prime Minister shares an article on India\u2019s growing self-reliant med-tech ecosystem\n-PRESS NOTE\n-Prime Minister condoles loss of lives in a mishap in Chamba, Himachal Pradesh\n-Oil Marketing Companies (OMCs) test for Moisture & Chloride presence in E20 Petrol: C...\n-DigiLocker Partners with AAERI to Fast-Track Document Verification for Indian Student...\n-Coordinators' Conclave-cum-Meeting of the Monitoring Committee for the First Year of ...\n Latest Explainers\n+Where Every Purchase Finds a GeM\n The Digital Transformation of the Indian Judiciary\n@@ -148,3 +149,2 @@\n National Handloom Day 2026\n-Roads Reimagined: The Rise of India\u2019s Electric Vehicles Ecosystem\n Media Corner"
+  },
+  {
+    "ts": "2026-08-08T11:36:19+00:00",
+    "slug": "pib-rss-releases",
+    "name": "PIB \u2014 releases RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "type": "error",
+    "detail": "Error: APIRequestContext.get: write EPROTO 401DAB574E7F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n\nCall log:\n  - \u2192 GET https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3\n    - user-agent: M"
+  }
+]

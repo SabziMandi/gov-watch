@@ -1,21 +1,20 @@
 [
   {
-    "ts": "2026-08-08T07:06:13+00:00",
+    "ts": "2026-08-08T07:55:17+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 2,
-    "removed": 2,
-    "sample_added": [
-      "Prime Minister condoles loss of lives in a mishap in Chamba, Himachal Pradesh",
-      "Oil Marketing Companies (OMCs) test for Moisture & Chloride presence in E20 Petrol: C..."
-    ],
+    "added": 0,
+    "removed": 4,
+    "sample_added": [],
     "sample_removed": [
-      "Turning Aspirations into Achievement: How the Top Class Education Scheme Empowered Ak...",
-      "Breaking Financial Barriers: How the PM-YASASVI Scheme Helped Divya Darade Fulfil Her..."
+      "PRESS RELEASE ON THE 259th, 260th and 261st REPORTS OF DEPARTMENT-RELATED PARLIAMENT...",
+      "Union Minister of Home Affairs and Cooperation Shri Amit Shah to inaugurate NUCFDC's ...",
+      "PRESS RELEASE ON THE 166th REPORT OF DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMI...",
+      "PRESS RELEASE ON THE 165th REPORT OF DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMI..."
     ],
-    "diff": "@@ -129,2 +129,4 @@\n Invitation of nominations for National Gopal Ratna Award -2026\n+Prime Minister condoles loss of lives in a mishap in Chamba, Himachal Pradesh\n+Oil Marketing Companies (OMCs) test for Moisture & Chloride presence in E20 Petrol: C...\n DigiLocker Partners with AAERI to Fast-Track Document Verification for Indian Student...\n@@ -141,4 +143,2 @@\n PRESS RELEASE ON THE 165th REPORT OF DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMI...\n-Turning Aspirations into Achievement: How the Top Class Education Scheme Empowered Ak...\n-Breaking Financial Barriers: How the PM-YASASVI Scheme Helped Divya Darade Fulfil Her...\n Latest Explainers"
+    "diff": "@@ -139,6 +139,2 @@\n Invitation of nominations for National Gopal Ratna Award -2026\n-PRESS RELEASE ON THE 259th, 260th and 261st REPORTS OF DEPARTMENT-RELATED PARLIAMENT...\n-Union Minister of Home Affairs and Cooperation Shri Amit Shah to inaugurate NUCFDC's ...\n-PRESS RELEASE ON THE 166th REPORT OF DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMI...\n-PRESS RELEASE ON THE 165th REPORT OF DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMI...\n Latest Explainers"
   }
 ]

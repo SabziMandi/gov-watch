@@ -3886,13 +3886,13 @@
    "strength",
    "yen"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "reuters.com",
    "ft.com"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-06T11:50:11+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00"
   }
@@ -4498,7 +4498,7 @@
    "strait",
    "would"
   ],
-  "size": 42,
+  "size": 43,
   "domains": [
    "apnews.com",
    "singletonargus.com.au",
@@ -4543,7 +4543,7 @@
    "bordermail.com.au"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-08T19:14:01+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00",
    "english": "2026-08-06T05:00:50+00:00"
@@ -12365,7 +12365,7 @@
    "reaches",
    "rijiju"
   ],
-  "size": 9,
+  "size": 10,
   "domains": [
    "timesofindia.indiatimes.com",
    "indiatoday.in",
@@ -12374,7 +12374,7 @@
    "livemint.com"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-08T13:30:15+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00",
    "hi": "2026-08-07T07:55:35+00:00"
@@ -63438,7 +63438,7 @@
    "upi",
    "use"
   ],
-  "size": 10,
+  "size": 11,
   "domains": [
    "thehindu.com",
    "thenewsminute.com",
@@ -63449,7 +63449,7 @@
    "ptinews.com"
   ],
   "first_seen": "2026-08-06T08:11:25+00:00",
-  "last_seen": "2026-08-08T21:00:03+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-06T08:11:25+00:00"
   }
@@ -144992,7 +144992,7 @@
    "signed",
    "turkey"
   ],
-  "size": 13,
+  "size": 14,
   "domains": [
    "apnews.com",
    "thewire.in",
@@ -145003,7 +145003,7 @@
    "reuters.com"
   ],
   "first_seen": "2026-08-07T13:50:34+00:00",
-  "last_seen": "2026-08-08T21:00:03+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-07T13:50:34+00:00",
    "english": "2026-08-08T16:00:05+00:00"
@@ -212061,13 +212061,14 @@
    "sharks",
    "turn"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "adaderana.lk",
-   "dailymirror.lk"
+   "dailymirror.lk",
+   "reuters.com"
   ],
   "first_seen": "2026-08-08T10:06:02+00:00",
-  "last_seen": "2026-08-08T13:30:15+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-08T10:06:02+00:00"
   }
@@ -214313,13 +214314,13 @@
    "personal",
    "trumps"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "aljazeera.com",
    "apnews.com"
   ],
   "first_seen": "2026-08-08T11:01:42+00:00",
-  "last_seen": "2026-08-08T15:56:49+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-08T11:01:42+00:00"
   }
@@ -239596,12 +239597,13 @@
    "tejpals",
    "wanted"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "deccanherald.com"
+   "deccanherald.com",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-08T19:14:01+00:00",
-  "last_seen": "2026-08-08T19:14:01+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-08T19:14:01+00:00"
   }
@@ -244376,12 +244378,12 @@
    "stock",
    "telps"
   ],
-  "size": 1,
+  "size": 5,
   "domains": [
    "reuters.com"
   ],
   "first_seen": "2026-08-08T21:00:03+00:00",
-  "last_seen": "2026-08-08T21:00:03+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
   "first_by_lang": {
    "en": "2026-08-08T21:00:03+00:00"
   }
@@ -244654,6 +244656,391 @@
   "last_seen": "2026-08-08T21:00:03+00:00",
   "first_by_lang": {
    "hindi": "2026-08-08T21:00:03+00:00"
+  }
+ },
+ {
+  "id": "6e9afc5bf220",
+  "headline": "J-K's Manasbal lake critically polluted; drinking water source fouled by faecal matter: CPCB - Press Trust of India",
+  "tokens": [
+   "cpcb",
+   "critically",
+   "drinking",
+   "faecal",
+   "fouled",
+   "jks",
+   "lake",
+   "manasbal",
+   "matter",
+   "polluted",
+   "source",
+   "water"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "a1a82a03797e",
+  "headline": "Bihar man killed over pending wages; Tejashwi claims BJP-led govt 'protecting criminals - Press Trust of India",
+  "tokens": [
+   "bihar",
+   "bjpled",
+   "claims",
+   "criminals",
+   "govt",
+   "killed",
+   "man",
+   "pending",
+   "protecting",
+   "tejashwi",
+   "wages"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "9d5b6e2395c3",
+  "headline": "Pillar of environmental enforcement targeted by Trump and Musk's AI company - Press Trust of India",
+  "tokens": [
+   "company",
+   "enforcement",
+   "environmental",
+   "musks",
+   "pillar",
+   "targeted",
+   "trump"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "00cd69b4e238",
+  "headline": "MCA installs commemorative board for Dilip Sardesai gate - Press Trust of India",
+  "tokens": [
+   "board",
+   "commemorative",
+   "dilip",
+   "gate",
+   "installs",
+   "mca",
+   "sardesai"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "77f4607d41d9",
+  "headline": "DRI seizes smuggled gold of over Rs 3 crore at Nagpur station, arrests passenger - Press Trust of India",
+  "tokens": [
+   "arrests",
+   "crore",
+   "dri",
+   "gold",
+   "nagpur",
+   "passenger",
+   "seizes",
+   "smuggled",
+   "station"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "41b0e2e50bed",
+  "headline": "Inherited power distances administration from problems being faced by masses: Sudesh Mahato - Press Trust of India",
+  "tokens": [
+   "administration",
+   "being",
+   "distances",
+   "faced",
+   "inherited",
+   "mahato",
+   "masses",
+   "power",
+   "problems",
+   "sudesh"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "563054e541d0",
+  "headline": "Microsoft Corporation - Reuters",
+  "tokens": [
+   "corporation",
+   "microsoft"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "d02595878a29",
+  "headline": "Springboks edge Argentina as Siya Kolisi limps off with a recurring hamstring injury - AP News",
+  "tokens": [
+   "argentina",
+   "edge",
+   "hamstring",
+   "injury",
+   "kolisi",
+   "limps",
+   "off",
+   "recurring",
+   "siya",
+   "springboks"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "302b73a78b4a",
+  "headline": "Ryan Blaney wins pole for Sunday’s NASCAR Cup Series race at Iowa Speedway - AP News",
+  "tokens": [
+   "blaney",
+   "cup",
+   "iowa",
+   "nascar",
+   "pole",
+   "race",
+   "ryan",
+   "series",
+   "speedway",
+   "sundays",
+   "wins"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "926cf322234d",
+  "headline": "Brighton sends Argentine midfielder Facundo Buonanotte on loan to Spanish club Elche - AP News",
+  "tokens": [
+   "argentine",
+   "brighton",
+   "buonanotte",
+   "club",
+   "elche",
+   "facundo",
+   "loan",
+   "midfielder",
+   "sends",
+   "spanish"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "1379b7c29379",
+  "headline": "Government spending on education below Unesco's 15% standard",
+  "tokens": [
+   "below",
+   "education",
+   "government",
+   "spending",
+   "standard",
+   "unescos"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "602474f130ec",
+  "headline": "6 years after NDA exit, Punjab's SAD backs delimitation push",
+  "tokens": [
+   "backs",
+   "delimitation",
+   "exit",
+   "nda",
+   "punjabs",
+   "push",
+   "sad",
+   "years"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "bd04d2d8af62",
+  "headline": "Residents of Samangan's Khulm District Face Water Shortage - TOLOnews",
+  "tokens": [
+   "district",
+   "face",
+   "khulm",
+   "residents",
+   "samangans",
+   "shortage",
+   "water"
+  ],
+  "size": 1,
+  "domains": [
+   "tolonews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "81c842f47af1",
+  "headline": "Jahan Nama - TOLOnews",
+  "tokens": [
+   "jahan",
+   "nama"
+  ],
+  "size": 1,
+  "domains": [
+   "tolonews.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "f91c8ea52221",
+  "headline": "Will Pakistan-Saudi-Turkiye defence pact change US strategy?",
+  "tokens": [
+   "pakistansaudi"
+  ],
+  "size": 1,
+  "domains": [
+   "aljazeera.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "89d21a9eeda6",
+  "headline": "Adani , BJP and RSS keeping the  system  under their control : Rahul Gandhi in Prayagraj",
+  "tokens": [
+   "adani",
+   "bjp",
+   "control",
+   "gandhi",
+   "keeping",
+   "prayagraj",
+   "rahul",
+   "rss",
+   "system",
+   "under"
+  ],
+  "size": 1,
+  "domains": [
+   "ummid.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "english": "2026-08-08T21:56:43+00:00"
+  }
+ },
+ {
+  "id": "c01992eb568a",
+  "headline": "BJP's Narayanan Thirupathy on NEET protests as opposition conspiracy - The News Mill",
+  "tokens": [
+   "bjps",
+   "conspiracy",
+   "narayanan",
+   "neet",
+   "opposition",
+   "protests",
+   "thirupathy"
+  ],
+  "size": 1,
+  "domains": [
+   "thenewsmill.com"
+  ],
+  "first_seen": "2026-08-08T21:56:43+00:00",
+  "last_seen": "2026-08-08T21:56:43+00:00",
+  "first_by_lang": {
+   "en": "2026-08-08T21:56:43+00:00"
   }
  }
 ]

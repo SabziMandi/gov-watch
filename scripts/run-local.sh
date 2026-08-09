@@ -24,8 +24,31 @@ if [ ! -d .venv ]; then
 fi
 source .venv/bin/activate
 
+# --- Guard: never start on top of a rebase an earlier run walked away from. --
+# An unattended rebase that stops for a conflict leaves the repo on no branch,
+# and the next 'brief' dies with "You are not currently on a branch".
+if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+  echo "stale rebase found from an earlier run -- aborting it"
+  git rebase --abort || true
+fi
+if ! git symbolic-ref -q HEAD >/dev/null; then
+  echo "HEAD detached -- returning to main"
+  git checkout main
+fi
+
+# Conflicts here are always in generated files (data/, docs/), so drop our copy
+# and take what Actions published. The next check regenerates all of it.
+pull_or_skip() {
+  if git pull --rebase --autostash; then return 0; fi
+  while [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; do
+    echo "conflict in generated files -- skipping our copy"
+    git rebase --skip || { git rebase --abort || true; return 1; }
+  done
+  return 0
+}
+
 # Take whatever Actions has committed since the last local run.
-git pull --rebase --autostash || { echo "pull failed, skipping this run"; exit 1; }
+pull_or_skip || { echo "pull failed, skipping this run"; git rebase --abort 2>/dev/null || true; exit 1; }
 
 python scripts/check.py --tier local
 python scripts/build_site.py
@@ -45,7 +68,8 @@ for attempt in 1 2 3; do
     echo "once to store a personal access token in the keychain."
   fi
   echo "push rejected, rebasing (attempt $attempt)"
-  git pull --rebase --autostash
+  pull_or_skip || break
 done
+if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then git rebase --abort || true; fi
 echo "could not push after 3 attempts"
 exit 1

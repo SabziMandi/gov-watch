@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ts": "2026-08-09T04:24:32+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 0,
+    "removed": 2,
+    "sample_added": [],
+    "sample_removed": [
+      "CSIR-CRRI Showcases Indigenous MSS+ Road Technology to Govt. of Rajasthan",
+      "CSIR-NIScPR Conducted Two-day Skill Training Program on \u201cPopular Science Writing\u201d and..."
+    ],
+    "diff": "@@ -139,4 +139,2 @@\n E-Samudra launched as India Accelerates Digital Transformation of Maritime Governance\n-CSIR-CRRI Showcases Indigenous MSS+ Road Technology to Govt. of Rajasthan\n-CSIR-NIScPR Conducted Two-day Skill Training Program on \u201cPopular Science Writing\u201d and...\n Latest Explainers"
+  }
+]

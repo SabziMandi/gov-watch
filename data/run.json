@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ts": "2026-08-10T20:54:10+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 0,
+    "removed": 1,
+    "sample_added": [],
+    "sample_removed": [
+      "2,824 Children Identified, Rescued and Rehabilitated under SMILE Scheme"
+    ],
+    "diff": "@@ -140,3 +140,2 @@\n PM-YASASVI Scheme Implementation in Maharashtra Reviewed Regularly; Corrective Measur...\n-2,824 Children Identified, Rescued and Rehabilitated under SMILE Scheme\n Latest Explainers"
+  }
+]

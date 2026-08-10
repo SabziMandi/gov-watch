@@ -1,1 +1,266 @@
-[]
+[
+  {
+    "ts": "2026-08-10T04:30:35+00:00",
+    "slug": "mca",
+    "name": "Corporate Affairs",
+    "url": "https://www.mca.gov.in/content/mca/global/en/home.html",
+    "notes": "Company law amendments and enforcement circulars.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "10 August, 2026"
+    ],
+    "sample_removed": [
+      "7 August, 2026"
+    ],
+    "diff": "@@ -682,3 +682,3 @@\n Disclaimer\n-7 August, 2026\n+10 August, 2026\n Follow us:"
+  },
+  {
+    "ts": "2026-08-10T04:30:56+00:00",
+    "slug": "earth-sciences",
+    "name": "Earth Sciences",
+    "url": "https://www.moes.gov.in/",
+    "type": "error",
+    "detail": "only 0 chars extracted (floor 400)"
+  },
+  {
+    "ts": "2026-08-10T04:31:03+00:00",
+    "slug": "meity",
+    "name": "Electronics and IT",
+    "url": "https://www.meity.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 1,
+    "removed": 2,
+    "sample_added": [
+      "This Website belong to Ministry of Electronics and Information Technology, Government of India"
+    ],
+    "sample_removed": [
+      "\u092f\u0939 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938 \u0914\u0930 \u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f, \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0915\u0940 \u0939\u0948",
+      "\u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u0915\u093e \u0905\u0928\u0941\u0935\u093e\u0926 \u092d\u093e\u0937\u093f\u0923\u0940 \u0915\u0947 \u090f. \u0906\u0908.-\u0938\u0902\u091a\u093e\u0932\u093f\u0924 \u092e\u0949\u0921\u0932 \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0915\u0947 \u0915\u093f\u092f\u093e \u0917\u092f\u093e \u0939\u0948\u0964 \u0938\u094d\u0930\u094b\u0924 \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940 \u092e\u0947\u0902 \u0939\u0948\u0964 \u0905\u0928\u0941\u0935\u093e\u0926 \u0938\u0947 \u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0915\u093f\u0938\u0940 \u092d\u0940 \u092a\u094d\u0930\u0936\u094d\u0928 \u0915\u0947 \u0932\u093f\u090f, \u0915\u0943\u092a\u092f\u093e ceo-dibd@digitalindia.gov.in \u0938\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u0930\u0947\u0902\u0964"
+    ],
+    "diff": "@@ -173,3 +173,3 @@\n \u092b\u0940\u0921\u092c\u0948\u0915\n-\u092f\u0939 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928\u093f\u0915\u094d\u0938 \u0914\u0930 \u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f, \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0915\u0940 \u0939\u0948\n+This Website belong to Ministry of Electronics and Information Technology, Government of India\n \u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0926\u0938\u094d\u092f\u0924\u093e \u0932\u0947\u0902\n@@ -179,2 +179 @@\n \u091c\u092e\u093e \u0915\u0930\u0947\u0902\n-\u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u0915\u093e \u0905\u0928\u0941\u0935\u093e\u0926 \u092d\u093e\u0937\u093f\u0923\u0940 \u0915\u0947 \u090f. \u0906\u0908.-\u0938\u0902\u091a\u093e\u0932\u093f\u0924 \u092e\u0949\u0921\u0932 \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0915\u0947 \u0915\u093f\u092f\u093e \u0917\u092f\u093e \u0939\u0948\u0964 \u0938\u094d\u0930\u094b\u0924 \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940 \u092e\u0947\u0902 \u0939\u0948\u0964 \u0905\u0928\u0941\u0935\u093e\u0926 \u0938\u0947 \u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0915\u093f\u0938\u0940 \u092d\u0940 \u092a\u094d\u0930\u0936\u094d\u0928 \u0915\u0947 \u0932\u093f\u090f, \u0915\u0943\u092a\u092f\u093e ceo-dibd@digitalindia.gov.in \u0938\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u0930\u0947\u0902\u0964"
+  },
+  {
+    "ts": "2026-08-10T04:31:11+00:00",
+    "slug": "labour",
+    "name": "Labour and Employment",
+    "url": "https://www.labour.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 2,
+    "removed": 2,
+    "sample_added": [
+      "Statistics about Schemes / Programs",
+      "Useful Links"
+    ],
+    "sample_removed": [
+      "\u092f\u094b\u091c\u0928\u093e\u0913\u0902/\u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e\u094b\u0902 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0906\u0902\u0915\u0921\u093c\u0947",
+      "\u0909\u092a\u092f\u094b\u0917\u0940 \u0932\u093f\u0902\u0915"
+    ],
+    "diff": "@@ -204,3 +204,3 @@\n arrow_forward_ios\n-\u092f\u094b\u091c\u0928\u093e\u0913\u0902/\u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e\u094b\u0902 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0906\u0902\u0915\u0921\u093c\u0947\n+Statistics about Schemes / Programs\n arrow_forward_ios\n@@ -228,3 +228,3 @@\n chevron_right\n-\u0909\u092a\u092f\u094b\u0917\u0940 \u0932\u093f\u0902\u0915\n+Useful Links\n chevron_right"
+  },
+  {
+    "ts": "2026-08-10T04:31:19+00:00",
+    "slug": "msme",
+    "name": "MSME",
+    "url": "https://www.msme.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 17,
+    "removed": 15,
+    "sample_added": [
+      "\u090f\u092e\u090f\u0938\u090f\u092e\u0908 \u0915\u094b\u0932\u0948\u092c",
+      "\u090f\u092e\u090f\u0938\u090f\u092e\u0908 \u091a\u0948\u0902\u092a\u093f\u092f\u0902\u0938 \u092a\u094b\u0930\u094d\u091f\u0932",
+      "\u0909\u0926\u094d\u092f\u092e \u092a\u0902\u091c\u0940\u0915\u0930\u0923 (\u090f\u092e\u090f\u0938\u090f\u092e\u0908 \u0915\u0947 \u0932\u093f\u090f \u0911\u0928\u0932\u093e\u0907\u0928 \u092a\u0902\u091c\u0940\u0915\u0930\u0923)",
+      "\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092c\u094b\u0930\u094d\u0921",
+      "\u092a\u0940\u090f\u092e\u0908\u091c\u0940\u092a\u0940 \u0908-\u092a\u094b\u0930\u094d\u091f\u0932",
+      "\u0909\u092a\u092f\u094b\u0917\u0940 \u0932\u093f\u0902\u0915",
+      "\u0905\u092d\u093f\u0932\u0947\u0916\u093e\u0917\u093e\u0930",
+      "\u0938\u093e\u0907\u091f\u092e\u0948\u092a",
+      "\u092e\u0926\u0926 \u0915\u0930\u0947\u0902",
+      "\u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0928\u0940\u0924\u093f\u092f\u093e\u0901",
+      "\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0932\u093f\u0902\u0915",
+      "\u0939\u092e\u0938\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u0930\u0947\u0902",
+      "\u092f\u0939 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0938\u0942\u0915\u094d\u0937\u094d\u092e, \u0932\u0918\u0941 \u0914\u0930 \u092e\u0927\u094d\u092f\u092e \u0909\u0926\u094d\u092f\u092e \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f, \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0915\u0940 \u0939\u0948",
+      "\u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0926\u0938\u094d\u092f\u0924\u093e \u0932\u0947\u0902",
+      "\u0905\u0902\u0924\u093f\u092e \u092c\u093e\u0930 \u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u093f\u092f\u093e \u0917\u092f\u093e\u0903 05.08.2026",
+      "\u0907\u0938 \u0905\u0928\u0941\u0935\u093e\u0926 \u0915\u093e \u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 \u0915\u0930\u0947\u0902",
+      "\u091c\u092e\u093e \u0915\u0930\u0947\u0902"
+    ],
+    "sample_removed": [
+      "MSME Collab",
+      "MSME Champions Portal",
+      "Udyam Registration (Online Registration for MSME)",
+      "Performance Smartboard",
+      "PMEGP e-Portal",
+      "Useful Links",
+      "Archives",
+      "Sitemap",
+      "Help",
+      "Website Policies",
+      "Related Links",
+      "This Website belong to Ministry of Micro, Small and Medium Enterprises, Government of India",
+      "Subscribe for Updates",
+      "Rate this translation",
+      "Submit"
+    ],
+    "diff": "@@ -216,11 +216,11 @@\n arrow_forward_ios\n-MSME Collab\n-arrow_forward_ios\n-MSME Champions Portal\n-arrow_forward_ios\n-Udyam Registration (Online Registration for MSME)\n-arrow_forward_ios\n-Performance Smartboard\n-arrow_forward_ios\n-PMEGP e-Portal\n+\u090f\u092e\u090f\u0938\u090f\u092e\u0908 \u0915\u094b\u0932\u0948\u092c\n+arrow_forward_ios\n+\u090f\u092e\u090f\u0938\u090f\u092e\u0908 \u091a\u0948\u0902\u092a\u093f\u092f\u0902\u0938 \u092a\u094b\u0930\u094d\u091f\u0932\n+arrow_forward_ios\n+\u0909\u0926\u094d\u092f\u092e \u092a\u0902\u091c\u0940\u0915\u0930\u0923 (\u090f\u092e\u090f\u0938\u090f\u092e\u0908 \u0915\u0947 \u0932\u093f\u090f \u0911\u0928\u0932\u093e\u0907\u0928 \u092a\u0902\u091c\u0940\u0915\u0930\u0923)\n+arrow_forward_ios\n+\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928 \u0938\u094d\u092e\u093e\u0930\u094d\u091f\u092c\u094b\u0930\u094d\u0921\n+arrow_forward_ios\n+\u092a\u0940\u090f\u092e\u0908\u091c\u0940\u092a\u0940 \u0908-\u092a\u094b\u0930\u094d\u091f\u0932\n arrow_forward_ios\n@@ -230,19 +230,20 @@\n chevron_right\n-Useful Links\n-chevron_right\n-Archives\n-chevron_right\n-Sitemap\n-chevron_right\n-Help\n-chevron_right\n-Website Policies\n-chevron_right\n-Related Links\n-chevron_right\n-Contact Us\n-This Website belong to Ministry of Micro, Small and Medium Enterprises, Government of India\n-Subscribe for Updates\n-Rate this translation\n+\u0909\u092a\u092f\u094b\u0917\u0940 \u0932\u093f\u0902\u0915\n+chevron_right\n+\u0905\u092d\u093f\u0932\u0947\u0916\u093e\u0917\u093e\u0930\n+chevron_right\n+\u0938\u093e\u0907\u091f\u092e\u0948\u092a\n+chevron_right\n+\u092e\u0926\u0926 \u0915\u0930\u0947\u0902\n+chevron_right\n+\u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0928\u0940\u0924\u093f\u092f\u093e\u0901\n+chevron_right\n+\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0932\u093f\u0902\u0915\n+chevron_right\n+\u0939\u092e\u0938\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u0930\u0947\u0902\n+\u092f\u0939 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0938\u0942\u0915\u094d\u0937\u094d\u092e, \u0932\u0918\u0941 \u0914\u0930 \u092e\u0927\u094d\u092f\u092e \u0909\u0926\u094d\u092f\u092e \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f, \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0915\u0940 \u0939\u0948\n+\u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0926\u0938\u094d\u092f\u0924\u093e \u0932\u0947\u0902\n+\u0905\u0902\u0924\u093f\u092e \u092c\u093e\u0930 \u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u093f\u092f\u093e \u0917\u092f\u093e\u0903 05.08.2026\n+\u0907\u0938 \u0905\u0928\u0941\u0935\u093e\u0926 \u0915\u093e \u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 \u0915\u0930\u0947\u0902\n Do you like to give feedback\n-Submit\n+\u091c\u092e\u093e \u0915\u0930\u0947\u0902"
+  },
+  {
+    "ts": "2026-08-10T04:31:44+00:00",
+    "slug": "railways",
+    "name": "Indian Railways",
+    "url": "https://www.indianrailways.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "\u0938\u094b\u092e, \u0905\u0917\u0938\u094d\u0924 10, 2026, 10: \u0938\u0941\u092c\u0939 1 \u092c\u091c\u0947"
+    ],
+    "sample_removed": [
+      "\u0938\u0942\u0930\u094d\u092f, \u0905\u0917\u0938\u094d\u0924 9, 2026, 7: \u0926\u094b\u092a\u0939\u0930 1 \u092c\u091c\u0947"
+    ],
+    "diff": "@@ -51,3 +51,3 @@\n Powered by\n-\u0938\u0942\u0930\u094d\u092f, \u0905\u0917\u0938\u094d\u0924 9, 2026, 7: \u0926\u094b\u092a\u0939\u0930 1 \u092c\u091c\u0947\n+\u0938\u094b\u092e, \u0905\u0917\u0938\u094d\u0924 10, 2026, 10: \u0938\u0941\u092c\u0939 1 \u092c\u091c\u0947\n \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930"
+  },
+  {
+    "ts": "2026-08-10T04:31:52+00:00",
+    "slug": "msde",
+    "name": "Skill Development and Entrepreneurship",
+    "url": "https://www.msde.gov.in/",
+    "type": "error",
+    "detail": "only 204 chars extracted (floor 400)"
+  },
+  {
+    "ts": "2026-08-10T04:31:59+00:00",
+    "slug": "tourism",
+    "name": "Tourism",
+    "url": "https://www.tourism.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 18,
+    "removed": 18,
+    "sample_added": [
+      "Recent Documents",
+      "Ministry of Tourism and Netflix Partner to Showcase India's Tourism Experiences Through the Power of Storytelling",
+      "Ministry of Tourism Signs MoU with IndiGo to Promote India as a Global Tourism Destination",
+      "For Tourism Stakeholders",
+      "\u0938\u094d\u0935\u0926\u0947\u0936 \u0926\u0930\u094d\u0936\u0928",
+      "\u0935\u093f\u0926\u0947\u0936 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0926\u094d\u0935\u093e\u0930\u093e \u092f\u093e\u0924\u094d\u0930\u093e \u092a\u0930\u093e\u092e\u0930\u094d\u0936",
+      "\u0907\u0938 \u092a\u094b\u0938\u094d\u091f \u0915\u094b \u0907\u0902\u0938\u094d\u091f\u093e\u0917\u094d\u0930\u093e\u092e \u092a\u0930 \u0926\u0947\u0916\u0947\u0902",
+      "\u0909\u092a\u092f\u094b\u0917\u0940 \u0932\u093f\u0902\u0915",
+      "\u0905\u092d\u093f\u0932\u0947\u0916\u093e\u0917\u093e\u0930",
+      "\u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0928\u0940\u0924\u093f\u092f\u093e\u0901",
+      "\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0932\u093f\u0902\u0915",
+      "\u0938\u093e\u0907\u091f\u092e\u0948\u092a",
+      "\u092e\u0926\u0926 \u0915\u0930\u0947\u0902",
+      "\u0939\u092e\u0938\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u0930\u0947\u0902",
+      "\u092f\u0939 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0915\u0947 \u092a\u0930\u094d\u092f\u091f\u0928 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0915\u0940 \u0939\u0948",
+      "\u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0926\u0938\u094d\u092f\u0924\u093e \u0932\u0947\u0902",
+      "\u0907\u0938 \u0905\u0928\u0941\u0935\u093e\u0926 \u0915\u093e \u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 \u0915\u0930\u0947\u0902",
+      "\u091c\u092e\u093e \u0915\u0930\u0947\u0902"
+    ],
+    "sample_removed": [
+      "\u0939\u093e\u0932 \u0915\u0947 \u0926\u0938\u094d\u0924\u093e\u0935\u0947\u091c\u093c",
+      "\u092a\u094d\u0930\u0947\u0938 \u0935\u093f\u091c\u094d\u091e\u092a\u094d\u0924\u093f",
+      "\u092a\u094d\u0930\u0947\u0938 \u0935\u093f\u091c\u094d\u091e\u092a\u094d\u0924\u093f",
+      "\u092a\u094d\u0930\u0947\u0938 \u0935\u093f\u091c\u094d\u091e\u092a\u094d\u0924\u093f",
+      "\u0906\u0926\u0947\u0936 \u0914\u0930 \u0938\u0942\u091a\u0928\u093e\u090f\u0901",
+      "\u092a\u0930\u094d\u092f\u091f\u0928 \u0939\u093f\u0924\u0927\u093e\u0930\u0915\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f",
+      "Swadesh Darshan",
+      "Travel Advisory by Ministry of External Affairs",
+      "Useful Links",
+      "Archives",
+      "Website Policies",
+      "Related Links",
+      "Sitemap",
+      "Help",
+      "This Website belong to Ministry of Tourism, Government of India",
+      "Subscribe for Updates",
+      "Rate this translation",
+      "Submit"
+    ],
+    "diff": "@@ -178,10 +178,10 @@\n chevron_right\n-\u0939\u093e\u0932 \u0915\u0947 \u0926\u0938\u094d\u0924\u093e\u0935\u0947\u091c\u093c\n-\u092a\u094d\u0930\u0947\u0938 \u0935\u093f\u091c\u094d\u091e\u092a\u094d\u0924\u093f\n-\u092a\u0930\u094d\u092f\u091f\u0928 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0914\u0930 \u0928\u0947\u091f\u092b\u094d\u0932\u093f\u0915\u094d\u0938 \u092a\u093e\u0930\u094d\u091f\u0928\u0930 \u0915\u0939\u093e\u0928\u0940 \u0915\u0939\u0928\u0947 \u0915\u0940 \u0936\u0915\u094d\u0924\u093f \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u092d\u093e\u0930\u0924 \u0915\u0947 \u092a\u0930\u094d\u092f\u091f\u0928 \u0905\u0928\u0941\u092d\u0935\u094b\u0902 \u0915\u094b \u092a\u094d\u0930\u0926\u0930\u094d\u0936\u093f\u0924 \u0915\u0930\u0947\u0902\u0917\u0947\n-\u092a\u094d\u0930\u0947\u0938 \u0935\u093f\u091c\u094d\u091e\u092a\u094d\u0924\u093f\n-\u092a\u0930\u094d\u092f\u091f\u0928 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0928\u0947 \u092d\u093e\u0930\u0924 \u0915\u094b \u0935\u0948\u0936\u094d\u0935\u093f\u0915 \u092a\u0930\u094d\u092f\u091f\u0928 \u0917\u0902\u0924\u0935\u094d\u092f \u0915\u0947 \u0930\u0942\u092a \u092e\u0947\u0902 \u092c\u0922\u093c\u093e\u0935\u093e \u0926\u0947\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0907\u0902\u0921\u093f\u0917\u094b \u0915\u0947 \u0938\u093e\u0925 \u0938\u092e\u091d\u094c\u0924\u093e \u091c\u094d\u091e\u093e\u092a\u0928 \u092a\u0930 \u0939\u0938\u094d\u0924\u093e\u0915\u094d\u0937\u0930 \u0915\u093f\u090f\n-\u092a\u094d\u0930\u0947\u0938 \u0935\u093f\u091c\u094d\u091e\u092a\u094d\u0924\u093f\n+Recent Documents\n+Press Release\n+Ministry of Tourism and Netflix Partner to Showcase India's Tourism Experiences Through the Power of Storytelling\n+Press Release\n+Ministry of Tourism Signs MoU with IndiGo to Promote India as a Global Tourism Destination\n+Press Release\n Ministry of Tourism Signs MoU with Air India to Promote India as a Preferred Global Tourism Destination\n-\u0906\u0926\u0947\u0936 \u0914\u0930 \u0938\u0942\u091a\u0928\u093e\u090f\u0901\n+Orders and Notices\n Transfer/Posting/Rotation Guidelines of the Ministry of Tourism\n@@ -192,3 +192,3 @@\n chevron_right\n-\u092a\u0930\u094d\u092f\u091f\u0928 \u0939\u093f\u0924\u0927\u093e\u0930\u0915\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f\n+For Tourism Stakeholders\n For Students\n@@ -203,5 +203,5 @@\n arrow_forward_ios\n-Swadesh Darshan\n-arrow_forward_ios\n-Travel Advisory by Ministry of External Affairs\n+\u0938\u094d\u0935\u0926\u0947\u0936 \u0926\u0930\u094d\u0936\u0928\n+arrow_forward_ios\n+\u0935\u093f\u0926\u0947\u0936 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0926\u094d\u0935\u093e\u0930\u093e \u092f\u093e\u0924\u094d\u0930\u093e \u092a\u0930\u093e\u092e\u0930\u094d\u0936\n arrow_forward_ios\n@@ -214,2 +214,3 @@\n \u0907\u0902\u0938\u094d\u091f\u093e\u0917\u094d\u0930\u093e\u092e\n+\u0907\u0938 \u092a\u094b\u0938\u094d\u091f \u0915\u094b \u0907\u0902\u0938\u094d\u091f\u093e\u0917\u094d\u0930\u093e\u092e \u092a\u0930 \u0926\u0947\u0916\u0947\u0902\n In Social Media\n@@ -226,19 +227,19 @@\n chevron_right\n-Useful Links\n-chevron_right\n-Archives\n-chevron_right\n-Website Policies\n-chevron_right\n-Related Links\n-chevron_right\n-Sitemap\n-chevron_right\n-Help\n-chevron_right\n-Contact Us\n-This Website belong to Ministry of Tourism, Government of India\n-Subscribe for Updates\n-Rate this translation\n+\u0909\u092a\u092f\u094b\u0917\u0940 \u0932\u093f\u0902\u0915\n+chevron_right\n+\u0905\u092d\u093f\u0932\u0947\u0916\u093e\u0917\u093e\u0930\n+chevron_right\n+\u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0928\u0940\u0924\u093f\u092f\u093e\u0901\n+chevron_right\n+\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0932\u093f\u0902\u0915\n+chevron_right\n+\u0938\u093e\u0907\u091f\u092e\u0948\u092a\n+chevron_right\n+\u092e\u0926\u0926 \u0915\u0930\u0947\u0902\n+chevron_right\n+\u0939\u092e\u0938\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u0930\u0947\u0902\n+\u092f\u0939 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0915\u0947 \u092a\u0930\u094d\u092f\u091f\u0928 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0915\u0940 \u0939\u0948\n+\u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0926\u0938\u094d\u092f\u0924\u093e \u0932\u0947\u0902\n+\u0907\u0938 \u0905\u0928\u0941\u0935\u093e\u0926 \u0915\u093e \u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 \u0915\u0930\u0947\u0902\n Do you like to give feedback\n-Submit\n+\u091c\u092e\u093e \u0915\u0930\u0947\u0902"
+  },
+  {
+    "ts": "2026-08-10T04:32:07+00:00",
+    "slug": "textiles",
+    "name": "Textiles",
+    "url": "https://www.texmin.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 16,
+    "removed": 14,
+    "sample_added": [
+      "\u092d\u093e\u0930\u0924 \u092e\u0947\u0902 \u0939\u0938\u094d\u0924\u0928\u093f\u0930\u094d\u092e\u093f\u0924",
+      "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0938\u0941\u0935\u093f\u0927\u093e\u090f\u0901",
+      "\u092d\u094c\u0917\u094b\u0932\u093f\u0915 \u0938\u0902\u0915\u0947\u0924",
+      "\u0909\u092a\u092f\u094b\u0917\u0940 \u0932\u093f\u0902\u0915",
+      "\u0905\u092d\u093f\u0932\u0947\u0916\u093e\u0917\u093e\u0930",
+      "\u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0928\u0940\u0924\u093f\u092f\u093e\u0901",
+      "\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0932\u093f\u0902\u0915",
+      "\u0938\u093e\u0907\u091f\u092e\u0948\u092a",
+      "\u092e\u0926\u0926 \u0915\u0930\u0947\u0902",
+      "\u0939\u092e\u0938\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u0930\u0947\u0902",
+      "\u092b\u0940\u0921\u092c\u0948\u0915",
+      "\u092f\u0939 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0935\u0938\u094d\u0924\u094d\u0930 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f, \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0915\u0940 \u0939\u0948",
+      "\u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0926\u0938\u094d\u092f\u0924\u093e \u0932\u0947\u0902",
+      "\u0905\u0902\u0924\u093f\u092e \u092c\u093e\u0930 \u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u093f\u092f\u093e \u0917\u092f\u093e\u0903 07.08.2026",
+      "\u0907\u0938 \u0905\u0928\u0941\u0935\u093e\u0926 \u0915\u093e \u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 \u0915\u0930\u0947\u0902",
+      "\u091c\u092e\u093e \u0915\u0930\u0947\u0902"
+    ],
+    "sample_removed": [
+      "India Handmade",
+      "Testing Facilities",
+      "Geographical Indications",
+      "Useful Links",
+      "Archives",
+      "Website Policies",
+      "Related Links",
+      "Sitemap",
+      "Help",
+      "Feedback",
+      "This Website belong to Ministry of Textiles, Government of India",
+      "Subscribe for Updates",
+      "Rate this translation",
+      "Submit"
+    ],
+    "diff": "@@ -203,9 +203,9 @@\n arrow_forward_ios\n-India Handmade\n-arrow_forward_ios\n-Testing Facilities\n-arrow_forward_ios\n-Geographical Indications\n-arrow_forward_ios\n-View more\n+\u092d\u093e\u0930\u0924 \u092e\u0947\u0902 \u0939\u0938\u094d\u0924\u0928\u093f\u0930\u094d\u092e\u093f\u0924\n+arrow_forward_ios\n+\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0938\u0941\u0935\u093f\u0927\u093e\u090f\u0901\n+arrow_forward_ios\n+\u092d\u094c\u0917\u094b\u0932\u093f\u0915 \u0938\u0902\u0915\u0947\u0924\n+arrow_forward_ios\n+\u0905\u0927\u093f\u0915 \u0926\u0947\u0916\u0947\u0902\n chevron_right\n@@ -213,21 +213,22 @@\n chevron_right\n-Useful Links\n-chevron_right\n-Archives\n-chevron_right\n-Website Policies\n-chevron_right\n-Related Links\n-chevron_right\n-Sitemap\n-chevron_right\n-Help\n-chevron_right\n-Contact Us\n-chevron_right\n-Feedback\n-This Website belong to Ministry of Textiles, Government of India\n-Subscribe for Updates\n-Rate this translation\n+\u0909\u092a\u092f\u094b\u0917\u0940 \u0932\u093f\u0902\u0915\n+chevron_right\n+\u0905\u092d\u093f\u0932\u0947\u0916\u093e\u0917\u093e\u0930\n+chevron_right\n+\u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0928\u0940\u0924\u093f\u092f\u093e\u0901\n+chevron_right\n+\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0932\u093f\u0902\u0915\n+chevron_right\n+\u0938\u093e\u0907\u091f\u092e\u0948\u092a\n+chevron_right\n+\u092e\u0926\u0926 \u0915\u0930\u0947\u0902\n+chevron_right\n+\u0939\u092e\u0938\u0947 \u0938\u0902\u092a\u0930\u094d\u0915 \u0915\u0930\u0947\u0902\n+chevron_right\n+\u092b\u0940\u0921\u092c\u0948\u0915\n+\u092f\u0939 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0935\u0938\u094d\u0924\u094d\u0930 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f, \u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930 \u0915\u0940 \u0939\u0948\n+\u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u0947 \u0932\u093f\u090f \u0938\u0926\u0938\u094d\u092f\u0924\u093e \u0932\u0947\u0902\n+\u0905\u0902\u0924\u093f\u092e \u092c\u093e\u0930 \u0905\u0926\u094d\u092f\u0924\u0928 \u0915\u093f\u092f\u093e \u0917\u092f\u093e\u0903 07.08.2026\n+\u0907\u0938 \u0905\u0928\u0941\u0935\u093e\u0926 \u0915\u093e \u092e\u0942\u0932\u094d\u092f\u093e\u0902\u0915\u0928 \u0915\u0930\u0947\u0902\n Do you like to give feedback\n-Submit\n+\u091c\u092e\u093e \u0915\u0930\u0947\u0902"
+  },
+  {
+    "ts": "2026-08-10T04:32:27+00:00",
+    "slug": "cbdt",
+    "name": "Income Tax Department (CBDT)",
+    "url": "https://incometaxindia.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 7,
+    "removed": 12,
+    "sample_added": [
+      "Statement in",
+      "Form 1",
+      "(Income-tax Rules, 2026) by the stock exchange for the month of July, 2026, in respect of transactions in which client codes have been modified after registering in the system.",
+      "Statement in",
+      "Form 1",
+      "(Income-tax Rules, 2026) by the stock exchange for the month of July, 2026, in respect of transactions in which client codes have been modified after registering in the system.",
+      "Notification No. 106/2026 [F. No. 300196/65/2018-ITA-I] / SO 4318(E) : Notification section 536 (1) of the Income Tax Act, 2025 (30 of 2025) in the case of Noida Special Economic Zone Authority"
+    ],
+    "sample_removed": [
+      "Issuance of TCS certificate in",
+      "Form No. 133",
+      "(Income-tax Rules, 2026) under section",
+      "395(4)",
+      "of the Income-tax Act, 2025 for tax collected at source for the quarter ending June 30, 2026",
+      "Issuance of TCS certificate in",
+      "Form No. 133",
+      "(Income-tax Rules, 2026) under section",
+      "395(4)",
+      "of the Income-tax Act, 2025 for tax collected at source for the quarter ending June 30, 2026",
+      "Notification No. 109/2026 [F. No. 300196/39/2025-ITA-I] / SO 4321(E) : Notification section 536 (1) of the Income Tax Act, 2025 (30 of 2025) in the case of Odisha Joint Entrance Examination Committee",
+      "Notification No. 108/2026 [F. No. 300196/65/2018-ITA-I] / SO 4320(E) : Notification Schedule III (Table Sl No 36) read with Section 11 of the Income Tax Act, 2025 (30 of 2025) in the case of Noida Special Economic Zone Authority"
+    ],
+    "diff": "@@ -93,7 +93,8 @@\n Independence Day\n-Issuance of TCS certificate in\n-Form No. 133\n-(Income-tax Rules, 2026) under section\n-395(4)\n-of the Income-tax Act, 2025 for tax collected at source for the quarter ending June 30, 2026\n+Due date for furnishing\n+Form No. 137\n+(Income-tax Rules, 2026) by an office of the Government where TDS/TCS for the month of July, 2026 has been paid without the production of a challan\n+Statement in\n+Form 1\n+(Income-tax Rules, 2026) by the stock exchange for the month of July, 2026, in respect of transactions in which client codes have been modified after registering in the system.\n Issuance of TDS certificate in\n@@ -103,5 +104,2 @@\n of the Income-tax Act, 2025 for the quarter ending June 30, 2026\n-Due date for furnishing\n-Form No. 137\n-(Income-tax Rules, 2026) by an office of the Government where TDS/TCS for the month of July, 2026 has been paid without the production of a challan\n Go to Tax Calendar\n@@ -182,7 +180,8 @@\n Independence Day\n-Issuance of TCS certificate in\n-Form No. 133\n-(Income-tax Rules, 2026) under section\n-395(4)\n-of the Income-tax Act, 2025 for tax collected at source for the quarter ending June 30, 2026\n+Due date for furnishing\n+Form No. 137\n+(Income-tax Rules, 2026) by an office of the Government where TDS/TCS for the month of July, 2026 has been paid without the production of a challan\n+Statement in\n+Form 1\n+(Income-tax Rules, 2026) by the stock exchange for the month of July, 2026, in respect of transactions in which client codes have been modified after registering in the system.\n Issuance of TDS certificate in\n@@ -192,5 +191,2 @@\n of the Income-tax Act, 2025 for the quarter ending June 30, 2026\n-Due date for furnishing\n-Form No. 137\n-(Income-tax Rules, 2026) by an office of the Government where TDS/TCS for the month of July, 2026 has been paid without the production of a challan\n Go to Tax Calendar\n@@ -264,6 +260,6 @@\n Notification No. 7/2026: Order under section 45(3)(b) of the Income Tax Act, 2025 read with Rule 35 of the Income Tax Rules, 2026\n+FAQs - The Taxation and Other Laws (Amendment) Bill, 2026\n+Notification No. 107/2026 [F. No. 300196/65/2018-ITA-I] / SO 4319(E) : Notification section 536 (1) of the Income Tax Act, 2025 (30 of 2025) in the case of Noida Special Economic Zone Authority\n+Notification No. 106/2026 [F. No. 300196/65/2018-ITA-I] / SO 4318(E) : Notification section 536 (1) of the Income Tax Act, 2025 (30 of 2025) in the case of Noida Special Economic Zone Authority\n Notification No. 110/2026 [F. No. 300196/39/2025-ITA-I] / SO 4322(E) : Notification Schedule III (Table Sl No 36) read with Section 11 of the Income Tax Act, 2025 (30 of 2025) in the case of Odisha Joint Entrance Examination Committee\n-Notification No. 109/2026 [F. No. 300196/39/2025-ITA-I] / SO 4321(E) : Notification section 536 (1) of the Income Tax Act, 2025 (30 of 2025) in the case of Odisha Joint Entrance Examination Committee\n-Notification No. 108/2026 [F. No. 300196/65/2018-ITA-I] / SO 4320(E) : Notification Schedule III (Table Sl No 36) read with Section 11 of the Income Tax Act, 2025 (30 of 2025) in the case of Noida Special Economic Zone Authority\n-Notification No. 107/2026 [F. No. 300196/65/2018-ITA-I] / SO 4319(E) : Notification section 536 (1) of the Income Tax Act, 2025 (30 of 2025) in the case of Noida Special Economic Zone Authority\n What's New"
+  }
+]

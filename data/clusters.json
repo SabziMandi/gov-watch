@@ -15,16 +15,17 @@
    "travel",
    "treatment"
   ],
-  "size": 6,
+  "size": 7,
   "domains": [
    "ptinews.com",
    "thehindu.com",
    "barandbench.com",
    "hindustantimes.com",
-   "economictimes.indiatimes.com"
+   "economictimes.indiatimes.com",
+   "timesofindia.indiatimes.com"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-10T10:46:31+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00"
   }
@@ -1535,7 +1536,7 @@
    "phuket",
    "turbulence"
   ],
-  "size": 15,
+  "size": 16,
   "domains": [
    "hindustantimes.com",
    "timesofindia.indiatimes.com",
@@ -1548,7 +1549,7 @@
    "amarujala.com"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-10T12:09:31+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00",
    "hi": "2026-08-09T10:07:45+00:00"
@@ -5191,13 +5192,13 @@
    "read",
    "updates"
   ],
-  "size": 159,
+  "size": 160,
   "domains": [
    "livelaw.in",
    "hindi.livelaw.in"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-10T21:20:21+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00"
   }
@@ -7269,16 +7270,17 @@
    "protests",
    "ranchi"
   ],
-  "size": 5,
+  "size": 6,
   "domains": [
    "ndtv.com",
    "india.com",
    "en.youturn.in",
    "theweek.in",
-   "vishvasnews.com"
+   "vishvasnews.com",
+   "lokmattimes.com"
   ],
   "first_seen": "2026-08-06T10:49:47+00:00",
-  "last_seen": "2026-08-10T12:09:31+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-06T10:49:47+00:00"
   }
@@ -7962,32 +7964,6 @@
   ],
   "first_seen": "2026-08-06T13:03:43+00:00",
   "last_seen": "2026-08-09T08:10:41+00:00",
-  "first_by_lang": {
-   "en": "2026-08-06T13:03:43+00:00"
-  }
- },
- {
-  "id": "f4376cf13811",
-  "headline": "Spain's Ceuta seeks transfer of unaccompanied migrant minors to mainland Spain after border rush - Reuters",
-  "tokens": [
-   "border",
-   "ceuta",
-   "mainland",
-   "migrant",
-   "minors",
-   "rush",
-   "seeks",
-   "spain",
-   "spains",
-   "transfer",
-   "unaccompanied"
-  ],
-  "size": 2,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-06T13:03:43+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
   "first_by_lang": {
    "en": "2026-08-06T13:03:43+00:00"
   }
@@ -11227,30 +11203,6 @@
   }
  },
  {
-  "id": "07a3bd007ea5",
-  "headline": "J&K BJP distances itself from slogans, ‘berating Kashmir women’, during rally in Kashmir",
-  "tokens": [
-   "berating",
-   "bjp",
-   "distances",
-   "during",
-   "itself",
-   "kashmir",
-   "rally",
-   "slogans",
-   "women"
-  ],
-  "size": 2,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T04:12:08+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T04:12:08+00:00"
-  }
- },
- {
   "id": "89cf26e86b27",
   "headline": "SC hopeful of settlement in Sunjay Kapur family inheritance row",
   "tokens": [
@@ -13661,34 +13613,6 @@
   }
  },
  {
-  "id": "d508f464f165",
-  "headline": "How a 'Fifa world cup 2026' WhatsApp group exposed NEET leak",
-  "tokens": [
-   "2026",
-   "cup",
-   "exposed",
-   "fifa",
-   "group",
-   "how",
-   "leak",
-   "neet",
-   "whatsapp",
-   "world"
-  ],
-  "size": 4,
-  "domains": [
-   "hindustantimes.com",
-   "theprint.in",
-   "livemint.com",
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-07T10:28:38+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T10:28:38+00:00"
-  }
- },
- {
   "id": "81b3e86230e0",
   "headline": "'Tell what steps are being taken': CJP's Dipke requests PM Modi to address Gen Z youth this Independence Day",
   "tokens": [
@@ -14410,12 +14334,13 @@
    "whats",
    "years"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
-   "ptinews.com"
+   "ptinews.com",
+   "thehindu.com"
   ],
   "first_seen": "2026-08-07T11:23:22+00:00",
-  "last_seen": "2026-08-08T11:55:26+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-07T11:23:22+00:00"
   }
@@ -19876,133 +19801,6 @@
   }
  },
  {
-  "id": "c0cafe4cb00e",
-  "headline": "Head wins second straight Allan Border Medal, joins elite list - ptinews.com",
-  "tokens": [
-   "allan",
-   "border",
-   "elite",
-   "head",
-   "joins",
-   "list",
-   "medal",
-   "second",
-   "straight",
-   "wins"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "1aed8f76ff34",
-  "headline": "South Korea ministers clash publicly over North Korea policy as Lee pushes engagement - Reuters",
-  "tokens": [
-   "clash",
-   "engagement",
-   "korea",
-   "lee",
-   "ministers",
-   "north",
-   "policy",
-   "publicly",
-   "pushes",
-   "south"
-  ],
-  "size": 1,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "fb156f99954e",
-  "headline": "Federal judge orders Virginia county to replace Confederate school names it restored in 2024 - AP News",
-  "tokens": [
-   "2024",
-   "confederate",
-   "county",
-   "federal",
-   "judge",
-   "names",
-   "orders",
-   "replace",
-   "restored",
-   "school",
-   "virginia"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "b49ad4062c84",
-  "headline": "Chiefs coach Andy Reid hints Patrick Mahomes may sit out entire Chiefs preseason after knee surgery - AP News",
-  "tokens": [
-   "andy",
-   "chiefs",
-   "coach",
-   "entire",
-   "hints",
-   "knee",
-   "mahomes",
-   "may",
-   "patrick",
-   "preseason",
-   "reid",
-   "sit",
-   "surgery"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "f5ae838d50b0",
-  "headline": "MaineHealth will close Lincoln Hospital’s labor and delivery unit in December - AP News",
-  "tokens": [
-   "close",
-   "december",
-   "delivery",
-   "hospitals",
-   "labor",
-   "lincoln",
-   "mainehealth",
-   "unit"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
   "id": "0af5469c0b79",
   "headline": "Raiders quarterback Kirk Cousins and Maxx Crosby scuffle late in Friday practice - AP News",
   "tokens": [
@@ -20023,302 +19821,6 @@
   ],
   "first_seen": "2026-08-07T22:07:23+00:00",
   "last_seen": "2026-08-09T06:09:42+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "b6ddaeee09b9",
-  "headline": "Former NBA guard Monta Ellis, a 'proud Mississippi son,' is named Alcorn State's general manager - AP News",
-  "tokens": [
-   "alcorn",
-   "ellis",
-   "former",
-   "general",
-   "guard",
-   "manager",
-   "mississippi",
-   "monta",
-   "named",
-   "nba",
-   "proud",
-   "son",
-   "states"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "5624ae92b658",
-  "headline": "Bengaluru: Revamped ORR to include dedicated bus, cycle lanes; space under flyovers to be repurposed",
-  "tokens": [
-   "bengaluru",
-   "bus",
-   "cycle",
-   "dedicated",
-   "flyovers",
-   "include",
-   "lanes",
-   "orr",
-   "repurposed",
-   "revamped",
-   "space",
-   "under"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "69d9a43a7b85",
-  "headline": "Plus One student allegedly assaulted by seniors in Kerala’s Kannur; six suspended",
-  "tokens": [
-   "allegedly",
-   "assaulted",
-   "kannur",
-   "keralas",
-   "one",
-   "plus",
-   "seniors",
-   "six",
-   "student",
-   "suspended"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "1190356f9cc1",
-  "headline": "GBA to impose penalty of up to ₹1 lakh for Bengaluru plot owners not clearing garbage by August 15",
-  "tokens": [
-   "august",
-   "bengaluru",
-   "clearing",
-   "garbage",
-   "gba",
-   "impose",
-   "lakh",
-   "owners",
-   "penalty",
-   "plot"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "ff7d7e67f394",
-  "headline": "Centre says no timeline for Namma Metro Red Line and approval depends on appraisal, resources",
-  "tokens": [
-   "appraisal",
-   "approval",
-   "centre",
-   "depends",
-   "line",
-   "metro",
-   "namma",
-   "red",
-   "resources",
-   "timeline"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "af83abc57826",
-  "headline": "Uttar Pradesh Jal Nigam ties up with IIM Indore, IIT Kanpur for rural water reforms",
-  "tokens": [
-   "iim",
-   "iit",
-   "indore",
-   "jal",
-   "kanpur",
-   "nigam",
-   "pradesh",
-   "reforms",
-   "rural",
-   "ties",
-   "uttar",
-   "water"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "948c3c60b378",
-  "headline": "After arrest of 3 Kerala teachers, SIT expands probe to track drug rackets’ financial intermediaries",
-  "tokens": [
-   "arrest",
-   "drug",
-   "expands",
-   "financial",
-   "intermediaries",
-   "kerala",
-   "probe",
-   "rackets",
-   "sit",
-   "teachers",
-   "track"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "dd2b2d70a8a8",
-  "headline": "Sashastra Seema Bal reserves 50% constable posts for ex-Agniveers, caste quota to apply",
-  "tokens": [
-   "bal",
-   "constable",
-   "posts",
-   "reserves",
-   "sashastra",
-   "seema"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "10c082621110",
-  "headline": "Giri Pradakshina jams Visakhapatnam roads till past midnight; four-hour gridlock at Venkojipalem",
-  "tokens": [
-   "four",
-   "giri",
-   "jams",
-   "midnight",
-   "past",
-   "pradakshina",
-   "roads",
-   "till",
-   "visakhapatnam"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "0d295723e307",
-  "headline": "‘We were mum on students’ stir’: U.P. RLD chief quits, flags corruption",
-  "tokens": [
-   "chief",
-   "corruption",
-   "flags",
-   "mum",
-   "quits",
-   "rld",
-   "stir",
-   "students"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "4a3758f4e6dd",
-  "headline": "New sculpture of celebrated actor Uttam Kumar in Kolkata draws flak from artists",
-  "tokens": [
-   "actor",
-   "artists",
-   "celebrated",
-   "draws",
-   "flak",
-   "kolkata",
-   "kumar",
-   "sculpture",
-   "uttam"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
-  "first_by_lang": {
-   "en": "2026-08-07T22:07:23+00:00"
-  }
- },
- {
-  "id": "f5ce167f6b41",
-  "headline": "Anti-Khalistani Terrorist Gursimran Mand Assaulted In Ambala",
-  "tokens": [
-   "ambala",
-   "antikhalistani",
-   "assaulted",
-   "gursimran",
-   "mand",
-   "terrorist"
-  ],
-  "size": 1,
-  "domains": [
-   "ndtv.com"
-  ],
-  "first_seen": "2026-08-07T22:07:23+00:00",
-  "last_seen": "2026-08-07T22:07:23+00:00",
   "first_by_lang": {
    "en": "2026-08-07T22:07:23+00:00"
   }
@@ -93993,12 +93495,13 @@
    "schools",
    "teachers"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "ptinews.com"
+   "ptinews.com",
+   "timesofindia.indiatimes.com"
   ],
   "first_seen": "2026-08-09T02:36:05+00:00",
-  "last_seen": "2026-08-09T02:36:05+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-09T02:36:05+00:00"
   }
@@ -152908,12 +152411,12 @@
    "tupac",
    "what"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "apnews.com"
   ],
   "first_seen": "2026-08-10T05:06:37+00:00",
-  "last_seen": "2026-08-10T05:06:37+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-10T05:06:37+00:00"
   }
@@ -161810,12 +161313,13 @@
    "room",
    "secretariat"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "theprint.in"
+   "theprint.in",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-10T08:15:39+00:00",
-  "last_seen": "2026-08-10T08:15:39+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-10T08:15:39+00:00"
   }
@@ -170323,15 +169827,16 @@
    "uefa",
    "world"
   ],
-  "size": 4,
+  "size": 5,
   "domains": [
    "aljazeera.com",
    "m.thewire.in",
    "reuters.com",
-   "thewire.in"
+   "thewire.in",
+   "apnews.com"
   ],
   "first_seen": "2026-08-10T10:44:30+00:00",
-  "last_seen": "2026-08-10T19:37:47+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-10T10:44:30+00:00"
   }
@@ -179470,13 +178975,14 @@
    "heatwave",
    "summer"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "dawn.com",
-   "telegraphindia.com"
+   "telegraphindia.com",
+   "aljazeera.com"
   ],
   "first_seen": "2026-08-10T13:57:01+00:00",
-  "last_seen": "2026-08-10T14:03:08+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-10T13:57:01+00:00"
   }
@@ -196189,12 +195695,12 @@
    "row",
    "students"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "ptinews.com"
   ],
   "first_seen": "2026-08-10T19:32:23+00:00",
-  "last_seen": "2026-08-10T19:32:23+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-10T19:32:23+00:00"
   }
@@ -197408,13 +196914,13 @@
    "nationwide",
    "schools"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "telanganatoday.com",
    "livemint.com"
   ],
   "first_seen": "2026-08-10T19:32:23+00:00",
-  "last_seen": "2026-08-10T19:37:47+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-10T19:32:23+00:00"
   }
@@ -198689,12 +198195,13 @@
    "students",
    "trying"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "theprint.in"
+   "theprint.in",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-10T19:37:47+00:00",
-  "last_seen": "2026-08-10T19:37:47+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
   "first_by_lang": {
    "en": "2026-08-10T19:37:47+00:00"
   }
@@ -201805,6 +201312,292 @@
   "last_seen": "2026-08-10T21:20:21+00:00",
   "first_by_lang": {
    "en": "2026-08-10T21:20:21+00:00"
+  }
+ },
+ {
+  "id": "56bb8f6422d4",
+  "headline": "Man dies after electrocuted by illegal electric fence in Kerala - Press Trust of India",
+  "tokens": [
+   "dies",
+   "electric",
+   "electrocuted",
+   "fence",
+   "illegal",
+   "kerala",
+   "man"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "4da160d2ee8a",
+  "headline": "Parliament not functioning because of Modi, Shah; they're afraid of coming to House: Kharge - Press Trust of India",
+  "tokens": [
+   "afraid",
+   "because",
+   "coming",
+   "functioning",
+   "house",
+   "kharge",
+   "modi",
+   "parliament",
+   "shah",
+   "theyre"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "b36ee7e2209a",
+  "headline": "BSP's Akash Anand slams BJP; calls Rahul, Akhilesh 'uncle' in reach out to youth ahead of UP polls - Press Trust of India",
+  "tokens": [
+   "ahead",
+   "akash",
+   "akhilesh",
+   "anand",
+   "bjp",
+   "bsps",
+   "calls",
+   "polls",
+   "rahul",
+   "reach",
+   "slams",
+   "uncle",
+   "youth"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "bdfddbb4e42b",
+  "headline": "Preseason games could help Packers figure out solutions as they seek improvement on offensive line - AP News",
+  "tokens": [
+   "could",
+   "figure",
+   "games",
+   "help",
+   "improvement",
+   "line",
+   "offensive",
+   "packers",
+   "preseason",
+   "seek",
+   "solutions",
+   "they"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "987ef9e61abe",
+  "headline": "Dolphins new head coach Jeff Hafley sees value in mistakes as his young team prepares for preseason - AP News",
+  "tokens": [
+   "coach",
+   "dolphins",
+   "hafley",
+   "head",
+   "jeff",
+   "mistakes",
+   "prepares",
+   "preseason",
+   "sees",
+   "team",
+   "value",
+   "young"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "4c0142fd1630",
+  "headline": "Giants return home for camp in makeshift conditions because of construction - AP News",
+  "tokens": [
+   "because",
+   "camp",
+   "conditions",
+   "construction",
+   "giants",
+   "home",
+   "makeshift",
+   "return"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "ef995ee6f4b4",
+  "headline": "Ex-Falcons star and New Orleans native Deion Jones anticipates a heady homecoming with the Saints - AP News",
+  "tokens": [
+   "anticipates",
+   "deion",
+   "exfalcons",
+   "heady",
+   "homecoming",
+   "jones",
+   "native",
+   "orleans",
+   "saints",
+   "star"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "780201d98de8",
+  "headline": "The pull of a home Olympics: Why US medalists are coming back for Los Angeles 2028 - AP News",
+  "tokens": [
+   "2028",
+   "angeles",
+   "back",
+   "coming",
+   "home",
+   "los",
+   "medalists",
+   "olympics",
+   "pull",
+   "why"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "7906a47f5e6f",
+  "headline": "Marginal increase in unemployment rate April-June quarter: PLFS",
+  "tokens": [
+   "april",
+   "increase",
+   "marginal",
+   "rate",
+   "unemployment"
+  ],
+  "size": 1,
+  "domains": [
+   "thehindu.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "779a9ee45c8e",
+  "headline": "Colombia’s Espriella to lead emergency efforts following Bogota earthquake",
+  "tokens": [
+   "bogota",
+   "colombias",
+   "earthquake",
+   "efforts",
+   "emergency",
+   "espriella",
+   "following",
+   "lead"
+  ],
+  "size": 1,
+  "domains": [
+   "aljazeera.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "78ca27bc61c1",
+  "headline": "Wildfires burn across Indonesia as officials cite El Nino as a cause",
+  "tokens": [
+   "across",
+   "burn",
+   "cause",
+   "cite",
+   "indonesia",
+   "nino",
+   "officials",
+   "wildfires"
+  ],
+  "size": 1,
+  "domains": [
+   "aljazeera.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
+  }
+ },
+ {
+  "id": "a472a5f19ed8",
+  "headline": "Turkiye approves pardon-like bill for thousands of PKK fighters",
+  "tokens": [
+   "approves",
+   "pardon",
+   "turkiye"
+  ],
+  "size": 1,
+  "domains": [
+   "aljazeera.com"
+  ],
+  "first_seen": "2026-08-10T22:08:03+00:00",
+  "last_seen": "2026-08-10T22:08:03+00:00",
+  "first_by_lang": {
+   "en": "2026-08-10T22:08:03+00:00"
   }
  }
 ]

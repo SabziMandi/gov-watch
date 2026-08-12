@@ -1,255 +1,51 @@
 [
   {
-    "ts": "2026-08-12T05:28:15+00:00",
-    "slug": "coal",
-    "name": "Coal",
-    "url": "https://coal.nic.in/",
-    "notes": "",
+    "ts": "2026-08-12T06:21:10+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 0,
-    "removed": 0,
-    "sample_added": [],
-    "sample_removed": [],
-    "diff": "@@ -166,6 +166,6 @@\n 203.78 KB (16/07/2026)\n+Consultation on draft amendment to rules consequent to enactment of the Jan Vishwas (Amendment of Provisions) Act, 2026 \u2013 reg.\n+1.15 MB (13/07/2026)\n Stakeholder Consultation on Draft Coal Mines Provident Fund and Miscellaneous Provision (Adjudication of Penalties and Appeal) Rules, 2026 -reg.\n 538.29 KB (13/07/2026)\n-Consultation on draft amendment to rules consequent to enactment of the Jan Vishwas (Amendment of Provisions) Act, 2026 \u2013 reg.\n-1.15 MB (13/07/2026)\n Scheme for Promotion of Surface Coal/Lignite Gasification Projects: Timeline of Round-1 Application Process-Reg."
-  },
-  {
-    "ts": "2026-08-12T05:28:17+00:00",
-    "slug": "heavy-industries",
-    "name": "Heavy Industries",
-    "url": "https://heavyindustries.gov.in/en",
-    "notes": "Switched from the /hi build to English. Confirm the path on first run.",
-    "type": "change",
-    "added": 1,
-    "removed": 1,
+    "added": 8,
+    "removed": 7,
     "sample_added": [
-      "Last Upated : 12/08/2026 Total visitor: 2320582"
+      "88,209 EVs were subsidized in Madhya Pradesh in FY 2025-26 Under the PM E-DRIVE schem...",
+      "FAME India Scheme Phase-II: Progress in Electric Vehicle Adoption and Charging Infras...",
+      "World Elephant Day",
+      "Ministry of Heavy Industries, under the SAMARTH centres has trained approximately 330...",
+      "Text of PM's speech during release of former President Shri Ram Nath Kovind's autobio...",
+      "India Reaffirms Commitment to Elephant Conservation on World Elephant Day 2026",
+      "Vice-President flags off Har Ghar Tiranga Bike Rally of MPs, commemorating 150 years ...",
+      "World Elephant Day"
     ],
     "sample_removed": [
-      "Last Upated : 11/08/2026 Total visitor: 2320582"
+      "Container Manufacturing Assistance Scheme: Building Indias Maritime Future",
+      "Rail Coach Factory, Kapurthala to Roll Out First Rake of LHB Coaches for Bangladesh R...",
+      "Ministry of Ports, Shipping & Waterways Approves \u20b9334.89 Crore Flyover at Visakhapatn...",
+      "Union Health Minister, Shri J P Nadda, chairs a discussion with MPs from Karnataka an...",
+      "Centralised Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "Union Minister Shri Shivraj Singh Chouhan to Participate in Plantation...",
+      "(Event Date :12 Aug 2026 10:00AM)"
     ],
-    "diff": "@@ -403,2 +403,2 @@\n reserved\n-Last Upated : 11/08/2026 Total visitor: 2320582\n+Last Upated : 12/08/2026 Total visitor: 2320582"
+    "diff": "@@ -128,3 +128,10 @@\n MOST VIEWED\n-Container Manufacturing Assistance Scheme: Building Indias Maritime Future\n+LAUNCH OF NEXT GENERATION OFFSHORE PATROL VESSEL\n+88,209 EVs were subsidized in Madhya Pradesh in FY 2025-26 Under the PM E-DRIVE schem...\n+FAME India Scheme Phase-II: Progress in Electric Vehicle Adoption and Charging Infras...\n+World Elephant Day\n+Ministry of Heavy Industries, under the SAMARTH centres has trained approximately 330...\n+Text of PM's speech during release of former President Shri Ram Nath Kovind's autobio...\n+India Reaffirms Commitment to Elephant Conservation on World Elephant Day 2026\n+Vice-President flags off Har Ghar Tiranga Bike Rally of MPs, commemorating 150 years ...\n Prime Minister shares a Sanskrit Subhashitam, highlighting the power of winning heart...\n@@ -134,7 +141,4 @@\n Fourth Session of the India-Namibia Joint Trade Committee held in New Delhi\n-Rail Coach Factory, Kapurthala to Roll Out First Rake of LHB Coaches for Bangladesh R...\n-Ministry of Ports, Shipping & Waterways Approves \u20b9334.89 Crore Flyover at Visakhapatn...\n-Union Health Minister, Shri J P Nadda, chairs a discussion with MPs from Karnataka an...\n-LAUNCH OF NEXT GENERATION OFFSHORE PATROL VESSEL\n Latest Explainers\n+World Elephant Day\n The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026\n@@ -143,3 +147,2 @@\n PAIMANA: Strengthening Data-Driven Infrastructure Governance\n-Centralised Public Grievance Redress and Monitoring System (CPGRAMS)\n Media Corner\n@@ -147,4 +150,2 @@\n Media Invitations\n-Union Minister Shri Shivraj Singh Chouhan to Participate in Plantation...\n-(Event Date :12 Aug 2026 10:00AM)\n Media Engagements"
   },
   {
-    "ts": "2026-08-12T05:28:28+00:00",
-    "slug": "mohua",
-    "name": "Housing and Urban Affairs",
-    "url": "https://www.mohua.gov.in/",
-    "notes": "",
+    "ts": "2026-08-12T06:21:22+00:00",
+    "slug": "pib-rss-releases",
+    "name": "PIB \u2014 releases RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
     "type": "change",
-    "added": 3,
-    "removed": 8,
+    "added": 2,
+    "removed": 2,
     "sample_added": [
-      "What\u2019s New",
-      "Filling up the post of Executive Director, Building Materials and Technology Promotion Council (BMTPC) through Direct Recruitment failing which by deputation failing which by contract appointment",
-      "Filling up of the post of Officer on Special Duty (Urban Transport) [OSD (UT) in the Ministry of Housing and Urban Affairs on deputation (including short-term contract) basis - Extention of last date for receipt of application"
+      "\u092a\u0942\u0930\u094d\u0935 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u092a\u0924\u093f \u0936\u094d\u0930\u0940 \u0930\u093e\u092e\u0928\u093e\u0925 \u0915\u094b\u0935\u093f\u0902\u0926 \u0915\u0940 \u0906\u0924\u094d\u092e\u0915\u0925\u093e \u0915\u0947 \u0935\u093f\u092e\u094b\u091a\u0928 \u0915\u0947 \u0905\u0935\u0938\u0930 \u092a\u0930 \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0915\u0947 \u0938\u0902\u092c\u094b\u0927\u0928 \u0915\u093e \u092e\u0942\u0932 \u092a\u093e\u0920",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298048"
     ],
     "sample_removed": [
-      "Pradhan Mantri Awas Yojana - Urban 2.0",
-      "PM-eBus Sewa",
-      "Recent Documents",
-      "In exercise of the powers conferred by sub section 2 of section 1 of the Jan Vishwas Amendment of Provisions Act, 2026 8 of 2026, the Central Government hereby appoints",
-      "In exercise of the powers conferred by clauses jaa and jab of subsection 2",
-      "EVALUATIONS OF MEASURABLE OUTCOMES DELIVERED BY SCM",
-      "CLIMATE RESILIENT CITIES & URBAN HEATWAVES",
-      "Government Employee"
+      "\u0917\u094d\u0930\u093e\u092e\u0940\u0923 \u0905\u0935\u0938\u0902\u0930\u091a\u0928\u093e \u0939\u0947\u0924\u0941 \u090f\u0915\u0940\u0915\u0943\u0924 \u092e\u093e\u0938\u094d\u091f\u0930 \u092a\u094d\u0932\u093e\u0928",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297782"
     ],
-    "diff": "@@ -114,9 +114,8 @@\n 2026.06.05\n-arrow_forward_ios\n-Pradhan Mantri Awas Yojana - Urban 2.0\n-arrow_forward_ios\n-PM-eBus Sewa\n-arrow_forward_ios\n View more\n chevron_right\n+What\u2019s New\n+Filling up the post of Executive Director, Building Materials and Technology Promotion Council (BMTPC) through Direct Recruitment failing which by deputation failing which by contract appointment\n+arrow_forward_ios\n+Filling up of the post of Officer on Special Duty (Urban Transport) [OSD (UT) in the Ministry of Housing and Urban Affairs on deputation (including short-term contract) basis - Extention of last date for receipt of application\n arrow_forward_ios\n@@ -130,11 +129,2 @@\n chevron_right\n-Recent Documents\n-Gazettes Notifications\n-In exercise of the powers conferred by sub section 2 of section 1 of the Jan Vishwas Amendment of Provisions Act, 2026 8 of 2026, the Central Government hereby appoints\n-Gazettes Notifications\n-In exercise of the powers conferred by clauses jaa and jab of subsection 2\n-Press Release\n-EVALUATIONS OF MEASURABLE OUTCOMES DELIVERED BY SCM\n-Press Release\n-CLIMATE RESILIENT CITIES & URBAN HEATWAVES\n View more\n@@ -144,3 +134,2 @@\n chevron_right\n-Government Employee\n Policy Maker"
-  },
-  {
-    "ts": "2026-08-12T05:28:43+00:00",
-    "slug": "shipping",
-    "name": "Ports, Shipping and Waterways",
-    "url": "https://shipmin.gov.in/",
-    "notes": "",
-    "type": "change",
-    "added": 1,
-    "removed": 1,
-    "sample_added": [
-      "Website Last Modified on : 2026-08-12"
-    ],
-    "sample_removed": [
-      "Website Last Modified on : 2026-08-10"
-    ],
-    "diff": "@@ -184,3 +184,3 @@\n Terms & Conditions\n-Website Last Modified on : 2026-08-10\n+Website Last Modified on : 2026-08-12\n Designed, Developed and Hosted by"
-  },
-  {
-    "ts": "2026-08-12T05:28:58+00:00",
-    "slug": "morth",
-    "name": "Road Transport and Highways",
-    "url": "https://morth.gov.in/",
-    "notes": "Hash-routed single-page app: fetched with a headless browser after the JS settles. The bare domain is used because the #/ fragment is never sent to the server.",
-    "type": "change",
-    "added": 1,
-    "removed": 0,
-    "sample_added": [
-      "Entrustment of the NH-48 in the UT of New Delhi - regarding."
-    ],
-    "sample_removed": [],
-    "diff": "@@ -58,16 +58,20 @@\n Announcements\n+Use of National Database for Emergency Management (NDEM) Portal in Planning and DPR Preparation of Highway Project\n+::\n+Special guidelines for accommodation of OFC/ Telecom wires under BharatNet Project along and across National Highways\n+::\n+Sensitization Workshop for Phase-II of Mobile Quality Control Vans (MQCVs) for Non-Destructive Testing (NDT) on National Highway/Expressway Projects\n+::\n+Distribution of Consolidated Fee deposited in the All Indian Tourist Vehicles Permit among the States & Union Territories on pro-rata basis for the month of October, 2025\n+::\n+AIS-197 (Rev 1) - Bharat New Car Assessment Program\n+::\n+Adherence to MoRT&H Circulars on Mandatory Training and Capacity Building for Personnel of Consultants, Contractors, IEs and AEs working in National Highway Projects\n+::\n+Guidelines on Design Criteria and Pavement Type for Service Roads and Slip Roads in National Highway Projects\n+::\n+Online Permission for Movement of Single Indivisible Unit ODCs/ OWCs Consignment on Modular Hydraulic Trailers (HT-1 to HT-13) on National Highways in the Country\n+::\n G.S.R. 723(E) dated the 29th September, 2025 regarding Procedure for issuance and payment of challan\n ::\n-Sensitization Workshop for Phase-II of Mobile Quality Control Vans (MQCVs) for Non-Destructive Testing (NDT) on National Highway/Expressway Projects\n-::\n-Special guidelines for accommodation of OFC/ Telecom wires under BharatNet Project along and across National Highways\n-::\n-Distribution of Consolidated Fee deposited in the All Indian Tourist Vehicles Permit among the States & Union Territories on pro-rata basis for the month of October, 2025\n-::\n-AIS-197 (Rev 1) - Bharat New Car Assessment Program\n-::\n-Adherence to MoRT&H Circulars on Mandatory Training and Capacity Building for Personnel of Consultants, Contractors, IEs and AEs working in National Highway Projects\n-::\n-Use of National Database for Emergency Management (NDEM) Portal in Planning and DPR Preparation of Highway Project\n-::\n Office Order dated 11.11.2025 regarding appointment of Shri Ashish Nath, IDSE (1999) to the post of Chief Vigilance Officer, National Highways Authority of India (NHAI)\n@@ -76,5 +80,3 @@\n ::\n-Guidelines on Design Criteria and Pavement Type for Service Roads and Slip Roads in National Highway Projects\n-::\n-Online Permission for Movement of Single Indivisible Unit ODCs/ OWCs Consignment on Modular Hydraulic Trailers (HT-1 to HT-13) on National Highways in the Country\n+Entrustment of the NH-48 in the UT of New Delhi - regarding.\n ::\n@@ -898,4 +900,14 @@\n ::\n+Four Ianing Saoner-Dhapewada-Kalmeshwar-Gondkhairi section of NH-547E (Pkg-11) from 4.700 to km 33.575 in the state of Maharashtra on EPC ModeProposal for 01 no of underground crossing of water pipeline at km 21.230 -Reg\n+::\n+Permission for laying of 20\u201d dia Iron ore slurry Pipeline along with 20mm OFC cable by M/s.Arcelor Mittal Nippon Steel India, at Km.796.545 in Anakapalli \u2013 Annavaram Section of NH-16 at Chinadoddigallu Village, Nakkapalli Mandal, Anakapalli District in the state of Andhra Pradesh\n+::\n roposal 33 KVXLPE cable for 33 KV line Near house of Inamul Hussain to Bhitorkhola new 33/11 KV PSS at vill \u2013 Dorakhara (Paikana Chowk), Mouza- Madartola, Chainage- 1105+300 KM: -Invitation of public comments regarding.\n ::\n+Four laning of Yedshi-Aurangabad project section of NH-52-Proposal for grant permission for 1 no of crossing overhead line at km 145.120- Reg\n+::\n+Proposal for the permission of laying U/G Water Pipeline (HDPE Pipe) by HDD method in Utility Corridor along/across NH-27(Old NH-25), Lucknow Kanpur Road-reg.\n+::\n+4 laning of Chikhali- Tarsod from km 360.000 to km 422.700 section of NH- 53 in the State of Maharashtra- Proposal for permission of laying of 11 Kv overhead line from km 410.900 to km 411.420 -Reg.\n+::\n 4-laning of Chikhali to Tarsod (Package- !lA) section of NH-53 from km 360.000 to km 422.700 on HAM b) 4-laning of Tarsod - Fagne (Package-liB) section of NH-53 f rom km 422.700 to km 510.00 on HAM c) Improvement of NH-53 passing through Jalgaon city to f\n@@ -904,12 +916,2 @@\n ::\n-Four laning of Yedshi-Aurangabad project section of NH-52-Proposal for grant permission for 1 no of crossing overhead line at km 145.120- Reg\n-::\n-Four Ianing Saoner-Dhapewada-Kalmeshwar-Gondkhairi section of NH-547E (Pkg-11) from 4.700 to km 33.575 in the state of Maharashtra on EPC ModeProposal for 01 no of underground crossing of water pipeline at km 21.230 -Reg\n-::\n-Proposal for the permission of laying U/G Water Pipeline (HDPE Pipe) by HDD method in Utility Corridor along/across NH-27(Old NH-25), Lucknow Kanpur Road-reg.\n-::\n-Permission for laying of 20\u201d dia Iron ore slurry Pipeline along with 20mm OFC cable by M/s.Arcelor Mittal Nippon Steel India, at Km.796.545 in Anakapalli \u2013 Annavaram Section of NH-16 at Chinadoddigallu Village, Nakkapalli Mandal, Anakapalli District in the state of Andhra Pradesh\n-::\n-4 laning of Chikhali- Tarsod from km 360.000 to km 422.700 section of NH- 53 in the State of Maharashtra- Proposal for permission of laying of 11 Kv overhead line from km 410.900 to km 411.420 -Reg.\n-::\n 4 laning of Shahpur Bypass to Muktainagar from km 186.000 to km 216.278 section of NH-753L in the State of Maharashtra- Proposal for permission of crossing of 11 kv underground electric line at km 62.660 & km 201. 630- Reg.\n@@ -924,13 +926,13 @@\n ::\n+121 dt.09.04.2026 Proposal for Work of Water Supply Project for work of strengthening & Rehabilitation of Water supply system of Bhim Constituency (Dist-Rajsamand) From Chambal Rivel and Retrofitting of Chambal Bhilwara Under JJM With Operation and Mainte\n+::\n+Notice inviting Public Comments for Proposal for ROW is compliance of permission for laying of Drinking water supply pipeline along and across NH-173 from Chaineg 1.200 Km to 3.600 Km in Mudigere town limits in the state of Karnataka\n+::\n+Proposal for installation of gantry and ANPR camera at km. 70+655 BHS falling in Rampur-Kathgodam Pkg-II project in the Lalkuan, Uttarakhand.\n+::\n+Invitation of Public Comments- Permission for laying of HDPE pipe of dia. 100 mm pertaining to \"Mega PWD Scheme to Telkoi, Patna, Harichandanpur, Ghatagaon Block of Keonjhar District on the way covering Pallahara block\" across the NH at Maliposi Ch. 112/552 and along the NH from km 113/050 to 113/10 on NH-220 under Keonjhar District - reg.\n+::\n+Invitation of Public Comments- Permission to lay underground drinking water supply pipeline by P.H Division, Bolangir along NH-26 from km 66/719 to 80/000 on ed stretches and across 3 locations in Balangir District - reg.\n+::\n Proposal for grant of Permission for Laying of D.I. Fresh Water Pipe Line along the NH - 01 (New NH - 03) from CHKM 438.534 to CHKM 438.988 (RHS) of Length = 0.454KM, CHKM 438.534 to CHKM 439.108 (LHS) of Length = 0.574KM (Total Length \u2013 1.028KM) & Crossing of NH at Km 438.534 on Jalandhar - Amritsar road falling in Jandiala Town, Tehsil & District Amritsar in the State Of Punjab by HDD Method :- In-Principle Approval - reg. Click to teach Gmail this conversation is important\n-::\n-Notice inviting Public Comments for Proposal for ROW is compliance of permission for laying of Drinking water supply pipeline along and across NH-173 from Chaineg 1.200 Km to 3.600 Km in Mudigere town limits in the state of Karnataka\n-::\n-Proposal for installation of gantry and ANPR camera at km. 70+655 BHS falling in Rampur-Kathgodam Pkg-II project in the Lalkuan, Uttarakhand.\n-::\n-Invitation of Public Comments- Permission for laying of HDPE pipe of dia. 100 mm pertaining to \"Mega PWD Scheme to Telkoi, Patna, Harichandanpur, Ghatagaon Block of Keonjhar District on the way covering Pallahara block\" across the NH at Maliposi Ch. 112/552 and along the NH from km 113/050 to 113/10 on NH-220 under Keonjhar District - reg.\n-::\n-Invitation of Public Comments- Permission to lay underground drinking water supply pipeline by P.H Division, Bolangir along NH-26 from km 66/719 to 80/000 on ed stretches and across 3 locations in Balangir District - reg.\n-::\n-121 dt.09.04.2026 Proposal for Work of Water Supply Project for work of strengthening & Rehabilitation of Water supply system of Bhim Constituency (Dist-Rajsamand) From Chambal Rivel and Retrofitting of Chambal Bhilwara Under JJM With Operation and Mainte\n ::"
-  },
-  {
-    "ts": "2026-08-12T05:31:10+00:00",
-    "slug": "finmin",
-    "name": "Finance Ministry",
-    "url": "https://finmin.gov.in/",
-    "type": "error",
-    "detail": "ConnectTimeout: HTTPSConnectionPool(host='finmin.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='finmin.gov.in', port=443) at 0x7fe8be934cb0>, 'Connection to finmin.gov.in timed out. (connect timeout=30)'))"
-  },
-  {
-    "ts": "2026-08-12T05:31:12+00:00",
-    "slug": "commerce-dept",
-    "name": "Department of Commerce",
-    "url": "https://commerce.gov.in/",
-    "type": "error",
-    "detail": "only 0 chars extracted (floor 400)"
-  },
-  {
-    "ts": "2026-08-12T05:31:13+00:00",
-    "slug": "rbi-press",
-    "name": "RBI \u2014 press releases",
-    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
-    "notes": "Highest-yield page on the list for a business desk.",
-    "type": "change",
-    "added": 5,
-    "removed": 8,
-    "sample_added": [
-      "Aug 12, 2026",
-      "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on August 12, 2026",
-      "Money Market Operations as on August 11, 2026",
-      "(652 kb)",
-      "Website last updated date: Aug 12, 2026"
-    ],
-    "sample_removed": [
-      "Aug 03, 2026",
-      "Processing of Applications Received Under the Citizen\u2019s Charter - Status as on July 31, 2026",
-      "RBI appoints Smt. Monisha Chakraborty as new Executive Director",
-      "Money Market Operations as on August 02, 2026",
-      "Money Market Operations as on August 01, 2026",
-      "Money Market Operations as on July 31, 2026",
-      "(652 KB)",
-      "Website last updated date: Aug 11, 2026"
-    ],
-    "diff": "@@ -98,2 +98,5 @@\n Press Releases\n+Aug 12, 2026\n+Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on August 12, 2026\n+Money Market Operations as on August 11, 2026\n Aug 11, 2026\n@@ -168,9 +171,2 @@\n Money Market Operations as on August 3, 2026\n-Aug 03, 2026\n-Processing of Applications Received Under the Citizen\u2019s Charter - Status as on July 31, 2026\n-RBI appoints Smt. Monisha Chakraborty as new Executive Director\n-Auction of Government of India Dated Securities\n-Money Market Operations as on August 02, 2026\n-Money Market Operations as on August 01, 2026\n-Money Market Operations as on July 31, 2026\n All Months\n@@ -679,3 +675,3 @@\n RBI\u2019s Vision and Values\n-(652 KB)\n+(652 kb)\n Right to Information Act\n@@ -695,3 +691,3 @@\n Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in\n-Website last updated date: Aug 11, 2026\n+Website last updated date: Aug 12, 2026\n Web Information Manager"
-  },
-  {
-    "ts": "2026-08-12T05:31:14+00:00",
-    "slug": "rbi-notifications",
-    "name": "RBI \u2014 notifications",
-    "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx",
-    "notes": "",
-    "type": "change",
-    "added": 1,
-    "removed": 1,
-    "sample_added": [
-      "Website last updated date: Aug 12, 2026"
-    ],
-    "sample_removed": [
-      "Website last updated date: Aug 11, 2026"
-    ],
-    "diff": "@@ -730,3 +730,3 @@\n Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in\n-Website last updated date: Aug 11, 2026\n+Website last updated date: Aug 12, 2026\n Web Information Manager"
-  },
-  {
-    "ts": "2026-08-12T05:31:17+00:00",
-    "slug": "sebi",
-    "name": "SEBI \u2014 all listings",
-    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes",
-    "notes": "Every SEBI posting in one dated stream, newest first. Server-rendered.",
-    "type": "change",
-    "added": 4,
-    "removed": 3,
-    "sample_added": [
-      "1 to 25 of 83898 records",
-      "Aug 12, 2026",
-      "Sunshine Pictures Limited - RHP",
-      "1 to 25 of 83898 records"
-    ],
-    "sample_removed": [
-      "1 to 25 of 83897 records",
-      "Order No. 01 of 2026 issued under RC No. 424 of 2014 drawn against Mr. Bhargav Ranchodlal Panchal (PAN: AFUPP7738M) in the matter of IPO irregularities.",
-      "1 to 25 of 83897 records"
-    ],
-    "diff": "@@ -103,3 +103,3 @@\n Reset\n-1 to 25 of 83897 records\n+1 to 25 of 83898 records\n \uf105\n@@ -108,2 +108,5 @@\n Title\n+Aug 12, 2026\n+Public Issues\n+Sunshine Pictures Limited - RHP\n Aug 11, 2026\n@@ -187,6 +190,3 @@\n Order in the matter of certain Investment Advisers\n-Aug 07, 2026\n-Recovery Proceedings\n-Order No. 01 of 2026 issued under RC No. 424 of 2014 drawn against Mr. Bhargav Ranchodlal Panchal (PAN: AFUPP7738M) in the matter of IPO irregularities.\n-1 to 25 of 83897 records\n+1 to 25 of 83898 records\n \uf105"
-  },
-  {
-    "ts": "2026-08-12T05:31:25+00:00",
-    "slug": "egazette",
-    "name": "eGazette",
-    "url": "https://egazette.gov.in/",
-    "notes": "Rules and tariff notifications appear here before any press release.",
-    "type": "change",
-    "added": 12,
-    "removed": 12,
-    "sample_added": [
-      "Ministry of Railways",
-      "20EGN...",
-      "CG-WB-E-11082026-275386",
-      "Ministry of Steel",
-      "Publishing of amendment in Domestically Manuf...",
-      "CG-DL-E-11082026-275385",
-      "Ministry of Ports, Shipping and Waterways",
-      "Notification regarding appointment of the Sta...",
-      "CG-DL-E-11082026-275384",
-      "Ministry of Home Affairs",
-      "RR of Signal Cadre...",
-      "CG-DL-E-11082026-275383"
-    ],
-    "sample_removed": [
-      "Government of The National Capital Territory of Delhi",
-      "Reconstitutes the Hospital Based Authorizatio...",
-      "SG-DL-E-11082026-275370",
-      "Government of The National Capital Territory of Delhi",
-      "RR...",
-      "SG-DL-E-11082026-275369",
-      "Ministry of Youth Affairs and Sports",
-      "Khelo India Scheme...",
-      "CG-DL-E-11082026-275368",
-      "Ministry of Chemicals and Fertilizers",
-      "Notifications for the scheme for Chemicals Pa...",
-      "CG-DL-E-11082026-275367"
-    ],
-    "diff": "@@ -58,14 +58,14 @@\n Download\n-Government of The National Capital Territory of Delhi\n-Reconstitutes the Hospital Based Authorizatio...\n-SG-DL-E-11082026-275370\n-Government of The National Capital Territory of Delhi\n-RR...\n-SG-DL-E-11082026-275369\n-Ministry of Youth Affairs and Sports\n-Khelo India Scheme...\n-CG-DL-E-11082026-275368\n-Ministry of Chemicals and Fertilizers\n-Notifications for the scheme for Chemicals Pa...\n-CG-DL-E-11082026-275367\n+Ministry of Railways\n+20EGN...\n+CG-WB-E-11082026-275386\n+Ministry of Steel\n+Publishing of amendment in Domestically Manuf...\n+CG-DL-E-11082026-275385\n+Ministry of Ports, Shipping and Waterways\n+Notification regarding appointment of the Sta...\n+CG-DL-E-11082026-275384\n+Ministry of Home Affairs\n+RR of Signal Cadre...\n+CG-DL-E-11082026-275383\n View All....."
-  },
-  {
-    "ts": "2026-08-12T05:32:19+00:00",
-    "slug": "cci",
-    "name": "Competition Commission of India",
-    "url": "https://www.cci.gov.in/",
-    "notes": "Merger clearances and penalty orders.",
-    "type": "change",
-    "added": 1,
-    "removed": 1,
-    "sample_added": [
-      "Website last updated on : 11/08/2026 |"
-    ],
-    "sample_removed": [
-      "Website last updated on : 10/08/2026 |"
-    ],
-    "diff": "@@ -132,2 +132,2 @@\n Copyright \u00a9 2026 Competition Commission of India, Government of India.\n-Website last updated on : 10/08/2026 |\n+Website last updated on : 11/08/2026 |"
-  },
-  {
-    "ts": "2026-08-12T05:32:24+00:00",
-    "slug": "trai",
-    "name": "TRAI",
-    "url": "https://www.trai.gov.in/",
-    "notes": "",
-    "type": "change",
-    "added": 0,
-    "removed": 0,
-    "sample_added": [],
-    "sample_removed": [],
-    "diff": "@@ -226,5 +226,2 @@\n 4th August 2026\n-TRAI releases Quarterly Highlights of Action Against Unsolicited Commercial Communications (UCC) For the period 01.04.2026 to 30.06.2026\n-Explore\n-4th August 2026\n TRAI assessed mobile network quality across Srinagar, Ganderbal, Anantnag, Gulmarg, Pahalgam, and surrounding areas, including key highways connecting Srinagar to Pahalgam and Gulmarg.\n@@ -234,2 +231,5 @@\n Explore\n+4th August 2026\n+TRAI releases Quarterly Highlights of Action Against Unsolicited Commercial Communications (UCC) For the period 01.04.2026 to 30.06.2026\n+Explore\n 3rd August 2026\n@@ -244,6 +244,6 @@\n 28th July 2026\n+TRAI releases Telecom Subscription Data as on June 2026\n+Explore\n+28th July 2026\n TRAI Assesses Mobile Network Quality Across Godda Lok Sabha Constituency comprising parts of Deoghar, Godda and Dumka Districts and adjoining areas in the State of Jharkhand under Bihar LSA.\n-Explore\n-28th July 2026\n-TRAI releases Telecom Subscription Data as on June 2026\n Explore"
-  },
-  {
-    "ts": "2026-08-12T05:32:35+00:00",
-    "slug": "prs-bills",
-    "name": "PRS Legislative Research \u2014 bill track",
-    "url": "https://prsindia.org/billtrack",
-    "notes": "Cleaner secondary source than sansad.in when the portal is down.",
-    "type": "change",
-    "added": 0,
-    "removed": 0,
-    "sample_added": [],
-    "sample_removed": [],
-    "diff": "@@ -137,3 +137,3 @@\n The Tribunals Reforms Bill, 2026\n-Pending\n+Passed\n The Kerala (Alteration of Name) Bill, 2026"
+    "diff": "@@ -1 +1,3 @@\n+\u092a\u0942\u0930\u094d\u0935 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u092a\u0924\u093f \u0936\u094d\u0930\u0940 \u0930\u093e\u092e\u0928\u093e\u0925 \u0915\u094b\u0935\u093f\u0902\u0926 \u0915\u0940 \u0906\u0924\u094d\u092e\u0915\u0925\u093e \u0915\u0947 \u0935\u093f\u092e\u094b\u091a\u0928 \u0915\u0947 \u0905\u0935\u0938\u0930 \u092a\u0930 \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0915\u0947 \u0938\u0902\u092c\u094b\u0927\u0928 \u0915\u093e \u092e\u0942\u0932 \u092a\u093e\u0920\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298048\n \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u0926\u0943\u0937\u094d\u091f\u093f, \u0935\u093f\u091a\u093e\u0930\u094b\u0902, \u0935\u091a\u0928\u094b\u0902 \u0914\u0930 \u0915\u0930\u094d\u092e\u094b\u0902 \u0938\u0947 \u091c\u0928-\u092e\u0928 \u091c\u0940\u0924\u0928\u0947 \u0915\u0940 \u0936\u0915\u094d\u0924\u093f \u0915\u094b \u0930\u0947\u0916\u093e\u0902\u0915\u093f\u0924 \u0915\u0930\u0928\u0947 \u0935\u093e\u0932\u093e \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0938\u0941\u092d\u093e\u0937\u093f\u0924 \u0938\u093e\u091d\u093e \u0915\u093f\u092f\u093e\n@@ -38,3 +40 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297788\n-\u0917\u094d\u0930\u093e\u092e\u0940\u0923 \u0905\u0935\u0938\u0902\u0930\u091a\u0928\u093e \u0939\u0947\u0924\u0941 \u090f\u0915\u0940\u0915\u0943\u0924 \u092e\u093e\u0938\u094d\u091f\u0930 \u092a\u094d\u0932\u093e\u0928\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297782"
   }
 ]

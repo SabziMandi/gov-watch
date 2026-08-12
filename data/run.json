@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "ts": "2026-08-12T02:34:51+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 3,
+    "sample_added": [
+      "From Financial Constraints to Educational Confidence: How Scholarship Support Helped ..."
+    ],
+    "sample_removed": [
+      "PRESS RELEASE ON 392nd REPORT OF THE DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMIT...",
+      "Shri C. P. Radhakrishnan, Hon\u2019ble Vice President of India will Flag o...",
+      "(Event Date :12 Aug 2026 7:00AM)"
+    ],
+    "diff": "@@ -129,2 +129,3 @@\n Prime Minister shares a Sanskrit Subhashitam, highlighting the eight essential qualities that brighten a persons life an...\n+From Financial Constraints to Educational Confidence: How Scholarship Support Helped ...\n MoHUA organises National Conference on Affordable Housing Reforms - \u201cReimagining Affo...\n@@ -136,3 +137,2 @@\n LAUNCH OF NEXT GENERATION OFFSHORE PATROL VESSEL\n-PRESS RELEASE ON 392nd REPORT OF THE DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMIT...\n Latest Explainers\n@@ -146,4 +146,2 @@\n Media Invitations\n-Shri C. P. Radhakrishnan, Hon\u2019ble Vice President of India will Flag o...\n-(Event Date :12 Aug 2026 7:00AM)\n Union Minister Shri Shivraj Singh Chouhan to Participate in Plantation..."
+  }
+]

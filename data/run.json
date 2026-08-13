@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ts": "2026-08-13T02:36:19+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 0,
+    "sample_added": [
+      "Prime Minister shares a Sanskrit Subhashitam, highlighting determination, perseveranc..."
+    ],
+    "sample_removed": [],
+    "diff": "@@ -128,2 +128,3 @@\n PRESS RELEASE OF CONSUMER PRICE INDEX ON BASE 2024=100 FOR JULY, 2026\n+Prime Minister shares a Sanskrit Subhashitam, highlighting determination, perseveranc...\n PRESS RELEASE ON 393rd REPORT OF THE DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMIT..."
+  }
+]

@@ -1,48 +1,381 @@
 [
   {
-    "ts": "2026-08-13T04:59:19+00:00",
-    "slug": "pib-releases",
-    "name": "PIB \u2014 release stream (reg 48)",
-    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
-    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "ts": "2026-08-13T05:37:28+00:00",
+    "slug": "mha",
+    "name": "Ministry of Home Affairs",
+    "url": "https://www.mha.gov.in/en",
+    "notes": "",
     "type": "change",
-    "added": 1,
-    "removed": 0,
+    "added": 2,
+    "removed": 2,
     "sample_added": [
-      "National Biodiversity Authority releases Rs. 15.52 crore ABS Proceeds from Mustard Ge..."
-    ],
-    "sample_removed": [],
-    "diff": "@@ -128,2 +128,3 @@\n PRESS RELEASE OF CONSUMER PRICE INDEX ON BASE 2024=100 FOR JULY, 2026\n+National Biodiversity Authority releases Rs. 15.52 crore ABS Proceeds from Mustard Ge...\n Prime Minister shares a Sanskrit Subhashitam, highlighting determination, perseveranc..."
-  },
-  {
-    "ts": "2026-08-13T04:59:37+00:00",
-    "slug": "pib-rss-releases",
-    "name": "PIB \u2014 releases RSS",
-    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
-    "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
-    "type": "change",
-    "added": 8,
-    "removed": 8,
-    "sample_added": [
-      "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u091c\u0940\u0935\u0928 \u0915\u0940 \u091a\u0941\u0928\u094c\u0924\u093f\u092f\u094b\u0902 \u092a\u0930 \u0935\u093f\u091c\u092f \u092a\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0926\u0943\u0922\u093c \u0938\u0902\u0915\u0932\u094d\u092a, \u0927\u0948\u0930\u094d\u092f \u0914\u0930 \u0928\u093f\u0930\u0902\u0924\u0930 \u092a\u094d\u0930\u092f\u093e\u0938 \u0915\u0947 \u092e\u0939\u0924\u094d\u0935 \u0915\u094b \u0930\u0947\u0916\u093e\u0902\u0915\u093f\u0924 \u0915\u0930\u0924\u0947 \u0939\u0941\u090f \u090f\u0915 \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0938\u0941\u092d\u093e\u0937\u093f\u0924 \u0938\u093e\u091d\u093e \u0915\u093f\u092f\u093e",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298722",
-      "\u092d\u093e\u0930\u0924 \u0914\u0930 \u0926\u0915\u094d\u0937\u093f\u0923 \u0905\u092b\u094d\u0930\u0940\u0915\u0940 \u0938\u0940\u092e\u093e \u0936\u0941\u0932\u094d\u0915 \u0938\u0902\u0918 (\u090f\u0938\u090f\u0938\u0940\u092f\u0942) \u0928\u0947 \u092a\u094d\u0930\u093e\u0925\u092e\u093f\u0915\u0924\u093e \u092a\u0942\u0930\u094d\u0923 \u0935\u094d\u092f\u093e\u092a\u093e\u0930 \u0938\u092e\u091d\u094c\u0924\u0947 \u0915\u0940 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u092c\u093e\u0924\u091a\u0940\u0924 \u0915\u0947 \u0932\u093f\u090f \u0938\u0902\u0926\u0930\u094d\u092d \u090f\u0935\u0902 \u0936\u0930\u094d\u0924\u094b\u0902 (\u091f\u0940\u0913\u0906\u0930) \u092a\u0930 \u0939\u0938\u094d\u0924\u093e\u0915\u094d\u0937\u0930 \u0915\u093f\u090f",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298716",
-      "\u0921\u093f\u091c\u093f\u091f\u0932 \u0907\u0902\u0921\u093f\u092f\u093e \u092d\u093e\u0937\u093f\u0923\u0940 \u092a\u094d\u0930\u092d\u093e\u0917 (\u0921\u0940\u0906\u0908\u092c\u0940\u0921\u0940) \u0914\u0930 \u0928\u0940\u0924\u093f \u0906\u092f\u094b\u0917 \u0928\u0947 \u0938\u092e\u093e\u0935\u0947\u0936\u0940 \u0936\u093e\u0938\u0928 \u0915\u0947 \u0932\u093f\u090f \u092c\u0939\u0941\u092d\u093e\u0937\u0940 \u090f\u0906\u0908 \u0915\u094b \u092c\u0922\u093c\u093e\u0935\u093e \u0926\u0947\u0928\u0947 \u0939\u0947\u0924\u0941 \u0906\u0936\u092f \u092a\u0924\u094d\u0930 \u092a\u0930 \u0939\u0938\u094d\u0924\u093e\u0915\u094d\u0937\u0930 \u0915\u093f\u090f",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298715",
-      "\u0915\u0947\u0928\u094d\u0926\u094d\u0930\u0940\u092f \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092e\u0902\u0924\u094d\u0930\u0940 \u0936\u094d\u0930\u0940 \u0928\u0921\u094d\u0921\u093e \u0928\u0947 \u2018\u091f\u0940\u092c\u0940 \u092e\u0941\u0915\u094d\u0924 \u092d\u093e\u0930\u0924\u2019 \u0915\u0947 \u092a\u094d\u0930\u092f\u093e\u0938\u094b\u0902 \u0915\u094b \u092e\u091c\u092c\u0942\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091d\u093e\u0930\u0916\u0902\u0921 \u0914\u0930 \u0913\u0921\u093f\u0936\u093e \u0915\u0947 \u0938\u093e\u0902\u0938\u0926\u094b\u0902 \u0915\u0947 \u0938\u093e\u0925 \u092c\u0948\u0920\u0915 \u0915\u0940",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298718"
+      "Award of Service Medals/Gallantry Medals on the occasion of Independence Day, 2026.",
+      "Download (228.6 KB)"
     ],
     "sample_removed": [
-      "\u0915\u0947\u0902\u0926\u094d\u0930\u0940\u092f \u0935\u0938\u094d\u0924\u094d\u0930 \u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0928\u0947 \u0906\u0908\u0906\u0908\u090f\u091a\u091f\u0940 (IIHT) \u0938\u0942\u0924\u094d\u0930 2026 \u0915\u093e \u0909\u0926\u094d\u0918\u093e\u091f\u0928 \u0915\u093f\u092f\u093e, \u092d\u093e\u0930\u0924\u0940\u092f \u0939\u0925\u0915\u0930\u0918\u093e \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u0938\u0902\u0938\u094d\u0925\u093e\u0928\u094b\u0902 \u0915\u093e \u092a\u094d\u0930\u0925\u092e \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0938\u092e\u094d\u092e\u0947\u0932\u0928",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298581",
-      "\u0906\u0930\u094d\u0925\u093f\u0915 \u092c\u093e\u0927\u093e\u0913\u0902 \u0938\u0947 \u0936\u0948\u0915\u094d\u0937\u093f\u0915 \u0906\u0924\u094d\u092e\u0935\u093f\u0936\u094d\u0935\u093e\u0938 \u0924\u0915: \u0915\u0948\u0938\u0947 \u091b\u093e\u0924\u094d\u0930\u0935\u0943\u0924\u094d\u0924\u093f \u0938\u0939\u093e\u092f\u0924\u093e \u0928\u0947 \u092d\u093e\u0938\u094d\u0915\u0930 \u0938\u0948\u0928\u0940 \u0915\u094b \u092c\u0940.\u091f\u0947\u0915. \u0936\u093f\u0915\u094d\u0937\u093e \u091c\u093e\u0930\u0940 \u0930\u0916\u0928\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u0915\u0940",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298614",
-      "\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0914\u0930 \u0915\u093f\u092b\u093e\u092f\u0924\u0940 \u0906\u0935\u093e\u0938 \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0915\u0928\u094d\u092f\u093e\u0913\u0902 \u0915\u093e \u0938\u0936\u0915\u094d\u0924\u093f\u0915\u0930\u0923: \u092e\u0923\u093f\u092a\u0941\u0930 \u092e\u0947\u0902 \u0909\u091a\u094d\u091a \u0936\u093f\u0915\u094d\u0937\u093e \u0924\u0915 \u092a\u0939\u0941\u0901\u091a \u092e\u0947\u0902 \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0905\u0928\u0941\u0938\u0942\u091a\u093f\u0924 \u091c\u093e\u0924\u093f \u0905\u092d\u093f\u092f\u093e\u0928 \u0915\u0948\u0938\u0947 \u0938\u0939\u093e\u092f\u0924\u093e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298583",
-      "\u092d\u093e\u0930\u0924\u0940\u092f \u0915\u0943\u0937\u093f \u0914\u0930 \u0938\u0902\u092c\u0926\u094d\u0927 \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u094b\u0902 \u0915\u093e \u0928\u092f\u093e \u092f\u0941\u0917",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298448"
+      "Diction/Pronunciation of the National Song and National Anthem of India",
+      "Click Here"
     ],
-    "diff": "@@ -1,5 +1,11 @@\n+\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u091c\u0940\u0935\u0928 \u0915\u0940 \u091a\u0941\u0928\u094c\u0924\u093f\u092f\u094b\u0902 \u092a\u0930 \u0935\u093f\u091c\u092f \u092a\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0926\u0943\u0922\u093c \u0938\u0902\u0915\u0932\u094d\u092a, \u0927\u0948\u0930\u094d\u092f \u0914\u0930 \u0928\u093f\u0930\u0902\u0924\u0930 \u092a\u094d\u0930\u092f\u093e\u0938 \u0915\u0947 \u092e\u0939\u0924\u094d\u0935 \u0915\u094b \u0930\u0947\u0916\u093e\u0902\u0915\u093f\u0924 \u0915\u0930\u0924\u0947 \u0939\u0941\u090f \u090f\u0915 \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0938\u0941\u092d\u093e\u0937\u093f\u0924 \u0938\u093e\u091d\u093e \u0915\u093f\u092f\u093e\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298722\n \u0935\u093f\u092d\u093e\u0917-\u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u092a\u0930\u093f\u0935\u0939\u0928, \u092a\u0930\u094d\u092f\u091f\u0928 \u0914\u0930 \u0938\u0902\u0938\u094d\u0915\u0943\u0924\u093f \u0938\u0902\u092c\u0902\u0927\u0940 \u0938\u0902\u0938\u0926\u0940\u092f \u0938\u094d\u0925\u093e\u092f\u0940 \u0938\u092e\u093f\u0924\u093f \u0915\u0940 393\u0935\u0940 \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u092a\u0930 \u092a\u094d\u0930\u0947\u0938 \u0935\u093f\u091c\u094d\u091e\u092a\u094d\u0924\u093f\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298705\n+\u092d\u093e\u0930\u0924 \u0914\u0930 \u0926\u0915\u094d\u0937\u093f\u0923 \u0905\u092b\u094d\u0930\u0940\u0915\u0940 \u0938\u0940\u092e\u093e \u0936\u0941\u0932\u094d\u0915 \u0938\u0902\u0918 (\u090f\u0938\u090f\u0938\u0940\u092f\u0942) \u0928\u0947 \u092a\u094d\u0930\u093e\u0925\u092e\u093f\u0915\u0924\u093e \u092a\u0942\u0930\u094d\u0923 \u0935\u094d\u092f\u093e\u092a\u093e\u0930 \u0938\u092e\u091d\u094c\u0924\u0947 \u0915\u0940 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u092c\u093e\u0924\u091a\u0940\u0924 \u0915\u0947 \u0932\u093f\u090f \u0938\u0902\u0926\u0930\u094d\u092d \u090f\u0935\u0902 \u0936\u0930\u094d\u0924\u094b\u0902 (\u091f\u0940\u0913\u0906\u0930) \u092a\u0930 \u0939\u0938\u094d\u0924\u093e\u0915\u094d\u0937\u0930 \u0915\u093f\u090f\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298716\n \u0932\u094b\u0915\u0938\u092d\u093e \u0905\u0927\u094d\u092f\u0915\u094d\u0937 \u0928\u0947 \u0936\u094d\u0930\u0940 \u0915\u094b\u0935\u093f\u0902\u0926 \u0915\u0940 \u0906\u0924\u094d\u092e\u0915\u0925\u093e \u0915\u094b \"\u0906\u0928\u0947 \u0935\u093e\u0932\u0940 \u092a\u0940\u0922\u093c\u093f\u092f\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u092a\u094d\u0930\u0947\u0930\u0923\u093e\" \u0915\u093e \u090f\u0915 \u0938\u094d\u0925\u093e\u092f\u0940 \u0938\u094d\u0930\u094b\u0924 \u092c\u0924\u093e\u092f\u093e\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298667\n+\u0921\u093f\u091c\u093f\u091f\u0932 \u0907\u0902\u0921\u093f\u092f\u093e \u092d\u093e\u0937\u093f\u0923\u0940 \u092a\u094d\u0930\u092d\u093e\u0917 (\u0921\u0940\u0906\u0908\u092c\u0940\u0921\u0940) \u0914\u0930 \u0928\u0940\u0924\u093f \u0906\u092f\u094b\u0917 \u0928\u0947 \u0938\u092e\u093e\u0935\u0947\u0936\u0940 \u0936\u093e\u0938\u0928 \u0915\u0947 \u0932\u093f\u090f \u092c\u0939\u0941\u092d\u093e\u0937\u0940 \u090f\u0906\u0908 \u0915\u094b \u092c\u0922\u093c\u093e\u0935\u093e \u0926\u0947\u0928\u0947 \u0939\u0947\u0924\u0941 \u0906\u0936\u092f \u092a\u0924\u094d\u0930 \u092a\u0930 \u0939\u0938\u094d\u0924\u093e\u0915\u094d\u0937\u0930 \u0915\u093f\u090f\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298715\n \u0915\u0947\u0928\u094d\u0926\u094d\u0930\u0940\u092f \u0917\u0943\u0939 \u090f\u0935\u0902 \u0938\u0939\u0915\u093e\u0930\u093f\u0924\u093e \u092e\u0902\u0924\u094d\u0930\u0940 \u0936\u094d\u0930\u0940 \u0905\u092e\u093f\u0924 \u0936\u093e\u0939 \u0928\u0947 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0949\u0928\u094d\u092b\u094d\u0930\u0947\u0902\u0938\u093f\u0902\u0917 \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0917\u0941\u091c\u0930\u093e\u0924 \u0915\u0947 \u0917\u093e\u0902\u0927\u0940\u0928\u0917\u0930 \u0932\u094b\u0915\u0938\u092d\u093e \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0915\u0947 \u092a\u0941\u0938\u094d\u0924\u0915\u093e\u0932\u092f\u094b\u0902 \u0915\u094b \u0906\u092a\u0938 \u092e\u0947\u0902 \u091c\u094b\u0921\u093c\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0935\u093f\u0915\u0938\u093f\u0924 \u2018\u0917\u094d\u0930\u093e\u092e\u0940\u0923 \u091c\u094d\u091e\u093e\u0928 \u0938\u0947\u0924\u0941\u2019 \u0910\u092a \u0915\u093e \u0936\u0941\u092d\u093e\u0930\u0902\u092d \u0915\u093f\u092f\u093e\n@@ -8,2 +14,4 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298656\n+\u0915\u0947\u0928\u094d\u0926\u094d\u0930\u0940\u092f \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092e\u0902\u0924\u094d\u0930\u0940 \u0936\u094d\u0930\u0940 \u0928\u0921\u094d\u0921\u093e \u0928\u0947 \u2018\u091f\u0940\u092c\u0940 \u092e\u0941\u0915\u094d\u0924 \u092d\u093e\u0930\u0924\u2019 \u0915\u0947 \u092a\u094d\u0930\u092f\u093e\u0938\u094b\u0902 \u0915\u094b \u092e\u091c\u092c\u0942\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091d\u093e\u0930\u0916\u0902\u0921 \u0914\u0930 \u0913\u0921\u093f\u0936\u093e \u0915\u0947 \u0938\u093e\u0902\u0938\u0926\u094b\u0902 \u0915\u0947 \u0938\u093e\u0925 \u092c\u0948\u0920\u0915 \u0915\u0940\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298718\n \u0935\u0930\u094d\u0937 2026\u20132030 \u0915\u0940 \u0905\u0935\u0927\u093f \u0915\u0947 \u0932\u093f\u090f \u0924\u0940\u0928 \u0938\u0902\u091a\u093e\u0930 \u092e\u093f\u0924\u094d\u0930\u094b\u0902 \u0915\u093e ITU \u091c\u0947\u0928\u0930\u0947\u0936\u0928 \u0915\u0928\u0947\u0915\u094d\u091f \u092f\u0942\u0925 \u090f\u0928\u0935\u0949\u092f \u0915\u0947 \u0930\u0942\u092a \u092e\u0947\u0902 \u091a\u092f\u0928\n@@ -32,9 +40 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298503\n-\u0915\u0947\u0902\u0926\u094d\u0930\u0940\u092f \u0935\u0938\u094d\u0924\u094d\u0930 \u092e\u0928\u094d\u0924\u094d\u0930\u0940 \u0928\u0947 \u0906\u0908\u0906\u0908\u090f\u091a\u091f\u0940 (IIHT) \u0938\u0942\u0924\u094d\u0930 2026 \u0915\u093e \u0909\u0926\u094d\u0918\u093e\u091f\u0928 \u0915\u093f\u092f\u093e, \u092d\u093e\u0930\u0924\u0940\u092f \u0939\u0925\u0915\u0930\u0918\u093e \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u0938\u0902\u0938\u094d\u0925\u093e\u0928\u094b\u0902 \u0915\u093e \u092a\u094d\u0930\u0925\u092e \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0938\u092e\u094d\u092e\u0947\u0932\u0928\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298581\n-\u0906\u0930\u094d\u0925\u093f\u0915 \u092c\u093e\u0927\u093e\u0913\u0902 \u0938\u0947 \u0936\u0948\u0915\u094d\u0937\u093f\u0915 \u0906\u0924\u094d\u092e\u0935\u093f\u0936\u094d\u0935\u093e\u0938 \u0924\u0915: \u0915\u0948\u0938\u0947 \u091b\u093e\u0924\u094d\u0930\u0935\u0943\u0924\u094d\u0924\u093f \u0938\u0939\u093e\u092f\u0924\u093e \u0928\u0947 \u092d\u093e\u0938\u094d\u0915\u0930 \u0938\u0948\u0928\u0940 \u0915\u094b \u092c\u0940.\u091f\u0947\u0915. \u0936\u093f\u0915\u094d\u0937\u093e \u091c\u093e\u0930\u0940 \u0930\u0916\u0928\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u0915\u0940\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298614\n-\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0914\u0930 \u0915\u093f\u092b\u093e\u092f\u0924\u0940 \u0906\u0935\u093e\u0938 \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0915\u0928\u094d\u092f\u093e\u0913\u0902 \u0915\u093e \u0938\u0936\u0915\u094d\u0924\u093f\u0915\u0930\u0923: \u092e\u0923\u093f\u092a\u0941\u0930 \u092e\u0947\u0902 \u0909\u091a\u094d\u091a \u0936\u093f\u0915\u094d\u0937\u093e \u0924\u0915 \u092a\u0939\u0941\u0901\u091a \u092e\u0947\u0902 \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0905\u0928\u0941\u0938\u0942\u091a\u093f\u0924 \u091c\u093e\u0924\u093f \u0905\u092d\u093f\u092f\u093e\u0928 \u0915\u0948\u0938\u0947 \u0938\u0939\u093e\u092f\u0924\u093e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298583\n-\u092d\u093e\u0930\u0924\u0940\u092f \u0915\u0943\u0937\u093f \u0914\u0930 \u0938\u0902\u092c\u0926\u094d\u0927 \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u094b\u0902 \u0915\u093e \u0928\u092f\u093e \u092f\u0941\u0917\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298448"
+    "diff": "@@ -135,2 +135,4 @@\n What's New\n+Award of Service Medals/Gallantry Medals on the occasion of Independence Day, 2026.\n+Download (228.6 KB)\n Nomination for the United Nations:Training Course on \"Monitoring,Mentoring and Advising\"(14-18 september 2026)-reg.\n@@ -153,4 +155,2 @@\n Download (4.95 MB)\n-Diction/Pronunciation of the National Song and National Anthem of India\n-Click Here\n more"
+  },
+  {
+    "ts": "2026-08-13T05:37:51+00:00",
+    "slug": "heavy-industries",
+    "name": "Heavy Industries",
+    "url": "https://heavyindustries.gov.in/en",
+    "notes": "Switched from the /hi build to English. Confirm the path on first run.",
+    "type": "change",
+    "added": 2,
+    "removed": 1,
+    "sample_added": [
+      "Magazines of enterprises/autonomous bodies under the Ministry",
+      "Last Upated : 13/08/2026 Total visitor: 2320582"
+    ],
+    "sample_removed": [
+      "Last Upated : 12/08/2026 Total visitor: 2320582"
+    ],
+    "diff": "@@ -83,2 +83,3 @@\n Udyog Bharti Magazine\n+Magazines of enterprises/autonomous bodies under the Ministry\n Announcement\n@@ -403,2 +404,2 @@\n reserved\n-Last Upated : 12/08/2026 Total visitor: 2320582\n+Last Upated : 13/08/2026 Total visitor: 2320582"
+  },
+  {
+    "ts": "2026-08-13T05:38:06+00:00",
+    "slug": "mib",
+    "name": "Information and Broadcasting",
+    "url": "https://www.mib.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 3,
+    "removed": 3,
+    "sample_added": [
+      "\u0938\u0930\u0915\u093e\u0930 \u092a\u0940\u0906\u0908\u092c\u0940 \u092b\u0948\u0915\u094d\u091f-\u091a\u0947\u0915\u093f\u0902\u0917, \u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915-\u0938\u0947\u0935\u093e \u092a\u094d\u0930\u0938\u093e\u0930\u0923 \u0914\u0930 \u0921\u093f\u091c\u093f\u091f\u0932 \u092e\u0940\u0921\u093f\u092f\u093e \u0928\u093f\u092f\u092e\u0928\u094b\u0902 \u0915\u0947 \u091c\u0930\u093f\u090f \u0935\u093f\u0936\u094d\u0935\u0938\u0928\u0940\u092f \u0938\u0942\u091a\u0928\u093e \u0915\u0947 \u092a\u094d\u0930\u0938\u093e\u0930 \u0915\u0947 \u0915\u093e\u0930\u094d\u092f \u0915\u094b \u092e\u091c\u092c\u0942\u0924 \u0915\u0930\u0928\u0947 \u0915\u093e \u092a\u094d\u0930\u092f\u093e\u0938 \u0915\u0930 \u0930\u0939\u0940 \u0939\u0948",
+      "\u0928\u0947\u0936\u0928\u0932 \u090f\u0906\u0908 \u0938\u094d\u0915\u093f\u0932\u093f\u0902\u0917 \u092a\u0939\u0932 \u0915\u0947 \u092a\u094d\u0930\u0925\u092e \u091a\u0930\u0923 \u092e\u0947\u0902 60,253 \u0932\u094b\u0917\u094b\u0902 \u0928\u0947 \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u0915\u0930\u093e\u092f\u093e;",
+      "13 \u0905\u0917\u0938\u094d\u0924 2026"
+    ],
+    "sample_removed": [
+      "\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u0928\u093f\u092f\u092e\u093e\u0935\u0932\u0940, 2021 \u092e\u0947\u0902 \u0936\u0930\u093e\u092c \u0914\u0930 \u0924\u0902\u092c\u093e\u0915\u0942 \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0915\u0947 \u0932\u093f\u090f \u0935\u0930\u094d\u0917\u0940\u0915\u0930\u0923 \u0915\u093e \u092a\u094d\u0930\u093e\u0935\u0927\u093e\u0928, \u0906\u091a\u093e\u0930 \u0938\u0902\u0939\u093f\u0924\u093e \u0915\u0940 \u0936\u093f\u0915\u093e\u092f\u0924\u094b\u0902 \u0915\u093e \u0928\u093f\u0935\u093e\u0930\u0923 \u0915\u0930\u0924\u0940 \u0939\u0948 \u0924\u0940\u0928 \u0938\u094d\u0924\u0930\u0940\u092f \u092a\u094d\u0930\u0923\u093e\u0932\u0940",
+      "\u0930\u091a\u0928\u093e\u0924\u094d\u092e\u0915 \u0905\u0930\u094d\u0925\u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e \u0915\u0947 \u0932\u093f\u090f \u092a\u094d\u0930\u092e\u0941\u0916 \u0905\u0902\u0924\u0930\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u092e\u093e\u0930\u094d\u0915\u0947\u091f\u092a\u094d \u0932\u0947\u0938 '\u092c\u094d\u0930\u093f\u0915\u094d\u0938 \u0935\u0947\u0935\u094d\u0938 \u092c\u093e\u091c\u093c\u093e\u0930' \u0928\u0947 \u092e\u0941\u0902\u092c\u0908 \u092e\u0947\u0902 \u092c\u094d\u0930\u093f\u0915\u094d\u0938 \u0938\u0926\u0938\u094d\u092f \u0914\u0930 \u092d\u093e\u0917\u0940\u0926\u093e\u0930 \u0926\u0947\u0936\u094b\u0902 \u0915\u0947 500 \u0938\u0947 \u0905\u0927\u093f\u0915 \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u0927\u093f\u092f\u094b\u0902 \u0915\u094b \u090f\u0915\u0924\u094d\u0930\u093f\u0924 \u0915\u093f\u092f\u093e",
+      "12 \u0905\u0917\u0938\u094d\u0924 2026"
+    ],
+    "diff": "@@ -164,2 +164,6 @@\n \u092a\u094d\u0930\u0947\u0938 \u092a\u094d\u0930\u0915\u093e\u0936\u0928\u0940\n+\u0938\u0930\u0915\u093e\u0930 \u092a\u0940\u0906\u0908\u092c\u0940 \u092b\u0948\u0915\u094d\u091f-\u091a\u0947\u0915\u093f\u0902\u0917, \u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915-\u0938\u0947\u0935\u093e \u092a\u094d\u0930\u0938\u093e\u0930\u0923 \u0914\u0930 \u0921\u093f\u091c\u093f\u091f\u0932 \u092e\u0940\u0921\u093f\u092f\u093e \u0928\u093f\u092f\u092e\u0928\u094b\u0902 \u0915\u0947 \u091c\u0930\u093f\u090f \u0935\u093f\u0936\u094d\u0935\u0938\u0928\u0940\u092f \u0938\u0942\u091a\u0928\u093e \u0915\u0947 \u092a\u094d\u0930\u0938\u093e\u0930 \u0915\u0947 \u0915\u093e\u0930\u094d\u092f \u0915\u094b \u092e\u091c\u092c\u0942\u0924 \u0915\u0930\u0928\u0947 \u0915\u093e \u092a\u094d\u0930\u092f\u093e\u0938 \u0915\u0930 \u0930\u0939\u0940 \u0939\u0948\n+\u092a\u094d\u0930\u0947\u0938 \u092a\u094d\u0930\u0915\u093e\u0936\u0928\u0940\n+\u0928\u0947\u0936\u0928\u0932 \u090f\u0906\u0908 \u0938\u094d\u0915\u093f\u0932\u093f\u0902\u0917 \u092a\u0939\u0932 \u0915\u0947 \u092a\u094d\u0930\u0925\u092e \u091a\u0930\u0923 \u092e\u0947\u0902 60,253 \u0932\u094b\u0917\u094b\u0902 \u0928\u0947 \u092a\u0902\u091c\u0940\u0915\u0930\u0923 \u0915\u0930\u093e\u092f\u093e;\n+\u092a\u094d\u0930\u0947\u0938 \u092a\u094d\u0930\u0915\u093e\u0936\u0928\u0940\n \u092c\u094d\u0930\u093f\u0915\u094d \u0938 \u0935\u0947\u092c\u094d \u0938 \u092c\u093e\u091c\u093e\u0930 2026 \u0915\u093e \u0938\u092e\u093e\u092a\u0928 \u0928\u0908 \u0905\u0902\u0924\u0930\u094d\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0938\u093e\u091d\u0947\u0926\u093e\u0930\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0939\u092f\u094b\u0917 \u0915\u0947 \u0938\u093e\u0925 \u0939\u0941\u0906\n@@ -167,6 +171,2 @@\n \u092e\u0941\u0916\u094d\u092f \u0938\u091a\u093f\u0935\u094b\u0902 \u0914\u0930 \u0906\u092a\u0926\u093e \u092a\u094d\u0930\u092c\u0902\u0927\u0928 \u0935\u093f\u092d\u093e\u0917\u094b\u0902 \u0938\u0947 \u0938\u0902\u0935\u0947\u0926\u0928\u0936\u0940\u0932 \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u094b\u0902 \u092e\u0947\u0902 \u0928\u090f \u0938\u093e\u092e\u0941\u0926\u093e\u092f\u093f\u0915 \u0930\u0947\u0921\u093f\u092f\u094b \u0938\u094d\u091f\u0947\u0936\u0928\u094b\u0902 \u0915\u094b \u092c\u0922\u093c\u093e\u0935\u093e \u0926\u0947\u0928\u0947 \u0915\u093e \u0906\u0917\u094d\u0930\u0939 \u0915\u093f\u092f\u093e \u0917\u092f\u093e; \u092c\u093e\u0922\u093c, \u092d\u0942\u0915\u0902\u092a \u0914\u0930 \u092c\u093f\u091c\u0932\u0940 \u0917\u093f\u0930\u0928\u0947 \u0938\u0947 \u092a\u094d\u0930\u092d\u093e\u0935\u093f\u0924 \u0938\u094d\u091f\u0947\u0936\u0928\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f 11.50 \u0932\u093e\u0916 \u0930\u0941\u092a\u092f\u0947 \u0915\u093e \u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0905\u0928\u0941\u0926\u093e\u0928 \u0909\u092a\u0932\u092c\u094d\u0927 \u0939\u0948\n-\u092a\u094d\u0930\u0947\u0938 \u092a\u094d\u0930\u0915\u093e\u0936\u0928\u0940\n-\u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u094c\u0926\u094d\u092f\u094b\u0917\u093f\u0915\u0940 \u0928\u093f\u092f\u092e\u093e\u0935\u0932\u0940, 2021 \u092e\u0947\u0902 \u0936\u0930\u093e\u092c \u0914\u0930 \u0924\u0902\u092c\u093e\u0915\u0942 \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0915\u0947 \u0932\u093f\u090f \u0935\u0930\u094d\u0917\u0940\u0915\u0930\u0923 \u0915\u093e \u092a\u094d\u0930\u093e\u0935\u0927\u093e\u0928, \u0906\u091a\u093e\u0930 \u0938\u0902\u0939\u093f\u0924\u093e \u0915\u0940 \u0936\u093f\u0915\u093e\u092f\u0924\u094b\u0902 \u0915\u093e \u0928\u093f\u0935\u093e\u0930\u0923 \u0915\u0930\u0924\u0940 \u0939\u0948 \u0924\u0940\u0928 \u0938\u094d\u0924\u0930\u0940\u092f \u092a\u094d\u0930\u0923\u093e\u0932\u0940\n-\u092a\u094d\u0930\u0947\u0938 \u092a\u094d\u0930\u0915\u093e\u0936\u0928\u0940\n-\u0930\u091a\u0928\u093e\u0924\u094d\u092e\u0915 \u0905\u0930\u094d\u0925\u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e \u0915\u0947 \u0932\u093f\u090f \u092a\u094d\u0930\u092e\u0941\u0916 \u0905\u0902\u0924\u0930\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u092e\u093e\u0930\u094d\u0915\u0947\u091f\u092a\u094d \u0932\u0947\u0938 '\u092c\u094d\u0930\u093f\u0915\u094d\u0938 \u0935\u0947\u0935\u094d\u0938 \u092c\u093e\u091c\u093c\u093e\u0930' \u0928\u0947 \u092e\u0941\u0902\u092c\u0908 \u092e\u0947\u0902 \u092c\u094d\u0930\u093f\u0915\u094d\u0938 \u0938\u0926\u0938\u094d\u092f \u0914\u0930 \u092d\u093e\u0917\u0940\u0926\u093e\u0930 \u0926\u0947\u0936\u094b\u0902 \u0915\u0947 500 \u0938\u0947 \u0905\u0927\u093f\u0915 \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u0927\u093f\u092f\u094b\u0902 \u0915\u094b \u090f\u0915\u0924\u094d\u0930\u093f\u0924 \u0915\u093f\u092f\u093e\n View More\n@@ -221,2 +221,2 @@\n \u0905\u0902\u0924\u093f\u092e \u0905\u0926\u094d\u092f\u0924\u0928:\n-12 \u0905\u0917\u0938\u094d\u0924 2026\n+13 \u0905\u0917\u0938\u094d\u0924 2026"
+  },
+  {
+    "ts": "2026-08-13T05:38:36+00:00",
+    "slug": "morth",
+    "name": "Road Transport and Highways",
+    "url": "https://morth.gov.in/",
+    "notes": "Hash-routed single-page app: fetched with a headless browser after the JS settles. The bare domain is used because the #/ fragment is never sent to the server.",
+    "type": "change",
+    "added": 0,
+    "removed": 2,
+    "sample_added": [],
+    "sample_removed": [
+      "Orders and Notices",
+      "Road Safety Engineering Cell"
+    ],
+    "diff": "@@ -1803,4 +1803,2 @@\n Manner of Deposition Rules, 2019\n-Orders and Notices\n-Road Safety Engineering Cell\n Gazettes Notifications"
+  },
+  {
+    "ts": "2026-08-13T05:39:00+00:00",
+    "slug": "mospi",
+    "name": "Statistics and Programme Implementation",
+    "url": "https://www.mospi.gov.in/",
+    "notes": "GDP, CPI and IIP releases. Repoint at the press-release listing once confirmed.",
+    "type": "change",
+    "added": 5,
+    "removed": 2,
+    "sample_added": [
+      "MoSPI invites Research Papers for the Brainstorming Workshop on subjects related to the Household Consumption Expenditure Survey (HCES: 2027\u201328)",
+      "MoSPI invites Research Papers for the Brainstorming Workshop on subjects related to the Household Consumption Expenditure Survey (HCES: 2027\u201328)",
+      "Call for Research Papers for Brainstorming Workshop on subjects",
+      "related to Household Consumption Expenditure Survey (HCES: 2027\u201328)",
+      "PDF Size: 756980"
+    ],
+    "sample_removed": [
+      "Compendium of Datasets and Registries in India, 2025",
+      "PDF Size: 9542388"
+    ],
+    "diff": "@@ -18,2 +18,3 @@\n ANNOUNCEMENT\n+MoSPI invites Research Papers for the Brainstorming Workshop on subjects related to the Household Consumption Expenditure Survey (HCES: 2027\u201328)\n PLFS Monthly Bulletin, June 2026 is now released and the same is available at https://www.mospi.gov.in'\n@@ -24,2 +25,3 @@\n Provisional Estimates of GDP, FY 2025-26 and Q4 GDP Estimates, FY 2025-26 released\n+MoSPI invites Research Papers for the Brainstorming Workshop on subjects related to the Household Consumption Expenditure Survey (HCES: 2027\u201328)\n PLFS Monthly Bulletin, June 2026 is now released and the same is available at https://www.mospi.gov.in'\n@@ -145,2 +147,6 @@\n Announcements\n+New\n+Call for Research Papers for Brainstorming Workshop on subjects\n+related to Household Consumption Expenditure Survey (HCES: 2027\u201328)\n+PDF Size: 756980\n Guidelines for Hiring of 130 Consultants for undertaking Agricultural Statistics Work\n@@ -151,4 +157,2 @@\n PDF Size: 2646737\n-Compendium of Datasets and Registries in India, 2025\n-PDF Size: 9542388\n Read More"
+  },
+  {
+    "ts": "2026-08-13T05:39:21+00:00",
+    "slug": "cag",
+    "name": "Comptroller and Auditor General",
+    "url": "https://cag.gov.in/en",
+    "notes": "Audit reports land here before they are tabled in the press.",
+    "type": "change",
+    "added": 39,
+    "removed": 11,
+    "sample_added": [
+      "Report of the Comptroller and Auditor General of India on Key Entities and Schemes in Pension Sector ...",
+      "Report of the Comptroller and Auditor General of India for the period ended March 2024 Union Government Economic ...",
+      "Report of the Comptroller and Auditor General of India on Scheme for Faster Adoption and Manufacturing of (...",
+      "Report of the Comptroller and Auditor General of India General Purpose Financial Reports of Central Public Sector ...",
+      "Report of the Comptroller and Auditor General of India for the year ended 31 March 2025 Union Government (Commercial) ...",
+      "13 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - Audit Report No. 32 of 2026 on Direct Taxes on Taxation of Unexplained Transactions Presented",
+      "13 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - General Purpose Financial Reports of CPSEs- Union Government (Commercial) \u2013 Report No. 21 of 2026 Presented",
+      "13 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG\u2019s Performance Audit Report on Key Entities and Schemes in Pension Sector Presented",
+      "13 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG\u2019s Compliance Audit Report on Union Government (Economic and Service Ministries \u2013 Civil) Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG\u2019s AUDIT REPORT ON GST PRESENTED",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - Audit Report on Compliance Audit of Indian Institute of Management, Rohtak Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG\u2019s Compliance Audit Report on Property Management in Central Silk Board Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - Commercial Compliance Audit Report on CPSEs Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - Audit Report No. 03 of 2026 Ministry of Railways\u2013 (Railway Finances) Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG Audit Report on Central Autonomous Bodies Tabled in Parliament",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG Audit Report on Railway Finances Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - Audit Report on Direct Taxes \u201cDirect Tax Vivad se Vishwas Scheme\" Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG\u2019s Performance Audit Report on the Scheme for Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles in India",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG\u2019s Compliance Audit Report on Union Government (Economic and Service Ministries \u2013 Civil) Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - CAG\u2019s Performance Audit Report on Key Entities and Schemes in Pension Sector Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - General Purpose Financial Reports of CPSEs- Union Government (Commercial) \u2013 Report No. 21 of 2026 Presented",
+      "12 Aug, 2026",
+      "PRESS RELEASE - 12th August 2026 - Audit Report No. 32 of 2026 on Direct Taxes on Taxation of Unexplained Transactions Presented"
+    ],
+    "sample_removed": [
+      "Report of the Comptroller and Auditor General of India for the year ended March 2023 -Union Government \u2013 Central ...",
+      "Report of the Comptroller and Auditor General of India for the period ended March 2024, Union Government, Department ...",
+      "Report of the Comptroller and Auditor General of India on Accounts of the Union Government for the ...",
+      "30-March, 2026",
+      "Report of the Comptroller and Auditor General of India for the year ended 31 March 2024 Union Government (Commercial) ...",
+      "11-February, 2026",
+      "Report of the Comptroller and Auditor General of India on Operational Performance of NLC India Limited Government ...",
+      "03 Aug, 2026",
+      "EXPRESSION OF INTEREST (EOI) INVITATION FOR EMPANELMENT OF CONTENT DEVELOPMENT AGENCIES FOR DEVELOPMENT OF COMPETENCY-BASED DIGITAL LEARNING CONTENT",
+      "31 Jul, 2026",
+      "Engagement/Preparation of Panel of Consultants (Economics) in the Office of the Comptroller and Auditor General (CAG) of India"
+    ],
+    "diff": "@@ -245,15 +245,15 @@\n 12-August, 2026\n-Report of the Comptroller and Auditor General of India for the year ended March 2023 -Union Government \u2013 Central ...\n+Report of the Comptroller and Auditor General of India on Key Entities and Schemes in Pension Sector ...\n 12-August, 2026\n-Report of the Comptroller and Auditor General of India for the period ended March 2024, Union Government, Department ...\n-02-April, 2026\n-Report of the Comptroller and Auditor General of India on Accounts of the Union Government for the ...\n+Report of the Comptroller and Auditor General of India for the period ended March 2024 Union Government Economic ...\n+12-August, 2026\n+Report of the Comptroller and Auditor General of India on Scheme for Faster Adoption and Manufacturing of (...\n View All Report\n Commercial\n+12-August, 2026\n+Report of the Comptroller and Auditor General of India General Purpose Financial Reports of Central Public Sector ...\n+12-August, 2026\n+Report of the Comptroller and Auditor General of India for the year ended 31 March 2025 Union Government (Commercial) ...\n 10-August, 2026\n Report of the Comptroller and Auditor General of India on Implementation of Phase 1 and Phase 2 of Bangalore ...\n-30-March, 2026\n-Report of the Comptroller and Auditor General of India for the year ended 31 March 2024 Union Government (Commercial) ...\n-11-February, 2026\n-Report of the Comptroller and Auditor General of India on Operational Performance of NLC India Limited Government ...\n View All Report\n@@ -530,12 +530,38 @@\n View All\n-10 Aug, 2026\n-PRESS RELEASE - 10th August 2026 - CAG\u2019s Audit Report on Implementation of Bangalore Metro Rail Project by Bangalore Metro Rail Corporation Limited Presented\n-03 Aug, 2026\n-EXPRESSION OF INTEREST (EOI) INVITATION FOR EMPANELMENT OF CONTENT DEVELOPMENT AGENCIES FOR DEVELOPMENT OF COMPETENCY-BASED DIGITAL LEARNING CONTENT\n-31 Jul, 2026\n-Engagement/Preparation of Panel of Consultants (Economics) in the Office of the Comptroller and Auditor General (CAG) of India\n-23 Jun, 2026\n-PRESS RELEASE - 23rd June 2026 CAG of INDIA & ISRAEL SIGN MOU FOR ENHANCED COOPERATION IN PUBLIC SECTOR AUDITING\n+13 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - Audit Report No. 32 of 2026 on Direct Taxes on Taxation of Unexplained Transactions Presented\n+13 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - General Purpose Financial Reports of CPSEs- Union Government (Commercial) \u2013 Report No. 21 of 2026 Presented\n+13 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG\u2019s Performance Audit Report on Key Entities and Schemes in Pension Sector Presented\n+13 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG\u2019s Compliance Audit Report on Union Government (Economic and Service Ministries \u2013 Civil) Presented\n Press Release\n View All\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG\u2019s AUDIT REPORT ON GST PRESENTED\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - Audit Report on Compliance Audit of Indian Institute of Management, Rohtak Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG\u2019s Compliance Audit Report on Property Management in Central Silk Board Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - Commercial Compliance Audit Report on CPSEs Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - Audit Report No. 03 of 2026 Ministry of Railways\u2013 (Railway Finances) Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG Audit Report on Central Autonomous Bodies Tabled in Parliament\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG Audit Report on Railway Finances Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - Audit Report on Direct Taxes \u201cDirect Tax Vivad se Vishwas Scheme\" Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG\u2019s Performance Audit Report on the Scheme for Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles in India\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG\u2019s Compliance Audit Report on Union Government (Economic and Service Ministries \u2013 Civil) Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - CAG\u2019s Performance Audit Report on Key Entities and Schemes in Pension Sector Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - General Purpose Financial Reports of CPSEs- Union Government (Commercial) \u2013 Report No. 21 of 2026 Presented\n+12 Aug, 2026\n+PRESS RELEASE - 12th August 2026 - Audit Report No. 32 of 2026 on Direct Taxes on Taxation of Unexplained Transactions Presented\n 10 Aug, 2026"
+  },
+  {
+    "ts": "2026-08-13T05:40:31+00:00",
+    "slug": "finmin",
+    "name": "Finance Ministry",
+    "url": "https://finmin.gov.in/",
+    "type": "error",
+    "detail": "ConnectTimeout: HTTPSConnectionPool(host='finmin.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='finmin.gov.in', port=443) at 0x7f3cd13c1910>, 'Connection to finmin.gov.in timed out. (connect timeout=30)'))"
+  },
+  {
+    "ts": "2026-08-13T05:40:34+00:00",
+    "slug": "commerce-dept",
+    "name": "Department of Commerce",
+    "url": "https://commerce.gov.in/",
+    "type": "error",
+    "detail": "only 0 chars extracted (floor 400)"
+  },
+  {
+    "ts": "2026-08-13T05:40:35+00:00",
+    "slug": "rbi-press",
+    "name": "RBI \u2014 press releases",
+    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+    "notes": "Highest-yield page on the list for a business desk.",
+    "type": "change",
+    "added": 5,
+    "removed": 6,
+    "sample_added": [
+      "Aug 13, 2026",
+      "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on August 13, 2026",
+      "Money Market Operations as on August 12, 2026",
+      "(652 kb)",
+      "Website last updated date: Aug 13, 2026"
+    ],
+    "sample_removed": [
+      "Aug 04, 2026",
+      "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 \u2013 The Pusad Urban Co-operative Bank Ltd., Pusad, Dist. Yavatmal, Maharashtra \u2013 Extension of Period",
+      "Scheme for writing books originally in Hindi on Economics/Banking/Financial subjects- Year 2025-26",
+      "Money Market Operations as on August 3, 2026",
+      "(652 KB)",
+      "Website last updated date: Aug 12, 2026"
+    ],
+    "diff": "@@ -98,2 +98,5 @@\n Press Releases\n+Aug 13, 2026\n+Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on August 13, 2026\n+Money Market Operations as on August 12, 2026\n Aug 12, 2026\n@@ -176,8 +179,2 @@\n Money Market Operations as on August 4, 2026\n-Aug 04, 2026\n-Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 \u2013 The Pusad Urban Co-operative Bank Ltd., Pusad, Dist. Yavatmal, Maharashtra \u2013 Extension of Period\n-State Government Securities - Full Auction Result\n-Result of Yield/Price Based Auction of State Government Securities\n-Scheme for writing books originally in Hindi on Economics/Banking/Financial subjects- Year 2025-26\n-Money Market Operations as on August 3, 2026\n All Months\n@@ -686,3 +683,3 @@\n RBI\u2019s Vision and Values\n-(652 KB)\n+(652 kb)\n Right to Information Act\n@@ -702,3 +699,3 @@\n Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in\n-Website last updated date: Aug 12, 2026\n+Website last updated date: Aug 13, 2026\n Web Information Manager"
+  },
+  {
+    "ts": "2026-08-13T05:40:37+00:00",
+    "slug": "rbi-notifications",
+    "name": "RBI \u2014 notifications",
+    "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx",
+    "notes": "",
+    "type": "change",
+    "added": 2,
+    "removed": 2,
+    "sample_added": [
+      "(652 KB)",
+      "Website last updated date: Aug 13, 2026"
+    ],
+    "sample_removed": [
+      "(652 kb)",
+      "Website last updated date: Aug 12, 2026"
+    ],
+    "diff": "@@ -714,3 +714,3 @@\n RBI\u2019s Vision and Values\n-(652 kb)\n+(652 KB)\n Right to Information Act\n@@ -730,3 +730,3 @@\n Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in\n-Website last updated date: Aug 12, 2026\n+Website last updated date: Aug 13, 2026\n Web Information Manager"
+  },
+  {
+    "ts": "2026-08-13T05:40:41+00:00",
+    "slug": "sebi",
+    "name": "SEBI \u2014 all listings",
+    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes",
+    "notes": "Every SEBI posting in one dated stream, newest first. Server-rendered.",
+    "type": "change",
+    "added": 12,
+    "removed": 16,
+    "sample_added": [
+      "1 to 25 of 83921 records",
+      "Aug 13, 2026",
+      "SBI BSE India Defence ETF FOF",
+      "Public Notices",
+      "Status of SCORES complaints as on July 31, 2026",
+      "Public Notices",
+      "Names of the companies/Intermediaries/MIIs having complaints pending for more than 3 months on SCORES as on July 31, 2026",
+      "J PAN TUBULAR COMPONENTS LIMITED",
+      "Appeal No. 6984 of 2026 filed by Muhammad Aadil",
+      "Appeal No. 6982 of 2026 filed by Shantabai Ambu Rathod",
+      "Appeal No. 6975 of 2026 filed by RM Nagappan",
+      "1 to 25 of 83921 records"
+    ],
+    "sample_removed": [
+      "1 to 25 of 83917 records",
+      "SEBI Order for Compliance - Release Order for Recovery Certificate No. 4473 of 2022 Mr. Girishkumar Prabhudas Ruparel (PAN: AIPPR8860G) in the matter of Atlanta Infrastructure and Finance Limited.",
+      "SEBI Order for Compliance - Completion of Recovery Certificate No.4473 of 2022 Mr. Girishkumar Prabhudas Ruparel (PAN: AIPPR8860G) in the matter of Atlanta Infrastructure and Finance Limited.",
+      "BEAUTY GARAGE LIMITED - DRHP",
+      "BEAUTY GARAGE LIMITED - Abridged Prospectus",
+      "Aug 10, 2026",
+      "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15651 & 15652 of 2026 dated August 10, 2026 against Jigar Bhailalbhai Khalash [Defaulter] in the matter of trading activity in the scrip of ANI Integrated Services Limited, under Recovery Certificate No. 9226 of 2026.",
+      "Aug 10, 2026",
+      "Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15653 & 15654 of 2026 dated August 10, 2026 against Lataben Narotambhai Rangi [Defaulter] in the matter of trading activity in the scrip of ANI Integrated Services Limited, under Recovery Certificate No. 9227 of 2026.",
+      "Aug 10, 2026",
+      "InvIT Public Issues",
+      "NDR InvIT Trust (Private to Public)",
+      "Aug 10, 2026",
+      "Takeovers",
+      "ACI Infocom Limited",
+      "1 to 25 of 83917 records"
+    ],
+    "diff": "@@ -103,3 +103,3 @@\n Reset\n-1 to 25 of 83917 records\n+1 to 25 of 83921 records\n \uf105\n@@ -108,2 +108,5 @@\n Title\n+Aug 13, 2026\n+Mutual Funds\n+SBI BSE India Defence ETF FOF\n Aug 12, 2026\n@@ -141,2 +144,8 @@\n Aug 12, 2026\n+Public Notices\n+Status of SCORES complaints as on July 31, 2026\n+Aug 12, 2026\n+Public Notices\n+Names of the companies/Intermediaries/MIIs having complaints pending for more than 3 months on SCORES as on July 31, 2026\n+Aug 12, 2026\n Recovery Proceedings\n@@ -146,2 +155,5 @@\n Release Order dated 12.08.2026 issued in RC No. 4760 of 2022\n+Aug 12, 2026\n+Public Issues\n+J PAN TUBULAR COMPONENTS LIMITED\n Aug 12, 2026\n@@ -157,2 +169,11 @@\n Aug 11, 2026\n+Orders\n+Appeal No. 6984 of 2026 filed by Muhammad Aadil\n+Aug 11, 2026\n+Orders\n+Appeal No. 6982 of 2026 filed by Shantabai Ambu Rathod\n+Aug 11, 2026\n+Orders\n+Appeal No. 6975 of 2026 filed by RM Nagappan\n+Aug 11, 2026\n Reports\n@@ -167,25 +188,3 @@\n Click here to provide your comments\n-Aug 11, 2026\n-Recovery Proceedings\n-SEBI Order for Compliance - Release Order for Recovery Certificate No. 4473 of 2022 Mr. Girishkumar Prabhudas Ruparel (PAN: AIPPR8860G) in the matter of Atlanta Infrastructure and Finance Limited.\n-Aug 11, 2026\n-Recovery Proceedings\n-SEBI Order for Compliance - Completion of Recovery Certificate No.4473 of 2022 Mr. Girishkumar Prabhudas Ruparel (PAN: AIPPR8860G) in the matter of Atlanta Infrastructure and Finance Limited.\n-Aug 11, 2026\n-Public Issues\n-BEAUTY GARAGE LIMITED - DRHP\n-BEAUTY GARAGE LIMITED - Abridged Prospectus\n-Aug 10, 2026\n-Recovery Proceedings\n-Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15651 & 15652 of 2026 dated August 10, 2026 against Jigar Bhailalbhai Khalash [Defaulter] in the matter of trading activity in the scrip of ANI Integrated Services Limited, under Recovery Certificate No. 9226 of 2026.\n-Aug 10, 2026\n-Recovery Proceedings\n-Notice of Attachment of Bank Accounts and Demat Accounts with AP No. 15653 & 15654 of 2026 dated August 10, 2026 against Lataben Narotambhai Rangi [Defaulter] in the matter of trading activity in the scrip of ANI Integrated Services Limited, under Recovery Certificate No. 9227 of 2026.\n-Aug 10, 2026\n-InvIT Public Issues\n-NDR InvIT Trust (Private to Public)\n-Aug 10, 2026\n-Takeovers\n-ACI Infocom Limited\n-1 to 25 of 83917 records\n+1 to 25 of 83921 records\n \uf105"
+  },
+  {
+    "ts": "2026-08-13T05:40:46+00:00",
+    "slug": "egazette",
+    "name": "eGazette",
+    "url": "https://egazette.gov.in/",
+    "notes": "Rules and tariff notifications appear here before any press release.",
+    "type": "change",
+    "added": 12,
+    "removed": 12,
+    "sample_added": [
+      "Bureau of Indian Standards",
+      "In pursuance of Sub rule 1 of Rule 15 of the ...",
+      "CG-DL-E-12082026-275420",
+      "Bureau of Indian Standards",
+      "In pursuance of Sub rule 1 of Rule 15 of th...",
+      "CG-DL-E-12082026-275419",
+      "Central Electricity Regulatory Commission",
+      "In pursuance of Clause 5 6 vi of the Ministr...",
+      "CG-DL-E-12082026-275418",
+      "Reserve Bank of India",
+      "In pursuance of clause a of sub section 6 o...",
+      "CG-MH-E-12082026-275417"
+    ],
+    "sample_removed": [
+      "Joint Electricity Regulatory Commission for UT of Jammu &amp; Kashmir and UT of Ladakh",
+      "In exercise of the powers conferred on it by ...",
+      "CG-JK-E-12082026-275398",
+      "Government of The National Capital Territory of Delhi",
+      "Maidan Garhi...",
+      "SG-DL-E-12082026-275397",
+      "Ministry of Petroleum and Natural Gas",
+      "Publication of Notification in the Gazette of...",
+      "CG-DL-E-12082026-275396",
+      "Ministry of Petroleum and Natural Gas",
+      "Publication of notification in Extraordinary ...",
+      "CG-DL-E-12082026-275395"
+    ],
+    "diff": "@@ -58,14 +58,14 @@\n Download\n-Joint Electricity Regulatory Commission for UT of Jammu &amp; Kashmir and UT of Ladakh\n-In exercise of the powers conferred on it by ...\n-CG-JK-E-12082026-275398\n-Government of The National Capital Territory of Delhi\n-Maidan Garhi...\n-SG-DL-E-12082026-275397\n-Ministry of Petroleum and Natural Gas\n-Publication of Notification in the Gazette of...\n-CG-DL-E-12082026-275396\n-Ministry of Petroleum and Natural Gas\n-Publication of notification in Extraordinary ...\n-CG-DL-E-12082026-275395\n+Bureau of Indian Standards\n+In pursuance of Sub rule 1 of Rule 15 of the ...\n+CG-DL-E-12082026-275420\n+Bureau of Indian Standards\n+In pursuance of Sub rule 1 of Rule 15 of th...\n+CG-DL-E-12082026-275419\n+Central Electricity Regulatory Commission\n+In pursuance of Clause 5 6 vi of the Ministr...\n+CG-DL-E-12082026-275418\n+Reserve Bank of India\n+In pursuance of clause a of sub section 6 o...\n+CG-MH-E-12082026-275417\n View All....."
+  },
+  {
+    "ts": "2026-08-13T05:40:52+00:00",
+    "slug": "dipam",
+    "name": "DIPAM \u2014 disinvestment",
+    "url": "https://dipam.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "Market Monitor - 12.08.2026"
+    ],
+    "sample_removed": [
+      "Market Monitor - 11.08.2026"
+    ],
+    "diff": "@@ -303,3 +303,3 @@\n View All\n-Market Monitor - 11.08.2026\n+Market Monitor - 12.08.2026\n View All \u2192"
+  },
+  {
+    "ts": "2026-08-13T05:41:27+00:00",
+    "slug": "cci",
+    "name": "Competition Commission of India",
+    "url": "https://www.cci.gov.in/",
+    "notes": "Merger clearances and penalty orders.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "Website last updated on : 12/08/2026 |"
+    ],
+    "sample_removed": [
+      "Website last updated on : 11/08/2026 |"
+    ],
+    "diff": "@@ -133,2 +133,2 @@\n Copyright \u00a9 2026 Competition Commission of India, Government of India.\n-Website last updated on : 11/08/2026 |\n+Website last updated on : 12/08/2026 |"
+  },
+  {
+    "ts": "2026-08-13T05:41:30+00:00",
+    "slug": "trai",
+    "name": "TRAI",
+    "url": "https://www.trai.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 0,
+    "removed": 0,
+    "sample_added": [],
+    "sample_removed": [],
+    "diff": "@@ -226,5 +226,2 @@\n 4th August 2026\n-TRAI Assesses Mobile Network Quality on Ahmedabad to Gandhidham Rail Route (Gujarat LSA)\n-Explore\n-4th August 2026\n TRAI releases Quarterly Highlights of Action Against Unsolicited Commercial Communications (UCC) For the period 01.04.2026 to 30.06.2026\n@@ -234,2 +231,8 @@\n Explore\n+4th August 2026\n+TRAI Assesses Mobile Network Quality on Ahmedabad to Gandhidham Rail Route (Gujarat LSA)\n+Explore\n+3rd August 2026\n+TRAI Assesses Mobile Network Quality Across Haridwar, Rishikesh & Nearby Areas\n+Explore\n 3rd August 2026\n@@ -237,5 +240,2 @@\n Explore\n-3rd August 2026\n-TRAI Assesses Mobile Network Quality Across Haridwar, Rishikesh & Nearby Areas\n-Explore\n 31st July 2026\n@@ -244,6 +244,6 @@\n 28th July 2026\n+TRAI Assesses Mobile Network Quality Across Godda Lok Sabha Constituency comprising parts of Deoghar, Godda and Dumka Districts and adjoining areas in the State of Jharkhand under Bihar LSA.\n+Explore\n+28th July 2026\n TRAI releases Telecom Subscription Data as on June 2026\n-Explore\n-28th July 2026\n-TRAI Assesses Mobile Network Quality Across Godda Lok Sabha Constituency comprising parts of Deoghar, Godda and Dumka Districts and adjoining areas in the State of Jharkhand under Bihar LSA.\n Explore"
+  },
+  {
+    "ts": "2026-08-13T05:41:32+00:00",
+    "slug": "dgca",
+    "name": "DGCA",
+    "url": "https://www.dgca.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 0,
+    "removed": 1,
+    "sample_added": [],
+    "sample_removed": [
+      "More"
+    ],
+    "diff": "@@ -225,3 +225,2 @@\n \u0921\u094d\u0930\u094b\u0928 \u0914\u0930 \u090f\u0921\u0935\u093e\u0902\u0938\u094d\u0921 \u090f\u092f\u0930 \u092e\u094b\u092c\u093f\u0932\u093f\u091f\u0940\n-\u0939\u0930 \u0918\u0930 \u0924\u093f\u0930\u0902\u0917\u093e\n \u0921\u0940\u091c\u0940\u0938\u0940\u090f \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902\n@@ -548,3 +547,3 @@\n |\n-More\n+\u0905\u0927\u093f\u0915\n IDERA \u0921\u0940-\u0930\u091c\u093f\u0938\u094d\u091f\u094d\u0930\u0947\u0936\u0928 \u0905\u0928\u0941\u0930\u094b\u0927 VT-MAX"
+  },
+  {
+    "ts": "2026-08-13T05:41:40+00:00",
+    "slug": "prs-bills",
+    "name": "PRS Legislative Research \u2014 bill track",
+    "url": "https://prsindia.org/billtrack",
+    "notes": "Cleaner secondary source than sansad.in when the portal is down.",
+    "type": "change",
+    "added": 0,
+    "removed": 0,
+    "sample_added": [],
+    "sample_removed": [],
+    "diff": "@@ -133,3 +133,3 @@\n The National Co-operative Development Corporation (Amendment) Bill, 2026\n-Pending\n+Passed\n The Mines and Minerals (Development and Regulation) Amendment Bill, 2026\n@@ -139,3 +139,3 @@\n The Kerala (Alteration of Name) Bill, 2026\n-Pending\n+Passed\n The Taxation and Other Laws (Amendment) Bill, 2026\n@@ -177,3 +177,3 @@\n The Foreign Contribution (Regulation) Amendment Bill, 2026\n-Pending\n+In Committee\n The Corporate Laws (Amendment) Bill, 2026"
   }
 ]

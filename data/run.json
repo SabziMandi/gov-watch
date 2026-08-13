@@ -1,39 +1,78 @@
 [
   {
-    "ts": "2026-08-13T06:22:04+00:00",
+    "ts": "2026-08-13T08:37:53+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 2,
-    "removed": 1,
+    "added": 17,
+    "removed": 13,
     "sample_added": [
+      "DISPLACEMENT OF STs IN TIGER RESERVE AREAS",
+      "\u201cEDUCATION AND HOUSING SCHEMES FOR STS IN KERALA\u201d",
+      "PARLIAMENT QUESTION: PRIVATE COMPANIES IN SPACE SECTOR",
+      "STRENGTHENING PM-JANMAN for PVTGs",
+      "PARLIAMENT QUESTION: APPLICATIONS OF SPACE TECHNOLOGY",
+      "PARLIAMENT QUESTION: SUPPORT TO SPACE STARTUPS",
+      "Implementation of Adi Karmayogi Abhiyan",
+      "Mobile and Internet Connectivity in Tribal Areas",
+      "STATUS OF VAN DHAN VIKAS KENDRA CLUSTERS",
+      "STATUS OF EMRSs",
+      "Semiconductor and AI Revolution",
+      "PARLIAMENT QUESTION: PERFORMANCE OF CPGRAMS",
+      "PARLIAMENT QUESTION: iGOT MISSION KARMAYOGI IN WEST BENGAL",
+      "PARLIAMENT QUESTION: ZERO LITIGATION PENSION ECOSYSTEM",
+      "Semiconductor and AI Revolution",
+      "Empowering Youth, Transforming India",
+      "Expanding the Development Horizon"
+    ],
+    "sample_removed": [
+      "National Biodiversity Authority releases Rs. 15.52 crore ABS Proceeds from Mustard Ge...",
+      "Prime Minister shares a Sanskrit Subhashitam, highlighting determination, perseveranc...",
+      "PRESS RELEASE ON 393rd REPORT OF THE DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMIT...",
+      "India and the Southern African Customs Union (SACU) sign Terms of Reference (ToR) for...",
+      "LOK SABHA SPEAKER HAILS SHRI KOVIND\u2019S STORY AS AN ENDURING SOURCE OF \u201cINSPIRATION FOR...",
+      "Digital India BHASHINI Division (DIBD) and NITI Aayog Sign Statement of Intent to Adv...",
+      "Union Home Minister and Minister of Cooperation Shri Amit Shah launches the \u2018Gramin G...",
+      "National Commission for Scheduled Castes submits Annual Report-2024\u201325 to Hon\u2019ble Pre...",
+      "The New Era of Indian Agriculture and Allied Sectors",
+      "Affordable and Accessible Healthcare for All",
+      "Financial Inclusion in India: Banking Every Citizen, Empowering Every Household",
       "Union Minister of Parliamentary Affairs, Shri Kiren Rijiju to brief th...",
       "(Event Date :13 Aug 2026 12:30PM)"
     ],
-    "sample_removed": [
-      "Union Health Minister Shri Nadda interacts with MPs from Jharkhand and Odisha to stre..."
-    ],
-    "diff": "@@ -136,3 +136,2 @@\n National Commission for Scheduled Castes submits Annual Report-2024\u201325 to Hon\u2019ble Pre...\n-Union Health Minister Shri Nadda interacts with MPs from Jharkhand and Odisha to stre...\n Latest Explainers\n@@ -146,2 +145,4 @@\n Media Invitations\n+Union Minister of Parliamentary Affairs, Shri Kiren Rijiju to brief th...\n+(Event Date :13 Aug 2026 12:30PM)\n Release of the report \u201cSectors for India to be a Global Manufacturing ..."
+    "diff": "@@ -128,16 +128,22 @@\n PRESS RELEASE OF CONSUMER PRICE INDEX ON BASE 2024=100 FOR JULY, 2026\n-National Biodiversity Authority releases Rs. 15.52 crore ABS Proceeds from Mustard Ge...\n-Prime Minister shares a Sanskrit Subhashitam, highlighting determination, perseveranc...\n-PRESS RELEASE ON 393rd REPORT OF THE DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMIT...\n-India and the Southern African Customs Union (SACU) sign Terms of Reference (ToR) for...\n-LOK SABHA SPEAKER HAILS SHRI KOVIND\u2019S STORY AS AN ENDURING SOURCE OF \u201cINSPIRATION FOR...\n-Digital India BHASHINI Division (DIBD) and NITI Aayog Sign Statement of Intent to Adv...\n-Union Home Minister and Minister of Cooperation Shri Amit Shah launches the \u2018Gramin G...\n-National Commission for Scheduled Castes submits Annual Report-2024\u201325 to Hon\u2019ble Pre...\n+DISPLACEMENT OF STs IN TIGER RESERVE AREAS\n+\u201cEDUCATION AND HOUSING SCHEMES FOR STS IN KERALA\u201d\n+PARLIAMENT QUESTION: PRIVATE COMPANIES IN SPACE SECTOR\n+STRENGTHENING PM-JANMAN for PVTGs\n+PARLIAMENT QUESTION: APPLICATIONS OF SPACE TECHNOLOGY\n+PARLIAMENT QUESTION: SUPPORT TO SPACE STARTUPS\n+Implementation of Adi Karmayogi Abhiyan\n+Mobile and Internet Connectivity in Tribal Areas\n+STATUS OF VAN DHAN VIKAS KENDRA CLUSTERS\n+STATUS OF EMRSs\n+Semiconductor and AI Revolution\n+PARLIAMENT QUESTION: PERFORMANCE OF CPGRAMS\n+PARLIAMENT QUESTION: iGOT MISSION KARMAYOGI IN WEST BENGAL\n+PARLIAMENT QUESTION: ZERO LITIGATION PENSION ECOSYSTEM\n Latest Explainers\n+Semiconductor and AI Revolution\n+Empowering Youth, Transforming India\n+Expanding the Development Horizon\n India\u2019s Infrastructure Transformation: From Connectivity to Capacity\n Empowering Governance through Digital Infrastructure\n-The New Era of Indian Agriculture and Allied Sectors\n-Affordable and Accessible Healthcare for All\n-Financial Inclusion in India: Banking Every Citizen, Empowering Every Household\n Media Corner\n@@ -145,4 +151,2 @@\n Media Invitations\n-Union Minister of Parliamentary Affairs, Shri Kiren Rijiju to brief th...\n-(Event Date :13 Aug 2026 12:30PM)\n Release of the report \u201cSectors for India to be a Global Manufacturing ..."
   },
   {
-    "ts": "2026-08-13T06:22:17+00:00",
+    "ts": "2026-08-13T08:38:02+00:00",
     "slug": "pib-rss-releases",
     "name": "PIB \u2014 releases RSS",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
     "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
     "type": "change",
-    "added": 2,
-    "removed": 2,
+    "added": 8,
+    "removed": 8,
     "sample_added": [
-      "\u0930\u0915\u094d\u0937\u093e \u0930\u093e\u091c\u094d\u092f \u092e\u0902\u0924\u094d\u0930\u0940 \u0926\u094d\u0935\u093e\u0930\u093e \u0930\u0915\u094d\u0937\u093e \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0915\u0940 \u0917\u0943\u0939 \u092a\u0924\u094d\u0930\u093f\u0915\u093e \u2018\u0938\u0936\u0915\u094d\u0924 \u092d\u093e\u0930\u0924\u2019 \u0915\u0947 \u2018\u090f\u0915 \u092d\u093e\u0930\u0924, \u0936\u094d\u0930\u0947\u0937\u094d\u0920 \u092d\u093e\u0930\u0924\u2019 \u0935\u093f\u0936\u0947\u0937\u093e\u0902\u0915 \u0915\u093e \u0935\u093f\u092e\u094b\u091a\u0928",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298745"
+      "\u0938\u0947\u092e\u0940\u0915\u0902\u0921\u0915\u094d\u091f\u0930 \u0914\u0930 \u090f\u0906\u0908 \u0915\u094d\u0930\u093e\u0902\u0924\u093f",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298796",
+      "\u092f\u0941\u0935\u093e\u0913\u0902 \u0915\u093e \u0938\u0936\u0915\u094d\u0924\u093f\u0915\u0930\u0923 \u0914\u0930 \u092c\u0926\u0932\u0924\u093e \u092d\u093e\u0930\u0924",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298780",
+      "\u0935\u093f\u0915\u093e\u0938 \u0915\u093e \u092c\u0922\u093c\u0924\u093e \u0926\u093e\u092f\u0930\u093e",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298758",
+      "\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u091c\u0948\u0935 \u0935\u093f\u0935\u093f\u0927\u0924\u093e \u092a\u094d\u0930\u093e\u0927\u093f\u0915\u0930\u0923 \u0928\u0947 \u0938\u0930\u0938\u094b\u0902 \u0915\u0947 \u0906\u0928\u0941\u0935\u0902\u0936\u093f\u0915 \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0938\u0947 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 15.52 \u0915\u0930\u094b\u0921\u093c \u0930\u0941\u092a\u092f\u0947 \u0915\u0940 \u090f\u092c\u0940\u090f\u0938 \u0930\u093e\u0936\u093f \u091c\u093e\u0930\u0940 \u0915\u0940",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298751"
     ],
     "sample_removed": [
-      "\u0921\u093f\u091c\u093f\u091f\u0932 \u0907\u0902\u092b\u094d\u0930\u093e\u0938\u094d\u091f\u094d\u0930\u0915\u094d\u091a\u0930 \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0938\u0941\u0936\u093e\u0938\u0928 \u0915\u093e \u0938\u0936\u0915\u094d\u0924\u093f\u0915\u0930\u0923",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298503"
+      "\u0938\u0902\u0938\u0926\u0940\u092f \u092a\u094d\u0930\u0936\u094d\u0928: \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0905\u0928\u0941\u0938\u0902\u0927\u093e\u0928 \u091a\u0947\u092f\u0930 (\u092a\u0940\u090f\u092e\u0906\u0930\u0938\u0940) \u092f\u094b\u091c\u0928\u093e, 2026",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298572",
+      "\u0938\u0902\u0938\u0926\u0940\u092f \u092a\u094d\u0930\u0936\u094d\u0928: \u0938\u0940\u092c\u0940\u090f\u0938\u0908 \u0916\u0947\u0932 \u092a\u094d\u0930\u0924\u093f\u092f\u094b\u0917\u093f\u0924\u093e\u0913\u0902 \u0915\u093e \u0906\u092f\u094b\u091c\u0928 \u090f\u0935\u0902 \u0924\u0915\u0928\u0940\u0915\u0940 \u0938\u0939\u093e\u092f\u0924\u093e",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298616",
+      "\u0938\u0902\u0938\u0926 \u092a\u094d\u0930\u0936\u094d\u0928: \u0935\u093f\u0926\u0947\u0936\u0940 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u092a\u0930\u093f\u0938\u0930 \u0914\u0930 \u092d\u093e\u0930\u0924\u0940\u092f \u0938\u0902\u0938\u094d\u0925\u093e\u0928\u094b\u0902 \u0915\u0947 \u0935\u093f\u0926\u0947\u0936\u0940 \u092a\u0930\u093f\u0938\u0930",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298587",
+      "\u0938\u0902\u0938\u0926 \u092e\u0947\u0902 \u092a\u094d\u0930\u0936\u094d\u0928: \u092f\u0942\u091c\u0940\u0938\u0940 \u0935\u093f\u0928\u093f\u092f\u092e, 2025 \u0915\u093e \u092e\u0938\u094c\u0926\u093e",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298582"
     ],
-    "diff": "@@ -1 +1,3 @@\n+\u0930\u0915\u094d\u0937\u093e \u0930\u093e\u091c\u094d\u092f \u092e\u0902\u0924\u094d\u0930\u0940 \u0926\u094d\u0935\u093e\u0930\u093e \u0930\u0915\u094d\u0937\u093e \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0915\u0940 \u0917\u0943\u0939 \u092a\u0924\u094d\u0930\u093f\u0915\u093e \u2018\u0938\u0936\u0915\u094d\u0924 \u092d\u093e\u0930\u0924\u2019 \u0915\u0947 \u2018\u090f\u0915 \u092d\u093e\u0930\u0924, \u0936\u094d\u0930\u0947\u0937\u094d\u0920 \u092d\u093e\u0930\u0924\u2019 \u0935\u093f\u0936\u0947\u0937\u093e\u0902\u0915 \u0915\u093e \u0935\u093f\u092e\u094b\u091a\u0928\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298745\n \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u091c\u0940\u0935\u0928 \u0915\u0940 \u091a\u0941\u0928\u094c\u0924\u093f\u092f\u094b\u0902 \u092a\u0930 \u0935\u093f\u091c\u092f \u092a\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0926\u0943\u0922\u093c \u0938\u0902\u0915\u0932\u094d\u092a, \u0927\u0948\u0930\u094d\u092f \u0914\u0930 \u0928\u093f\u0930\u0902\u0924\u0930 \u092a\u094d\u0930\u092f\u093e\u0938 \u0915\u0947 \u092e\u0939\u0924\u094d\u0935 \u0915\u094b \u0930\u0947\u0916\u093e\u0902\u0915\u093f\u0924 \u0915\u0930\u0924\u0947 \u0939\u0941\u090f \u090f\u0915 \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0938\u0941\u092d\u093e\u0937\u093f\u0924 \u0938\u093e\u091d\u093e \u0915\u093f\u092f\u093e\n@@ -38,3 +40 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298582\n-\u0921\u093f\u091c\u093f\u091f\u0932 \u0907\u0902\u092b\u094d\u0930\u093e\u0938\u094d\u091f\u094d\u0930\u0915\u094d\u091a\u0930 \u0915\u0947 \u092e\u093e\u0927\u094d\u092f\u092e \u0938\u0947 \u0938\u0941\u0936\u093e\u0938\u0928 \u0915\u093e \u0938\u0936\u0915\u094d\u0924\u093f\u0915\u0930\u0923\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298503"
+    "diff": "@@ -1,3 +1,11 @@\n+\u0938\u0947\u092e\u0940\u0915\u0902\u0921\u0915\u094d\u091f\u0930 \u0914\u0930 \u090f\u0906\u0908 \u0915\u094d\u0930\u093e\u0902\u0924\u093f\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298796\n+\u092f\u0941\u0935\u093e\u0913\u0902 \u0915\u093e \u0938\u0936\u0915\u094d\u0924\u093f\u0915\u0930\u0923 \u0914\u0930 \u092c\u0926\u0932\u0924\u093e \u092d\u093e\u0930\u0924\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298780\n+\u0935\u093f\u0915\u093e\u0938 \u0915\u093e \u092c\u0922\u093c\u0924\u093e \u0926\u093e\u092f\u0930\u093e\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298758\n \u0930\u0915\u094d\u0937\u093e \u0930\u093e\u091c\u094d\u092f \u092e\u0902\u0924\u094d\u0930\u0940 \u0926\u094d\u0935\u093e\u0930\u093e \u0930\u0915\u094d\u0937\u093e \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0915\u0940 \u0917\u0943\u0939 \u092a\u0924\u094d\u0930\u093f\u0915\u093e \u2018\u0938\u0936\u0915\u094d\u0924 \u092d\u093e\u0930\u0924\u2019 \u0915\u0947 \u2018\u090f\u0915 \u092d\u093e\u0930\u0924, \u0936\u094d\u0930\u0947\u0937\u094d\u0920 \u092d\u093e\u0930\u0924\u2019 \u0935\u093f\u0936\u0947\u0937\u093e\u0902\u0915 \u0915\u093e \u0935\u093f\u092e\u094b\u091a\u0928\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298745\n+\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u091c\u0948\u0935 \u0935\u093f\u0935\u093f\u0927\u0924\u093e \u092a\u094d\u0930\u093e\u0927\u093f\u0915\u0930\u0923 \u0928\u0947 \u0938\u0930\u0938\u094b\u0902 \u0915\u0947 \u0906\u0928\u0941\u0935\u0902\u0936\u093f\u0915 \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u0938\u0947 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 15.52 \u0915\u0930\u094b\u0921\u093c \u0930\u0941\u092a\u092f\u0947 \u0915\u0940 \u090f\u092c\u0940\u090f\u0938 \u0930\u093e\u0936\u093f \u091c\u093e\u0930\u0940 \u0915\u0940\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298751\n \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u091c\u0940\u0935\u0928 \u0915\u0940 \u091a\u0941\u0928\u094c\u0924\u093f\u092f\u094b\u0902 \u092a\u0930 \u0935\u093f\u091c\u092f \u092a\u093e\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0926\u0943\u0922\u093c \u0938\u0902\u0915\u0932\u094d\u092a, \u0927\u0948\u0930\u094d\u092f \u0914\u0930 \u0928\u093f\u0930\u0902\u0924\u0930 \u092a\u094d\u0930\u092f\u093e\u0938 \u0915\u0947 \u092e\u0939\u0924\u094d\u0935 \u0915\u094b \u0930\u0947\u0916\u093e\u0902\u0915\u093f\u0924 \u0915\u0930\u0924\u0947 \u0939\u0941\u090f \u090f\u0915 \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0938\u0941\u092d\u093e\u0937\u093f\u0924 \u0938\u093e\u091d\u093e \u0915\u093f\u092f\u093e\n@@ -30,11 +38,3 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298578\n-\u0938\u0902\u0938\u0926\u0940\u092f \u092a\u094d\u0930\u0936\u094d\u0928: \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0905\u0928\u0941\u0938\u0902\u0927\u093e\u0928 \u091a\u0947\u092f\u0930 (\u092a\u0940\u090f\u092e\u0906\u0930\u0938\u0940) \u092f\u094b\u091c\u0928\u093e, 2026\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298572\n \u0938\u0902\u0938\u0926\u0940\u092f \u092a\u094d\u0930\u0936\u094d\u0928: \u0928\u093f\u091c\u0940 \u0915\u094b\u091a\u093f\u0902\u0917 \u0938\u0902\u0938\u094d\u0925\u093e\u0928\u094b\u0902 \u0915\u093e \u0935\u093f\u0928\u093f\u092f\u092e\u0928 \u090f\u0935\u0902 \u092a\u0930\u094d\u092f\u0935\u0947\u0915\u094d\u0937\u0923\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298585\n-\u0938\u0902\u0938\u0926\u0940\u092f \u092a\u094d\u0930\u0936\u094d\u0928: \u0938\u0940\u092c\u0940\u090f\u0938\u0908 \u0916\u0947\u0932 \u092a\u094d\u0930\u0924\u093f\u092f\u094b\u0917\u093f\u0924\u093e\u0913\u0902 \u0915\u093e \u0906\u092f\u094b\u091c\u0928 \u090f\u0935\u0902 \u0924\u0915\u0928\u0940\u0915\u0940 \u0938\u0939\u093e\u092f\u0924\u093e\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298616\n-\u0938\u0902\u0938\u0926 \u092a\u094d\u0930\u0936\u094d\u0928: \u0935\u093f\u0926\u0947\u0936\u0940 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u092a\u0930\u093f\u0938\u0930 \u0914\u0930 \u092d\u093e\u0930\u0924\u0940\u092f \u0938\u0902\u0938\u094d\u0925\u093e\u0928\u094b\u0902 \u0915\u0947 \u0935\u093f\u0926\u0947\u0936\u0940 \u092a\u0930\u093f\u0938\u0930\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298587\n-\u0938\u0902\u0938\u0926 \u092e\u0947\u0902 \u092a\u094d\u0930\u0936\u094d\u0928: \u092f\u0942\u091c\u0940\u0938\u0940 \u0935\u093f\u0928\u093f\u092f\u092e, 2025 \u0915\u093e \u092e\u0938\u094c\u0926\u093e\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298582"
   }
 ]

@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "ts": "2026-08-14T21:33:28+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "President approves 78 Gallantry awards (13 posthumous) & 89 Mention-in-Despatches on the eve of 80th Independence Day"
+    ],
+    "sample_removed": [
+      "Prime Minister recalls the courage of those impacted by Partition on Partition Horrors Remembrance Day"
+    ],
+    "diff": "@@ -130,3 +130,3 @@\n MOST VIEWED\n-Prime Minister recalls the courage of those impacted by Partition on Partition Horrors Remembrance Day\n+President approves 78 Gallantry awards (13 posthumous) & 89 Mention-in-Despatches on the eve of 80th Independence Day\n Union Minister of Textiles Shri Giriraj Singh Inaugurates Handloom Haat: The Handloom..."
+  }
+]

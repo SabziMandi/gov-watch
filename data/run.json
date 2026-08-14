@@ -1,19 +1,18 @@
 [
   {
-    "ts": "2026-08-14T17:57:40+00:00",
+    "ts": "2026-08-14T19:04:56+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 1,
-    "removed": 1,
-    "sample_added": [
-      "Union Minister of Textiles Shri Giriraj Singh Inaugurates Handloom Haat: The Handloom..."
-    ],
+    "added": 0,
+    "removed": 2,
+    "sample_added": [],
     "sample_removed": [
-      "ADDRESS TO THE NATION BY THE HON\u2019BLE PRESIDENT OF INDIA SMT. DROUPADI MURMU ON THE EV..."
+      "LIST OF GALLANTRY AWARDS TO INDIAN NAVAL PERSONNEL ON THE EVE OF INDEPENDENCE DAY 202...",
+      "Union Minister Dr. Virendra Kumar Chairs 5th Meeting of National Council for Senior C..."
     ],
-    "diff": "@@ -131,2 +131,3 @@\n Prime Minister recalls the courage of those impacted by Partition on Partition Horrors Remembrance Day\n+Union Minister of Textiles Shri Giriraj Singh Inaugurates Handloom Haat: The Handloom...\n Union Minister of Finance and Corporate Affairs interacts with interns from PM Intern...\n@@ -142,5 +143,3 @@\n LIST OF GALLANTRY AWARDS TO INDIAN NAVAL PERSONNEL ON THE EVE OF INDEPENDENCE DAY 202...\n-ADDRESS TO THE NATION BY THE HON\u2019BLE PRESIDENT OF INDIA SMT. DROUPADI MURMU ON THE EV...\n Union Minister Dr. Virendra Kumar Chairs 5th Meeting of National Council for Senior C...\n-Manufacturing Momentum:Building a Self-Reliant India\n Latest Explainers"
+    "diff": "@@ -142,4 +142,2 @@\n LIST OF HONORARY RANKS AWARDED ON THE OCCASION OF INDEPENDENCE DAY 2026\n-LIST OF GALLANTRY AWARDS TO INDIAN NAVAL PERSONNEL ON THE EVE OF INDEPENDENCE DAY 202...\n-Union Minister Dr. Virendra Kumar Chairs 5th Meeting of National Council for Senior C...\n Latest Explainers"
   }
 ]

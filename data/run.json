@@ -1,44 +1,19 @@
 [
   {
-    "ts": "2026-08-14T17:01:23+00:00",
+    "ts": "2026-08-14T17:57:40+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 2,
-    "removed": 2,
+    "added": 1,
+    "removed": 1,
     "sample_added": [
-      "Union Minister of Finance and Corporate Affairs interacts with interns from PM Intern...",
-      "Ministry of Corporate Affairs hosts the PMIS Industry Awards in New Delhi to honour l..."
+      "Union Minister of Textiles Shri Giriraj Singh Inaugurates Handloom Haat: The Handloom..."
     ],
     "sample_removed": [
-      "MoEFCC celebrates \u2018Har Ghar Tiranga 2026\u2019 campaign with mass singing of National Song...",
-      "Union Minister of Communications Shri Jyotiraditya M. Scindia Inaugurates First-Ever ..."
+      "ADDRESS TO THE NATION BY THE HON\u2019BLE PRESIDENT OF INDIA SMT. DROUPADI MURMU ON THE EV..."
     ],
-    "diff": "@@ -131,2 +131,4 @@\n Prime Minister recalls the courage of those impacted by Partition on Partition Horrors Remembrance Day\n+Union Minister of Finance and Corporate Affairs interacts with interns from PM Intern...\n+Ministry of Corporate Affairs hosts the PMIS Industry Awards in New Delhi to honour l...\n National Statistical Systems Training Academy of Ministry of Statistics and Programme...\n@@ -143,4 +145,2 @@\n Manufacturing Momentum:Building a Self-Reliant India\n-MoEFCC celebrates \u2018Har Ghar Tiranga 2026\u2019 campaign with mass singing of National Song...\n-Union Minister of Communications Shri Jyotiraditya M. Scindia Inaugurates First-Ever ...\n Latest Explainers"
-  },
-  {
-    "ts": "2026-08-14T17:01:38+00:00",
-    "slug": "pib-rss-releases",
-    "name": "PIB \u2014 releases RSS",
-    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
-    "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
-    "type": "change",
-    "added": 4,
-    "removed": 4,
-    "sample_added": [
-      "\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u092a\u0924\u093f \u0915\u093e 80\u0935\u0947\u0902 \u0938\u094d\u0935\u0924\u0902\u0924\u094d\u0930\u0924\u093e \u0926\u093f\u0935\u0938 \u0915\u0940 \u092a\u0942\u0930\u094d\u0935 \u0938\u0902\u0927\u094d\u092f\u093e \u092a\u0930 \u0938\u0902\u092c\u094b\u0927\u0928 \u0930\u093e\u0937\u094d\u091f\u094d\u0930 \u0915\u0940 \u0936\u0915\u094d\u0924\u093f \u0915\u094b \u0926\u0930\u094d\u0936\u093e\u0924\u093e \u0939\u0948 \u0914\u0930 \u2018\u0935\u093f\u0915\u0938\u093f\u0924 \u092d\u093e\u0930\u0924\u2019 \u0915\u0940 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0928\u090f \u0938\u0902\u0915\u0932\u094d\u092a \u0915\u094b \u092a\u094d\u0930\u0947\u0930\u093f\u0924 \u0915\u0930\u0924\u093e \u0939\u0948: \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299695",
-      "\u0938\u094d\u0935\u0924\u0902\u0924\u094d\u0930\u0924\u093e \u0926\u093f\u0935\u0938 2026 \u0915\u0940 \u092a\u0942\u0930\u094d\u0935 \u0938\u0902\u0927\u094d\u092f\u093e \u092a\u0930 \u092d\u093e\u0930\u0924\u0940\u092f \u0928\u094c\u0938\u0947\u0928\u093e \u0915\u0930\u094d\u092e\u093f\u092f\u094b\u0902 \u0915\u094b \u0926\u093f\u090f \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0947 \u0935\u0940\u0930\u0924\u093e \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930\u094b\u0902 \u0915\u0940 \u0938\u0942\u091a\u0940",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299672"
-    ],
-    "sample_removed": [
-      "\u091c\u0932 \u091c\u0940\u0935\u0928 \u092e\u093f\u0936\u0928 \u0915\u0947 \u0917\u094d\u0930\u093e\u092e\u0940\u0923 \u092c\u0926\u0932\u093e\u0935 \u0915\u0947 \u0938\u093e\u0924 \u0938\u093e\u0932: \u0917\u094d\u0930\u093e\u092e\u0940\u0923 \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u094b\u0902 \u092e\u0947\u0902 \u0928\u0932 \u0938\u0947 \u092a\u0940\u0928\u0947 \u0915\u0947 \u092a\u093e\u0928\u0940 \u0915\u0940 \u0909\u092a\u0932\u092c\u094d\u0927\u0924\u093e 16.7 \u092a\u094d\u0930\u0924\u093f\u0936\u0924 \u0938\u0947 \u092c\u0922\u093c\u0915\u0930 82 \u092a\u094d\u0930\u0924\u093f\u0936\u0924 \u0938\u0947 \u0905\u0927\u093f\u0915 \u0939\u094b \u0917\u0908 \u0939\u0948",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299612",
-      "\u0915\u094c\u0936\u0932 \u0935\u093f\u0915\u093e\u0938 \u0914\u0930 \u0915\u093e\u0930\u094d\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u092e\u0947\u0902 \u0906\u0917\u0947 \u092c\u0922\u093c\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u090f\u092e\u090f\u0938\u0921\u0940\u0908 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0928\u0947 \u092d\u093e\u0930\u0924 \u0914\u0930 \u091c\u093e\u092a\u093e\u0928 \u0915\u0947 \u092c\u0940\u091a \u0939\u093f\u0924\u0927\u093e\u0930\u0915 \u092c\u0948\u0920\u0915 \u092c\u0941\u0932\u093e\u0908",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299542"
-    ],
-    "diff": "@@ -1,3 +1,7 @@\n+\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u092a\u0924\u093f \u0915\u093e 80\u0935\u0947\u0902 \u0938\u094d\u0935\u0924\u0902\u0924\u094d\u0930\u0924\u093e \u0926\u093f\u0935\u0938 \u0915\u0940 \u092a\u0942\u0930\u094d\u0935 \u0938\u0902\u0927\u094d\u092f\u093e \u092a\u0930 \u0938\u0902\u092c\u094b\u0927\u0928 \u0930\u093e\u0937\u094d\u091f\u094d\u0930 \u0915\u0940 \u0936\u0915\u094d\u0924\u093f \u0915\u094b \u0926\u0930\u094d\u0936\u093e\u0924\u093e \u0939\u0948 \u0914\u0930 \u2018\u0935\u093f\u0915\u0938\u093f\u0924 \u092d\u093e\u0930\u0924\u2019 \u0915\u0940 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0928\u090f \u0938\u0902\u0915\u0932\u094d\u092a \u0915\u094b \u092a\u094d\u0930\u0947\u0930\u093f\u0924 \u0915\u0930\u0924\u093e \u0939\u0948: \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299695\n \u0938\u0930\u0915\u093e\u0930 \u0928\u0947 \u091f\u0947\u0932\u0940\u0935\u093f\u091c\u0928 \u091a\u0948\u0928\u0932\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f 12 \u092e\u093f\u0928\u091f \u0915\u0940 \u0935\u093f\u091c\u094d\u091e\u093e\u092a\u0928 \u0938\u092e\u092f-\u0938\u0940\u092e\u093e \u0938\u092e\u093e\u092a\u094d\u0924 \u0915\u0940\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299641\n+\u0938\u094d\u0935\u0924\u0902\u0924\u094d\u0930\u0924\u093e \u0926\u093f\u0935\u0938 2026 \u0915\u0940 \u092a\u0942\u0930\u094d\u0935 \u0938\u0902\u0927\u094d\u092f\u093e \u092a\u0930 \u092d\u093e\u0930\u0924\u0940\u092f \u0928\u094c\u0938\u0947\u0928\u093e \u0915\u0930\u094d\u092e\u093f\u092f\u094b\u0902 \u0915\u094b \u0926\u093f\u090f \u091c\u093e\u0928\u0947 \u0935\u093e\u0932\u0947 \u0935\u0940\u0930\u0924\u093e \u092a\u0941\u0930\u0938\u094d\u0915\u093e\u0930\u094b\u0902 \u0915\u0940 \u0938\u0942\u091a\u0940\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299672\n \u092d\u093e\u0930\u0924 \u0915\u0940 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u092a\u0924\u093f \u0936\u094d\u0930\u0940\u092e\u0924\u0940 \u0926\u094d\u0930\u094c\u092a\u0926\u0940 \u092e\u0941\u0930\u094d\u092e\u0941 \u0915\u093e 80\u0935\u0947\u0902 \u0938\u094d\u0935\u0924\u0928\u094d\u0924\u094d\u0930\u0924\u093e \u0926\u093f\u0935\u0938 \u0915\u0940 \u092a\u0942\u0930\u094d\u0935 \u0938\u0902\u0927\u094d\u092f\u093e \u092a\u0930 \u0930\u093e\u0937\u094d\u091f\u094d\u0930 \u0915\u0947 \u0928\u093e\u092e \u0938\u0902\u0926\u0947\u0936\n@@ -36,5 +40 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299584\n-\u091c\u0932 \u091c\u0940\u0935\u0928 \u092e\u093f\u0936\u0928 \u0915\u0947 \u0917\u094d\u0930\u093e\u092e\u0940\u0923 \u092c\u0926\u0932\u093e\u0935 \u0915\u0947 \u0938\u093e\u0924 \u0938\u093e\u0932: \u0917\u094d\u0930\u093e\u092e\u0940\u0923 \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u094b\u0902 \u092e\u0947\u0902 \u0928\u0932 \u0938\u0947 \u092a\u0940\u0928\u0947 \u0915\u0947 \u092a\u093e\u0928\u0940 \u0915\u0940 \u0909\u092a\u0932\u092c\u094d\u0927\u0924\u093e 16.7 \u092a\u094d\u0930\u0924\u093f\u0936\u0924 \u0938\u0947 \u092c\u0922\u093c\u0915\u0930 82 \u092a\u094d\u0930\u0924\u093f\u0936\u0924 \u0938\u0947 \u0905\u0927\u093f\u0915 \u0939\u094b \u0917\u0908 \u0939\u0948\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299612\n-\u0915\u094c\u0936\u0932 \u0935\u093f\u0915\u093e\u0938 \u0914\u0930 \u0915\u093e\u0930\u094d\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u092e\u0947\u0902 \u0906\u0917\u0947 \u092c\u0922\u093c\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u090f\u092e\u090f\u0938\u0921\u0940\u0908 \u092e\u0902\u0924\u094d\u0930\u093e\u0932\u092f \u0928\u0947 \u092d\u093e\u0930\u0924 \u0914\u0930 \u091c\u093e\u092a\u093e\u0928 \u0915\u0947 \u092c\u0940\u091a \u0939\u093f\u0924\u0927\u093e\u0930\u0915 \u092c\u0948\u0920\u0915 \u092c\u0941\u0932\u093e\u0908\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299542"
+    "diff": "@@ -131,2 +131,3 @@\n Prime Minister recalls the courage of those impacted by Partition on Partition Horrors Remembrance Day\n+Union Minister of Textiles Shri Giriraj Singh Inaugurates Handloom Haat: The Handloom...\n Union Minister of Finance and Corporate Affairs interacts with interns from PM Intern...\n@@ -142,5 +143,3 @@\n LIST OF GALLANTRY AWARDS TO INDIAN NAVAL PERSONNEL ON THE EVE OF INDEPENDENCE DAY 202...\n-ADDRESS TO THE NATION BY THE HON\u2019BLE PRESIDENT OF INDIA SMT. DROUPADI MURMU ON THE EV...\n Union Minister Dr. Virendra Kumar Chairs 5th Meeting of National Council for Senior C...\n-Manufacturing Momentum:Building a Self-Reliant India\n Latest Explainers"
   }
 ]

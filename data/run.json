@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "ts": "2026-08-15T03:47:35+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 2,
+    "removed": 3,
+    "sample_added": [
+      "PM paying floral tributes at the Samadhi of Mahatma Gandhi at Rajghat on the occasion of 80th Independence Day, in Delhi.",
+      "PM Videos"
+    ],
+    "sample_removed": [
+      "PM flags off India\u2019s first Hydrogen train between Jind and Sonipat at Jind railway station, in Haryana",
+      "Live Webcast",
+      "India Celebrates 80th Independence Day"
+    ],
+    "diff": "@@ -90,2 +90,3 @@\n Blogs\n+PM paying floral tributes at the Samadhi of Mahatma Gandhi at Rajghat on the occasion of 80th Independence Day, in Delhi.\n PM joined group photos with the Commonwealth Games (CWG) - 2026 medal winning players at his residence, in New Delhi.\n@@ -97,3 +98,2 @@\n PM at the flagging-off ceremony of India\u2019s first Hydrogen train between Jind and Sonipat at Jind railway station, in Haryana\n-PM flags off India\u2019s first Hydrogen train between Jind and Sonipat at Jind railway station, in Haryana\n \u27a4\n@@ -114,4 +114,3 @@\n +\n-Live Webcast\n-India Celebrates 80th Independence Day\n+PM Videos\n 80th Independence Day 2026"
+  }
+]

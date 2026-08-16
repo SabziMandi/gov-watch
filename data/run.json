@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "ts": "2026-08-16T01:51:22+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "English rendering of Prime Minister Shri Narendra Modis address from the ramparts of Red Fort on the occasion of 80th In..."
+    ],
+    "sample_removed": [
+      "Prime Minister greets everyone on the occasion of Independence Day"
+    ],
+    "diff": "@@ -130,3 +130,3 @@\n MOST VIEWED\n-Prime Minister greets everyone on the occasion of Independence Day\n+English rendering of Prime Minister Shri Narendra Modis address from the ramparts of Red Fort on the occasion of 80th In...\n Ministry of Culture Observed Partition Horrors Remembrance Day Across Delhi, Amritsar..."
+  }
+]

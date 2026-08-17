@@ -1,19 +1,20 @@
 [
   {
-    "ts": "2026-08-17T04:52:38+00:00",
+    "ts": "2026-08-17T05:41:20+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 1,
+    "added": 2,
     "removed": 1,
     "sample_added": [
-      "Prime Minister shares a Sanskrit Subhashitam, highlighting the power of collective re..."
+      "NIELIT Launches CYBER KUSHTI 2026: National Cybersecurity & AI Hackathon scores judgment rather than detection speed",
+      "INDIAN ARMY CONTINGENT DEPARTS FOR INDIA-THAILAND JOINT MILITARY EXERCISE MAITREE-XV"
     ],
     "sample_removed": [
-      "Accidental Discharge of Licensed Weapon at Varanasi Airport"
+      "DRI uncovers large-scale illegal use of SAFTA agreement in areca imports"
     ],
-    "diff": "@@ -130,2 +130,3 @@\n DRI uncovers large-scale illegal use of SAFTA agreement in areca imports\n+Prime Minister shares a Sanskrit Subhashitam, highlighting the power of collective re...\n Union Home and Cooperation Minister Shri Amit Shah today inaugurated and laid the fo...\n@@ -140,3 +141,2 @@\n GENERAL DHIRAJ SETH, CHIEF OF THE ARMY STAFF EMBARKS ON AN OFFICIAL VISIT TO NEPAL\n-Accidental Discharge of Licensed Weapon at Varanasi Airport\n Latest Explainers"
+    "diff": "@@ -129,3 +129,4 @@\n MOST VIEWED\n-DRI uncovers large-scale illegal use of SAFTA agreement in areca imports\n+NIELIT Launches CYBER KUSHTI 2026: National Cybersecurity & AI Hackathon scores judgment rather than detection speed\n+INDIAN ARMY CONTINGENT DEPARTS FOR INDIA-THAILAND JOINT MILITARY EXERCISE MAITREE-XV\n Prime Minister shares a Sanskrit Subhashitam, highlighting the power of collective re..."
   }
 ]

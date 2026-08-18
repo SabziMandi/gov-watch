@@ -5313,14 +5313,15 @@
    "north",
    "ussouth"
   ],
-  "size": 5,
+  "size": 6,
   "domains": [
    "theprint.in",
    "reuters.com",
-   "telegraphindia.com"
+   "telegraphindia.com",
+   "apnews.com"
   ],
   "first_seen": "2026-08-14T03:10:32+00:00",
-  "last_seen": "2026-08-18T01:58:53+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
   "first_by_lang": {
    "en": "2026-08-14T03:10:32+00:00"
   }
@@ -7215,34 +7216,6 @@
   }
  },
  {
-  "id": "b085866f4ba3",
-  "headline": "US wants Netanyahu to condemn settler siege in Palestinian village , officials say",
-  "tokens": [
-   "condemn",
-   "netanyahu",
-   "officials",
-   "palestinian",
-   "say",
-   "settler",
-   "siege",
-   "village",
-   "wants"
-  ],
-  "size": 6,
-  "domains": [
-   "economictimes.indiatimes.com",
-   "brecorder.com",
-   "aljazeera.com",
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-14T13:54:58+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "english": "2026-08-14T13:54:58+00:00",
-   "en": "2026-08-14T14:00:06+00:00"
-  }
- },
- {
   "id": "8afeb26ea357",
   "headline": "Cockroach Janta Party to launch ‘School Thik Karo’ campaign from founder Dipke's village in Hingoli - Telegraph India",
   "tokens": [
@@ -9106,30 +9079,6 @@
   ],
   "first_seen": "2026-08-14T20:56:51+00:00",
   "last_seen": "2026-08-17T14:02:17+00:00",
-  "first_by_lang": {
-   "en": "2026-08-14T20:56:51+00:00"
-  }
- },
- {
-  "id": "b46b5eec9227",
-  "headline": "19-year-old British rider dies after incident in Volta a Portugal race - AP News",
-  "tokens": [
-   "19yearold",
-   "british",
-   "dies",
-   "incident",
-   "portugal",
-   "race",
-   "rider",
-   "volta"
-  ],
-  "size": 2,
-  "domains": [
-   "apnews.com",
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-14T20:56:51+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
   "first_by_lang": {
    "en": "2026-08-14T20:56:51+00:00"
   }
@@ -13966,27 +13915,6 @@
   }
  },
  {
-  "id": "61f02d3f35d4",
-  "headline": "Hasan strikes twice after Bangladesh’s 228-lead - New Age BD",
-  "tokens": [
-   "228lead",
-   "bangladeshs",
-   "hasan",
-   "strikes",
-   "twice"
-  ],
-  "size": 2,
-  "domains": [
-   "newagebd.net",
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-15T09:55:48+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T09:55:48+00:00"
-  }
- },
- {
   "id": "9c802a946b83",
   "headline": "Alcohol-related health and economic costs exceed tax revenue in Sri Lanka - dailymirror.lk",
   "tokens": [
@@ -18638,99 +18566,6 @@
   }
  },
  {
-  "id": "7ed1a0d7e976",
-  "headline": "Four held for setting up electric fence that killed forest official - Press Trust of India",
-  "tokens": [
-   "electric",
-   "fence",
-   "forest",
-   "four",
-   "held",
-   "killed",
-   "official",
-   "setting"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
-  "id": "2a5e9bb09a5f",
-  "headline": "Six dead in Indiana after storms and floods, emergency officials say​​ - Reuters",
-  "tokens": [
-   "dead",
-   "emergency",
-   "floods",
-   "indiana",
-   "officials",
-   "say",
-   "six",
-   "storms"
-  ],
-  "size": 1,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
-  "id": "c92e14791e51",
-  "headline": "Reds' Brady Singer eager to regain form vs. Marlins - Reuters",
-  "tokens": [
-   "brady",
-   "eager",
-   "form",
-   "marlins",
-   "reds",
-   "regain",
-   "singer"
-  ],
-  "size": 1,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
-  "id": "ebdc0232e3b5",
-  "headline": "White Sox ride power surge into clash vs. Troy Melton, Tigers - Reuters",
-  "tokens": [
-   "clash",
-   "into",
-   "melton",
-   "power",
-   "ride",
-   "sox",
-   "surge",
-   "tigers",
-   "troy",
-   "white"
-  ],
-  "size": 1,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
   "id": "163d3782e84f",
   "headline": "Nvidia eyes investing $3 billion in SB Energy under OpenAI data center deal, Information says - Reuters",
   "tokens": [
@@ -18759,125 +18594,6 @@
   }
  },
  {
-  "id": "9487e1aa3d5d",
-  "headline": "Peru holds earthquake simulation drill after recent disasters in neighboring countries - AP News",
-  "tokens": [
-   "countries",
-   "disasters",
-   "drill",
-   "earthquake",
-   "holds",
-   "neighboring",
-   "peru",
-   "recent",
-   "simulation"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
-  "id": "114b25da1f6e",
-  "headline": "Shohei Ohtani comes out of his bullpen session without issues and will throw another - AP News",
-  "tokens": [
-   "another",
-   "bullpen",
-   "comes",
-   "issues",
-   "ohtani",
-   "session",
-   "shohei",
-   "throw",
-   "without"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
-  "id": "f720f54af0c5",
-  "headline": "Nihang Sikhs | The warrior tradition",
-  "tokens": [
-   "nihang",
-   "sikhs"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
-  "id": "5df5cc2c47ed",
-  "headline": "With slogans and tears, Ujjain schoolgirls protest plan to shift government schools far away",
-  "tokens": [
-   "away",
-   "far",
-   "government",
-   "plan",
-   "protest",
-   "schoolgirls",
-   "schools",
-   "shift",
-   "slogans",
-   "tears",
-   "ujjain"
-  ],
-  "size": 2,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00",
-   "english": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
-  "id": "b9d0f71b13e6",
-  "headline": "Don’t make statements that BJP can exploit, Akhilesh Yadav tells Samajwadi Party leaders",
-  "tokens": [
-   "akhilesh",
-   "bjp",
-   "can",
-   "dont",
-   "exploit",
-   "leaders",
-   "make",
-   "party",
-   "samajwadi",
-   "statements",
-   "tells",
-   "yadav"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
   "id": "225971b5eb49",
   "headline": "US Democrats finalise major shakeup to 2028 presidential primary calendar",
   "tokens": [
@@ -18898,26 +18614,6 @@
   ],
   "first_seen": "2026-08-15T22:49:39+00:00",
   "last_seen": "2026-08-16T02:09:14+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T22:49:39+00:00"
-  }
- },
- {
-  "id": "aa42ead3382d",
-  "headline": "Why is the latest Ebola outbreak worsening?",
-  "tokens": [
-   "ebola",
-   "latest",
-   "outbreak",
-   "why",
-   "worsening"
-  ],
-  "size": 1,
-  "domains": [
-   "aljazeera.com"
-  ],
-  "first_seen": "2026-08-15T22:49:39+00:00",
-  "last_seen": "2026-08-15T22:49:39+00:00",
   "first_by_lang": {
    "en": "2026-08-15T22:49:39+00:00"
   }
@@ -19053,12 +18749,13 @@
    "what",
    "worlds"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "reuters.com"
+   "reuters.com",
+   "apnews.com"
   ],
   "first_seen": "2026-08-15T23:46:36+00:00",
-  "last_seen": "2026-08-15T23:46:36+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
   "first_by_lang": {
    "en": "2026-08-15T23:46:36+00:00"
   }
@@ -60256,12 +59953,12 @@
    "pennsylvania",
    "sportswatch"
   ],
-  "size": 4,
+  "size": 5,
   "domains": [
    "apnews.com"
   ],
   "first_seen": "2026-08-16T17:47:22+00:00",
-  "last_seen": "2026-08-17T15:50:57+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
   "first_by_lang": {
    "en": "2026-08-16T17:47:22+00:00"
   }
@@ -132119,12 +131816,12 @@
    "than",
    "thought"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "ptinews.com"
   ],
   "first_seen": "2026-08-18T01:58:53+00:00",
-  "last_seen": "2026-08-18T15:58:07+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
   "first_by_lang": {
    "en": "2026-08-18T01:58:53+00:00"
   }
@@ -139779,13 +139476,14 @@
    "tarapith",
    "toll"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "ptinews.com",
-   "hindustantimes.com"
+   "hindustantimes.com",
+   "thehindu.com"
   ],
   "first_seen": "2026-08-18T04:08:49+00:00",
-  "last_seen": "2026-08-18T05:03:13+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
   "first_by_lang": {
    "en": "2026-08-18T04:08:49+00:00"
   }
@@ -176784,13 +176482,13 @@
    "promising",
    "teens"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "apnews.com",
    "business-standard.com"
   ],
   "first_seen": "2026-08-18T15:02:52+00:00",
-  "last_seen": "2026-08-18T19:13:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
   "first_by_lang": {
    "en": "2026-08-18T15:02:52+00:00"
   }
@@ -194891,12 +194589,12 @@
    "pass",
    "who"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "aljazeera.com"
   ],
   "first_seen": "2026-08-18T21:49:34+00:00",
-  "last_seen": "2026-08-18T21:49:34+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
   "first_by_lang": {
    "en": "2026-08-18T21:49:34+00:00"
   }
@@ -196532,6 +196230,503 @@
   "last_seen": "2026-08-18T21:54:58+00:00",
   "first_by_lang": {
    "en": "2026-08-18T21:54:58+00:00"
+  }
+ },
+ {
+  "id": "4ec54397d3d0",
+  "headline": "Governor directly summoning DGP improper, says Keralam CM - Press Trust of India",
+  "tokens": [
+   "dgp",
+   "directly",
+   "governor",
+   "improper",
+   "keralam",
+   "summoning"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "d7053c41cf14",
+  "headline": "UP: Woman found hanging from noose at in-laws' house in Amethi - Press Trust of India",
+  "tokens": [
+   "amethi",
+   "found",
+   "hanging",
+   "house",
+   "inlaws",
+   "noose",
+   "woman"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "11aea7dede50",
+  "headline": "India likely to host Cape Verde in September-October - Press Trust of India",
+  "tokens": [
+   "cape",
+   "host",
+   "india",
+   "likely",
+   "septemberoctober",
+   "verde"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "11cd90ad8327",
+  "headline": "Gurugram Police official saves man's life by administering CPR - Press Trust of India",
+  "tokens": [
+   "administering",
+   "cpr",
+   "gurugram",
+   "life",
+   "mans",
+   "official",
+   "police",
+   "saves"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "035a6b6af3fb",
+  "headline": "Odisha Vigilance nabs two officials while accepting bribes - Press Trust of India",
+  "tokens": [
+   "accepting",
+   "bribes",
+   "nabs",
+   "odisha",
+   "officials",
+   "two",
+   "vigilance",
+   "while"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "3740ed0534db",
+  "headline": "India-Singapore Ministerial Roundtable covers sectors that significantly boost 'Viksit Bharat' initiative: MEA - ANI News",
+  "tokens": [
+   "bharat",
+   "boost",
+   "covers",
+   "indiasingapore",
+   "initiative",
+   "mea",
+   "ministerial",
+   "roundtable",
+   "sectors",
+   "significantly",
+   "viksit"
+  ],
+  "size": 1,
+  "domains": [
+   "aninews.in"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "b71979e6ea04",
+  "headline": "Explainer: Treasury yields are rising - why does it matter? - Reuters",
+  "tokens": [
+   "does",
+   "explainer",
+   "matter",
+   "rising",
+   "treasury",
+   "why",
+   "yields"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "916793cfef9c",
+  "headline": "LEO Pharma buys worldwide dersimelagon rights for up to $435 million - Reuters",
+  "tokens": [
+   "435",
+   "buys",
+   "dersimelagon",
+   "leo",
+   "million",
+   "pharma",
+   "rights",
+   "worldwide"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "d427138fdb72",
+  "headline": "Israel kills six in Gaza on day after Kushner meeting with Netanyahu, medics say - Reuters",
+  "tokens": [
+   "day",
+   "gaza",
+   "israel",
+   "kills",
+   "kushner",
+   "medics",
+   "meeting",
+   "netanyahu",
+   "say",
+   "six"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "92dc53a891fd",
+  "headline": "San Diego County will stop letting federal immigration agents train at local firing ranges - AP News",
+  "tokens": [
+   "agents",
+   "county",
+   "diego",
+   "federal",
+   "firing",
+   "immigration",
+   "letting",
+   "local",
+   "ranges",
+   "san",
+   "stop",
+   "train"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "768dae9fdd83",
+  "headline": "No. 16 Michigan may have season hinge on Underwood's development in Year 2 in Whittingham's debut - AP News",
+  "tokens": [
+   "debut",
+   "development",
+   "hinge",
+   "may",
+   "michigan",
+   "season",
+   "underwoods",
+   "whittinghams",
+   "year"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "6dc9b305dcda",
+  "headline": "A full-circle Texans-Raiders joint practice as Ryans reunites with Gary and Klint Kubiak - AP News",
+  "tokens": [
+   "fullcircle",
+   "gary",
+   "joint",
+   "klint",
+   "kubiak",
+   "practice",
+   "reunites",
+   "ryans",
+   "texansraiders"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "9477e81c75f2",
+  "headline": "Rising conflicts and shrinking aid strain demining in Asia - AP News",
+  "tokens": [
+   "aid",
+   "asia",
+   "conflicts",
+   "demining",
+   "rising",
+   "shrinking",
+   "strain"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "53492516dd98",
+  "headline": "PGA Tour postseason heads to St. Louis and LIV Golf wraps up season in Indiana - AP News",
+  "tokens": [
+   "golf",
+   "heads",
+   "indiana",
+   "liv",
+   "louis",
+   "pga",
+   "postseason",
+   "season",
+   "tour",
+   "wraps"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "192efb59c1d9",
+  "headline": "Frank Beard, Rock & Roll Hall of Fame drummer of boogie-rock trio ZZ Top, dies at 77 - AP News",
+  "tokens": [
+   "beard",
+   "boogierock",
+   "dies",
+   "drummer",
+   "fame",
+   "frank",
+   "hall",
+   "rock",
+   "roll",
+   "top",
+   "trio"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "4eec9a7c542d",
+  "headline": "Japan and OAS award Haiti $3M to help troubled country prepare for long-awaited elections - AP News",
+  "tokens": [
+   "award",
+   "country",
+   "elections",
+   "haiti",
+   "help",
+   "japan",
+   "longawaited",
+   "oas",
+   "prepare",
+   "troubled"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "e9d89b73e4ac",
+  "headline": "NCB busts drug trafficking network involving illegally overstaying foreign nationals",
+  "tokens": [
+   "busts",
+   "drug",
+   "foreign",
+   "illegally",
+   "involving",
+   "nationals",
+   "ncb",
+   "network",
+   "overstaying",
+   "trafficking"
+  ],
+  "size": 1,
+  "domains": [
+   "thehindu.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "9d049310b43e",
+  "headline": "Residents stop lorries near Cheyyar for damaging water pipelines, roads",
+  "tokens": [
+   "cheyyar",
+   "damaging",
+   "lorries",
+   "near",
+   "pipelines",
+   "residents",
+   "roads",
+   "stop",
+   "water"
+  ],
+  "size": 1,
+  "domains": [
+   "thehindu.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "1cb7e5fa2bf7",
+  "headline": "Captain of ship attacked in Hormuz dead or alive? SC seeks report from government",
+  "tokens": [
+   "alive",
+   "attacked",
+   "captain",
+   "dead",
+   "government",
+   "hormuz",
+   "report",
+   "seeks",
+   "ship"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "3cfbdec6558c",
+  "headline": "Highways may get traffic 'road test' before launch",
+  "tokens": [
+   "before",
+   "get",
+   "highways",
+   "launch",
+   "may",
+   "road",
+   "test",
+   "traffic"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
+  }
+ },
+ {
+  "id": "b40ccdafdf7d",
+  "headline": "Bolivia arrests political adviser to Latin American right-wingers",
+  "tokens": [
+   "adviser",
+   "american",
+   "arrests",
+   "bolivia",
+   "latin",
+   "political",
+   "right"
+  ],
+  "size": 1,
+  "domains": [
+   "aljazeera.com"
+  ],
+  "first_seen": "2026-08-18T22:52:28+00:00",
+  "last_seen": "2026-08-18T22:52:28+00:00",
+  "first_by_lang": {
+   "en": "2026-08-18T22:52:28+00:00"
   }
  }
 ]

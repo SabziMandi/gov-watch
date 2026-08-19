@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ts": "2026-08-19T03:05:33+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 0,
+    "sample_added": [
+      "Prime Minister shares Sanskrit Subhashitam highlighting the importance of benevolent ..."
+    ],
+    "sample_removed": [],
+    "diff": "@@ -130,2 +130,3 @@\n Ministry of Youth Affairs & Sports Announces National Sports Awards 2025\n+Prime Minister shares Sanskrit Subhashitam highlighting the importance of benevolent ...\n Ministry of Culture concludes Har Ghar Tiranga 2026 with Tiranga Concert at Bharat Ma..."
+  }
+]

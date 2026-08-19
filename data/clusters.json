@@ -29,7 +29,7 @@
    "africa",
    "south"
   ],
-  "size": 35,
+  "size": 36,
   "domains": [
    "apnews.com",
    "aninews.in",
@@ -46,7 +46,7 @@
    "hrw.org"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-19T02:06:08+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00",
    "english": "2026-08-08T07:32:32+00:00"
@@ -106,7 +106,7 @@
    "rudraprayag",
    "updates"
   ],
-  "size": 87,
+  "size": 88,
   "domains": [
    "indianexpress.com",
    "caravanmagazine.in",
@@ -124,7 +124,7 @@
    "tribune.com.pk"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-19T04:08:55+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00",
    "english": "2026-08-10T20:10:22+00:00"
@@ -459,7 +459,7 @@
    "andhra",
    "pradesh"
   ],
-  "size": 68,
+  "size": 69,
   "domains": [
    "thenewsminute.com",
    "thehindu.com",
@@ -471,10 +471,11 @@
    "theprint.in",
    "ptinews.com",
    "mathrubhumi.com",
-   "deccanherald.com"
+   "deccanherald.com",
+   "aninews.in"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-18T16:01:00+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00",
    "english": "2026-08-10T13:57:01+00:00",
@@ -731,13 +732,13 @@
    "read",
    "updates"
   ],
-  "size": 363,
+  "size": 364,
   "domains": [
    "livelaw.in",
    "hindi.livelaw.in"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-18T20:51:43+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00"
   }
@@ -3105,33 +3106,6 @@
   }
  },
  {
-  "id": "55c8347fa495",
-  "headline": "Magnitude 5.5 earthquake strikes off coast of El Salvador, USGS says - Deccan Herald",
-  "tokens": [
-   "coast",
-   "earthquake",
-   "magnitude",
-   "off",
-   "salvador",
-   "strikes",
-   "usgs"
-  ],
-  "size": 11,
-  "domains": [
-   "deccanherald.com",
-   "reuters.com",
-   "economictimes.indiatimes.com",
-   "theprint.in",
-   "apnews.com",
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-13T03:12:15+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-13T03:12:15+00:00"
-  }
- },
- {
   "id": "af70ab2c5f83",
   "headline": "Israeli troops clash with settlers besieging Palestinian homes in West Bank - ThePrint",
   "tokens": [
@@ -3186,29 +3160,6 @@
   "last_seen": "2026-08-19T02:06:08+00:00",
   "first_by_lang": {
    "hi": "2026-08-13T03:12:15+00:00"
-  }
- },
- {
-  "id": "0f0bd6c1a358",
-  "headline": "The Man on a Mission to Build India’s Most Livable City",
-  "tokens": [
-   "build",
-   "city",
-   "indias",
-   "livable",
-   "man",
-   "mission",
-   "most"
-  ],
-  "size": 3,
-  "domains": [
-   "nytimes.com",
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-13T05:21:23+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-13T05:21:23+00:00"
   }
  },
  {
@@ -6112,29 +6063,6 @@
   }
  },
  {
-  "id": "1611bacaf89f",
-  "headline": "Woman Shoots Herself Dead With Husband's Service Rifle In UP",
-  "tokens": [
-   "dead",
-   "herself",
-   "husbands",
-   "rifle",
-   "service",
-   "shoots",
-   "woman"
-  ],
-  "size": 2,
-  "domains": [
-   "ndtv.com",
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-14T12:09:52+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-14T12:09:52+00:00"
-  }
- },
- {
   "id": "30cb868e7406",
   "headline": "Man City tight-lipped on Rodri transfer amid Barcelona and Real Madrid link",
   "tokens": [
@@ -7387,36 +7315,6 @@
   }
  },
  {
-  "id": "dccadbe3bc1f",
-  "headline": "Cockroach Janta Party Warns Fresh Nationwide Agitation | Abhijeet Dipke | Dr. Manish Kumar Violante Guidotti Bentivoglio (K2Jjodcodq) - Mshale",
-  "tokens": [
-   "abhijeet",
-   "agitation",
-   "bentivoglio",
-   "cockroach",
-   "dipke",
-   "fresh",
-   "guidotti",
-   "janta",
-   "k2jjodcodq",
-   "kumar",
-   "manish",
-   "nationwide",
-   "party",
-   "violante",
-   "warns"
-  ],
-  "size": 2,
-  "domains": [
-   "mshale.com"
-  ],
-  "first_seen": "2026-08-14T17:30:17+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-14T17:30:17+00:00"
-  }
- },
- {
   "id": "bc81039eb4bc",
   "headline": "Rakhi Gift for Sister 2026: Sylvi Watches' Early Rakhi Sale — Up to 18% Off - Press Trust of India",
   "tokens": [
@@ -8109,34 +8007,6 @@
   "last_seen": "2026-08-16T15:53:56+00:00",
   "first_by_lang": {
    "hi": "2026-08-14T21:55:26+00:00"
-  }
- },
- {
-  "id": "bfa002cbb8c5",
-  "headline": "Pakistani missions abroad celebrate Independence Day with patriotic fervour",
-  "tokens": [
-   "abroad",
-   "celebrate",
-   "day",
-   "fervour",
-   "independence",
-   "missions",
-   "pakistani",
-   "patriotic"
-  ],
-  "size": 7,
-  "domains": [
-   "tribune.com.pk",
-   "brecorder.com",
-   "aninews.in",
-   "theprint.in",
-   "thehindu.com",
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-14T21:55:26+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-14T21:55:26+00:00"
   }
  },
  {
@@ -10757,33 +10627,6 @@
   }
  },
  {
-  "id": "34d7f4e78f89",
-  "headline": "Cockroach Janta Party Instagram handle briefly taken down on Independence Day - The Tribune",
-  "tokens": [
-   "briefly",
-   "cockroach",
-   "day",
-   "down",
-   "handle",
-   "independence",
-   "instagram",
-   "janta",
-   "party",
-   "taken"
-  ],
-  "size": 3,
-  "domains": [
-   "tribuneindia.com",
-   "m.economictimes.com",
-   "newindianexpress.com"
-  ],
-  "first_seen": "2026-08-15T07:53:31+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T07:53:31+00:00"
-  }
- },
- {
   "id": "141bb43eae6b",
   "headline": "Nvidia scales back funding guarantee for Ohio OpenAI data center, WSJ reports - Reuters",
   "tokens": [
@@ -10862,34 +10705,6 @@
   ],
   "first_seen": "2026-08-15T08:56:47+00:00",
   "last_seen": "2026-08-18T14:07:26+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T08:56:47+00:00"
-  }
- },
- {
-  "id": "fc158d7b3974",
-  "headline": "'Warmest congratulations': World leaders wish India 80th Independence Day, hail growing ties",
-  "tokens": [
-   "80th",
-   "congratulations",
-   "day",
-   "growing",
-   "hail",
-   "independence",
-   "india",
-   "leaders",
-   "ties",
-   "warmest",
-   "wish",
-   "world"
-  ],
-  "size": 2,
-  "domains": [
-   "timesofindia.indiatimes.com",
-   "ndtv.com"
-  ],
-  "first_seen": "2026-08-15T08:56:47+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
   "first_by_lang": {
    "en": "2026-08-15T08:56:47+00:00"
   }
@@ -11940,33 +11755,6 @@
   ],
   "first_seen": "2026-08-15T11:46:42+00:00",
   "last_seen": "2026-08-18T19:13:28+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T11:46:42+00:00"
-  }
- },
- {
-  "id": "c3ead76f6591",
-  "headline": "'Attempt to stigmatise dissent': Opposition hits out at PM Modi over ‘dimagi Naxal’ jibe",
-  "tokens": [
-   "attempt",
-   "dimagi",
-   "dissent",
-   "hits",
-   "jibe",
-   "modi",
-   "naxal",
-   "opposition",
-   "stigmatise"
-  ],
-  "size": 4,
-  "domains": [
-   "thehindu.com",
-   "theprint.in",
-   "ptinews.com",
-   "timesofindia.indiatimes.com"
-  ],
-  "first_seen": "2026-08-15T11:46:42+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
   "first_by_lang": {
    "en": "2026-08-15T11:46:42+00:00"
   }
@@ -13080,31 +12868,6 @@
   }
  },
  {
-  "id": "1e411876b520",
-  "headline": "Nepal PM Shah greets Modi, Indian people on 80th Independence Day - Press Trust of India",
-  "tokens": [
-   "80th",
-   "day",
-   "greets",
-   "independence",
-   "indian",
-   "modi",
-   "nepal",
-   "people",
-   "shah"
-  ],
-  "size": 3,
-  "domains": [
-   "ptinews.com",
-   "theprint.in"
-  ],
-  "first_seen": "2026-08-15T14:50:03+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T14:50:03+00:00"
-  }
- },
- {
   "id": "c442f22838d6",
   "headline": "Chhattisgarh: CBI arrests railway officer in bribery case; Rs 77 lakh cash, high-value jewellery found - Press Trust of India",
   "tokens": [
@@ -13121,13 +12884,13 @@
    "officer",
    "railway"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "ptinews.com",
    "indiatoday.in"
   ],
   "first_seen": "2026-08-15T14:50:03+00:00",
-  "last_seen": "2026-08-16T19:00:09+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-15T14:50:03+00:00"
   }
@@ -16565,26 +16328,6 @@
   }
  },
  {
-  "id": "ce0656823afb",
-  "headline": "Tavleen Singh writes: Kudos, cockroaches - The Indian Express",
-  "tokens": [
-   "cockroaches",
-   "kudos",
-   "singh",
-   "tavleen",
-   "writes"
-  ],
-  "size": 2,
-  "domains": [
-   "indianexpress.com"
-  ],
-  "first_seen": "2026-08-16T03:27:55+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T03:27:55+00:00"
-  }
- },
- {
   "id": "66e2152ae9a5",
   "headline": "Odisha BJP files police complaint against BJD MP Sulata Deo over social media post - ptinews.com",
   "tokens": [
@@ -16664,32 +16407,6 @@
   "last_seen": "2026-08-16T07:17:07+00:00",
   "first_by_lang": {
    "en": "2026-08-16T04:09:02+00:00"
-  }
- },
- {
-  "id": "9620408393bf",
-  "headline": "पाकिस्तान के राष्ट्रपति ने 'हिंदुओं' पर ऐसा क्या कहा, जिस पर जावेद अख़्तर ने कसा तंज़",
-  "tokens": [
-   "अख़्तर",
-   "ऐसा",
-   "कसा",
-   "कहा",
-   "क्या",
-   "जावेद",
-   "जिस",
-   "तंज़",
-   "पाकिस्तान",
-   "राष्ट्रपति",
-   "हिंदुओं"
-  ],
-  "size": 2,
-  "domains": [
-   "bbc.com"
-  ],
-  "first_seen": "2026-08-16T04:09:02+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "hi": "2026-08-16T04:09:02+00:00"
   }
  },
  {
@@ -17148,31 +16865,6 @@
   }
  },
  {
-  "id": "1cbd4dcdd156",
-  "headline": "1st Test: Padikkal''s maiden ton takes India to 288/2 against SL on Day 1 - Press Trust of India",
-  "tokens": [
-   "1st",
-   "2882",
-   "against",
-   "day",
-   "india",
-   "maiden",
-   "padikkals",
-   "takes",
-   "test",
-   "ton"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
   "id": "fb57882e2b6a",
   "headline": "Buoyant East Bengal eye Durand semis berth vs Indian Army FT - Press Trust of India",
   "tokens": [
@@ -17193,56 +16885,6 @@
   ],
   "first_seen": "2026-08-16T05:01:22+00:00",
   "last_seen": "2026-08-17T02:07:31+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "5c68e8129a0d",
-  "headline": "'Dimagi Naxal' latest addition to political vocabulary: RJD MP 'thanks' PM Modi - Press Trust of India",
-  "tokens": [
-   "addition",
-   "dimagi",
-   "latest",
-   "modi",
-   "naxal",
-   "political",
-   "rjd",
-   "thanks",
-   "vocabulary"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "e9919f6f923a",
-  "headline": "Delhi Congress marks I-Day with flag hoisting, Tiranga Yatra; calls for safeguarding democracy - Press Trust of India",
-  "tokens": [
-   "calls",
-   "congress",
-   "delhi",
-   "democracy",
-   "flag",
-   "hoisting",
-   "iday",
-   "marks",
-   "safeguarding",
-   "tiranga",
-   "yatra"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
   "first_by_lang": {
    "en": "2026-08-16T05:01:22+00:00"
   }
@@ -17293,27 +16935,6 @@
   }
  },
  {
-  "id": "cfe72f49046e",
-  "headline": "Alok''s IV top Swiss League, enter pre-quarterfinals - Press Trust of India",
-  "tokens": [
-   "aloks",
-   "enter",
-   "league",
-   "prequarterfinals",
-   "swiss",
-   "top"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
   "id": "e572cc17302e",
   "headline": "North Korea's Kim, Russia's Putin reaffirm ties on Korean Liberation Day - Reuters",
   "tokens": [
@@ -17341,27 +16962,6 @@
   }
  },
  {
-  "id": "f7287f021722",
-  "headline": "Jets QB Geno Smith day-to-day after missing start - Reuters",
-  "tokens": [
-   "daytoday",
-   "geno",
-   "jets",
-   "missing",
-   "smith",
-   "start"
-  ],
-  "size": 1,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
   "id": "65300603cde1",
   "headline": "Teen boy among 6 dead including suspect in Michigan shootings; girl survived - AP News",
   "tokens": [
@@ -17383,471 +16983,6 @@
   ],
   "first_seen": "2026-08-16T05:01:22+00:00",
   "last_seen": "2026-08-16T07:55:10+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "8f8e2570cb32",
-  "headline": "Brewers add Jonathan Ornelas in trade with Athletics effort to bolster infield depth - AP News",
-  "tokens": [
-   "add",
-   "athletics",
-   "bolster",
-   "brewers",
-   "depth",
-   "effort",
-   "infield",
-   "jonathan",
-   "ornelas",
-   "trade"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "42a4f66f76e5",
-  "headline": "Campbell still trying to find answers for Lions offensive line - AP News",
-  "tokens": [
-   "answers",
-   "campbell",
-   "find",
-   "line",
-   "lions",
-   "offensive",
-   "still",
-   "trying"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "f1697bc57012",
-  "headline": "Sonny Gray wins his career-best 15th as the Red Sox beat the Pirates 4-0 - AP News",
-  "tokens": [
-   "15th",
-   "beat",
-   "careerbest",
-   "gray",
-   "pirates",
-   "red",
-   "sonny",
-   "sox",
-   "wins"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "45da2dac10aa",
-  "headline": "Josh Allen gets comfortable in Bills' new stadium with TD pass in 29-14 preseason win over Panthers - AP News",
-  "tokens": [
-   "2914",
-   "allen",
-   "bills",
-   "comfortable",
-   "gets",
-   "josh",
-   "panthers",
-   "pass",
-   "preseason",
-   "stadium",
-   "win"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "ee24796ad15a",
-  "headline": "Ukraine attacks Russia’s Samara industrial site as Kyiv ramps up long-range strikes - AP News",
-  "tokens": [
-   "attacks",
-   "industrial",
-   "kyiv",
-   "longrange",
-   "ramps",
-   "russias",
-   "samara",
-   "site",
-   "strikes",
-   "ukraine"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "72598cabf145",
-  "headline": "Deshaun Watson leads the Browns on 2 scoring drives in a 34-10 preseason loss to the Bears - AP News",
-  "tokens": [
-   "3410",
-   "bears",
-   "browns",
-   "deshaun",
-   "drives",
-   "leads",
-   "loss",
-   "preseason",
-   "scoring",
-   "watson"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "e51a9a42067b",
-  "headline": "Nolan Arenado has 2 homers and 4 RBIs as the Diamondbacks rout the Braves 10-3 - AP News",
-  "tokens": [
-   "103",
-   "arenado",
-   "braves",
-   "diamondbacks",
-   "homers",
-   "nolan",
-   "rbis",
-   "rout"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "9495c182393f",
-  "headline": "Minister urges officials to achieve ‘Swarna Kadapa 2047’ goals",
-  "tokens": [
-   "2047",
-   "achieve",
-   "goals",
-   "kadapa",
-   "minister",
-   "officials",
-   "swarna",
-   "urges"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "0d84b3c4b6a3",
-  "headline": "Punjab’s cashless healthcare scheme eases medical costs for families",
-  "tokens": [
-   "cashless",
-   "costs",
-   "eases",
-   "families",
-   "healthcare",
-   "medical",
-   "punjabs",
-   "scheme"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "580621fb6104",
-  "headline": "KFC chicken under scanner in Mangaluru, expired meat found in 3-star Mysuru hotels",
-  "tokens": [
-   "chicken",
-   "expired",
-   "found",
-   "kfc",
-   "mangaluru",
-   "meat",
-   "scanner",
-   "under"
-  ],
-  "size": 1,
-  "domains": [
-   "hindustantimes.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "3599f5b950ad",
-  "headline": "After Cockroaches In Mumbai, Rat Found In Blinkit Ice Cream Freezer In Thane",
-  "tokens": [
-   "blinkit",
-   "cockroaches",
-   "cream",
-   "found",
-   "freezer",
-   "ice",
-   "mumbai",
-   "rat",
-   "thane"
-  ],
-  "size": 1,
-  "domains": [
-   "ndtv.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "a8c8b025c5d9",
-  "headline": "Ghee, Oils Worth Rs 35 Lakh Seized After Food Authority Raids In Gujarat",
-  "tokens": [
-   "authority",
-   "food",
-   "ghee",
-   "gujarat",
-   "lakh",
-   "oils",
-   "raids",
-   "seized",
-   "worth"
-  ],
-  "size": 1,
-  "domains": [
-   "ndtv.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "944d640e7b10",
-  "headline": "झारखंड आंदोलन: स्टूडेंट्स ने अब मुख्यमंत्री हेमंत सोरेन का इस्तीफ़ा मांगा",
-  "tokens": [
-   "आंदोलन",
-   "इस्तीफ़ा",
-   "झारखंड",
-   "मांगा",
-   "मुख्यमंत्री",
-   "सोरेन",
-   "स्टूडेंट्स",
-   "हेमंत"
-  ],
-  "size": 1,
-  "domains": [
-   "bbc.co.uk"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "hi": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "452d1795e73d",
-  "headline": "قطر کی ایرانی پائلٹوں کی حراست کی تردید، ایران نے پانچ ماہ بعد رہائی کا مطالبہ کیوں کیا؟",
-  "tokens": [
-   "ایران",
-   "ایرانی",
-   "بعد",
-   "تردید،",
-   "حراست",
-   "رہائی",
-   "قطر",
-   "ماہ",
-   "مطالبہ",
-   "پائلٹوں",
-   "پانچ",
-   "کیا؟",
-   "کیوں"
-  ],
-  "size": 1,
-  "domains": [
-   "bbc.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "ur": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "c0fe42e27699",
-  "headline": "ایران میں پیٹرول کی تقسیم کے لیے حکومت کے تین مجوزہ منصوبے، پمپس بند کرنے سے 30 لیٹر ماہانہ کوٹے تک",
-  "tokens": [
-   "ایران",
-   "بند",
-   "تقسیم",
-   "تین",
-   "حکومت",
-   "لیٹر",
-   "لیے",
-   "ماہانہ",
-   "مجوزہ",
-   "منصوبے،",
-   "میں",
-   "پمپس",
-   "پیٹرول",
-   "کرنے",
-   "کوٹے"
-  ],
-  "size": 1,
-  "domains": [
-   "bbc.co.uk"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "ur": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "99294050b0c4",
-  "headline": "Police recover Indonesian woman in Hyderabad, hand her over to consulate",
-  "tokens": [
-   "consulate",
-   "hand",
-   "hyderabad",
-   "indonesian",
-   "police",
-   "recover",
-   "woman"
-  ],
-  "size": 1,
-  "domains": [
-   "dawn.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "1d5138179d45",
-  "headline": "Yemeni government forces hit back after new Houthi offensive",
-  "tokens": [
-   "back",
-   "forces",
-   "government",
-   "hit",
-   "houthi",
-   "offensive",
-   "yemeni"
-  ],
-  "size": 1,
-  "domains": [
-   "aljazeera.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "ead94bd9bf88",
-  "headline": "India's 80th Independence Day: A look at protests in its 79-year journey till 'cockroaches' hit the street - The Economic Times",
-  "tokens": [
-   "79year",
-   "80th",
-   "cockroaches",
-   "day",
-   "hit",
-   "independence",
-   "indias",
-   "journey",
-   "look",
-   "protests",
-   "street",
-   "till"
-  ],
-  "size": 1,
-  "domains": [
-   "m.economictimes.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T05:01:22+00:00"
-  }
- },
- {
-  "id": "31c31c922438",
-  "headline": "'Bells Are Ringing...': CJP's Saurav Das Questions PM Modi's 'Dimagi Naxal' Remark - Times Now",
-  "tokens": [
-   "bells",
-   "cjps",
-   "das",
-   "dimagi",
-   "modis",
-   "naxal",
-   "questions",
-   "remark",
-   "ringing",
-   "saurav"
-  ],
-  "size": 1,
-  "domains": [
-   "timesnownews.com"
-  ],
-  "first_seen": "2026-08-16T05:01:22+00:00",
-  "last_seen": "2026-08-16T05:01:22+00:00",
   "first_by_lang": {
    "en": "2026-08-16T05:01:22+00:00"
   }
@@ -54126,13 +53261,13 @@
    "semifinal",
    "set"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "ptinews.com",
    "theprint.in"
   ],
   "first_seen": "2026-08-16T19:45:54+00:00",
-  "last_seen": "2026-08-17T10:08:21+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-16T19:45:54+00:00"
   }
@@ -63474,12 +62609,12 @@
    "shares",
    "start"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "reuters.com"
   ],
   "first_seen": "2026-08-17T03:27:55+00:00",
-  "last_seen": "2026-08-17T06:00:53+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-17T03:27:55+00:00"
   }
@@ -64798,7 +63933,7 @@
    "tarapith",
    "west"
   ],
-  "size": 8,
+  "size": 9,
   "domains": [
    "hindustantimes.com",
    "theprint.in",
@@ -64807,7 +63942,7 @@
    "economictimes.indiatimes.com"
   ],
   "first_seen": "2026-08-17T04:12:44+00:00",
-  "last_seen": "2026-08-19T04:20:01+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-17T04:12:44+00:00"
   }
@@ -69535,12 +68670,12 @@
    "گیا؟",
    "ہندوستان"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "bbc.com"
   ],
   "first_seen": "2026-08-17T06:00:53+00:00",
-  "last_seen": "2026-08-17T14:02:17+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "ur": "2026-08-17T06:00:53+00:00"
   }
@@ -79066,7 +78201,7 @@
    "top",
    "underway"
   ],
-  "size": 10,
+  "size": 11,
   "domains": [
    "hindustantimes.com",
    "thehindu.com",
@@ -79076,7 +78211,7 @@
    "theprint.in"
   ],
   "first_seen": "2026-08-17T09:10:03+00:00",
-  "last_seen": "2026-08-18T16:01:00+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-17T09:10:03+00:00"
   }
@@ -92037,7 +91172,7 @@
    "way",
    "widens"
   ],
-  "size": 31,
+  "size": 32,
   "domains": [
    "livemint.com",
    "deccanchronicle.com",
@@ -92064,10 +91199,11 @@
    "asia.nikkei.com",
    "reuters.com",
    "aljazeera.com",
-   "thesource.com"
+   "thesource.com",
+   "apnews.com"
   ],
   "first_seen": "2026-08-17T13:24:16+00:00",
-  "last_seen": "2026-08-18T13:27:10+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-17T13:24:16+00:00",
    "english": "2026-08-17T13:24:16+00:00"
@@ -110494,13 +109630,13 @@
    "obc",
    "questionnaire"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "thehindu.com",
    "ptinews.com"
   ],
   "first_seen": "2026-08-17T17:57:04+00:00",
-  "last_seen": "2026-08-18T04:08:49+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-17T17:57:04+00:00"
   }
@@ -132895,7 +132031,7 @@
    "rijiju",
    "worker"
   ],
-  "size": 5,
+  "size": 6,
   "domains": [
    "thenewsmill.com",
    "aninews.in",
@@ -132904,7 +132040,7 @@
    "livemint.com"
   ],
   "first_seen": "2026-08-18T05:03:13+00:00",
-  "last_seen": "2026-08-19T04:20:01+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-18T05:03:13+00:00",
    "english": "2026-08-18T07:20:48+00:00"
@@ -156116,12 +155252,13 @@
    "slams",
    "stir"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "timesofindia.indiatimes.com"
+   "timesofindia.indiatimes.com",
+   "hindustantimes.com"
   ],
   "first_seen": "2026-08-18T13:24:56+00:00",
-  "last_seen": "2026-08-18T13:24:56+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-18T13:24:56+00:00"
   }
@@ -167460,12 +166597,12 @@
    "kerc",
    "power"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "thehindu.com"
   ],
   "first_seen": "2026-08-18T15:58:07+00:00",
-  "last_seen": "2026-08-18T15:58:07+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-18T15:58:07+00:00"
   }
@@ -169723,12 +168860,13 @@
    "sir",
    "varsha"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "theprint.in"
+   "theprint.in",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-18T16:01:00+00:00",
-  "last_seen": "2026-08-18T16:01:00+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-18T16:01:00+00:00"
   }
@@ -178061,12 +177199,13 @@
    "states",
    "unity"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "deccanherald.com"
+   "deccanherald.com",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-18T19:13:28+00:00",
-  "last_seen": "2026-08-18T19:13:28+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-18T19:13:28+00:00"
   }
@@ -182101,12 +181240,12 @@
    "worldclass",
    "yorkbased"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "thehindu.com"
   ],
   "first_seen": "2026-08-18T19:49:55+00:00",
-  "last_seen": "2026-08-18T19:49:55+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-18T19:49:55+00:00"
   }
@@ -183036,15 +182175,16 @@
    "recruitment",
    "releases"
   ],
-  "size": 5,
+  "size": 6,
   "domains": [
    "thehindu.com",
    "ptinews.com",
    "ndtv.com",
-   "timesofindia.indiatimes.com"
+   "timesofindia.indiatimes.com",
+   "aninews.in"
   ],
   "first_seen": "2026-08-18T20:51:43+00:00",
-  "last_seen": "2026-08-19T04:08:55+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-18T20:51:43+00:00"
   }
@@ -193199,7 +192339,7 @@
    "temporarily",
    "trump"
   ],
-  "size": 6,
+  "size": 7,
   "domains": [
    "reuters.com",
    "apnews.com",
@@ -193208,7 +192348,7 @@
    "adaderana.lk"
   ],
   "first_seen": "2026-08-19T03:25:55+00:00",
-  "last_seen": "2026-08-19T04:20:01+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-19T03:25:55+00:00"
   }
@@ -193632,15 +192772,16 @@
    "nationals",
    "suspected"
   ],
-  "size": 4,
+  "size": 5,
   "domains": [
    "ndtv.com",
    "thehindu.com",
    "livemint.com",
-   "newagebd.net"
+   "newagebd.net",
+   "kathmandupost.com"
   ],
   "first_seen": "2026-08-19T03:25:55+00:00",
-  "last_seen": "2026-08-19T04:20:01+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-19T03:25:55+00:00"
   }
@@ -193734,12 +192875,13 @@
    "vehicle",
    "woman"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "ndtv.com"
+   "ndtv.com",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-19T03:25:55+00:00",
-  "last_seen": "2026-08-19T03:25:55+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-19T03:25:55+00:00"
   }
@@ -194094,12 +193236,12 @@
    "stable",
    "upgrades"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "ptinews.com"
   ],
   "first_seen": "2026-08-19T04:08:55+00:00",
-  "last_seen": "2026-08-19T04:08:55+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-19T04:08:55+00:00"
   }
@@ -194492,12 +193634,12 @@
    "suspended",
    "tahsildar"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "thehindu.com"
   ],
   "first_seen": "2026-08-19T04:08:55+00:00",
-  "last_seen": "2026-08-19T04:08:55+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-19T04:08:55+00:00"
   }
@@ -194545,12 +193687,14 @@
    "raids",
    "university"
   ],
-  "size": 1,
+  "size": 3,
   "domains": [
-   "timesofindia.indiatimes.com"
+   "timesofindia.indiatimes.com",
+   "aninews.in",
+   "thehindu.com"
   ],
   "first_seen": "2026-08-19T04:08:55+00:00",
-  "last_seen": "2026-08-19T04:08:55+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-19T04:08:55+00:00"
   }
@@ -194642,12 +193786,13 @@
    "unions",
    "visa"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "aljazeera.com"
+   "aljazeera.com",
+   "reuters.com"
   ],
   "first_seen": "2026-08-19T04:08:55+00:00",
-  "last_seen": "2026-08-19T04:08:55+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
   "first_by_lang": {
    "en": "2026-08-19T04:08:55+00:00"
   }
@@ -197716,6 +196861,932 @@
   "last_seen": "2026-08-19T04:20:01+00:00",
   "first_by_lang": {
    "en": "2026-08-19T04:20:01+00:00"
+  }
+ },
+ {
+  "id": "9c49f4d5370f",
+  "headline": "Lt Gen Nair takes over as new colonel of Punjab Regiment - Press Trust of India",
+  "tokens": [
+   "colonel",
+   "gen",
+   "nair",
+   "punjab",
+   "regiment",
+   "takes"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "1ee624001f99",
+  "headline": "Indian Army chief Gen Seth meets Nepal's PM, discusses issues of mutual interest - Press Trust of India",
+  "tokens": [
+   "army",
+   "chief",
+   "discusses",
+   "gen",
+   "indian",
+   "interest",
+   "issues",
+   "meets",
+   "mutual",
+   "nepals",
+   "seth"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "ac13e92a2de4",
+  "headline": "Bareilly law student alleges family pressuring her for 'halala'; case registered - Press Trust of India",
+  "tokens": [
+   "alleges",
+   "bareilly",
+   "case",
+   "family",
+   "halala",
+   "law",
+   "pressuring",
+   "registered",
+   "student"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "f8dbeeecd993",
+  "headline": "Arunachal seeks stronger ICAR support for agriculture roadmap, kiwi research - Press Trust of India",
+  "tokens": [
+   "agriculture",
+   "arunachal",
+   "icar",
+   "kiwi",
+   "research",
+   "roadmap",
+   "seeks",
+   "stronger",
+   "support"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "9b2f5b4c1716",
+  "headline": "Haryana: Nuh native gunned down 8 years after conviction for local's murder - Press Trust of India",
+  "tokens": [
+   "conviction",
+   "down",
+   "gunned",
+   "haryana",
+   "locals",
+   "murder",
+   "native",
+   "nuh",
+   "years"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "e5d93ee3d73d",
+  "headline": "2 soldiers injured in a suicide attack in Pak's KPK - Press Trust of India",
+  "tokens": [
+   "attack",
+   "injured",
+   "kpk",
+   "paks",
+   "soldiers",
+   "suicide"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "d6713c185862",
+  "headline": "With turn on offer, straighter deliveries causing trouble: Jadeja - Press Trust of India",
+  "tokens": [
+   "causing",
+   "deliveries",
+   "jadeja",
+   "offer",
+   "straighter",
+   "trouble",
+   "turn"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "92726af42f64",
+  "headline": "Pune boy, riding pillion with father, killed in accident; locals blame bad roads - Press Trust of India",
+  "tokens": [
+   "accident",
+   "bad",
+   "blame",
+   "boy",
+   "father",
+   "killed",
+   "locals",
+   "pillion",
+   "pune",
+   "riding",
+   "roads"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "734b823fe9b5",
+  "headline": "Allahabad HC directs UP chief secy's appearance on Sept 10 in contempt case - Press Trust of India",
+  "tokens": [
+   "allahabad",
+   "appearance",
+   "case",
+   "chief",
+   "contempt",
+   "directs",
+   "secys",
+   "sept"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "d4f71d139518",
+  "headline": "Case against school officials as visually impaired victim of sexual assault dies during treatment - Press Trust of India",
+  "tokens": [
+   "against",
+   "assault",
+   "case",
+   "dies",
+   "during",
+   "impaired",
+   "officials",
+   "school",
+   "sexual",
+   "treatment",
+   "victim",
+   "visually"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "d55cdbaeb88a",
+  "headline": "Upgrade health facilities at Nangal hospital, Punjab BJP leader Sharma writes to BBMB - Press Trust of India",
+  "tokens": [
+   "bbmb",
+   "bjp",
+   "facilities",
+   "health",
+   "hospital",
+   "leader",
+   "nangal",
+   "punjab",
+   "sharma",
+   "upgrade",
+   "writes"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "14109b817fd4",
+  "headline": "KCS Foundation (India) to Celebrate 6th Annual International Literacy Day 2026 & YES Awards in Dubai - Press Trust of India",
+  "tokens": [
+   "2026",
+   "6th",
+   "annual",
+   "awards",
+   "celebrate",
+   "day",
+   "dubai",
+   "foundation",
+   "india",
+   "international",
+   "kcs",
+   "literacy",
+   "yes"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "bf6018b8d80a",
+  "headline": "Jharkhand govt offices hit as JSSC-CGL exam cancellation puts 2,000 jobs at risk - Press Trust of India",
+  "tokens": [
+   "2000",
+   "cancellation",
+   "exam",
+   "govt",
+   "hit",
+   "jharkhand",
+   "jobs",
+   "jssccgl",
+   "offices",
+   "puts",
+   "risk"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "5b46cc980649",
+  "headline": "Sitharaman asks public sector banks to focus on youth; provide cool, simple banking to suit their needs - Press Trust of India",
+  "tokens": [
+   "asks",
+   "banking",
+   "banks",
+   "cool",
+   "focus",
+   "needs",
+   "provide",
+   "public",
+   "sector",
+   "simple",
+   "sitharaman",
+   "suit",
+   "youth"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "1aedc431d136",
+  "headline": "Man shot in clash over land in UP's Barabanki, dies in Lucknow - Press Trust of India",
+  "tokens": [
+   "barabanki",
+   "clash",
+   "dies",
+   "land",
+   "lucknow",
+   "man",
+   "shot",
+   "ups"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "c355d53f806c",
+  "headline": "Acharya Roop Ji Brings Decades of Vedic Astrology and Occult Practice to a Global Clientele - Press Trust of India",
+  "tokens": [
+   "acharya",
+   "astrology",
+   "brings",
+   "clientele",
+   "decades",
+   "global",
+   "occult",
+   "practice",
+   "roop",
+   "vedic"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "418af9282ccf",
+  "headline": "1946 'Direct Action Day' violence attack on Indian civilisation: Bengal Guv Ravi - Press Trust of India",
+  "tokens": [
+   "1946",
+   "action",
+   "attack",
+   "bengal",
+   "civilisation",
+   "day",
+   "direct",
+   "guv",
+   "indian",
+   "ravi",
+   "violence"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "c0c76f6cf7f3",
+  "headline": "Ambiguity over Marathi 'working knowledge' rule leaves non-native drivers in Maharashtra anxious - Press Trust of India",
+  "tokens": [
+   "ambiguity",
+   "anxious",
+   "drivers",
+   "knowledge",
+   "leaves",
+   "maharashtra",
+   "marathi",
+   "nonnative",
+   "rule",
+   "working"
+  ],
+  "size": 1,
+  "domains": [
+   "ptinews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "a7d6c991bd67",
+  "headline": "US securities regulator proposes long-awaited crypto rules - reuters.com",
+  "tokens": [
+   "crypto",
+   "longawaited",
+   "proposes",
+   "regulator",
+   "rules",
+   "securities"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "3ebcc169fd06",
+  "headline": "Unitree soars in Shanghai debut, a milestone for China's humanoid robotics sector - reuters.com",
+  "tokens": [
+   "chinas",
+   "debut",
+   "humanoid",
+   "milestone",
+   "robotics",
+   "sector",
+   "shanghai",
+   "soars",
+   "unitree"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "e2f21bf7f8c2",
+  "headline": "Bond selloff slows but stocks wobble - reuters.com",
+  "tokens": [
+   "bond",
+   "but",
+   "selloff",
+   "slows",
+   "stocks",
+   "wobble"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "70e4b4c7a13c",
+  "headline": "Ukraine's ousted defence minister calls for wartime elections - reuters.com",
+  "tokens": [
+   "calls",
+   "defence",
+   "elections",
+   "minister",
+   "ousted",
+   "ukraines",
+   "wartime"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "d9c1fcb04fba",
+  "headline": "Meta rejects claims it sought to hook children to Facebook, Instagram - reuters.com",
+  "tokens": [
+   "children",
+   "claims",
+   "facebook",
+   "hook",
+   "instagram",
+   "meta",
+   "rejects",
+   "sought"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "c3396cf2c483",
+  "headline": "Former Fauci adviser pleads guilty in US to conspiring to conceal COVID-19 records - reuters.com",
+  "tokens": [
+   "adviser",
+   "conceal",
+   "conspiring",
+   "covid19",
+   "fauci",
+   "former",
+   "guilty",
+   "pleads",
+   "records"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "dfc0096a4483",
+  "headline": "Plunging private foreign demand could fan US bond rout flames - reuters.com",
+  "tokens": [
+   "bond",
+   "could",
+   "demand",
+   "fan",
+   "flames",
+   "foreign",
+   "plunging",
+   "private",
+   "rout"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "747da2ec701f",
+  "headline": "Hotel blaze in India’s West Bengal kills 9 and injures 6 - AP News",
+  "tokens": [
+   "bengal",
+   "blaze",
+   "hotel",
+   "indias",
+   "injures",
+   "kills",
+   "west"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "9f4a7a400d37",
+  "headline": "Power surge fuels record-tying night for Brewers in 22-0 rout of Mariners - AP News",
+  "tokens": [
+   "220",
+   "brewers",
+   "fuels",
+   "mariners",
+   "night",
+   "power",
+   "recordtying",
+   "rout",
+   "surge"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "409526047601",
+  "headline": "Orioles’ Félix Bautista and Blaze Alexander are nearing rehab assignments - AP News",
+  "tokens": [
+   "alexander",
+   "assignments",
+   "bautista",
+   "blaze",
+   "félix",
+   "nearing",
+   "orioles",
+   "rehab"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "1a14d3d97677",
+  "headline": "New St. Jude CEO Dr. Charles Roberts says childhood cancer treatments are at 'the dawn of a new era' - AP News",
+  "tokens": [
+   "cancer",
+   "ceo",
+   "charles",
+   "childhood",
+   "dawn",
+   "era",
+   "jude",
+   "roberts",
+   "treatments"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "ed4a7e884e7e",
+  "headline": "Possibilities and pitfalls of facial recognition system | Explained",
+  "tokens": [
+   "facial",
+   "pitfalls",
+   "possibilities",
+   "recognition",
+   "system"
+  ],
+  "size": 1,
+  "domains": [
+   "thehindu.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "c2a710efa966",
+  "headline": "Onam festive rush triggers surge in flower prices in Keralam",
+  "tokens": [
+   "festive",
+   "flower",
+   "keralam",
+   "onam",
+   "prices",
+   "rush",
+   "surge",
+   "triggers"
+  ],
+  "size": 1,
+  "domains": [
+   "thehindu.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "e0b4741f0b47",
+  "headline": "‘Why wearing shorts, don’t know Hindu culture?' Tourists attacked at Pune's Sinhagad Fort",
+  "tokens": [
+   "attacked",
+   "culture",
+   "dont",
+   "fort",
+   "hindu",
+   "know",
+   "punes",
+   "shorts",
+   "sinhagad",
+   "tourists",
+   "wearing",
+   "why"
+  ],
+  "size": 1,
+  "domains": [
+   "hindustantimes.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "667c5ec7bd30",
+  "headline": "Half of Maharashtra homeopathy colleges have political links",
+  "tokens": [
+   "colleges",
+   "half",
+   "homeopathy",
+   "links",
+   "maharashtra",
+   "political"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "bdc6e85e4812",
+  "headline": "Panel seeks 20% cap on drug, medical device mark-ups",
+  "tokens": [
+   "cap",
+   "device",
+   "drug",
+   "mark",
+   "medical",
+   "panel",
+   "seeks"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "b877f29bd083",
+  "headline": "Food labels, claims under FSSAI scanner; firms revise products after notices",
+  "tokens": [
+   "claims",
+   "firms",
+   "food",
+   "fssai",
+   "labels",
+   "notices",
+   "products",
+   "revise",
+   "scanner",
+   "under"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "d03e488c87dc",
+  "headline": "आज़म ख़ान से जुड़े 10 ठिकानों पर ईडी की छापेमारी, इस मामले में हो रही कार्रवाई",
+  "tokens": [
+   "आज़म",
+   "ईडी",
+   "कार्रवाई",
+   "ख़ान",
+   "छापेमारी",
+   "जुड़े",
+   "ठिकानों",
+   "मामले",
+   "में",
+   "रही"
+  ],
+  "size": 1,
+  "domains": [
+   "bbc.co.uk"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "hi": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "6e2d1d3c478b",
+  "headline": "‘Problem’ tiger captured after terrorising villages in Bardiya",
+  "tokens": [
+   "bardiya",
+   "captured",
+   "problem",
+   "terrorising",
+   "tiger",
+   "villages"
+  ],
+  "size": 1,
+  "domains": [
+   "kathmandupost.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "9d7d263e6e12",
+  "headline": "Karnali, Sudurpaschim chief ministers face confidence votes amid coalition tensions",
+  "tokens": [
+   "chief",
+   "coalition",
+   "confidence",
+   "face",
+   "karnali",
+   "ministers",
+   "sudurpaschim",
+   "tensions",
+   "votes"
+  ],
+  "size": 1,
+  "domains": [
+   "kathmandupost.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
+  }
+ },
+ {
+  "id": "cecf54c980ab",
+  "headline": "Attackers go ‘house to house’ killing 25 villagers in central Nigeria",
+  "tokens": [
+   "attackers",
+   "central",
+   "house",
+   "killing",
+   "nigeria",
+   "villagers"
+  ],
+  "size": 1,
+  "domains": [
+   "aljazeera.com"
+  ],
+  "first_seen": "2026-08-19T05:03:23+00:00",
+  "last_seen": "2026-08-19T05:03:23+00:00",
+  "first_by_lang": {
+   "en": "2026-08-19T05:03:23+00:00"
   }
  }
 ]

@@ -626,7 +626,7 @@
    "roundup",
    "supreme"
   ],
-  "size": 67,
+  "size": 68,
   "domains": [
    "livelaw.in",
    "prsindia.org",
@@ -638,7 +638,7 @@
    "barandbench.com"
   ],
   "first_seen": "2026-08-06T05:00:50+00:00",
-  "last_seen": "2026-08-21T02:11:14+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-06T05:00:50+00:00",
    "english": "2026-08-20T05:04:51+00:00"
@@ -1859,7 +1859,7 @@
    "way",
    "worst"
   ],
-  "size": 11,
+  "size": 12,
   "domains": [
    "hindustantimes.com",
    "timesnownews.com",
@@ -1868,10 +1868,11 @@
    "nationalheraldindia.com",
    "rediff.com",
    "deccanherald.com",
-   "india.com"
+   "india.com",
+   "newindianexpress.com"
   ],
   "first_seen": "2026-08-12T10:35:58+00:00",
-  "last_seen": "2026-08-19T19:51:24+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-12T10:35:58+00:00"
   }
@@ -3185,30 +3186,6 @@
   }
  },
  {
-  "id": "70b1208a6824",
-  "headline": "The Story Of Mahindra And Their Independence Day Launches - CarDekho",
-  "tokens": [
-   "day",
-   "independence",
-   "launches",
-   "mahindra",
-   "story"
-  ],
-  "size": 6,
-  "domains": [
-   "cardekho.com",
-   "business-standard.com",
-   "m.thewire.in",
-   "ptinews.com",
-   "aninews.in"
-  ],
-  "first_seen": "2026-08-15T02:18:34+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-15T02:18:34+00:00"
-  }
- },
- {
   "id": "77a8d7382f65",
   "headline": "Bangladesh tighten grip of 1st test as Australia unravel in the field - AP News",
   "tokens": [
@@ -4487,29 +4464,6 @@
   }
  },
  {
-  "id": "d92f4077bf9b",
-  "headline": "Tyler O’Neill’s 10th-inning single sends Orioles to 4-3 win over Rays - AP News",
-  "tokens": [
-   "10thinning",
-   "oneills",
-   "orioles",
-   "rays",
-   "sends",
-   "single",
-   "tyler",
-   "win"
-  ],
-  "size": 2,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-16T02:07:28+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T02:07:28+00:00"
-  }
- },
- {
   "id": "319258b88ca8",
   "headline": "After nearly 30 years, a man is on trial in the fatal shooting of Tupac Shakur. Here's what to know - AP News",
   "tokens": [
@@ -5063,32 +5017,6 @@
   "last_seen": "2026-08-18T09:04:08+00:00",
   "first_by_lang": {
    "en": "2026-08-16T05:54:30+00:00"
-  }
- },
- {
-  "id": "f667bbf2d316",
-  "headline": "Two teens returning from school I-DAY function killed accident in MP's Chhatarpur - Press Trust of India",
-  "tokens": [
-   "accident",
-   "chhatarpur",
-   "function",
-   "iday",
-   "killed",
-   "mps",
-   "returning",
-   "school",
-   "teens",
-   "two"
-  ],
-  "size": 2,
-  "domains": [
-   "ptinews.com",
-   "aljazeera.com"
-  ],
-  "first_seen": "2026-08-16T07:09:31+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T07:09:31+00:00"
   }
  },
  {
@@ -6909,39 +6837,6 @@
   "last_seen": "2026-08-19T02:02:48+00:00",
   "first_by_lang": {
    "en": "2026-08-16T21:46:38+00:00"
-  }
- },
- {
-  "id": "0350e830d580",
-  "headline": "Trump orders Pentagon to scale back joint exercises with South Korea - AP News",
-  "tokens": [
-   "back",
-   "exercises",
-   "joint",
-   "korea",
-   "orders",
-   "pentagon",
-   "scale",
-   "south",
-   "trump"
-  ],
-  "size": 15,
-  "domains": [
-   "apnews.com",
-   "reuters.com",
-   "kathmandupost.com",
-   "tribune.com.pk",
-   "aljazeera.com",
-   "therecord.com",
-   "ksat.com",
-   "nytimes.com",
-   "goskagit.com"
-  ],
-  "first_seen": "2026-08-16T21:46:38+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-16T21:46:38+00:00",
-   "english": "2026-08-17T15:55:59+00:00"
   }
  },
  {
@@ -9441,13 +9336,14 @@
    "ugcnet",
    "why"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "deccanherald.com",
-   "telegraphindia.com"
+   "telegraphindia.com",
+   "thehindu.com"
   ],
   "first_seen": "2026-08-17T10:08:21+00:00",
-  "last_seen": "2026-08-19T13:28:29+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-17T10:08:21+00:00"
   }
@@ -10685,34 +10581,6 @@
   "last_seen": "2026-08-19T04:20:01+00:00",
   "first_by_lang": {
    "en": "2026-08-17T13:22:08+00:00"
-  }
- },
- {
-  "id": "26d65758c38a",
-  "headline": "अमित मालवीय की जगह बीजेपी के नए सोशल मीडिया इंचार्ज बने दीपक म्हस्के कौन हैं?",
-  "tokens": [
-   "अमित",
-   "इंचार्ज",
-   "कौन",
-   "जगह",
-   "दीपक",
-   "बने",
-   "बीजेपी",
-   "मालवीय",
-   "मीडिया",
-   "म्हस्के",
-   "सोशल",
-   "हैं"
-  ],
-  "size": 3,
-  "domains": [
-   "bbc.com",
-   "amarujala.com"
-  ],
-  "first_seen": "2026-08-17T13:22:08+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "hi": "2026-08-17T13:22:08+00:00"
   }
  },
  {
@@ -12286,31 +12154,6 @@
   }
  },
  {
-  "id": "417ea0aaeb10",
-  "headline": "Ayush Shetty stuns world No.1 Shi Yu Qi",
-  "tokens": [
-   "ayush",
-   "no1",
-   "shetty",
-   "shi",
-   "stuns",
-   "world"
-  ],
-  "size": 5,
-  "domains": [
-   "economictimes.indiatimes.com",
-   "reuters.com",
-   "telegraphindia.com",
-   "deccanherald.com",
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-17T15:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-17T15:55:59+00:00"
-  }
- },
- {
   "id": "2f6338f12d51",
   "headline": "Nifty extends losses for 5th day, Sensex falls 281 points amid crude price rise - Telegraph India",
   "tokens": [
@@ -12433,57 +12276,6 @@
   ],
   "first_seen": "2026-08-17T15:55:59+00:00",
   "last_seen": "2026-08-18T10:57:07+00:00",
-  "first_by_lang": {
-   "en": "2026-08-17T15:55:59+00:00"
-  }
- },
- {
-  "id": "da1ba9ef1dba",
-  "headline": "ED asks homebuyers to report builders refusing RERA details, cash deals - ThePrint",
-  "tokens": [
-   "asks",
-   "builders",
-   "cash",
-   "deals",
-   "details",
-   "homebuyers",
-   "refusing",
-   "report",
-   "rera"
-  ],
-  "size": 4,
-  "domains": [
-   "theprint.in",
-   "indiatoday.in",
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-17T15:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-17T15:55:59+00:00"
-  }
- },
- {
-  "id": "4f0467465ae6",
-  "headline": "Haryana rolls out 5-minute daily yoga break across industrial units - ThePrint",
-  "tokens": [
-   "5minute",
-   "across",
-   "break",
-   "daily",
-   "haryana",
-   "industrial",
-   "rolls",
-   "units",
-   "yoga"
-  ],
-  "size": 2,
-  "domains": [
-   "theprint.in",
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-17T15:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
   "first_by_lang": {
    "en": "2026-08-17T15:55:59+00:00"
   }
@@ -13999,12 +13791,12 @@
    "state",
    "thru"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "livelaw.in"
   ],
   "first_seen": "2026-08-17T19:52:35+00:00",
-  "last_seen": "2026-08-18T20:51:43+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-17T19:52:35+00:00"
   }
@@ -14696,29 +14488,6 @@
   ],
   "first_seen": "2026-08-17T23:48:56+00:00",
   "last_seen": "2026-08-18T10:57:07+00:00",
-  "first_by_lang": {
-   "en": "2026-08-17T23:48:56+00:00"
-  }
- },
- {
-  "id": "763bbec16266",
-  "headline": "SAD's Majithia alleges corruption in Punjab CMO, seeks FIR - Press Trust of India",
-  "tokens": [
-   "alleges",
-   "cmo",
-   "corruption",
-   "fir",
-   "majithia",
-   "punjab",
-   "sads",
-   "seeks"
-  ],
-  "size": 2,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-17T23:48:56+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
   "first_by_lang": {
    "en": "2026-08-17T23:48:56+00:00"
   }
@@ -15879,31 +15648,6 @@
   ],
   "first_seen": "2026-08-18T03:23:47+00:00",
   "last_seen": "2026-08-18T10:57:07+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T03:23:47+00:00"
-  }
- },
- {
-  "id": "37c19b465f50",
-  "headline": "Indian shares set for muted open as oil tops $91, US-Iran ceasefire expires - Reuters",
-  "tokens": [
-   "ceasefire",
-   "expires",
-   "indian",
-   "muted",
-   "oil",
-   "open",
-   "set",
-   "shares",
-   "tops",
-   "usiran"
-  ],
-  "size": 3,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-18T03:23:47+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
   "first_by_lang": {
    "en": "2026-08-18T03:23:47+00:00"
   }
@@ -17134,60 +16878,6 @@
   }
  },
  {
-  "id": "607243d38b3d",
-  "headline": "SIR Enumeration Phase concludes in Telangana with 21.7% deletions & 35% electors due for notices | Explained",
-  "tokens": [
-   "217",
-   "concludes",
-   "deletions",
-   "due",
-   "electors",
-   "enumeration",
-   "notices",
-   "phase",
-   "sir",
-   "telangana"
-  ],
-  "size": 2,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-18T05:03:13+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:03:13+00:00"
-  }
- },
- {
-  "id": "5c5e63e17360",
-  "headline": "'Goli kahaan chali hai?': Rijiju says no one was harmed during CJP-led student protest, praises Delhi Police",
-  "tokens": [
-   "chali",
-   "cjpled",
-   "delhi",
-   "during",
-   "goli",
-   "hai",
-   "harmed",
-   "kahaan",
-   "one",
-   "police",
-   "praises",
-   "protest",
-   "rijiju",
-   "student"
-  ],
-  "size": 2,
-  "domains": [
-   "hindustantimes.com"
-  ],
-  "first_seen": "2026-08-18T05:03:13+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:03:13+00:00"
-  }
- },
- {
   "id": "e31f5d13ea56",
   "headline": "Kiren Rijiju alleges Cockroach Janta Party founder is an AAP worker - The News Mill",
   "tokens": [
@@ -17217,103 +16907,6 @@
   }
  },
  {
-  "id": "3714ed1bdb2c",
-  "headline": "Girl's body found in suitcase in Delhi's Burari, arrested suspect a relative - Press Trust of India",
-  "tokens": [
-   "arrested",
-   "body",
-   "burari",
-   "delhis",
-   "found",
-   "girls",
-   "relative",
-   "suitcase",
-   "suspect"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "d1aacff349da",
-  "headline": "Over 200 Indian peacekeepers with UN Mission in South Sudan awarded for their exceptional service - Press Trust of India",
-  "tokens": [
-   "200",
-   "awarded",
-   "exceptional",
-   "indian",
-   "mission",
-   "peacekeepers",
-   "service",
-   "south",
-   "sudan"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "e25ed6e897fc",
-  "headline": "Absconding accused in Thane firing bid case held at Delhi airport - Press Trust of India",
-  "tokens": [
-   "absconding",
-   "accused",
-   "airport",
-   "bid",
-   "case",
-   "delhi",
-   "firing",
-   "held",
-   "thane"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "f7adffdacf90",
-  "headline": "Sebi says cybersecurity now also board room issue, need caution in AI deployment - Press Trust of India",
-  "tokens": [
-   "also",
-   "board",
-   "caution",
-   "cybersecurity",
-   "deployment",
-   "issue",
-   "need",
-   "now",
-   "room",
-   "sebi"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
   "id": "b00f98e4c290",
   "headline": "Bengal to unveil new policy, provide land for industry without forcible acquisition from farmers: CM - Press Trust of India",
   "tokens": [
@@ -17340,31 +16933,6 @@
   }
  },
  {
-  "id": "901fe3b943d6",
-  "headline": "Grateful to PM Modi: Smriti Irani after being appointed BJP national gen sec - Press Trust of India",
-  "tokens": [
-   "appointed",
-   "being",
-   "bjp",
-   "gen",
-   "grateful",
-   "irani",
-   "modi",
-   "national",
-   "sec",
-   "smriti"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
   "id": "e256037d4381",
   "headline": "Indian men''s hockey team loses to England 2-4 in World Cup - Press Trust of India",
   "tokens": [
@@ -17384,155 +16952,6 @@
   ],
   "first_seen": "2026-08-18T05:55:59+00:00",
   "last_seen": "2026-08-20T16:03:16+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "ac15268641bc",
-  "headline": "OBC activist booked for alleged objectionable remarks on Maratha woman, expresses regret - Press Trust of India",
-  "tokens": [
-   "activist",
-   "alleged",
-   "booked",
-   "expresses",
-   "maratha",
-   "obc",
-   "objectionable",
-   "regret",
-   "remarks",
-   "woman"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "1883fa677ede",
-  "headline": "'Half-baked' politics of BJP-RSS with 'Vande Mataram' won't work in TN: Cong's Manickam Tagore - Press Trust of India",
-  "tokens": [
-   "bjprss",
-   "congs",
-   "halfbaked",
-   "manickam",
-   "mataram",
-   "politics",
-   "tagore",
-   "vande",
-   "wont",
-   "work"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "b9465e9046b0",
-  "headline": "Mental torture drove Twisha Sharma to take extreme step: CBI chargesheet - Press Trust of India",
-  "tokens": [
-   "cbi",
-   "chargesheet",
-   "drove",
-   "extreme",
-   "mental",
-   "sharma",
-   "step",
-   "take",
-   "torture",
-   "twisha"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "ea1719f1f2b9",
-  "headline": "Right to vote only safeguard for democracy: Akhilesh Yadav - Press Trust of India",
-  "tokens": [
-   "akhilesh",
-   "democracy",
-   "only",
-   "right",
-   "safeguard",
-   "vote",
-   "yadav"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "0511f4e35981",
-  "headline": "J'khand cancels JSSC-CGL, TDPL recruitment tests amid protests; students insist on CBI probe - Press Trust of India",
-  "tokens": [
-   "cancels",
-   "cbi",
-   "insist",
-   "jkhand",
-   "jssccgl",
-   "probe",
-   "protests",
-   "recruitment",
-   "students",
-   "tdpl",
-   "tests"
-  ],
-  "size": 1,
-  "domains": [
-   "ptinews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "02e023e62a8f",
-  "headline": "India's CAD may widen in FY27, but capital flows may support Rupee in H2: Report - ANI News",
-  "tokens": [
-   "but",
-   "cad",
-   "capital",
-   "flows",
-   "fy27",
-   "indias",
-   "may",
-   "report",
-   "rupee",
-   "support",
-   "widen"
-  ],
-  "size": 1,
-  "domains": [
-   "aninews.in"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
   "first_by_lang": {
    "en": "2026-08-18T05:55:59+00:00"
   }
@@ -17565,77 +16984,6 @@
   }
  },
  {
-  "id": "44fc32770372",
-  "headline": "US kindergarten vaccine coverage continues downward trend, falling 0.1% - Reuters",
-  "tokens": [
-   "continues",
-   "coverage",
-   "downward",
-   "falling",
-   "kindergarten",
-   "trend",
-   "vaccine"
-  ],
-  "size": 1,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "4ca52a9aeae4",
-  "headline": "Morning Bid: Bond investors in revolt as Iran threatens to go 'fully offensive' - Reuters",
-  "tokens": [
-   "bid",
-   "bond",
-   "fully",
-   "investors",
-   "iran",
-   "morning",
-   "offensive",
-   "revolt",
-   "threatens"
-  ],
-  "size": 1,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "5e829f109e2d",
-  "headline": "German drone maker Helsing enlists Rakuten to broker Japan military deal - Reuters",
-  "tokens": [
-   "broker",
-   "deal",
-   "drone",
-   "enlists",
-   "german",
-   "helsing",
-   "japan",
-   "maker",
-   "military",
-   "rakuten"
-  ],
-  "size": 1,
-  "domains": [
-   "reuters.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
   "id": "8c471d17316a",
   "headline": "Hundreds of guinea pigs fill Massachusetts sanctuary with squeals, purrs and lots of love - AP News",
   "tokens": [
@@ -17656,131 +17004,6 @@
   ],
   "first_seen": "2026-08-18T05:55:59+00:00",
   "last_seen": "2026-08-18T15:02:52+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "035032c22801",
-  "headline": "Ohtani says knee felt good after recent bullpen session, powers Dodgers with 2 homers in 11-5 win - AP News",
-  "tokens": [
-   "115",
-   "bullpen",
-   "dodgers",
-   "felt",
-   "good",
-   "homers",
-   "knee",
-   "ohtani",
-   "powers",
-   "recent",
-   "session",
-   "win"
-  ],
-  "size": 1,
-  "domains": [
-   "apnews.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "73034839091d",
-  "headline": "Keralam govt sanctions ₹45 crore for infrastructure, human resource development of government colleges",
-  "tokens": [
-   "colleges",
-   "crore",
-   "development",
-   "government",
-   "govt",
-   "human",
-   "infrastructure",
-   "keralam",
-   "resource",
-   "sanctions"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "1514bd510143",
-  "headline": "NGT pulls up Keralam PCB over ‘incomplete’ report on measures to curb Kadambrayar river pollution",
-  "tokens": [
-   "curb",
-   "incomplete",
-   "kadambrayar",
-   "keralam",
-   "measures",
-   "ngt",
-   "pcb",
-   "pollution",
-   "pulls",
-   "report",
-   "river"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "af77285a87e2",
-  "headline": "Who stole from Ram Temple’s donation boxes? The SIT report, explained",
-  "tokens": [
-   "boxes",
-   "donation",
-   "explained",
-   "ram",
-   "report",
-   "sit",
-   "stole",
-   "temples",
-   "who"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "5ea069deec1f",
-  "headline": "Embezzlement at Ram Temple is a disgrace, ‘we feel humiliated’, says Nripendra Misra",
-  "tokens": [
-   "disgrace",
-   "embezzlement",
-   "feel",
-   "humiliated",
-   "misra",
-   "nripendra",
-   "ram",
-   "temple"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
   "first_by_lang": {
    "en": "2026-08-18T05:55:59+00:00"
   }
@@ -17860,28 +17083,6 @@
   }
  },
  {
-  "id": "0a480400bd52",
-  "headline": "Delhi Police arrest eight for planning attacks in Delhi, Mumbai",
-  "tokens": [
-   "arrest",
-   "attacks",
-   "delhi",
-   "eight",
-   "mumbai",
-   "planning",
-   "police"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindu.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
   "id": "78c070ec97ca",
   "headline": "Delhi Police denies excessive use of force during protest: '5k cops tried to manage 30k+ protesters'",
   "tokens": [
@@ -17906,110 +17107,6 @@
   ],
   "first_seen": "2026-08-18T05:55:59+00:00",
   "last_seen": "2026-08-18T07:23:10+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "ecfd70cb1243",
-  "headline": "Hanging stays as mode of execution, SC leaves door open for future scientific review",
-  "tokens": [
-   "door",
-   "execution",
-   "future",
-   "hanging",
-   "leaves",
-   "mode",
-   "open",
-   "review",
-   "scientific",
-   "stays"
-  ],
-  "size": 1,
-  "domains": [
-   "hindustantimes.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "22543e879fa7",
-  "headline": "India launches grasslands, open natural ecosystems guide at Mongolia UN event",
-  "tokens": [
-   "ecosystems",
-   "event",
-   "grasslands",
-   "guide",
-   "india",
-   "launches",
-   "mongolia",
-   "natural",
-   "open"
-  ],
-  "size": 1,
-  "domains": [
-   "hindustantimes.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "8ab8ca980e65",
-  "headline": "Complaints by some members can't warrant probe into housing society's finances: Bombay HC",
-  "tokens": [
-   "bombay",
-   "cant",
-   "complaints",
-   "finances",
-   "housing",
-   "into",
-   "members",
-   "probe",
-   "societys",
-   "some",
-   "warrant"
-  ],
-  "size": 1,
-  "domains": [
-   "hindustantimes.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "1e2527d7005c",
-  "headline": "Connecting with young voters, balancing RSS roots & image reset for assembly polls: The calculation behind BJP rejig",
-  "tokens": [
-   "assembly",
-   "balancing",
-   "behind",
-   "bjp",
-   "calculation",
-   "connecting",
-   "image",
-   "polls",
-   "rejig",
-   "reset",
-   "roots",
-   "rss",
-   "voters",
-   "young"
-  ],
-  "size": 1,
-  "domains": [
-   "hindustantimes.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
   "first_by_lang": {
    "en": "2026-08-18T05:55:59+00:00"
   }
@@ -18096,30 +17193,6 @@
   }
  },
  {
-  "id": "2269f3045984",
-  "headline": "Indian-origin teen secures Guinness world record for becoming youngest male CA",
-  "tokens": [
-   "becoming",
-   "guinness",
-   "indianorigin",
-   "male",
-   "record",
-   "secures",
-   "teen",
-   "world",
-   "youngest"
-  ],
-  "size": 1,
-  "domains": [
-   "hindustantimes.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
   "id": "b4538e4f71e8",
   "headline": "Jharkhand protest LIVE: Students may call off protest today after key exams cancelled, govt's notification awaited",
   "tokens": [
@@ -18153,31 +17226,6 @@
   }
  },
  {
-  "id": "bdcda6d830e5",
-  "headline": "Bihar Board Registration 2027: Final Window Open For Class 10, 12 Till August 22",
-  "tokens": [
-   "2027",
-   "august",
-   "bihar",
-   "board",
-   "class",
-   "final",
-   "open",
-   "registration",
-   "till",
-   "window"
-  ],
-  "size": 1,
-  "domains": [
-   "ndtv.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
   "id": "b583d01b3590",
   "headline": "Bengaluru Woman, Lover Kill Son After He Witnesses Father's Murder",
   "tokens": [
@@ -18198,127 +17246,6 @@
   ],
   "first_seen": "2026-08-18T05:55:59+00:00",
   "last_seen": "2026-08-19T07:23:28+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "af9a72b0d8d3",
-  "headline": "बीजेपी ने तीन राज्यों में नियुक्त किए प्रभारी, यूपी की ज़िम्मेदारी इन्हें मिली",
-  "tokens": [
-   "इन्हें",
-   "किए",
-   "तीन",
-   "नियुक्त",
-   "प्रभारी",
-   "बीजेपी",
-   "मिली",
-   "में",
-   "यूपी",
-   "राज्यों",
-   "ज़िम्मेदारी"
-  ],
-  "size": 1,
-  "domains": [
-   "bbc.co.uk"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "hi": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "b352612dc3cd",
-  "headline": "जुड़वां दूल्हे, दुल्हन भी जुड़वां और शादी कराने वाले भी जुड़वां, जानिए कहां हुई ये शादी",
-  "tokens": [
-   "कराने",
-   "कहां",
-   "जानिए",
-   "जुड़वां",
-   "दुल्हन",
-   "दूल्हे",
-   "वाले",
-   "शादी",
-   "हुई"
-  ],
-  "size": 1,
-  "domains": [
-   "bbc.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "hi": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "bbb6d8bcaae0",
-  "headline": "Can Trump limit birthright citizenship? Legal experts are doubtful",
-  "tokens": [
-   "birthright",
-   "can",
-   "citizenship",
-   "doubtful",
-   "experts",
-   "legal",
-   "limit",
-   "trump"
-  ],
-  "size": 1,
-  "domains": [
-   "aljazeera.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "a9b05ef744b5",
-  "headline": "A hero’s welcome as Cameroon parades its first Women’s AFCON title",
-  "tokens": [
-   "afcon",
-   "cameroon",
-   "first",
-   "heros",
-   "parades",
-   "title",
-   "welcome",
-   "womens"
-  ],
-  "size": 1,
-  "domains": [
-   "aljazeera.com"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
-  "first_by_lang": {
-   "en": "2026-08-18T05:55:59+00:00"
-  }
- },
- {
-  "id": "1d80c11b4f53",
-  "headline": "Over 98000 Govt Schools Lack Functional Washrooms For Girls : Plea In Supreme Court - Live Law",
-  "tokens": [
-   "98000",
-   "court",
-   "functional",
-   "girls",
-   "govt",
-   "lack",
-   "plea",
-   "schools",
-   "supreme",
-   "washrooms"
-  ],
-  "size": 1,
-  "domains": [
-   "livelaw.in"
-  ],
-  "first_seen": "2026-08-18T05:55:59+00:00",
-  "last_seen": "2026-08-18T05:55:59+00:00",
   "first_by_lang": {
    "en": "2026-08-18T05:55:59+00:00"
   }
@@ -53892,12 +52819,14 @@
    "telangana",
    "visit"
   ],
-  "size": 1,
+  "size": 3,
   "domains": [
-   "theprint.in"
+   "theprint.in",
+   "thehindu.com",
+   "timesofindia.indiatimes.com"
   ],
   "first_seen": "2026-08-18T16:01:00+00:00",
-  "last_seen": "2026-08-18T16:01:00+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-18T16:01:00+00:00"
   }
@@ -71093,14 +70022,14 @@
    "slightly",
    "weekend"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "reuters.com",
    "economictimes.indiatimes.com",
    "brecorder.com"
   ],
   "first_seen": "2026-08-19T02:02:48+00:00",
-  "last_seen": "2026-08-21T04:21:14+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-19T02:02:48+00:00"
   }
@@ -94097,13 +93026,13 @@
    "steps",
    "today"
   ],
-  "size": 6,
+  "size": 7,
   "domains": [
    "ndtv.com",
    "telegraphindia.com"
   ],
   "first_seen": "2026-08-19T09:05:36+00:00",
-  "last_seen": "2026-08-20T11:54:48+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-19T09:05:36+00:00"
   }
@@ -139923,14 +138852,15 @@
    "commissioner",
    "order"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "tribune.com.pk",
    "news.webindia123.com",
-   "aninews.in"
+   "aninews.in",
+   "hindustantimes.com"
   ],
   "first_seen": "2026-08-20T02:05:21+00:00",
-  "last_seen": "2026-08-20T11:54:48+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T02:05:21+00:00",
    "english": "2026-08-20T11:54:48+00:00"
@@ -146224,16 +145154,17 @@
    "trump",
    "very"
   ],
-  "size": 5,
+  "size": 6,
   "domains": [
    "economictimes.indiatimes.com",
    "8am.media",
    "orissapost.com",
    "adaderana.lk",
-   "reuters.com"
+   "reuters.com",
+   "kathmandupost.com"
   ],
   "first_seen": "2026-08-20T04:19:18+00:00",
-  "last_seen": "2026-08-21T05:05:24+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T04:19:18+00:00",
    "english": "2026-08-20T15:06:33+00:00"
@@ -147661,13 +146592,13 @@
    "shares",
    "steady"
   ],
-  "size": 5,
+  "size": 6,
   "domains": [
    "brecorder.com",
    "reuters.com"
   ],
   "first_seen": "2026-08-20T04:19:18+00:00",
-  "last_seen": "2026-08-21T04:21:14+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T04:19:18+00:00"
   }
@@ -161551,16 +160482,17 @@
    "school",
    "slams"
   ],
-  "size": 6,
+  "size": 7,
   "domains": [
    "newindianexpress.com",
    "deccanherald.com",
    "dailyexcelsior.com",
    "thehindu.com",
-   "etvbharat.com"
+   "etvbharat.com",
+   "dtnext.in"
   ],
   "first_seen": "2026-08-20T09:06:45+00:00",
-  "last_seen": "2026-08-20T19:11:22+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T09:06:45+00:00"
   }
@@ -170821,13 +169753,13 @@
    "supreme",
    "use"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "hindustantimes.com",
    "india.com"
   ],
   "first_seen": "2026-08-20T11:54:48+00:00",
-  "last_seen": "2026-08-20T13:28:16+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T11:54:48+00:00"
   }
@@ -176114,13 +175046,13 @@
    "massacre",
    "sajjan"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "scroll.in",
    "hindustantimes.com"
   ],
   "first_seen": "2026-08-20T13:30:27+00:00",
-  "last_seen": "2026-08-21T02:08:44+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T13:30:27+00:00"
   }
@@ -180845,14 +179777,15 @@
    "service",
    "supreme"
   ],
-  "size": 4,
+  "size": 5,
   "domains": [
    "barandbench.com",
    "thehindu.com",
-   "livelaw.in"
+   "livelaw.in",
+   "hindustantimes.com"
   ],
   "first_seen": "2026-08-20T13:30:27+00:00",
-  "last_seen": "2026-08-20T17:57:32+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T13:30:27+00:00"
   }
@@ -184993,17 +183926,18 @@
    "till",
    "tonnes"
   ],
-  "size": 7,
+  "size": 8,
   "domains": [
    "aninews.in",
    "reuters.com",
    "ndtv.com",
    "thehindu.com",
    "telegraphindia.com",
-   "deccanherald.com"
+   "deccanherald.com",
+   "hindustantimes.com"
   ],
   "first_seen": "2026-08-20T16:00:08+00:00",
-  "last_seen": "2026-08-21T04:21:14+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T16:00:08+00:00"
   }
@@ -187262,12 +186196,13 @@
    "ukmto",
    "yemen"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "deccanherald.com"
+   "deccanherald.com",
+   "reuters.com"
   ],
   "first_seen": "2026-08-20T16:03:16+00:00",
-  "last_seen": "2026-08-20T16:03:16+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T16:03:16+00:00"
   }
@@ -193055,12 +191990,12 @@
    "supreme",
    "tomorrow"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "livelaw.in"
   ],
   "first_seen": "2026-08-20T17:57:32+00:00",
-  "last_seen": "2026-08-21T02:08:44+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T17:57:32+00:00"
   }
@@ -194662,13 +193597,14 @@
    "test",
    "triple"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "economictimes.indiatimes.com",
-   "deccanherald.com"
+   "deccanherald.com",
+   "hindustantimes.com"
   ],
   "first_seen": "2026-08-20T19:17:39+00:00",
-  "last_seen": "2026-08-21T04:21:14+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T19:17:39+00:00"
   }
@@ -195412,12 +194348,13 @@
    "table",
    "vijay"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
-   "indiatoday.in"
+   "indiatoday.in",
+   "hindustantimes.com"
   ],
   "first_seen": "2026-08-20T19:17:39+00:00",
-  "last_seen": "2026-08-21T02:11:14+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T19:17:39+00:00"
   }
@@ -200731,12 +199668,13 @@
    "sujit",
    "tmcs"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "indiatoday.in"
+   "indiatoday.in",
+   "livelaw.in"
   ],
   "first_seen": "2026-08-20T21:58:45+00:00",
-  "last_seen": "2026-08-20T21:58:45+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-20T21:58:45+00:00"
   }
@@ -209280,12 +208218,13 @@
    "woody",
    "york"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "apnews.com"
+   "apnews.com",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-21T03:30:31+00:00",
-  "last_seen": "2026-08-21T03:30:31+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-21T03:30:31+00:00"
   }
@@ -209927,12 +208866,12 @@
    "ugc",
    "vague"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "hindustantimes.com"
   ],
   "first_seen": "2026-08-21T03:30:31+00:00",
-  "last_seen": "2026-08-21T03:30:31+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-21T03:30:31+00:00"
   }
@@ -210796,13 +209735,13 @@
    "week",
    "yields"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "reuters.com",
    "brecorder.com"
   ],
   "first_seen": "2026-08-21T04:11:09+00:00",
-  "last_seen": "2026-08-21T04:21:14+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-21T04:11:09+00:00"
   }
@@ -211019,12 +209958,13 @@
    "sector",
    "services"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "thehindu.com"
+   "thehindu.com",
+   "reuters.com"
   ],
   "first_seen": "2026-08-21T04:11:09+00:00",
-  "last_seen": "2026-08-21T04:11:09+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-21T04:11:09+00:00"
   }
@@ -211683,12 +210623,13 @@
    "ipo",
    "papers"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "economictimes.indiatimes.com"
+   "economictimes.indiatimes.com",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-21T04:21:14+00:00",
-  "last_seen": "2026-08-21T04:21:14+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-21T04:21:14+00:00"
   }
@@ -214946,12 +213887,13 @@
    "vande",
    "version"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "thehindu.com"
+   "thehindu.com",
+   "ptinews.com"
   ],
   "first_seen": "2026-08-21T05:05:24+00:00",
-  "last_seen": "2026-08-21T05:05:24+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-21T05:05:24+00:00"
   }
@@ -215103,12 +214045,12 @@
    "میں",
    "گیا"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "bbc.co.uk"
   ],
   "first_seen": "2026-08-21T05:05:24+00:00",
-  "last_seen": "2026-08-21T05:05:24+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "ur": "2026-08-21T05:05:24+00:00"
   }
@@ -215130,12 +214072,12 @@
    "taken",
    "visit"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "dawn.com"
   ],
   "first_seen": "2026-08-21T05:05:24+00:00",
-  "last_seen": "2026-08-21T05:05:24+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
   "first_by_lang": {
    "en": "2026-08-21T05:05:24+00:00"
   }
@@ -215652,6 +214594,672 @@
   "last_seen": "2026-08-21T05:05:24+00:00",
   "first_by_lang": {
    "en": "2026-08-21T05:05:24+00:00"
+  }
+ },
+ {
+  "id": "17a925d3d023",
+  "headline": "Delhi: Fire breaks out at 'Salman Khan Gym' in Greater Kailash, no casualties reported - ANI News",
+  "tokens": [
+   "breaks",
+   "casualties",
+   "delhi",
+   "fire",
+   "greater",
+   "gym",
+   "kailash",
+   "khan",
+   "reported",
+   "salman"
+  ],
+  "size": 1,
+  "domains": [
+   "aninews.in"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "b07434d4820a",
+  "headline": "Oman-India ties to move from buyer-seller model to strategic partnerships; opportunities across sectors: Envoy - ANI News",
+  "tokens": [
+   "across",
+   "buyerseller",
+   "envoy",
+   "model",
+   "move",
+   "omanindia",
+   "opportunities",
+   "partnerships",
+   "sectors",
+   "strategic",
+   "ties"
+  ],
+  "size": 1,
+  "domains": [
+   "aninews.in"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "2198e9a3d4f7",
+  "headline": "India eases rules for rupee export payments, seeks to widen trade settlement - Reuters",
+  "tokens": [
+   "eases",
+   "export",
+   "india",
+   "payments",
+   "rules",
+   "rupee",
+   "seeks",
+   "settlement",
+   "trade",
+   "widen"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "f8bf0b1b9a61",
+  "headline": "Hyundai Motor's South Korean union stages first full strike in a decade over pay - Reuters",
+  "tokens": [
+   "decade",
+   "first",
+   "full",
+   "hyundai",
+   "korean",
+   "motors",
+   "pay",
+   "south",
+   "stages",
+   "strike",
+   "union"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "96eaa97ce390",
+  "headline": "From euphoria to despair, Korea reckons with stock mania's emotional toll - Reuters",
+  "tokens": [
+   "despair",
+   "emotional",
+   "euphoria",
+   "korea",
+   "manias",
+   "reckons",
+   "stock",
+   "toll"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "66e5cae08bb1",
+  "headline": "IELTS exam co-owner IDP Education shares hit record low after flagging weaker 2027 earnings - Reuters",
+  "tokens": [
+   "2027",
+   "coowner",
+   "earnings",
+   "education",
+   "exam",
+   "flagging",
+   "hit",
+   "idp",
+   "ielts",
+   "low",
+   "record",
+   "shares",
+   "weaker"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "99515dc65585",
+  "headline": "Fed officials tread carefully after Treasury's bond market intervention - Reuters",
+  "tokens": [
+   "bond",
+   "carefully",
+   "fed",
+   "intervention",
+   "market",
+   "officials",
+   "tread",
+   "treasurys"
+  ],
+  "size": 1,
+  "domains": [
+   "reuters.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "6f2392ca6d40",
+  "headline": "Lions tight end Sam LaPorta hurts hip, cornerback Ennis Rakestraw injures lower leg - AP News",
+  "tokens": [
+   "cornerback",
+   "end",
+   "ennis",
+   "hip",
+   "hurts",
+   "injures",
+   "laporta",
+   "leg",
+   "lions",
+   "lower",
+   "rakestraw",
+   "sam",
+   "tight"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "57834d831aca",
+  "headline": "Croatia orders detention of Ukrainian man wanted in Germany for Nord Stream blasts in 2022 - AP News",
+  "tokens": [
+   "2022",
+   "blasts",
+   "croatia",
+   "detention",
+   "germany",
+   "man",
+   "nord",
+   "orders",
+   "stream",
+   "ukrainian",
+   "wanted"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "a8b6cef96d32",
+  "headline": "Blue Jays hit 3 homers to power past Rays 5-1 - AP News",
+  "tokens": [
+   "blue",
+   "hit",
+   "homers",
+   "jays",
+   "past",
+   "power",
+   "rays"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "64595ed2cfb8",
+  "headline": "Welsh rider Josh Tarling to race Spanish Vuelta a week after death of his brother Finlay - AP News",
+  "tokens": [
+   "brother",
+   "death",
+   "finlay",
+   "josh",
+   "race",
+   "rider",
+   "spanish",
+   "tarling",
+   "vuelta",
+   "week",
+   "welsh"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "b7aca5ba4191",
+  "headline": "Las Vegas Stadium Authority weighs a $158M Allegiant Stadium north entrance upgrade - AP News",
+  "tokens": [
+   "158m",
+   "allegiant",
+   "authority",
+   "entrance",
+   "las",
+   "north",
+   "stadium",
+   "upgrade",
+   "vegas",
+   "weighs"
+  ],
+  "size": 1,
+  "domains": [
+   "apnews.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "6c04f40515af",
+  "headline": "Why are close to 1.08 crore voters staring at mass exclusion? | Decode Karnataka",
+  "tokens": [
+   "108",
+   "close",
+   "crore",
+   "exclusion",
+   "mass",
+   "staring",
+   "voters",
+   "why"
+  ],
+  "size": 1,
+  "domains": [
+   "thehindu.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "5355c6caa4d1",
+  "headline": "Student well-being in India declines sharply through senior school years, finds study",
+  "tokens": [
+   "declines",
+   "finds",
+   "india",
+   "school",
+   "senior",
+   "sharply",
+   "student",
+   "study",
+   "through",
+   "wellbeing",
+   "years"
+  ],
+  "size": 1,
+  "domains": [
+   "thehindu.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "c593dca87fb4",
+  "headline": "MP students reach collectorate, allege loss of study due to teachers' 'closeness'",
+  "tokens": [
+   "allege",
+   "closeness",
+   "collectorate",
+   "due",
+   "loss",
+   "reach",
+   "students",
+   "study",
+   "teachers"
+  ],
+  "size": 1,
+  "domains": [
+   "hindustantimes.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "dc79df825fc1",
+  "headline": "Centre denies permission to Revanth Reddy for US visit, his office claims",
+  "tokens": [
+   "centre",
+   "claims",
+   "denies",
+   "office",
+   "permission",
+   "reddy",
+   "revanth",
+   "visit"
+  ],
+  "size": 1,
+  "domains": [
+   "hindustantimes.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "69f961bff5ee",
+  "headline": "Elon Musk pitches Starlink for India, says it would help the ‘least served’",
+  "tokens": [
+   "elon",
+   "help",
+   "india",
+   "least",
+   "musk",
+   "pitches",
+   "served",
+   "starlink",
+   "would"
+  ],
+  "size": 1,
+  "domains": [
+   "hindustantimes.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "a0799a29322b",
+  "headline": "Karnataka, Kerala, Telangana to challenge new mining law in Supreme Court",
+  "tokens": [
+   "challenge",
+   "court",
+   "karnataka",
+   "kerala",
+   "law",
+   "mining",
+   "supreme",
+   "telangana"
+  ],
+  "size": 1,
+  "domains": [
+   "hindustantimes.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "ef7d00b00447",
+  "headline": "UP Sanskrit Board Topper's Result Cancelled Over Document Fraud, Award Recovery Ordered",
+  "tokens": [
+   "award",
+   "board",
+   "cancelled",
+   "document",
+   "fraud",
+   "ordered",
+   "recovery",
+   "result",
+   "sanskrit",
+   "toppers"
+  ],
+  "size": 1,
+  "domains": [
+   "ndtv.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "eebadc9b1ef6",
+  "headline": "Harsimrat Kaur Apologises For 'Sacrilege' Under Akalis, Turns Heat On Bhagwant Mann",
+  "tokens": [
+   "akalis",
+   "apologises",
+   "bhagwant",
+   "harsimrat",
+   "heat",
+   "kaur",
+   "mann",
+   "sacrilege",
+   "turns",
+   "under"
+  ],
+  "size": 1,
+  "domains": [
+   "ndtv.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "ebffe626ec9d",
+  "headline": "UP Board Exam 2027: Class 10, 12 Exam Centre Selection Schedule Out, Check Details",
+  "tokens": [
+   "2027",
+   "board",
+   "centre",
+   "check",
+   "class",
+   "details",
+   "exam",
+   "schedule",
+   "selection"
+  ],
+  "size": 1,
+  "domains": [
+   "ndtv.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "89aa28a1945e",
+  "headline": "इथेनॉल के कारण क्या भारत में बढ़ रही है चीनी की क़ीमत",
+  "tokens": [
+   "इथेनॉल",
+   "क़ीमत",
+   "कारण",
+   "क्या",
+   "चीनी",
+   "बढ़",
+   "भारत",
+   "में",
+   "रही"
+  ],
+  "size": 1,
+  "domains": [
+   "bbc.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "hi": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "12bf196481f6",
+  "headline": "जयपुर ग्रामीण में स्कूल निरीक्षण करने पहुंचे आशुतोष रांका समेत सीजेपी कार्यकर्ताओं के साथ मारपीट",
+  "tokens": [
+   "आशुतोष",
+   "करने",
+   "कार्यकर्ताओं",
+   "ग्रामीण",
+   "जयपुर",
+   "निरीक्षण",
+   "पहुंचे",
+   "मारपीट",
+   "में",
+   "रांका",
+   "समेत",
+   "साथ",
+   "सीजेपी",
+   "स्कूल"
+  ],
+  "size": 1,
+  "domains": [
+   "bbc.co.uk"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "hi": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "19f5189f094c",
+  "headline": "CDF Munir, Syrian foreign minister discuss defence, security cooperation",
+  "tokens": [
+   "cdf",
+   "cooperation",
+   "defence",
+   "discuss",
+   "foreign",
+   "minister",
+   "munir",
+   "security",
+   "syrian"
+  ],
+  "size": 1,
+  "domains": [
+   "dawn.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "3d7f47415de2",
+  "headline": "Dozens of migrants land on Spanish coast surprising beachgoers",
+  "tokens": [
+   "beachgoers",
+   "coast",
+   "dozens",
+   "land",
+   "migrants",
+   "spanish",
+   "surprising"
+  ],
+  "size": 1,
+  "domains": [
+   "aljazeera.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "d5c6678943c4",
+  "headline": "CJP activist holds 'Sadak Satyagraha' hunger strike in Maha over poor roads - Rediff",
+  "tokens": [
+   "activist",
+   "cjp",
+   "holds",
+   "hunger",
+   "maha",
+   "poor",
+   "roads",
+   "sadak",
+   "satyagraha",
+   "strike"
+  ],
+  "size": 1,
+  "domains": [
+   "rediff.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
+  }
+ },
+ {
+  "id": "e920d064c0c6",
+  "headline": "AA Edit | Gen Alpha Joins Gen Z In Questioning Policy Of Govt - The Asian Age",
+  "tokens": [
+   "alpha",
+   "edit",
+   "gen",
+   "govt",
+   "joins",
+   "policy",
+   "questioning"
+  ],
+  "size": 1,
+  "domains": [
+   "asianage.com"
+  ],
+  "first_seen": "2026-08-21T05:59:17+00:00",
+  "last_seen": "2026-08-21T05:59:17+00:00",
+  "first_by_lang": {
+   "en": "2026-08-21T05:59:17+00:00"
   }
  }
 ]

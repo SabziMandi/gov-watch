@@ -1,20 +1,21 @@
 [
   {
-    "ts": "2026-08-21T07:50:03+00:00",
+    "ts": "2026-08-21T08:51:18+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 1,
+    "added": 2,
     "removed": 2,
     "sample_added": [
-      "BRICS Youth and Sports Ministers\u2019 Meeting to take place in Visakhapatnam on August 22..."
+      "India and ADB sign $230 million loan to modernise water supply and sanitation in Chen...",
+      "DGGI unearths clandestine pan masala and tobacco manufacturing network in Uttar Prade..."
     ],
     "sample_removed": [
-      "Text of Keynote address by Sh. Amit Agrawal, Secretary to the Government of India, De...",
-      "Japan\u2019s Defence Minister calls on PM Modi"
+      "Chief Minister of Assam meets Prime Minister",
+      "Prime Minister shares an article on India\u2019s BRICS chairship and sustainable developme..."
     ],
-    "diff": "@@ -130,2 +130,3 @@\n PM Chairs Third High-Level Meeting with Secretaries to Government of India\n+BRICS Youth and Sports Ministers\u2019 Meeting to take place in Visakhapatnam on August 22...\n INDIAN ARMY\u2019S TERRITORIAL ARMY LAUNCHES \u2018TERRIER CYBER QUEST 2026\u2019\n@@ -139,4 +140,2 @@\n PM Chairs Third High-Level Meeting with Secretaries to Government of India\n-Text of Keynote address by Sh. Amit Agrawal, Secretary to the Government of India, De...\n-Japan\u2019s Defence Minister calls on PM Modi\n Union Minister Shri Shivraj Singh Chouhan participates in the \"Krishi Jan Kalyan Samv..."
+    "diff": "@@ -130,2 +130,4 @@\n PM Chairs Third High-Level Meeting with Secretaries to Government of India\n+India and ADB sign $230 million loan to modernise water supply and sanitation in Chen...\n+DGGI unearths clandestine pan masala and tobacco manufacturing network in Uttar Prade...\n BRICS Youth and Sports Ministers\u2019 Meeting to take place in Visakhapatnam on August 22...\n@@ -136,6 +138,3 @@\n Lieutenant Governor of Ladakh meets Prime Minister\n-Chief Minister of Assam meets Prime Minister\n Digital BRICS Forum and Expo held at Pune; Union Minister of Communications, Shri Jyo...\n-Prime Minister shares an article on India\u2019s BRICS chairship and sustainable developme...\n-PM Chairs Third High-Level Meeting with Secretaries to Government of India\n Union Minister Shri Shivraj Singh Chouhan participates in the \"Krishi Jan Kalyan Samv..."
   }
 ]

@@ -1,21 +1,45 @@
 [
   {
-    "ts": "2026-08-21T08:51:18+00:00",
+    "ts": "2026-08-21T09:45:25+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
     "added": 2,
-    "removed": 2,
+    "removed": 3,
     "sample_added": [
-      "India and ADB sign $230 million loan to modernise water supply and sanitation in Chen...",
-      "DGGI unearths clandestine pan masala and tobacco manufacturing network in Uttar Prade..."
+      "PM interacts with CEOs and Founders of Space Startups",
+      "Union Minister Dr. Jitendra Singh delivers inaugural address at BRICS Science Ministe..."
     ],
     "sample_removed": [
-      "Chief Minister of Assam meets Prime Minister",
-      "Prime Minister shares an article on India\u2019s BRICS chairship and sustainable developme..."
+      "Prime Minister congratulates H.E. President Hakainde Hichilema on re-election as Pres...",
+      "Lieutenant Governor of Ladakh meets Prime Minister",
+      "Digital BRICS Forum and Expo held at Pune; Union Minister of Communications, Shri Jyo..."
     ],
-    "diff": "@@ -130,2 +130,4 @@\n PM Chairs Third High-Level Meeting with Secretaries to Government of India\n+India and ADB sign $230 million loan to modernise water supply and sanitation in Chen...\n+DGGI unearths clandestine pan masala and tobacco manufacturing network in Uttar Prade...\n BRICS Youth and Sports Ministers\u2019 Meeting to take place in Visakhapatnam on August 22...\n@@ -136,6 +138,3 @@\n Lieutenant Governor of Ladakh meets Prime Minister\n-Chief Minister of Assam meets Prime Minister\n Digital BRICS Forum and Expo held at Pune; Union Minister of Communications, Shri Jyo...\n-Prime Minister shares an article on India\u2019s BRICS chairship and sustainable developme...\n-PM Chairs Third High-Level Meeting with Secretaries to Government of India\n Union Minister Shri Shivraj Singh Chouhan participates in the \"Krishi Jan Kalyan Samv..."
+    "diff": "@@ -130,2 +130,4 @@\n PM Chairs Third High-Level Meeting with Secretaries to Government of India\n+PM interacts with CEOs and Founders of Space Startups\n+Union Minister Dr. Jitendra Singh delivers inaugural address at BRICS Science Ministe...\n India and ADB sign $230 million loan to modernise water supply and sanitation in Chen...\n@@ -136,5 +138,2 @@\n Pradhan Mantri Annadata Aay Sanrakshan Abhiyan (PM-AASHA)\n-Prime Minister congratulates H.E. President Hakainde Hichilema on re-election as Pres...\n-Lieutenant Governor of Ladakh meets Prime Minister\n-Digital BRICS Forum and Expo held at Pune; Union Minister of Communications, Shri Jyo...\n Union Minister Shri Shivraj Singh Chouhan participates in the \"Krishi Jan Kalyan Samv..."
+  },
+  {
+    "ts": "2026-08-21T09:45:46+00:00",
+    "slug": "pib-rss-releases",
+    "name": "PIB \u2014 releases RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
+    "type": "change",
+    "added": 4,
+    "removed": 4,
+    "sample_added": [
+      "\u0921\u0940\u091c\u0940\u091c\u0940\u0906\u0908 \u0928\u0947 \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u092a\u093e\u0928 \u092e\u0938\u093e\u0932\u093e \u0914\u0930 \u0924\u0902\u092c\u093e\u0915\u0942 \u0915\u0947 \u0905\u0935\u0948\u0927 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u0928\u0947\u091f\u0935\u0930\u094d\u0915 \u0915\u093e \u092d\u0902\u0921\u093e\u092b\u094b\u0921\u093c \u0915\u093f\u092f\u093e; 27 \u0905\u0918\u094b\u0937\u093f\u0924 \u092a\u093e\u0909\u091a-\u092a\u0948\u0915\u093f\u0902\u0917 \u092e\u0936\u0940\u0928\u0947\u0902 \u091c\u092c\u094d\u0924 \u0915\u0940 \u0917\u0908\u0902, \u0915\u0930\u0940\u092c 185 \u0915\u0930\u094b\u0921\u093c \u0930\u0941\u092a\u092f\u0947 \u0915\u0940 \u0915\u0930 \u091a\u094b\u0930\u0940 \u0915\u093e \u092a\u0924\u093e \u091a\u0932\u093e",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301924",
+      "\u092c\u094d\u0930\u093f\u0915\u094d\u0938 \u0926\u0947\u0936\u094b\u0902 \u0915\u0947 \u092f\u0941\u0935\u093e \u0915\u093e\u0930\u094d\u092f \u090f\u0935\u0902 \u0916\u0947\u0932 \u092e\u0902\u0924\u094d\u0930\u093f\u092f\u094b\u0902 \u0915\u0940 \u092c\u0948\u0920\u0915 22 \u0914\u0930 23 \u0905\u0917\u0938\u094d\u0924, 2026 \u0915\u094b \u0935\u093f\u0936\u093e\u0916\u093e\u092a\u0924\u094d\u0924\u0928\u092e \u092e\u0947\u0902 \u0939\u094b\u0917\u0940",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301899"
+    ],
+    "sample_removed": [
+      "\u0907\u0902\u0921\u093f\u092f\u093e\u090f\u0906\u0908 \u092e\u093f\u0936\u0928 \u0928\u0947 \u092d\u093e\u0930\u0924 \u0915\u0947 \u090f\u0906\u0908-\u0905\u0928\u0941\u0915\u0942\u0932 \u0921\u0947\u091f\u093e \u0907\u0915\u094b\u0938\u093f\u0938\u094d\u091f\u092e \u0915\u094b \u092e\u091c\u092c\u0942\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u090f\u0906\u0908\u0915\u094b\u0937 \u0935\u093f\u0937\u092f \u092a\u0930 \u0915\u093e\u0930\u094d\u092f\u0936\u093e\u0932\u093e \u0915\u093e \u0906\u092f\u094b\u091c\u0928 \u0915\u093f\u092f\u093e",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301802",
+      "\u0921\u0949. \u092e\u0928\u0938\u0941\u0916 \u092e\u093e\u0902\u0921\u0935\u093f\u092f\u093e \u0928\u0947 \u092d\u093e\u0930\u0924 \u0915\u0947 2036 \u0913\u0932\u0902\u092a\u093f\u0915 \u0915\u0947 \u0932\u093f\u090f \u0916\u093f\u0932\u093e\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u093e \u0906\u0927\u093e\u0930 \u0924\u0948\u092f\u093e\u0930 \u0915\u0930\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094d\u0930\u0924\u093f\u092d\u093e \u092a\u0939\u091a\u093e\u0928 \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u093e \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0932\u093e\u0928\u0947 \u0915\u093e \u0906\u0939\u094d\u0935\u093e\u0928 \u0915\u093f\u092f\u093e",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301722"
+    ],
+    "diff": "@@ -1 +1,5 @@\n+\u0921\u0940\u091c\u0940\u091c\u0940\u0906\u0908 \u0928\u0947 \u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936 \u092e\u0947\u0902 \u092a\u093e\u0928 \u092e\u0938\u093e\u0932\u093e \u0914\u0930 \u0924\u0902\u092c\u093e\u0915\u0942 \u0915\u0947 \u0905\u0935\u0948\u0927 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u0928\u0947\u091f\u0935\u0930\u094d\u0915 \u0915\u093e \u092d\u0902\u0921\u093e\u092b\u094b\u0921\u093c \u0915\u093f\u092f\u093e; 27 \u0905\u0918\u094b\u0937\u093f\u0924 \u092a\u093e\u0909\u091a-\u092a\u0948\u0915\u093f\u0902\u0917 \u092e\u0936\u0940\u0928\u0947\u0902 \u091c\u092c\u094d\u0924 \u0915\u0940 \u0917\u0908\u0902, \u0915\u0930\u0940\u092c 185 \u0915\u0930\u094b\u0921\u093c \u0930\u0941\u092a\u092f\u0947 \u0915\u0940 \u0915\u0930 \u091a\u094b\u0930\u0940 \u0915\u093e \u092a\u0924\u093e \u091a\u0932\u093e\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301924\n+\u092c\u094d\u0930\u093f\u0915\u094d\u0938 \u0926\u0947\u0936\u094b\u0902 \u0915\u0947 \u092f\u0941\u0935\u093e \u0915\u093e\u0930\u094d\u092f \u090f\u0935\u0902 \u0916\u0947\u0932 \u092e\u0902\u0924\u094d\u0930\u093f\u092f\u094b\u0902 \u0915\u0940 \u092c\u0948\u0920\u0915 22 \u0914\u0930 23 \u0905\u0917\u0938\u094d\u0924, 2026 \u0915\u094b \u0935\u093f\u0936\u093e\u0916\u093e\u092a\u0924\u094d\u0924\u0928\u092e \u092e\u0947\u0902 \u0939\u094b\u0917\u0940\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301899\n \u092a\u094d\u0930\u093e\u0926\u0947\u0936\u093f\u0915 \u0938\u0947\u0928\u093e \u0928\u0947 '\u091f\u0947\u0930\u093f\u092f\u0930 \u0938\u093e\u0907\u092c\u0930 \u0915\u094d\u0935\u0947\u0938\u094d\u091f 2026' \u0936\u0941\u0930\u0942 \u0915\u093f\u092f\u093e\n@@ -34,7 +38,3 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301807\n-\u0907\u0902\u0921\u093f\u092f\u093e\u090f\u0906\u0908 \u092e\u093f\u0936\u0928 \u0928\u0947 \u092d\u093e\u0930\u0924 \u0915\u0947 \u090f\u0906\u0908-\u0905\u0928\u0941\u0915\u0942\u0932 \u0921\u0947\u091f\u093e \u0907\u0915\u094b\u0938\u093f\u0938\u094d\u091f\u092e \u0915\u094b \u092e\u091c\u092c\u0942\u0924 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u090f\u0906\u0908\u0915\u094b\u0937 \u0935\u093f\u0937\u092f \u092a\u0930 \u0915\u093e\u0930\u094d\u092f\u0936\u093e\u0932\u093e \u0915\u093e \u0906\u092f\u094b\u091c\u0928 \u0915\u093f\u092f\u093e\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301802\n \u0938\u0940\u090f\u092e\u090f\u0932\u0906\u0930\u0908 \u0928\u0947 \u0938\u0938\u094d\u091f\u0947\u0928\u0947\u092c\u0932 \u092c\u094d\u0932\u0942 \u0907\u0915\u094b\u0928\u0949\u092e\u0940 \u0915\u094b \u092c\u0922\u093c\u093e\u0935\u093e \u0926\u0947\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u092d\u093e\u0930\u0924\u0940\u092f \u0908\u0908\u095b\u0947\u0921 \u0915\u0947 \u0917\u0939\u0930\u0947 \u0938\u092e\u0941\u0926\u094d\u0930 \u0914\u0930 \u0926\u0942\u0930-\u0938\u092e\u0941\u0926\u094d\u0930 \u0915\u0947 \u092e\u091b\u0932\u0940 \u0938\u0902\u0938\u093e\u0927\u0928\u094b\u0902 \u092a\u0930 \u092e\u0939\u0924\u094d\u0935\u092a\u0942\u0930\u094d\u0923 \u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u091c\u093e\u0930\u0940 \u0915\u0940\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301816\n-\u0921\u0949. \u092e\u0928\u0938\u0941\u0916 \u092e\u093e\u0902\u0921\u0935\u093f\u092f\u093e \u0928\u0947 \u092d\u093e\u0930\u0924 \u0915\u0947 2036 \u0913\u0932\u0902\u092a\u093f\u0915 \u0915\u0947 \u0932\u093f\u090f \u0916\u093f\u0932\u093e\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u093e \u0906\u0927\u093e\u0930 \u0924\u0948\u092f\u093e\u0930 \u0915\u0930\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094d\u0930\u0924\u093f\u092d\u093e \u092a\u0939\u091a\u093e\u0928 \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u093e \u092e\u0947\u0902 \u0924\u0947\u091c\u0940 \u0932\u093e\u0928\u0947 \u0915\u093e \u0906\u0939\u094d\u0935\u093e\u0928 \u0915\u093f\u092f\u093e\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301722"
   }
 ]

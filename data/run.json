@@ -1,44 +1,20 @@
 [
   {
-    "ts": "2026-08-21T06:59:24+00:00",
+    "ts": "2026-08-21T07:50:03+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
     "added": 1,
-    "removed": 3,
+    "removed": 2,
     "sample_added": [
-      "INDIAN ARMY\u2019S TERRITORIAL ARMY LAUNCHES \u2018TERRIER CYBER QUEST 2026\u2019"
+      "BRICS Youth and Sports Ministers\u2019 Meeting to take place in Visakhapatnam on August 22..."
     ],
     "sample_removed": [
-      "BRICS Youth Council and Summit 2026: Youth Delegates Visit Statue of Unity on Day 2",
-      "Union Minister of State for Finance Shri Pankaj Chaudhary participated virtually in 2...",
-      "Union Minister Smt. Annpurna Devi Chairs Review Meeting of Ministry of Women and Chil..."
+      "Text of Keynote address by Sh. Amit Agrawal, Secretary to the Government of India, De...",
+      "Japan\u2019s Defence Minister calls on PM Modi"
     ],
-    "diff": "@@ -130,2 +130,3 @@\n PM Chairs Third High-Level Meeting with Secretaries to Government of India\n+INDIAN ARMY\u2019S TERRITORIAL ARMY LAUNCHES \u2018TERRIER CYBER QUEST 2026\u2019\n Prime Minister shares Sanskrit Subhashitam highlighting the spirit of selfless servic...\n@@ -140,5 +141,2 @@\n Japan\u2019s Defence Minister calls on PM Modi\n-BRICS Youth Council and Summit 2026: Youth Delegates Visit Statue of Unity on Day 2\n-Union Minister of State for Finance Shri Pankaj Chaudhary participated virtually in 2...\n-Union Minister Smt. Annpurna Devi Chairs Review Meeting of Ministry of Women and Chil...\n Union Minister Shri Shivraj Singh Chouhan participates in the \"Krishi Jan Kalyan Samv..."
-  },
-  {
-    "ts": "2026-08-21T06:59:38+00:00",
-    "slug": "pib-rss-releases",
-    "name": "PIB \u2014 releases RSS",
-    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
-    "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
-    "type": "change",
-    "added": 4,
-    "removed": 4,
-    "sample_added": [
-      "\u092a\u094d\u0930\u093e\u0926\u0947\u0936\u093f\u0915 \u0938\u0947\u0928\u093e \u0928\u0947 '\u091f\u0947\u0930\u093f\u092f\u0930 \u0938\u093e\u0907\u092c\u0930 \u0915\u094d\u0935\u0947\u0938\u094d\u091f 2026' \u0936\u0941\u0930\u0942 \u0915\u093f\u092f\u093e",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301842",
-      "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u0928\u093f:\u0938\u094d\u0935\u093e\u0930\u094d\u0925 \u0938\u0947\u0935\u093e \u0914\u0930 \u0938\u092e\u0930\u094d\u092a\u0923 \u0915\u0940 \u092d\u093e\u0935\u0928\u093e \u0915\u094b \u0926\u0930\u094d\u0936\u093e\u0928\u0947 \u0935\u093e\u0932\u093e \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0938\u0941\u092d\u093e\u0937\u093f\u0924\u092e\u094d \u0938\u093e\u091d\u093e \u0915\u093f\u092f\u093e",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301840"
-    ],
-    "sample_removed": [
-      "\u0917\u094d\u0932\u094b\u092c\u0932 \u0921\u093f\u091c\u093f\u091f\u0932 \u0915\u0948\u092a\u0947\u0938\u093f\u091f\u0940 \u092c\u093f\u0932\u094d\u0921\u093f\u0902\u0917 \u0905\u0932\u093e\u092f\u0902\u0938: \u0938\u0930\u0915\u093e\u0930\u0940 \u0915\u094d\u0937\u092e\u0924\u093e \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u0917\u094d\u0932\u094b\u092c\u0932 \u092a\u094d\u0932\u0947\u091f\u092b\u0949\u0930\u094d\u092e \u092c\u0928\u093e\u0928\u093e",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301771",
-      "\u0938\u0940\u090f\u0938\u0906\u0908\u0906\u0930-\u0938\u0940\u0906\u0930\u0906\u0930\u0906\u0908 \u0914\u0930 \u0938\u0940\u090f\u0938\u0906\u0908\u0906\u0930-\u090f\u090f\u092e\u092a\u0940\u0906\u0930\u0906\u0908 \u0928\u0947 \u0938\u0902\u0935\u0939\u0928\u0940\u092f \u0905\u0935\u0938\u0902\u0930\u091a\u0928\u093e \u0915\u0947 \u0932\u093f\u090f \u0905\u092d\u093f\u0928\u0935 \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0914\u0930 \u0909\u0928\u094d\u0928\u0924 \u092e\u093f\u0936\u094d\u0930\u093f\u0924 \u0938\u093e\u092e\u0917\u094d\u0930\u093f\u092f\u094b\u0902 \u092a\u0930 \u0915\u093e\u0930\u094d\u092f\u0936\u093e\u0932\u093e \u0915\u093e \u0906\u092f\u094b\u091c\u0928 \u0915\u093f\u092f\u093e",
-      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301727"
-    ],
-    "diff": "@@ -1 +1,5 @@\n+\u092a\u094d\u0930\u093e\u0926\u0947\u0936\u093f\u0915 \u0938\u0947\u0928\u093e \u0928\u0947 '\u091f\u0947\u0930\u093f\u092f\u0930 \u0938\u093e\u0907\u092c\u0930 \u0915\u094d\u0935\u0947\u0938\u094d\u091f 2026' \u0936\u0941\u0930\u0942 \u0915\u093f\u092f\u093e\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301842\n+\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u0928\u093f:\u0938\u094d\u0935\u093e\u0930\u094d\u0925 \u0938\u0947\u0935\u093e \u0914\u0930 \u0938\u092e\u0930\u094d\u092a\u0923 \u0915\u0940 \u092d\u093e\u0935\u0928\u093e \u0915\u094b \u0926\u0930\u094d\u0936\u093e\u0928\u0947 \u0935\u093e\u0932\u093e \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0938\u0941\u092d\u093e\u0937\u093f\u0924\u092e\u094d \u0938\u093e\u091d\u093e \u0915\u093f\u092f\u093e\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301840\n \u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0905\u0928\u094d\u0928\u0926\u093e\u0924\u093e \u0906\u092f \u0938\u0902\u0930\u0915\u094d\u0937\u0923 \u0905\u092d\u093f\u092f\u093e\u0928 (\u092a\u0940\u090f\u092e-\u0906\u0936\u093e)\n@@ -36,5 +40 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301722\n-\u0917\u094d\u0932\u094b\u092c\u0932 \u0921\u093f\u091c\u093f\u091f\u0932 \u0915\u0948\u092a\u0947\u0938\u093f\u091f\u0940 \u092c\u093f\u0932\u094d\u0921\u093f\u0902\u0917 \u0905\u0932\u093e\u092f\u0902\u0938: \u0938\u0930\u0915\u093e\u0930\u0940 \u0915\u094d\u0937\u092e\u0924\u093e \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u0917\u094d\u0932\u094b\u092c\u0932 \u092a\u094d\u0932\u0947\u091f\u092b\u0949\u0930\u094d\u092e \u092c\u0928\u093e\u0928\u093e\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301771\n-\u0938\u0940\u090f\u0938\u0906\u0908\u0906\u0930-\u0938\u0940\u0906\u0930\u0906\u0930\u0906\u0908 \u0914\u0930 \u0938\u0940\u090f\u0938\u0906\u0908\u0906\u0930-\u090f\u090f\u092e\u092a\u0940\u0906\u0930\u0906\u0908 \u0928\u0947 \u0938\u0902\u0935\u0939\u0928\u0940\u092f \u0905\u0935\u0938\u0902\u0930\u091a\u0928\u093e \u0915\u0947 \u0932\u093f\u090f \u0905\u092d\u093f\u0928\u0935 \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0914\u0930 \u0909\u0928\u094d\u0928\u0924 \u092e\u093f\u0936\u094d\u0930\u093f\u0924 \u0938\u093e\u092e\u0917\u094d\u0930\u093f\u092f\u094b\u0902 \u092a\u0930 \u0915\u093e\u0930\u094d\u092f\u0936\u093e\u0932\u093e \u0915\u093e \u0906\u092f\u094b\u091c\u0928 \u0915\u093f\u092f\u093e\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301727"
+    "diff": "@@ -130,2 +130,3 @@\n PM Chairs Third High-Level Meeting with Secretaries to Government of India\n+BRICS Youth and Sports Ministers\u2019 Meeting to take place in Visakhapatnam on August 22...\n INDIAN ARMY\u2019S TERRITORIAL ARMY LAUNCHES \u2018TERRIER CYBER QUEST 2026\u2019\n@@ -139,4 +140,2 @@\n PM Chairs Third High-Level Meeting with Secretaries to Government of India\n-Text of Keynote address by Sh. Amit Agrawal, Secretary to the Government of India, De...\n-Japan\u2019s Defence Minister calls on PM Modi\n Union Minister Shri Shivraj Singh Chouhan participates in the \"Krishi Jan Kalyan Samv..."
   }
 ]

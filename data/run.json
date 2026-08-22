@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ts": "2026-08-22T03:02:27+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 0,
+    "removed": 1,
+    "sample_added": [],
+    "sample_removed": [
+      "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates an exhibit..."
+    ],
+    "diff": "@@ -138,3 +138,2 @@\n Union Minister of Communications, Sh. Jyotiraditya M. Scindia Leads 12th BRICS Commun...\n-Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates an exhibit...\n Latest Explainers"
+  }
+]

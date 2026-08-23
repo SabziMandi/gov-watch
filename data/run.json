@@ -1,17 +1,20 @@
 [
   {
-    "ts": "2026-08-23T09:35:43+00:00",
+    "ts": "2026-08-23T10:32:19+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 0,
+    "added": 2,
     "removed": 1,
-    "sample_added": [],
-    "sample_removed": [
-      "National Workshop on \u201cMission Zero \u2013 Ending Fatalities in Sanitation Work\u201d"
+    "sample_added": [
+      "Vice President Shri C. P. Radhakrishnan to visit Andhra Pradesh on August 24",
+      "Dr. Mansukh Mandaviya, Smt. Raksha Khadse Lead BRICS Friendship Cycling Event in Visa..."
     ],
-    "diff": "@@ -140,3 +140,2 @@\n Lieutenant Governor of Jammu & Kashmir meets Prime Minister\n-National Workshop on \u201cMission Zero \u2013 Ending Fatalities in Sanitation Work\u201d\n Latest Explainers"
+    "sample_removed": [
+      "Lieutenant Governor of Jammu & Kashmir meets Prime Minister"
+    ],
+    "diff": "@@ -130,2 +130,4 @@\n INDIAN AIR FORCE CONCLUDES HIGH-TEMPO MULTINATIONAL EXERCISES PITCH BLACK AND UDARA SHAKTI 2026\n+Vice President Shri C. P. Radhakrishnan to visit Andhra Pradesh on August 24\n+Dr. Mansukh Mandaviya, Smt. Raksha Khadse Lead BRICS Friendship Cycling Event in Visa...\n Commerce and Industry Minister Shri Piyush Goyal Leads A 200-Member Business Delegati...\n@@ -139,3 +141,2 @@\n BRICS Youth Ministers\u2019 Meeting 2026 Concludes in Visakhapatnam; Joint Statement Adopt...\n-Lieutenant Governor of Jammu & Kashmir meets Prime Minister\n Latest Explainers"
   }
 ]

@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ts": "2026-08-24T03:11:58+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 0,
+    "sample_added": [
+      "Prime Minister shares Sanskrit Subhashitam highlighting the values of compassion and ..."
+    ],
+    "sample_removed": [],
+    "diff": "@@ -130,2 +130,3 @@\n Rebuilding Farming Systems: Regenerative Agriculture for a Resilient India\n+Prime Minister shares Sanskrit Subhashitam highlighting the values of compassion and ...\n Union Home Minister Shri Amit Shah met Divyang Men\u2019s Cricket Team"
+  }
+]

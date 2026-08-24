@@ -1,21 +1,33 @@
 [
   {
-    "ts": "2026-08-24T09:56:36+00:00",
+    "ts": "2026-08-24T10:44:52+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 3,
-    "removed": 1,
+    "added": 4,
+    "removed": 4,
     "sample_added": [
-      "India restored 21.76 mn ha Land during 2011\u20132020, generating 1.22 bn person-days of E...",
-      "Book Launch and Discussion of \u201cKaho Kalidas!\u201d (\u0915\u0939\u094b \u0915\u093e\u0932\u093f\u0926\u093e\u0938!), written ...",
-      "(Event Date :25 Aug 2026 5:00PM)"
+      "CBN busts inter-state heroin syndicate in \u2018Op Black Hawk\u2019; seizes over 18.6 kg crude heroin",
+      "\u201cKhelo India Dialogue \u2013 Khel Ki Baat, PM Modi Ke Saath\u201d to be Organised Nationwide o...",
+      "President of India Smt Droupadi Murmu to Confer National Awards to Teachers on 21 tea...",
+      "Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman will embark on..."
     ],
     "sample_removed": [
-      "Prime Minister shares Sanskrit Subhashitam highlighting the values of compassion and ..."
+      "Raksha Mantri and West Bengal Chief Minister carry out Bhumi Pujan for five expansion projects of GRSE & YIL virtually f...",
+      "Indian Railways Launches a Special Drive for Cleaning and Disinfection of Drinking Wa...",
+      "NA-Allocated Talabira II & III Coal Mines Mark Record Production in FY 2025-26",
+      "CBN busts inter-state heroin syndicate in \u2018Op Black Hawk\u2019; seizes over 18.6 kg crude ..."
     ],
-    "diff": "@@ -130,2 +130,3 @@\n Raksha Mantri and West Bengal Chief Minister carry out Bhumi Pujan for five expansion projects of GRSE & YIL virtually f...\n+India restored 21.76 mn ha Land during 2011\u20132020, generating 1.22 bn person-days of E...\n Union Ministry of Health and Family Welfare Proposes Amendments to Medical Devices Ru...\n@@ -143,3 +144,2 @@\n CBN busts inter-state heroin syndicate in \u2018Op Black Hawk\u2019; seizes over 18.6 kg crude ...\n-Prime Minister shares Sanskrit Subhashitam highlighting the values of compassion and ...\n Latest Explainers\n@@ -157,2 +157,4 @@\n (Event Date :25 Aug 2026 9:30AM)\n+Book Launch and Discussion of \u201cKaho Kalidas!\u201d (\u0915\u0939\u094b \u0915\u093e\u0932\u093f\u0926\u093e\u0938!), written ...\n+(Event Date :25 Aug 2026 5:00PM)\n Media Engagements"
+    "diff": "@@ -129,3 +129,6 @@\n MOST VIEWED\n-Raksha Mantri and West Bengal Chief Minister carry out Bhumi Pujan for five expansion projects of GRSE & YIL virtually f...\n+CBN busts inter-state heroin syndicate in \u2018Op Black Hawk\u2019; seizes over 18.6 kg crude heroin\n+\u201cKhelo India Dialogue \u2013 Khel Ki Baat, PM Modi Ke Saath\u201d to be Organised Nationwide o...\n+President of India Smt Droupadi Murmu to Confer National Awards to Teachers on 21 tea...\n+Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman will embark on...\n India restored 21.76 mn ha Land during 2011\u20132020, generating 1.22 bn person-days of E...\n@@ -141,5 +144,2 @@\n GENESI Entrepreneur-in-Residence (EIR) Cohort-3 Launched at GENESIS NextGen Startup S...\n-Indian Railways Launches a Special Drive for Cleaning and Disinfection of Drinking Wa...\n-NA-Allocated Talabira II & III Coal Mines Mark Record Production in FY 2025-26\n-CBN busts inter-state heroin syndicate in \u2018Op Black Hawk\u2019; seizes over 18.6 kg crude ...\n Latest Explainers"
+  },
+  {
+    "ts": "2026-08-24T10:45:48+00:00",
+    "slug": "pib-rss-releases",
+    "name": "PIB \u2014 releases RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "type": "error",
+    "detail": "TimeoutError: APIRequestContext.get: Timeout 30000ms exceeded.\nCall log:\n  - \u2192 GET https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3\n    - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36\n    - accept: */*\n    - accept"
   }
 ]

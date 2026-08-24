@@ -1,29 +1,21 @@
 [
   {
-    "ts": "2026-08-24T16:49:20+00:00",
+    "ts": "2026-08-24T17:37:50+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 4,
-    "removed": 4,
-    "sample_added": [
-      "CSIR-CRRI Organises One-Day National Workshop on Road Asset Management Systems and Pr...",
-      "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the 9th tw...",
-      "Central Bureau of Narcotics (CBN) and PHARMEXCIL Sign Memorandum of Understanding to ...",
-      "National Conclave on Tribal Languages & Museums begins in Mysuru, Karnataka"
-    ],
+    "added": 0,
+    "removed": 1,
+    "sample_added": [],
     "sample_removed": [
-      "From Unpaid Helper to Sanitation Entrepreneur: How NAMASTE-SUY Support Transformed Ka...",
-      "From Financial Dependence to Self-Employment: Suji K.P.\u2019s Journey of Empowerment",
-      "Chairman of the Railway Board Reviews IRCTC War Room; Directs Strengthening of Passen...",
-      "Students are the future of the largest democracy in the world: CEC Gyanesh Kumar"
+      "From Financial Constraints to PhD Completion: How NFSC Support Strengthened Shubhanka..."
     ],
-    "diff": "@@ -130,2 +130,6 @@\n CBN busts inter-state heroin syndicate in \u2018Op Black Hawk\u2019; seizes over 18.6 kg crude heroin\n+CSIR-CRRI Organises One-Day National Workshop on Road Asset Management Systems and Pr...\n+Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the 9th tw...\n+Central Bureau of Narcotics (CBN) and PHARMEXCIL Sign Memorandum of Understanding to ...\n+National Conclave on Tribal Languages & Museums begins in Mysuru, Karnataka\n Chirag Paswan inaugurates PMFME Bazaar showcasing India\u2019s Diverse Micro Food Enterpri...\n@@ -139,7 +143,3 @@\n IFS Officer Trainees of 2025 Batch call on PM\n-From Unpaid Helper to Sanitation Entrepreneur: How NAMASTE-SUY Support Transformed Ka...\n-From Financial Dependence to Self-Employment: Suji K.P.\u2019s Journey of Empowerment\n From Financial Constraints to PhD Completion: How NFSC Support Strengthened Shubhanka...\n-Chairman of the Railway Board Reviews IRCTC War Room; Directs Strengthening of Passen...\n-Students are the future of the largest democracy in the world: CEC Gyanesh Kumar\n Latest Explainers"
+    "diff": "@@ -143,3 +143,2 @@\n IFS Officer Trainees of 2025 Batch call on PM\n-From Financial Constraints to PhD Completion: How NFSC Support Strengthened Shubhanka...\n Latest Explainers"
   },
   {
-    "ts": "2026-08-24T16:50:09+00:00",
+    "ts": "2026-08-24T17:38:35+00:00",
     "slug": "pib-rss-releases",
     "name": "PIB \u2014 releases RSS",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",

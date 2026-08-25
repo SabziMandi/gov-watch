@@ -1,30 +1,29 @@
 [
   {
-    "ts": "2026-08-25T09:44:28+00:00",
+    "ts": "2026-08-25T10:41:03+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 4,
-    "removed": 5,
+    "added": 5,
+    "removed": 3,
     "sample_added": [
-      "President of India Smt Droupadi Murmu to Confer National Awards to Teachers on 21 teachers/faculties of HEIs and Polytec...",
-      "CSIR-National Aerospace Laboratories Unveils Indigenous Micro and Small Gas Turbine E...",
-      "5 Years of e-Shram Portal",
-      "5 Years of e-Shram Portal"
+      "RBIs USD-INR Swap Facility Sparks Unprecedented Forex Inflows into India, Banks Raise USD 73 Billion in eleven weeks",
+      "INDIAN NAVY SET TO COMMISSION SECOND INDIGENOUS DIVING SUPPORT VESSEL 'NIPUN'",
+      "Union Minister Smt. Annpurna Devi Hails 10 Years of UPI as an Example of India's Digi...",
+      "Union Minister Smt. Annpurna Devi Urges Citizens to Report Child Marriage on Child He...",
+      "Minister of State Smt. Savitri Thakur Celebrates 10 Years of UPI, Says Phone Has Beco..."
     ],
     "sample_removed": [
-      "UPI: Transforming Indias Payment Landscape",
-      "CSIR-CRRI Organises One-Day National Workshop on Road Asset Management Systems and Pr...",
-      "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the 9th tw...",
-      "Central Bureau of Narcotics (CBN) and PHARMEXCIL Sign Memorandum of Understanding to ...",
-      "Pradhan Mantri Annadata Aay Sanrakshan Abhiyan (PM-AASHA)"
+      "President of India Smt Droupadi Murmu to Confer National Awards to Teachers on 21 teachers/faculties of HEIs and Polytec...",
+      "India-Japan Investment Partnership Gains Momentum; Commerce and Industry Minister Shr...",
+      "Parishrama Adalat in Hyderabad resolves 65 delayed-payment cases worth \u20b98.29 crore, h..."
     ],
-    "diff": "@@ -129,3 +129,5 @@\n MOST VIEWED\n-UPI: Transforming Indias Payment Landscape\n+President of India Smt Droupadi Murmu to Confer National Awards to Teachers on 21 teachers/faculties of HEIs and Polytec...\n+CSIR-National Aerospace Laboratories Unveils Indigenous Micro and Small Gas Turbine E...\n+5 Years of e-Shram Portal\n Publications Division Wins 7 Honors at FIP Excellence in Book Production Awards 2026\n@@ -139,6 +141,4 @@\n Parishrama Adalat in Hyderabad resolves 65 delayed-payment cases worth \u20b98.29 crore, h...\n-CSIR-CRRI Organises One-Day National Workshop on Road Asset Management Systems and Pr...\n-Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the 9th tw...\n-Central Bureau of Narcotics (CBN) and PHARMEXCIL Sign Memorandum of Understanding to ...\n Latest Explainers\n+5 Years of e-Shram Portal\n UPI: Transforming India's Payment Landscape\n@@ -147,3 +147,2 @@\n Ken-Betwa Link Project\n-Pradhan Mantri Annadata Aay Sanrakshan Abhiyan (PM-AASHA)\n Media Corner"
+    "diff": "@@ -129,3 +129,5 @@\n MOST VIEWED\n-President of India Smt Droupadi Murmu to Confer National Awards to Teachers on 21 teachers/faculties of HEIs and Polytec...\n+RBIs USD-INR Swap Facility Sparks Unprecedented Forex Inflows into India, Banks Raise USD 73 Billion in eleven weeks\n+INDIAN NAVY SET TO COMMISSION SECOND INDIGENOUS DIVING SUPPORT VESSEL 'NIPUN'\n+Union Minister Smt. Annpurna Devi Hails 10 Years of UPI as an Example of India's Digi...\n CSIR-National Aerospace Laboratories Unveils Indigenous Micro and Small Gas Turbine E...\n@@ -136,2 +138,3 @@\n Raksha Mantri approves Transfer of Technology of DRDO-developed missile systems to In...\n+Union Minister Smt. Annpurna Devi Urges Citizens to Report Child Marriage on Child He...\n India calls for a shift from Drought Response to Drought Resilience at UNCCD CoP17 in...\n@@ -139,4 +142,3 @@\n Prime Minister shares Sanskrit Subhashitam emphasizing on good company and wise couns...\n-India-Japan Investment Partnership Gains Momentum; Commerce and Industry Minister Shr...\n-Parishrama Adalat in Hyderabad resolves 65 delayed-payment cases worth \u20b98.29 crore, h...\n+Minister of State Smt. Savitri Thakur Celebrates 10 Years of UPI, Says Phone Has Beco...\n Latest Explainers"
   },
   {
-    "ts": "2026-08-25T09:45:13+00:00",
+    "ts": "2026-08-25T10:41:50+00:00",
     "slug": "pib-rss-releases",
     "name": "PIB \u2014 releases RSS",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",

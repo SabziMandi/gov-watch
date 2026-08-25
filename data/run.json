@@ -1,23 +1,21 @@
 [
   {
-    "ts": "2026-08-25T17:38:35+00:00",
+    "ts": "2026-08-25T18:50:25+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 0,
-    "removed": 3,
-    "sample_added": [],
-    "sample_removed": [
-      "Raksha Mantri approves Transfer of Technology of DRDO-developed missile systems to Indian defence industry to bolster in...",
-      "Prize Distribution Function of 58th Youth Parliament Competition for Schools Held tod...",
-      "\u201cIndia Plans 100 New Ships to Cut $75 Billion Foreign Freight Bill:\u201d Sarbananda Sonow..."
+    "added": 1,
+    "removed": 0,
+    "sample_added": [
+      "Union Home Minister and Minister of Cooperation Shri Amit Shah addressed the valedict..."
     ],
-    "diff": "@@ -129,3 +129,3 @@\n MOST VIEWED\n-Raksha Mantri approves Transfer of Technology of DRDO-developed missile systems to Indian defence industry to bolster in...\n+PM chairs 53rd PRAGATI Meeting\n CENTRAL ARMED POLICE FORCES (ASSISTANT COMMANDANTS) EXAMINATION, 2026\n@@ -135,4 +135,2 @@\n Union Minister of Commerce and Industry Shri Piyush Goyal Chairs India-Japan Industry...\n-Prize Distribution Function of 58th Youth Parliament Competition for Schools Held tod...\n-\u201cIndia Plans 100 New Ships to Cut $75 Billion Foreign Freight Bill:\u201d Sarbananda Sonow...\n Latest Explainers"
+    "sample_removed": [],
+    "diff": "@@ -130,2 +130,3 @@\n PM chairs 53rd PRAGATI Meeting\n+Union Home Minister and Minister of Cooperation Shri Amit Shah addressed the valedict...\n CENTRAL ARMED POLICE FORCES (ASSISTANT COMMANDANTS) EXAMINATION, 2026"
   },
   {
-    "ts": "2026-08-25T17:39:21+00:00",
+    "ts": "2026-08-25T18:51:12+00:00",
     "slug": "pib-rss-releases",
     "name": "PIB \u2014 releases RSS",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",

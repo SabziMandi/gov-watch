@@ -1,10 +1,10 @@
 [
   {
-    "ts": "2026-08-24T23:29:50+00:00",
+    "ts": "2026-08-25T01:45:23+00:00",
     "slug": "pib-rss-releases",
     "name": "PIB \u2014 releases RSS",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
     "type": "error",
-    "detail": "TimeoutError: APIRequestContext.get: Timeout 30000ms exceeded.\nCall log:\n  - \u2192 GET https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3\n    - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36\n    - accept: */*\n    - accept"
+    "detail": "Error: APIRequestContext.get: getaddrinfo ENOTFOUND pib.gov.in\nCall log:\n  - \u2192 GET https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3\n    - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36\n    - accept: */*\n    - accept"
   }
 ]

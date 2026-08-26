@@ -489,15 +489,15 @@
     "url": "https://mopng.gov.in/en"
   },
   "pib-releases": {
-    "chars": 5097,
+    "chars": 5366,
     "checked_url": true,
     "error": "",
     "fails": 0,
-    "last_change": "2026-08-25T18:50:25+00:00",
-    "last_check": "2026-08-26T03:13:34+00:00",
+    "last_change": "2026-08-26T04:49:22+00:00",
+    "last_check": "2026-08-26T04:49:20+00:00",
     "name": "PIB \u2014 release stream (reg 48)",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
-    "state": "unchanged",
+    "state": "changed",
     "tier": "hourly",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1"
   },
@@ -516,13 +516,13 @@
   "pib-rss-releases": {
     "chars": 3442,
     "checked_url": false,
-    "error": "TimeoutError: APIRequestContext.get: Timeout 30000ms exceeded.\nCall log:\n  - \u2192 GET https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3\n    - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36\n    - accept: */*\n    - accept",
-    "fails": 3,
+    "error": "",
+    "fails": 0,
     "last_change": "2026-08-25T22:36:15+00:00",
-    "last_check": "2026-08-26T03:13:37+00:00",
+    "last_check": "2026-08-26T04:49:22+00:00",
     "name": "PIB \u2014 releases RSS",
     "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
-    "state": "error",
+    "state": "unchanged",
     "tier": "hourly",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
   },

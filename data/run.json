@@ -1,32 +1,31 @@
 [
   {
-    "ts": "2026-08-26T08:54:22+00:00",
+    "ts": "2026-08-26T09:51:19+00:00",
     "slug": "pib-releases",
     "name": "PIB \u2014 release stream (reg 48)",
     "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "type": "change",
-    "added": 4,
+    "added": 3,
     "removed": 3,
     "sample_added": [
-      "India\u2019s Sugar Industry",
-      "LOKAYAN 2026 \u2013 INDIAN NAVAL SHIP SUDARSHINI DEPARTS LISBON AFTER THREE-DAY PORT CALL",
-      "IICT and Netflix to Support Next Generation of Indian Storytellers Through Scholarshi...",
-      "India\u2019s Sugar Industry"
+      "EPFO Releases August 2026 Pension in Keralam Ahead of Onam",
+      "ICAT Issues First Compliance Certificate for 15-Metre Multi-Axle Sleeper Bus",
+      "Prime Minister condoles loss of lives in a mishap in Suryapet, Telangana"
     ],
     "sample_removed": [
-      "CENTRAL ARMED POLICE FORCES (ASSISTANT COMMANDANTS) EXAMINATION, 2026",
-      "Union Minister Shri Gajendra Singh Shekhawat: \"In Kalidasa's works, woman is not mere...",
-      "Rebuilding Farming Systems: Regenerative Agriculture for a Resilient India"
+      "India and Seychelles Convene High-Level Bilateral Meeting to Strengthen Strategic Coo...",
+      "India Calls for Community-Led Restoration of Rangelands at UNCCD CoP17 in Ulaanbaatar...",
+      "Union Home Minister and Minister of Cooperation Shri Amit Shah addressed the valedict..."
     ],
-    "diff": "@@ -130,2 +130,5 @@\n PM chairs 53rd PRAGATI Meeting\n+India\u2019s Sugar Industry\n+LOKAYAN 2026 \u2013 INDIAN NAVAL SHIP SUDARSHINI DEPARTS LISBON AFTER THREE-DAY PORT CALL\n+IICT and Netflix to Support Next Generation of Indian Storytellers Through Scholarshi...\n SIDBI organizes a conclave of the Heads of Regional Rural Banks (RRBs) on expanding S...\n@@ -141,5 +144,4 @@\n Union Home Minister and Minister of Cooperation Shri Amit Shah addressed the valedict...\n-CENTRAL ARMED POLICE FORCES (ASSISTANT COMMANDANTS) EXAMINATION, 2026\n-Union Minister Shri Gajendra Singh Shekhawat: \"In Kalidasa's works, woman is not mere...\n Latest Explainers\n+India\u2019s Sugar Industry\n Turning the Wheel of Heritage\n@@ -148,3 +150,2 @@\n UPI: Transforming India's Payment Landscape\n-Rebuilding Farming Systems: Regenerative Agriculture for a Resilient India\n Media Corner"
+    "diff": "@@ -130,2 +130,5 @@\n PM chairs 53rd PRAGATI Meeting\n+EPFO Releases August 2026 Pension in Keralam Ahead of Onam\n+ICAT Issues First Compliance Certificate for 15-Metre Multi-Axle Sleeper Bus\n+Prime Minister condoles loss of lives in a mishap in Suryapet, Telangana\n India\u2019s Sugar Industry\n@@ -141,5 +144,2 @@\n Prime Minister extends greetings on Onam\n-India and Seychelles Convene High-Level Bilateral Meeting to Strengthen Strategic Coo...\n-India Calls for Community-Led Restoration of Rangelands at UNCCD CoP17 in Ulaanbaatar...\n-Union Home Minister and Minister of Cooperation Shri Amit Shah addressed the valedict...\n Latest Explainers"
   },
   {
-    "ts": "2026-08-26T08:55:09+00:00",
+    "ts": "2026-08-26T09:51:44+00:00",
     "slug": "pib-rss-releases",
     "name": "PIB \u2014 releases RSS",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
     "type": "error",
-    "detail": "TimeoutError: APIRequestContext.get: Timeout 30000ms exceeded.\nCall log:\n  - \u2192 GET https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3\n    - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36\n    - accept: */*\n    - accept"
+    "detail": "Error: APIRequestContext.get: getaddrinfo ENOTFOUND pib.gov.in\nCall log:\n  - \u2192 GET https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3\n    - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36\n    - accept: */*\n    - accept"
   }
 ]

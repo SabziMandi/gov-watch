@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "ts": "2026-09-04T04:17:53+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "Union Minister Shri Ramdas Athawale Inaugurates Distribution of NAMASTE Cards to Wast..."
+    ],
+    "sample_removed": [
+      "National Pledge Against Drug Abuse To Commemorate The 6th Anniversary Of The Nasha Mu..."
+    ],
+    "diff": "@@ -132,2 +132,3 @@\n Raksha Mantri unveils \u2018RAKSHA\u2019 defence diplomacy document outlining India\u2019s strategic roadmap & vision for global partne...\n+Union Minister Shri Ramdas Athawale Inaugurates Distribution of NAMASTE Cards to Wast...\n Ministry of Tribal Affairs Reviews Progress of PM-JANMAN and DA-JGUA; Announces Key I...\n@@ -145,3 +146,2 @@\n PRESIDENT OF INDIA'S GREETINGS ON THE EVE OF JANMASHTAMI\n-National Pledge Against Drug Abuse To Commemorate The 6th Anniversary Of The Nasha Mu...\n Latest Explainers"
+  }
+]

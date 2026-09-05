@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "ts": "2026-09-05T04:14:07+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "SAIL posts strong sales and production growth in August 2026; financial position stre..."
+    ],
+    "sample_removed": [
+      "89th Fit India Sundays on Cycle to Promote PM Modi\u2019s Call for \u2018Nasha Mukt Yuva for Vi..."
+    ],
+    "diff": "@@ -140,2 +140,3 @@\n India\u2013EU FTA Opens Huge Opportunities for Farmers, MSMEs, Innovators, Startups and Bu...\n+SAIL posts strong sales and production growth in August 2026; financial position stre...\n PRESIDENT OF INDIA\u2019S GREETINGS ON THE EVE OF TEACHERS\u2019 DAY\n@@ -145,3 +146,2 @@\n Union Minister Dr. Jitendra Singh Felicitates 'Team India School Children' for Histor...\n-89th Fit India Sundays on Cycle to Promote PM Modi\u2019s Call for \u2018Nasha Mukt Yuva for Vi...\n Latest Explainers"
+  },
+  {
+    "ts": "2026-09-05T04:14:36+00:00",
+    "slug": "pib-rss-releases",
+    "name": "PIB \u2014 releases RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
+    "type": "change",
+    "added": 2,
+    "removed": 2,
+    "sample_added": [
+      "SAIL \u0928\u0947 \u0905\u0917\u0938\u094d\u0924 2026 \u092e\u0947\u0902 \u0926\u0930\u094d\u091c \u0915\u0940 \u092c\u093f\u0915\u094d\u0930\u0940 \u0914\u0930 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092e\u0947\u0902 \u092e\u091c\u092c\u0942\u0924 \u0935\u0943\u0926\u094d\u0927\u093f; \u0935\u093f\u0924\u094d\u0924\u0940\u092f \u0938\u094d\u0925\u093f\u0924\u093f \u0939\u0941\u0908 \u092e\u091c\u092c\u0942\u0924",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2306870"
+    ],
+    "sample_removed": [
+      "\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u091c\u0928\u094d\u092e\u093e\u0937\u094d\u091f\u092e\u0940 \u0915\u0947 \u092a\u093e\u0935\u0928 \u0905\u0935\u0938\u0930 \u092a\u0930 \u0936\u0941\u092d\u0915\u093e\u092e\u0928\u093e\u090f\u0902 \u0926\u0940\u0902",
+      "    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2306650"
+    ],
+    "diff": "@@ -12,2 +12,4 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2306838\n+SAIL \u0928\u0947 \u0905\u0917\u0938\u094d\u0924 2026 \u092e\u0947\u0902 \u0926\u0930\u094d\u091c \u0915\u0940 \u092c\u093f\u0915\u094d\u0930\u0940 \u0914\u0930 \u0909\u0924\u094d\u092a\u093e\u0926\u0928 \u092e\u0947\u0902 \u092e\u091c\u092c\u0942\u0924 \u0935\u0943\u0926\u094d\u0927\u093f; \u0935\u093f\u0924\u094d\u0924\u0940\u092f \u0938\u094d\u0925\u093f\u0924\u093f \u0939\u0941\u0908 \u092e\u091c\u092c\u0942\u0924\n+    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2306870\n \u092d\u093e\u0930\u0924 \u0915\u0940 \u0930\u093e\u0937\u094d\u200d\u091f\u094d\u0930\u092a\u0924\u093f \u0915\u093e \u0936\u093f\u0915\u094d\u0937\u0915 \u0926\u093f\u0935\u0938 \u0915\u0940 \u092a\u0942\u0930\u094d\u0935 \u0938\u0902\u0927\u094d\u200d\u092f\u093e \u092a\u0930 \u0936\u0941\u092d\u0915\u093e\u092e\u0928\u093e \u0938\u0902\u0926\u0947\u0936\n@@ -38,3 +40 @@\n     https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2306652\n-\u092a\u094d\u0930\u0927\u093e\u0928\u092e\u0902\u0924\u094d\u0930\u0940 \u0928\u0947 \u091c\u0928\u094d\u092e\u093e\u0937\u094d\u091f\u092e\u0940 \u0915\u0947 \u092a\u093e\u0935\u0928 \u0905\u0935\u0938\u0930 \u092a\u0930 \u0936\u0941\u092d\u0915\u093e\u092e\u0928\u093e\u090f\u0902 \u0926\u0940\u0902\n-    https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2306650"
+  }
+]

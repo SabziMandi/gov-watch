@@ -1,10 +1,21 @@
 [
   {
-    "ts": "2026-09-06T23:44:52+00:00",
-    "slug": "pib-rss-releases",
-    "name": "PIB \u2014 releases RSS",
-    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
-    "type": "error",
-    "detail": "only 0 chars extracted (floor 100)"
+    "ts": "2026-09-07T04:21:19+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 2,
+    "removed": 2,
+    "sample_added": [
+      "Prime Minister shares a Sanskrit Subhashitam, highlighting prayers for peace, well-be...",
+      "English rendering of PM\u2019s remarks during inauguration of Swaminarayan Hindu Temple in..."
+    ],
+    "sample_removed": [
+      "Text of PM\u2019s remarks during inauguration of Swaminarayan Hindu Temple in Paris",
+      "Union Minister Dr Jitendra Singh Says RISE Conclave Puts Spotlight on India\u2019s Tier-2 ..."
+    ],
+    "diff": "@@ -132,4 +132,5 @@\n Vibrant Villages Programme\n+Prime Minister shares a Sanskrit Subhashitam, highlighting prayers for peace, well-be...\n Prime Minister Shri Narendra Modi addresses gathering at the inauguration of BAPS Swa...\n-Text of PM\u2019s remarks during inauguration of Swaminarayan Hindu Temple in Paris\n+English rendering of PM\u2019s remarks during inauguration of Swaminarayan Hindu Temple in...\n India Must Build Resilient, Globally Integrated Healthcare Supply Chains: Commerce an...\n@@ -145,3 +146,2 @@\n Adequate Coal for Punjab's Power Plants: Centre enabled Supply from PSPCL's Captive M...\n-Union Minister Dr Jitendra Singh Says RISE Conclave Puts Spotlight on India\u2019s Tier-2 ...\n Latest Explainers"
   }
 ]

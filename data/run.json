@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "ts": "2026-09-08T04:21:49+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 0,
+    "sample_added": [
+      "Prime Minister shares Sanskrit Subhashitam highlighting the importance of discerning ..."
+    ],
+    "sample_removed": [],
+    "diff": "@@ -132,2 +132,3 @@\n PM to Visit Gujarat and Maharashtra on 8th September\n+Prime Minister shares Sanskrit Subhashitam highlighting the importance of discerning ...\n Two-Day National Symposium on Geosynthetics for Highways and Railways Inaugurated at ...\n@@ -144,3 +145,2 @@\n From Substance Dependency to a New Beginning: Garry's Journey towards Recovery, Self-...\n-Jute: India\u2019s Golden Fibre\n LOKAYAN 2026 \u2013 INDIAN NAVAL SHIP SUDARSHINI CONCLUDES PORT CALL AT BARCELONA"
+  },
+  {
+    "ts": "2026-09-08T04:22:03+00:00",
+    "slug": "pib-rss-releases",
+    "name": "PIB \u2014 releases RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "type": "error",
+    "detail": "only 0 chars extracted (floor 100)"
+  }
+]

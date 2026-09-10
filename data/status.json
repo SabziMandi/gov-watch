@@ -494,7 +494,7 @@
     "error": "",
     "fails": 0,
     "last_change": "2026-09-09T18:29:14+00:00",
-    "last_check": "2026-09-10T00:03:27+00:00",
+    "last_check": "2026-09-10T04:26:00+00:00",
     "name": "PIB \u2014 release stream (reg 48)",
     "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
     "state": "unchanged",
@@ -514,15 +514,15 @@
     "url": "https://pib.gov.in/RssMain.aspx?ModId=10&Lang=1&Regid=3"
   },
   "pib-rss-releases": {
-    "chars": 3695,
+    "chars": 3658,
     "checked_url": false,
     "error": "",
     "fails": 0,
-    "last_change": "2026-09-09T18:29:51+00:00",
-    "last_check": "2026-09-10T00:03:29+00:00",
+    "last_change": "2026-09-10T04:26:13+00:00",
+    "last_check": "2026-09-10T04:26:03+00:00",
     "name": "PIB \u2014 releases RSS",
     "notes": "Hindi feed, but full untruncated headlines with a direct link per release. PIB ignores the Lang parameter and serves from the session; the English listing page is watched separately as pib-releases.",
-    "state": "unchanged",
+    "state": "changed",
     "tier": "hourly",
     "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
   },

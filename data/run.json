@@ -1,17 +1,10 @@
 [
   {
-    "ts": "2026-09-12T19:08:51+00:00",
-    "slug": "pib-releases",
-    "name": "PIB \u2014 release stream (reg 48)",
-    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
-    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
-    "type": "change",
-    "added": 1,
-    "removed": 0,
-    "sample_added": [
-      "BRICS New Delhi Declaration: Building for Resilience, Innovation, Cooperation and Sustainability"
-    ],
-    "sample_removed": [],
-    "diff": "@@ -130,3 +130,3 @@\n MOST VIEWED\n-From Green Stems to Green Enterprises\n+BRICS New Delhi Declaration: Building for Resilience, Innovation, Cooperation and Sustainability\n ITRA Jamnagar Organises Three-Day Workshop on Microbiome Research and Health & Wellne..."
+    "ts": "2026-09-12T22:10:44+00:00",
+    "slug": "pib-rss-releases",
+    "name": "PIB \u2014 releases RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "type": "error",
+    "detail": "only 0 chars extracted (floor 100)"
   }
 ]

@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "ts": "2026-09-13T05:56:33+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 5,
+    "removed": 5,
+    "sample_added": [
+      "Incentive Scheme for Promotion of Domestic PNG Connections",
+      "Prime Minister chaired the BRICS session on \u201cInclusive Global Governance and Strength...",
+      "Dryland Congress 2026 Concludes with Delhi Declaration on Drylands",
+      "Prime Minister extends greetings on the Parkash Purab of Sri Guru Granth Sahib Ji",
+      "Incentive Scheme for Promotion of Domestic PNG Connections"
+    ],
+    "sample_removed": [
+      "English Translation of Opening Remarks by the Prime Minister during the 18th BRICS Su...",
+      "National Conference on Building and Other Construction Workers (BOCW) Concludes in Mu...",
+      "SECL Transformation Since 2014",
+      "Union Health Minister Shri J P Nadda Inaugurates Critical Care Blocks and Integrated ...",
+      "Every School, A Model School"
+    ],
+    "diff": "@@ -131,2 +131,6 @@\n BRICS New Delhi Declaration: Building for Resilience, Innovation, Cooperation and Sustainability\n+Incentive Scheme for Promotion of Domestic PNG Connections\n+Prime Minister chaired the BRICS session on \u201cInclusive Global Governance and Strength...\n+Dryland Congress 2026 Concludes with Delhi Declaration on Drylands\n+Prime Minister extends greetings on the Parkash Purab of Sri Guru Granth Sahib Ji\n ITRA Jamnagar Organises Three-Day Workshop on Microbiome Research and Health & Wellne...\n@@ -141,7 +145,4 @@\n PRESIDENT OF THE ISLAMIC REPUBLIC OF IRAN MEETS THE PRESIDENT\n-English Translation of Opening Remarks by the Prime Minister during the 18th BRICS Su...\n-National Conference on Building and Other Construction Workers (BOCW) Concludes in Mu...\n-SECL Transformation Since 2014\n-Union Health Minister Shri J P Nadda Inaugurates Critical Care Blocks and Integrated ...\n Latest Explainers\n+Incentive Scheme for Promotion of Domestic PNG Connections\n From Green Stems to Green Enterprises\n@@ -150,3 +151,2 @@\n Fueling the Blue Economy\n-Every School, A Model School\n Media Corner"
+  },
+  {
+    "ts": "2026-09-13T05:56:48+00:00",
+    "slug": "pib-rss-releases",
+    "name": "PIB \u2014 releases RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+    "type": "error",
+    "detail": "only 0 chars extracted (floor 100)"
+  }
+]

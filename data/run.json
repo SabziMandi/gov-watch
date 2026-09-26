@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "ts": "2026-09-26T01:26:41+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "DRI seizes over 125,000 kg foreign-origin smuggled areca nuts and 41,000 kg poppy seeds worth around Rs. 20.31 crore in ..."
+    ],
+    "sample_removed": [
+      "Indian Railways to Introduce New Tri-Weekly Amrit Bharat Express between Bhuj and Barauni"
+    ],
+    "diff": "@@ -130,3 +130,3 @@\n MOST VIEWED\n-Indian Railways to Introduce New Tri-Weekly Amrit Bharat Express between Bhuj and Barauni\n+DRI seizes over 125,000 kg foreign-origin smuggled areca nuts and 41,000 kg poppy seeds worth around Rs. 20.31 crore in ...\n MY Bharat\u2013NSS Undertakes \u201cMy Health, My Pride\u201d Activities Nationwide Under Nasha Mukt..."
+  }
+]

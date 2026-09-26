@@ -353,7 +353,7 @@
    "international",
    "monetary"
   ],
-  "size": 154,
+  "size": 156,
   "domains": [
    "stg2-bookstore.imf.org",
    "imf.org",
@@ -362,10 +362,11 @@
    "dsbb.imf.org",
    "stg-bookstore.imf.org",
    "institute.imf.org",
-   "elibrary.imf.org"
+   "elibrary.imf.org",
+   "data.imf.org"
   ],
   "first_seen": "2026-08-15T02:18:34+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-08-15T02:18:34+00:00",
    "english": "2026-08-15T05:52:32+00:00"
@@ -1228,13 +1229,13 @@
    "peace",
    "security"
   ],
-  "size": 19,
+  "size": 21,
   "domains": [
    "carnegieendowment.org",
    "8am.media"
   ],
   "first_seen": "2026-09-14T06:14:17+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-14T06:14:17+00:00"
   }
@@ -1876,29 +1877,6 @@
   "first_by_lang": {
    "en": "2026-09-17T01:38:13+00:00",
    "english": "2026-09-22T21:39:07+00:00"
-  }
- },
- {
-  "id": "04f66a01ea0a",
-  "headline": "World Development Indicators - World Bank DataBank",
-  "tokens": [
-   "development",
-   "indicators",
-   "world"
-  ],
-  "size": 8,
-  "domains": [
-   "databank.worldbank.org",
-   "hdr.undp.org",
-   "ptinews.com",
-   "8am.media",
-   "dawn.com",
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-17T06:07:23+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-17T06:07:23+00:00"
   }
  },
  {
@@ -2851,34 +2829,6 @@
   }
  },
  {
-  "id": "acd2afd612c7",
-  "headline": "2026 Mahindra Thar Facelift Official Teaser Out - Launch 22nd Sep - RushLane",
-  "tokens": [
-   "2026",
-   "22nd",
-   "facelift",
-   "launch",
-   "mahindra",
-   "official",
-   "sep",
-   "teaser",
-   "thar"
-  ],
-  "size": 8,
-  "domains": [
-   "rushlane.com",
-   "loksatta.com",
-   "carwale.com",
-   "cardekho.com"
-  ],
-  "first_seen": "2026-09-19T05:50:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-19T05:50:30+00:00",
-   "mr": "2026-09-21T20:07:09+00:00"
-  }
- },
- {
   "id": "32ae6677906a",
   "headline": "Trump will be at airport to greet Xi when China's leader arrives for his US state visit - ptinews.com",
   "tokens": [
@@ -2974,16 +2924,17 @@
    "stresses",
    "trump"
   ],
-  "size": 5,
+  "size": 7,
   "domains": [
    "aninews.in",
    "theprint.in",
    "tribune.com.pk",
    "economictimes.indiatimes.com",
-   "dawn.com"
+   "dawn.com",
+   "orfonline.org"
   ],
   "first_seen": "2026-09-19T11:22:38+00:00",
-  "last_seen": "2026-09-23T06:29:13+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-19T11:22:38+00:00"
   }
@@ -3474,29 +3425,6 @@
   }
  },
  {
-  "id": "cf9b53c85da0",
-  "headline": "Maldives Food Products Country Growth By Country and Region % 1988 - 2023 - wits.worldbank.org",
-  "tokens": [
-   "1988",
-   "2023",
-   "country",
-   "food",
-   "growth",
-   "maldives",
-   "products",
-   "region"
-  ],
-  "size": 4,
-  "domains": [
-   "wits.worldbank.org"
-  ],
-  "first_seen": "2026-09-20T06:12:08+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-20T06:12:08+00:00"
-  }
- },
- {
   "id": "42553fd516c0",
   "headline": "Cement clinkers imports by country |2023 - wits.worldbank.org",
   "tokens": [
@@ -3506,12 +3434,12 @@
    "country",
    "imports"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "wits.worldbank.org"
   ],
   "first_seen": "2026-09-20T06:12:08+00:00",
-  "last_seen": "2026-09-24T06:09:26+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-20T06:12:08+00:00"
   }
@@ -3663,18 +3591,20 @@
    "win",
    "woman"
   ],
-  "size": 5,
+  "size": 6,
   "domains": [
    "deccanherald.com",
    "thehindu.com",
    "ptinews.com",
    "telegraphindia.com",
-   "kathmandupost.com"
+   "kathmandupost.com",
+   "adhadhu.com"
   ],
   "first_seen": "2026-09-20T11:47:34+00:00",
-  "last_seen": "2026-09-23T06:29:13+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
-   "en": "2026-09-20T11:47:34+00:00"
+   "en": "2026-09-20T11:47:34+00:00",
+   "dv": "2026-09-26T06:08:36+00:00"
   }
  },
  {
@@ -3810,33 +3740,6 @@
   "last_seen": "2026-09-23T11:59:52+00:00",
   "first_by_lang": {
    "en": "2026-09-20T11:47:34+00:00"
-  }
- },
- {
-  "id": "f4b13c99d1fb",
-  "headline": "Vice President to inaugurate India International Water Week on September 22 - Press Trust of India",
-  "tokens": [
-   "inaugurate",
-   "india",
-   "international",
-   "president",
-   "september",
-   "vice",
-   "water",
-   "week"
-  ],
-  "size": 4,
-  "domains": [
-   "ptinews.com",
-   "aninews.in",
-   "hindustantimes.com",
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-20T12:34:24+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-20T12:34:24+00:00",
-   "dv": "2026-09-23T05:56:30+00:00"
   }
  },
  {
@@ -4432,33 +4335,6 @@
   }
  },
  {
-  "id": "d4b555acec37",
-  "headline": "Rules Allowing Claims Tribunal To Withhold Compensation Based On Claimant's Literacy, Financial Condition ... - Live Law",
-  "tokens": [
-   "allowing",
-   "based",
-   "claimants",
-   "claims",
-   "compensation",
-   "condition",
-   "financial",
-   "literacy",
-   "rules",
-   "tribunal",
-   "withhold"
-  ],
-  "size": 2,
-  "domains": [
-   "livelaw.in",
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-21T00:25:26+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T00:25:26+00:00"
-  }
- },
- {
   "id": "e90743884c42",
   "headline": "Oil hits over 1-week low on hopes of boost to diplomacy in Iran war - reuters.com",
   "tokens": [
@@ -4792,44 +4668,19 @@
   }
  },
  {
-  "id": "0f7512fe7aad",
-  "headline": "Western companies lag China in sodium battery race - Financial Times",
-  "tokens": [
-   "battery",
-   "china",
-   "companies",
-   "lag",
-   "race",
-   "sodium",
-   "western"
-  ],
-  "size": 3,
-  "domains": [
-   "ft.com",
-   "news.webindia123.com",
-   "restofworld.org"
-  ],
-  "first_seen": "2026-09-21T05:25:59+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T05:25:59+00:00",
-   "english": "2026-09-22T10:14:22+00:00"
-  }
- },
- {
   "id": "5aa1848c0515",
   "headline": "External Debt - Adhadhu",
   "tokens": [
    "debt",
    "external"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "adhadhu.com",
    "imf.org"
   ],
   "first_seen": "2026-09-21T06:18:08+00:00",
-  "last_seen": "2026-09-24T06:09:26+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "dv": "2026-09-21T06:18:08+00:00",
    "en": "2026-09-24T06:09:26+00:00"
@@ -4848,58 +4699,12 @@
    "politics",
    "tech"
   ],
-  "size": 4,
+  "size": 6,
   "domains": [
    "asia.nikkei.com"
   ],
   "first_seen": "2026-09-21T06:18:08+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T06:18:08+00:00"
-  }
- },
- {
-  "id": "fe0f8f964142",
-  "headline": "Sort By - IMF Bookstore - IMF Bookstore",
-  "tokens": [
-   "bookstore",
-   "imf",
-   "sort"
-  ],
-  "size": 3,
-  "domains": [
-   "bookstore.imf.org"
-  ],
-  "first_seen": "2026-09-21T06:18:08+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T06:18:08+00:00"
-  }
- },
- {
-  "id": "c72384182358",
-  "headline": "Bhutan - SOUTH ASIA- P162196- PFM-MDF FINANCED STRENGTHENING PUBLIC FINANCIAL MANAGEMENT PROJECT - Procurement Plan - World Bank Group",
-  "tokens": [
-   "asia",
-   "bhutan",
-   "financed",
-   "financial",
-   "management",
-   "p162196",
-   "pfmmdf",
-   "plan",
-   "procurement",
-   "project",
-   "public",
-   "south",
-   "strengthening"
-  ],
-  "size": 2,
-  "domains": [
-   "documents.worldbank.org"
-  ],
-  "first_seen": "2026-09-21T06:18:08+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-21T06:18:08+00:00"
   }
@@ -4920,12 +4725,13 @@
    "second",
    "south"
   ],
-  "size": 3,
+  "size": 5,
   "domains": [
-   "documents.worldbank.org"
+   "documents.worldbank.org",
+   "documents1.worldbank.org"
   ],
   "first_seen": "2026-09-21T06:18:08+00:00",
-  "last_seen": "2026-09-24T06:09:26+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-21T06:18:08+00:00"
   }
@@ -4947,54 +4753,6 @@
   ],
   "first_seen": "2026-09-21T06:18:08+00:00",
   "last_seen": "2026-09-24T06:09:26+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T06:18:08+00:00"
-  }
- },
- {
-  "id": "031670e8061d",
-  "headline": "Botswana Fuels Exports by country 2022 - World Bank Group",
-  "tokens": [
-   "2022",
-   "botswana",
-   "country",
-   "exports",
-   "fuels"
-  ],
-  "size": 2,
-  "domains": [
-   "wits.worldbank.org"
-  ],
-  "first_seen": "2026-09-21T06:18:08+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T06:18:08+00:00"
-  }
- },
- {
-  "id": "bb228d6c2f4b",
-  "headline": "Lava Virat Curve launching in India on September 21st with rear Mini Display, curved AMOLED screen - 91mobiles.com",
-  "tokens": [
-   "21st",
-   "amoled",
-   "curve",
-   "curved",
-   "display",
-   "india",
-   "launching",
-   "lava",
-   "mini",
-   "rear",
-   "screen",
-   "september",
-   "virat"
-  ],
-  "size": 2,
-  "domains": [
-   "91mobiles.com"
-  ],
-  "first_seen": "2026-09-21T06:18:08+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-21T06:18:08+00:00"
   }
@@ -5377,31 +5135,6 @@
   ],
   "first_seen": "2026-09-21T11:00:27+00:00",
   "last_seen": "2026-09-25T05:21:47+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T11:00:27+00:00"
-  }
- },
- {
-  "id": "1ba21c824594",
-  "headline": "'I live in fear': 1.5 million Pakistani children sexually exploited online",
-  "tokens": [
-   "children",
-   "exploited",
-   "fear",
-   "live",
-   "million",
-   "online",
-   "pakistani",
-   "sexually"
-  ],
-  "size": 3,
-  "domains": [
-   "dawn.com",
-   "tribune.com.pk",
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-21T11:00:27+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-21T11:00:27+00:00"
   }
@@ -6255,31 +5988,6 @@
   }
  },
  {
-  "id": "e80705cf188d",
-  "headline": "Four Family Members, Including Three Women, Killed by Gunmen in Kapisa",
-  "tokens": [
-   "family",
-   "four",
-   "gunmen",
-   "including",
-   "kapisa",
-   "killed",
-   "members",
-   "three",
-   "women"
-  ],
-  "size": 2,
-  "domains": [
-   "8am.media",
-   "narinjara.com"
-  ],
-  "first_seen": "2026-09-21T13:18:56+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T13:18:56+00:00"
-  }
- },
- {
   "id": "ea4d42e70673",
   "headline": "Telangana MLA Danam Nagender moves Supreme Court against disqualification under anti-defection law - Bar and Bench",
   "tokens": [
@@ -6430,16 +6138,17 @@
    "shares",
    "under"
   ],
-  "size": 8,
+  "size": 9,
   "domains": [
    "reuters.com",
    "theprint.in",
    "brecorder.com",
    "economictimes.indiatimes.com",
-   "aljazeera.com"
+   "aljazeera.com",
+   "orfonline.org"
   ],
   "first_seen": "2026-09-21T17:09:35+00:00",
-  "last_seen": "2026-09-23T06:29:13+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-21T17:09:35+00:00"
   }
@@ -7131,24 +6840,6 @@
   "last_seen": "2026-09-24T05:20:49+00:00",
   "first_by_lang": {
    "bn": "2026-09-21T20:07:09+00:00"
-  }
- },
- {
-  "id": "f6ee93f96c1b",
-  "headline": "policy rate - bdnews24.com",
-  "tokens": [
-   "policy",
-   "rate"
-  ],
-  "size": 2,
-  "domains": [
-   "bdnews24.com",
-   "imf.org"
-  ],
-  "first_seen": "2026-09-21T20:07:09+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-21T20:07:09+00:00"
   }
  },
  {
@@ -8490,31 +8181,6 @@
   }
  },
  {
-  "id": "2b34673217ec",
-  "headline": "At Pokhran, India takes a 1,000-km leap into the new age of drone warfare - Deccan Herald",
-  "tokens": [
-   "1000km",
-   "age",
-   "drone",
-   "india",
-   "into",
-   "leap",
-   "pokhran",
-   "takes",
-   "warfare"
-  ],
-  "size": 2,
-  "domains": [
-   "deccanherald.com",
-   "irrawaddy.com"
-  ],
-  "first_seen": "2026-09-22T05:21:14+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-22T05:21:14+00:00"
-  }
- },
- {
   "id": "ae4879553bd8",
   "headline": "Delhi Minor Rape Case: Main Accused Injured in Encounter, Two on the Run",
   "tokens": [
@@ -8676,33 +8342,6 @@
   }
  },
  {
-  "id": "c9d965c2d1af",
-  "headline": "Myanmar Junta Shells Karen State Villages Following Deadly Resistance Drone Strike - Burma News International",
-  "tokens": [
-   "deadly",
-   "drone",
-   "following",
-   "junta",
-   "karen",
-   "myanmar",
-   "resistance",
-   "shells",
-   "state",
-   "strike",
-   "villages"
-  ],
-  "size": 2,
-  "domains": [
-   "bnionline.net",
-   "karennews.org"
-  ],
-  "first_seen": "2026-09-22T06:12:04+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-22T06:12:04+00:00"
-  }
- },
- {
   "id": "957877d8b80f",
   "headline": "India court grants bail to US citizen accused of illegal entry - Myanmar Now",
   "tokens": [
@@ -8715,14 +8354,14 @@
    "illegal",
    "india"
   ],
-  "size": 4,
+  "size": 5,
   "domains": [
    "myanmar-now.org",
    "hindustantimes.com",
    "livelaw.in"
   ],
   "first_seen": "2026-09-22T06:12:04+00:00",
-  "last_seen": "2026-09-25T14:05:35+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-22T06:12:04+00:00"
   }
@@ -8747,27 +8386,6 @@
   "last_seen": "2026-09-25T06:09:23+00:00",
   "first_by_lang": {
    "en": "2026-09-22T06:12:04+00:00"
-  }
- },
- {
-  "id": "a89eab7fc29f",
-  "headline": "AMFA concludes first Junior Lifeguard Program - Adhadhu",
-  "tokens": [
-   "amfa",
-   "concludes",
-   "first",
-   "junior",
-   "lifeguard",
-   "program"
-  ],
-  "size": 2,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-22T06:12:04+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-22T06:12:04+00:00"
   }
  },
  {
@@ -8853,26 +8471,6 @@
   }
  },
  {
-  "id": "cf35b3c68410",
-  "headline": "Mauritius Footwear, nes imports by country - World Bank Group",
-  "tokens": [
-   "country",
-   "footwear",
-   "imports",
-   "mauritius",
-   "nes"
-  ],
-  "size": 3,
-  "domains": [
-   "wits.worldbank.org"
-  ],
-  "first_seen": "2026-09-22T06:12:04+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-22T06:12:04+00:00"
-  }
- },
- {
   "id": "106a716efee5",
   "headline": "Georgia | Country Page | World - Human Rights Watch",
   "tokens": [
@@ -8915,75 +8513,6 @@
   ],
   "first_seen": "2026-09-22T06:12:04+00:00",
   "last_seen": "2026-09-25T06:09:23+00:00",
-  "first_by_lang": {
-   "en": "2026-09-22T06:12:04+00:00"
-  }
- },
- {
-  "id": "c7f263df01f7",
-  "headline": "ESA and ISRO extend and broaden cooperation agreement - European Space Agency",
-  "tokens": [
-   "agreement",
-   "broaden",
-   "cooperation",
-   "esa",
-   "extend",
-   "isro"
-  ],
-  "size": 5,
-  "domains": [
-   "esa.int",
-   "thehindu.com",
-   "theprint.in",
-   "manoramayearbook.in",
-   "timesofindia.indiatimes.com"
-  ],
-  "first_seen": "2026-09-22T06:12:04+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-22T06:12:04+00:00"
-  }
- },
- {
-  "id": "4a2979621bbb",
-  "headline": "Isro gears up for NVS-03 launch between October 15 and 20 - timesofindia.indiatimes.com",
-  "tokens": [
-   "between",
-   "gears",
-   "isro",
-   "launch",
-   "nvs03",
-   "october"
-  ],
-  "size": 2,
-  "domains": [
-   "timesofindia.indiatimes.com",
-   "spacedaily.com"
-  ],
-  "first_seen": "2026-09-22T06:12:04+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-22T06:12:04+00:00"
-  }
- },
- {
-  "id": "ae0a17594e50",
-  "headline": "Honda CB500 Launched in India Starting At Rs. 2.75 Lakh - BikeWale",
-  "tokens": [
-   "275",
-   "cb500",
-   "honda",
-   "india",
-   "lakh",
-   "launched",
-   "starting"
-  ],
-  "size": 2,
-  "domains": [
-   "bikewale.com"
-  ],
-  "first_seen": "2026-09-22T06:12:04+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-22T06:12:04+00:00"
   }
@@ -11309,12 +10838,13 @@
    "seven",
    "typhus"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
-   "kathmandupost.com"
+   "kathmandupost.com",
+   "nepalitimes.com"
   ],
   "first_seen": "2026-09-22T15:07:43+00:00",
-  "last_seen": "2026-09-24T05:13:20+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-22T15:07:43+00:00"
   }
@@ -12748,12 +12278,13 @@
    "towards",
    "war"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
-   "aljazeera.com"
+   "aljazeera.com",
+   "thefinancialexpress.com.bd"
   ],
   "first_seen": "2026-09-22T19:02:46+00:00",
-  "last_seen": "2026-09-23T20:37:34+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-22T19:02:46+00:00"
   }
@@ -13456,30 +12987,6 @@
   ],
   "first_seen": "2026-09-22T22:22:51+00:00",
   "last_seen": "2026-09-25T21:48:58+00:00",
-  "first_by_lang": {
-   "en": "2026-09-22T22:22:51+00:00"
-  }
- },
- {
-  "id": "fc2c306f3eb4",
-  "headline": "OpenAI expands GPT-6 lineup with cheaper Sol and Luna models - Reuters",
-  "tokens": [
-   "cheaper",
-   "expands",
-   "gpt6",
-   "lineup",
-   "luna",
-   "models",
-   "openai",
-   "sol"
-  ],
-  "size": 2,
-  "domains": [
-   "reuters.com",
-   "openai.com"
-  ],
-  "first_seen": "2026-09-22T22:22:51+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-22T22:22:51+00:00"
   }
@@ -15133,49 +14640,6 @@
   }
  },
  {
-  "id": "46de5699c496",
-  "headline": "Minorities - article-14.com",
-  "tokens": [
-   "article",
-   "minorities"
-  ],
-  "size": 1,
-  "domains": [
-   "article-14.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "f7b5558bac92",
-  "headline": "‘We need ways to monitor soil health so that we don’t discount the wealth beneath our feet’ - Down To Earth",
-  "tokens": [
-   "beneath",
-   "discount",
-   "dont",
-   "feet",
-   "health",
-   "monitor",
-   "need",
-   "our",
-   "soil",
-   "ways",
-   "wealth"
-  ],
-  "size": 1,
-  "domains": [
-   "downtoearth.org.in"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
   "id": "be83015fb1c6",
   "headline": "Simply Put: Gender equality a distant dream? - Down To Earth",
   "tokens": [
@@ -15192,951 +14656,6 @@
   ],
   "first_seen": "2026-09-23T05:56:30+00:00",
   "last_seen": "2026-09-25T06:09:23+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "14be7c6672fd",
-  "headline": "World Circular Economy Forum (WCEF) - Down To Earth",
-  "tokens": [
-   "circular",
-   "economy",
-   "forum",
-   "wcef",
-   "world"
-  ],
-  "size": 1,
-  "domains": [
-   "downtoearth.org.in"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "3227ac841734",
-  "headline": "Sable shearwater - Down To Earth",
-  "tokens": [
-   "sable",
-   "shearwater"
-  ],
-  "size": 1,
-  "domains": [
-   "downtoearth.org.in"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "fecc2d45f0cb",
-  "headline": "Kosasthalaiyar river - Down To Earth",
-  "tokens": [
-   "kosasthalaiyar",
-   "river"
-  ],
-  "size": 1,
-  "domains": [
-   "downtoearth.org.in"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "fa0d4905d8a5",
-  "headline": "Seven of nine planetary boundaries transgressed with worsening trends - Down To Earth",
-  "tokens": [
-   "boundaries",
-   "nine",
-   "planetary",
-   "seven",
-   "transgressed",
-   "trends",
-   "worsening"
-  ],
-  "size": 1,
-  "domains": [
-   "downtoearth.org.in"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "0cbe1c417a5e",
-  "headline": "Kishau Multipurpose Project - Down To Earth",
-  "tokens": [
-   "kishau",
-   "multipurpose",
-   "project"
-  ],
-  "size": 1,
-  "domains": [
-   "downtoearth.org.in"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "7c49cc0728f6",
-  "headline": "As city trees fall, experts point to poor planning and civic apathy",
-  "tokens": [
-   "apathy",
-   "city",
-   "civic",
-   "experts",
-   "fall",
-   "planning",
-   "point",
-   "poor",
-   "trees"
-  ],
-  "size": 1,
-  "domains": [
-   "india.mongabay.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "67526c6ee29d",
-  "headline": "El Niño brings drought and extreme rain together",
-  "tokens": [
-   "brings",
-   "drought",
-   "extreme",
-   "niño",
-   "rain",
-   "together"
-  ],
-  "size": 1,
-  "domains": [
-   "india.mongabay.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "9bb6eec65ffb",
-  "headline": "Development, debt, and disaster - Nepali Times",
-  "tokens": [
-   "debt",
-   "development",
-   "disaster"
-  ],
-  "size": 1,
-  "domains": [
-   "nepalitimes.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "54b32857c41b",
-  "headline": "Duane Berian Clifford Jones, 49 - Nepali Times",
-  "tokens": [
-   "berian",
-   "clifford",
-   "duane",
-   "jones"
-  ],
-  "size": 1,
-  "domains": [
-   "nepalitimes.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "b08e5bc25da4",
-  "headline": "Himalayan expeditions hunker down as monsoon storm approaches - Nepali Times",
-  "tokens": [
-   "approaches",
-   "down",
-   "expeditions",
-   "himalayan",
-   "hunker",
-   "monsoon",
-   "storm"
-  ],
-  "size": 1,
-  "domains": [
-   "nepalitimes.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "74602eae31ef",
-  "headline": "COMMENT | Anwar should keep Myanmar junta at arm's length - Malaysiakini",
-  "tokens": [
-   "anwar",
-   "arms",
-   "comment",
-   "junta",
-   "keep",
-   "length",
-   "myanmar",
-   "should"
-  ],
-  "size": 1,
-  "domains": [
-   "malaysiakini.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "9f264f3fbaae",
-  "headline": "Myanmar Regime Seeks to Conscript Students - The Irrawaddy",
-  "tokens": [
-   "conscript",
-   "myanmar",
-   "regime",
-   "seeks",
-   "students"
-  ],
-  "size": 2,
-  "domains": [
-   "irrawaddy.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "cd94d1e86dcf",
-  "headline": "Myanmar Military Bombing Damages Major Rakhine Buddha Image at Taungphu Pagoda - Narinjara News",
-  "tokens": [
-   "bombing",
-   "buddha",
-   "damages",
-   "image",
-   "major",
-   "military",
-   "myanmar",
-   "pagoda",
-   "rakhine",
-   "taungphu"
-  ],
-  "size": 1,
-  "domains": [
-   "narinjara.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "510460f3750a",
-  "headline": "Business | Min Aung Hlaing’s Investment Pitch at Odds With Myanmar’s Economic Reality - The Irrawaddy",
-  "tokens": [
-   "aung",
-   "business",
-   "economic",
-   "hlaings",
-   "investment",
-   "min",
-   "myanmars",
-   "odds",
-   "pitch",
-   "reality"
-  ],
-  "size": 1,
-  "domains": [
-   "irrawaddy.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "9e97cb00425f",
-  "headline": "Guest Column | Arakan’s Fragile Trade Lifeline - The Irrawaddy",
-  "tokens": [
-   "arakans",
-   "column",
-   "fragile",
-   "guest",
-   "lifeline",
-   "trade"
-  ],
-  "size": 1,
-  "domains": [
-   "irrawaddy.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "b98c55004f43",
-  "headline": "Young Civilian Wounded in Myanmar Junta Airstrike on Thandwe Village - Narinjara News",
-  "tokens": [
-   "airstrike",
-   "civilian",
-   "junta",
-   "myanmar",
-   "thandwe",
-   "village",
-   "wounded",
-   "young"
-  ],
-  "size": 1,
-  "domains": [
-   "narinjara.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "44fb63ee10e7",
-  "headline": "Myanmar groups to sue Telenor over data sharing with junta - The Financial Express",
-  "tokens": [
-   "data",
-   "groups",
-   "junta",
-   "myanmar",
-   "sharing",
-   "sue",
-   "telenor"
-  ],
-  "size": 1,
-  "domains": [
-   "thefinancialexpress.com.bd"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "1fc1c23a83d9",
-  "headline": "Mon Youth Flee Yangon Crackdown as Military Conscription Drives Intensify - Burma News International",
-  "tokens": [
-   "conscription",
-   "crackdown",
-   "drives",
-   "flee",
-   "intensify",
-   "military",
-   "mon",
-   "yangon",
-   "youth"
-  ],
-  "size": 1,
-  "domains": [
-   "bnionline.net"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "4869d7347d3c",
-  "headline": "An airstrike and a father’s sorrow in Rakhine - Frontier Myanmar",
-  "tokens": [
-   "airstrike",
-   "fathers",
-   "rakhine",
-   "sorrow"
-  ],
-  "size": 1,
-  "domains": [
-   "frontiermyanmar.net"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "817115e21a1e",
-  "headline": "Schwack Maldives - Adhadhu",
-  "tokens": [
-   "maldives",
-   "schwack"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "c515c5214c8b",
-  "headline": "What kind of agreement was signed between the Maldives government and Eagle Hills - Adhadhu",
-  "tokens": [
-   "agreement",
-   "between",
-   "eagle",
-   "government",
-   "hills",
-   "kind",
-   "maldives",
-   "signed",
-   "what"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "fdda2fa12c09",
-  "headline": "Villa College selected as Maldives host institution for King's Fellowship - Adhadhu",
-  "tokens": [
-   "college",
-   "fellowship",
-   "host",
-   "institution",
-   "kings",
-   "maldives",
-   "selected",
-   "villa"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "6ccebee1206a",
-  "headline": "Nasheed's concern over secretive Rasmale' deal: \"Airport was leased to GMR under a transparent bidding process\" - Adhadhu",
-  "tokens": [
-   "airport",
-   "bidding",
-   "concern",
-   "deal",
-   "gmr",
-   "leased",
-   "nasheeds",
-   "process",
-   "rasmale",
-   "secretive",
-   "transparent",
-   "under"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "3d7eda6d5403",
-  "headline": "Bassam named on MIRA’s tax defaulter list - Adhadhu",
-  "tokens": [
-   "bassam",
-   "defaulter",
-   "list",
-   "miras",
-   "named",
-   "tax"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "a427c5b0ce60",
-  "headline": "PNC lawmakers' delegation departs for Pakistan - Adhadhu",
-  "tokens": [
-   "delegation",
-   "departs",
-   "lawmakers",
-   "pakistan",
-   "pnc"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "36070c3bd4e1",
-  "headline": "FIFA Chiefs Call for $10 Million Funding Boost for Every National Football Association - Adhadhu",
-  "tokens": [
-   "association",
-   "boost",
-   "call",
-   "chiefs",
-   "every",
-   "fifa",
-   "football",
-   "funding",
-   "million",
-   "national"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "38ad8a128c8a",
-  "headline": "Fact check: Rasmale' investment figure is $12 billion, not $20 billion - Adhadhu",
-  "tokens": [
-   "billion",
-   "check",
-   "fact",
-   "figure",
-   "investment",
-   "rasmale"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "208d14acacb7",
-  "headline": "No details on size and value of Rasmale' land given to Dubai company - Adhadhu",
-  "tokens": [
-   "company",
-   "details",
-   "dubai",
-   "given",
-   "land",
-   "rasmale",
-   "size",
-   "value"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "946da501a497",
-  "headline": "Levan Dzhagaryan - Adhadhu",
-  "tokens": [
-   "dzhagaryan",
-   "levan"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "cfbbcaff272c",
-  "headline": "\"State budget will not incur any costs for housing units to be developed by Abu Dhabi Developer\" - Adhadhu",
-  "tokens": [
-   "abu",
-   "any",
-   "budget",
-   "costs",
-   "developed",
-   "developer",
-   "dhabi",
-   "housing",
-   "incur",
-   "state",
-   "units"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "8d3aeb5a4b78",
-  "headline": "Debt Repayments - Adhadhu",
-  "tokens": [
-   "debt",
-   "repayments"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "dbd3539b6318",
-  "headline": "MDP opens party congress to the public - Adhadhu",
-  "tokens": [
-   "congress",
-   "mdp",
-   "opens",
-   "party",
-   "public"
-  ],
-  "size": 1,
-  "domains": [
-   "adhadhu.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "dv": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "e1f722de7617",
-  "headline": "Xi skips UN address to show China as equal to rival US - Nikkei Asia",
-  "tokens": [
-   "address",
-   "china",
-   "equal",
-   "rival",
-   "show",
-   "skips"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "4efff1321306",
-  "headline": "Pakistan's auto policy likely to reignite WTO dispute with Japan - Nikkei Asia",
-  "tokens": [
-   "auto",
-   "dispute",
-   "japan",
-   "likely",
-   "pakistans",
-   "policy",
-   "reignite",
-   "wto"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "d3f3e4300714",
-  "headline": "India's battery cell firms scale back ambition as China partnerships sour - Nikkei Asia",
-  "tokens": [
-   "ambition",
-   "back",
-   "battery",
-   "cell",
-   "china",
-   "firms",
-   "indias",
-   "partnerships",
-   "scale",
-   "sour"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "cfd26a6e1f54",
-  "headline": "El Nino, AI to widen economic growth gap in developing Asia: ADB - Nikkei Asia",
-  "tokens": [
-   "adb",
-   "asia",
-   "developing",
-   "economic",
-   "gap",
-   "growth",
-   "nino",
-   "widen"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "f114ff3bc02c",
-  "headline": "Japan's NEC joins Meta on ultrafast US-France undersea fiber-optic line - Nikkei Asia",
-  "tokens": [
-   "fiberoptic",
-   "japans",
-   "joins",
-   "line",
-   "meta",
-   "nec",
-   "ultrafast",
-   "undersea",
-   "usfrance"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "57adb446197a",
-  "headline": "Mitsubishi Heavy buoyed by brisk gas turbine demand from US data centers - Nikkei Asia",
-  "tokens": [
-   "brisk",
-   "buoyed",
-   "centers",
-   "data",
-   "demand",
-   "gas",
-   "heavy",
-   "mitsubishi",
-   "turbine"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "e9298518938b",
-  "headline": "Big Japan banks' domestic loan share marks 1st sustained post-bubble rise - Nikkei Asia",
-  "tokens": [
-   "1st",
-   "banks",
-   "big",
-   "domestic",
-   "japan",
-   "loan",
-   "marks",
-   "postbubble",
-   "rise",
-   "share",
-   "sustained"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "728998738743",
-  "headline": "Starbucks' South Korean rivals get extra shot from marketing misstep - Nikkei Asia",
-  "tokens": [
-   "extra",
-   "get",
-   "korean",
-   "marketing",
-   "misstep",
-   "rivals",
-   "shot",
-   "south",
-   "starbucks"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "3347305f8161",
-  "headline": "Trump, Takaichi reaffirm alliance days before U.S.-China summit - Nikkei Asia",
-  "tokens": [
-   "alliance",
-   "before",
-   "days",
-   "reaffirm",
-   "summit",
-   "takaichi",
-   "trump",
-   "uschina"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "eec38f59a61b",
-  "headline": "In Indonesia's West Kalimantan, prolonged fires and haze choke residents - Nikkei Asia",
-  "tokens": [
-   "choke",
-   "fires",
-   "haze",
-   "indonesias",
-   "kalimantan",
-   "prolonged",
-   "residents",
-   "west"
-  ],
-  "size": 1,
-  "domains": [
-   "asia.nikkei.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "2128f2c18731",
-  "headline": "PARLIAMENT OF INDIA LOKSABHA SECRETARIAT NEW DELHI PRESS COMMUNIQUE Joint Committee on the Foreign Contribution (Regulation) Ame - PRSIndia",
-  "tokens": [
-   "ame",
-   "committee",
-   "communique",
-   "contribution",
-   "delhi",
-   "foreign",
-   "india",
-   "joint",
-   "loksabha",
-   "parliament",
-   "press",
-   "regulation",
-   "secretariat"
-  ],
-  "size": 1,
-  "domains": [
-   "prsindia.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-23T05:56:30+00:00"
   }
@@ -16161,66 +14680,6 @@
   }
  },
  {
-  "id": "63c725d95af4",
-  "headline": "Blood and Bedrock: How Pakistan's Mineral Ambitions Collide with Its Peripheries - orfonline.org",
-  "tokens": [
-   "ambitions",
-   "bedrock",
-   "blood",
-   "collide",
-   "how",
-   "mineral",
-   "pakistans",
-   "peripheries"
-  ],
-  "size": 1,
-  "domains": [
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "f3adf5eb71fc",
-  "headline": "Ninad S. Deshpande - orfonline.org",
-  "tokens": [
-   "deshpande",
-   "ninad"
-  ],
-  "size": 1,
-  "domains": [
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "d265207fce06",
-  "headline": "The SCO at 25: Expanding Ambitions, Persistent Divergences - orfonline.org",
-  "tokens": [
-   "ambitions",
-   "divergences",
-   "expanding",
-   "persistent",
-   "sco"
-  ],
-  "size": 1,
-  "domains": [
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
   "id": "104782e1a7a7",
   "headline": "Women’s Livelihoods and Resilience: Lessons from Ethiopia and India - orfonline.org",
   "tokens": [
@@ -16237,155 +14696,6 @@
   ],
   "first_seen": "2026-09-23T05:56:30+00:00",
   "last_seen": "2026-09-24T06:09:26+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "791789f2390e",
-  "headline": "Pakistan's Ethiopia Play: A Test for India's Africa Advantage - orfonline.org",
-  "tokens": [
-   "advantage",
-   "africa",
-   "ethiopia",
-   "indias",
-   "pakistans",
-   "play",
-   "test"
-  ],
-  "size": 1,
-  "domains": [
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "a584912ce8a9",
-  "headline": "From Rule-Takers to Rule-Makers: The Global South and the UN Tax Convention - orfonline.org",
-  "tokens": [
-   "convention",
-   "global",
-   "rulemakers",
-   "ruletakers",
-   "south",
-   "tax"
-  ],
-  "size": 1,
-  "domains": [
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "bc88dccf95ca",
-  "headline": "Child Undernutrition - orfonline.org",
-  "tokens": [
-   "child",
-   "undernutrition"
-  ],
-  "size": 1,
-  "domains": [
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "08d023a08f50",
-  "headline": "Right to walk - orfonline.org",
-  "tokens": [
-   "right",
-   "walk"
-  ],
-  "size": 1,
-  "domains": [
-   "orfonline.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "6e7d30853e37",
-  "headline": "Drivers of Exchange Rates in EMDEs: Implications for Foreign Exchange Intervention - IMF eLibrary",
-  "tokens": [
-   "drivers",
-   "emdes",
-   "exchange",
-   "foreign",
-   "implications",
-   "intervention",
-   "rates"
-  ],
-  "size": 1,
-  "domains": [
-   "elibrary.imf.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "1794f92c7cdc",
-  "headline": "September 2026 Global Poverty Update from the World Bank: One in ten worldwide live in extreme poverty - World Bank Blogs",
-  "tokens": [
-   "2026",
-   "bank",
-   "extreme",
-   "global",
-   "live",
-   "one",
-   "poverty",
-   "september",
-   "ten",
-   "update",
-   "world",
-   "worldwide"
-  ],
-  "size": 1,
-  "domains": [
-   "blogs.worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "c9059ef53a92",
-  "headline": "Decoding AI — What the promise of artificial intelligence means for developing economies - World Bank Blogs",
-  "tokens": [
-   "artificial",
-   "decoding",
-   "developing",
-   "economies",
-   "intelligence",
-   "means",
-   "promise",
-   "what"
-  ],
-  "size": 1,
-  "domains": [
-   "blogs.worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-23T05:56:30+00:00"
   }
@@ -16413,167 +14723,6 @@
   ],
   "first_seen": "2026-09-23T05:56:30+00:00",
   "last_seen": "2026-09-24T06:09:26+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "848179bc3b4c",
-  "headline": "Kenya Maize seed imports by country - World Bank Group",
-  "tokens": [
-   "country",
-   "imports",
-   "kenya",
-   "maize",
-   "seed"
-  ],
-  "size": 1,
-  "domains": [
-   "wits.worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "2294cb6fa2f6",
-  "headline": "Indonesia Cocoa beans, whole or broken, raw or roasted exports by country - World Bank Group",
-  "tokens": [
-   "beans",
-   "broken",
-   "cocoa",
-   "country",
-   "exports",
-   "indonesia",
-   "raw",
-   "roasted",
-   "whole"
-  ],
-  "size": 1,
-  "domains": [
-   "wits.worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "df9c8ae671ec",
-  "headline": "Social Policy - World Bank Group",
-  "tokens": [
-   "policy",
-   "social"
-  ],
-  "size": 1,
-  "domains": [
-   "worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "0cb71ec0f838",
-  "headline": "Natural Gum Arabic exports by country |2021 - World Bank Group",
-  "tokens": [
-   "2021",
-   "arabic",
-   "country",
-   "exports",
-   "gum",
-   "natural"
-  ],
-  "size": 1,
-  "domains": [
-   "wits.worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "71fa0f07afea",
-  "headline": "Carolina Lopez - World Bank Group",
-  "tokens": [
-   "carolina",
-   "lopez"
-  ],
-  "size": 1,
-  "domains": [
-   "worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "e719040aa259",
-  "headline": "Country Policy and Institutional Assessment - World Bank DataBank",
-  "tokens": [
-   "assessment",
-   "country",
-   "institutional",
-   "policy"
-  ],
-  "size": 1,
-  "domains": [
-   "databank.worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "08873872ffc8",
-  "headline": "Tanker trailers and semi-trailers exports to Papua New Guinea |2024 - World Bank Group",
-  "tokens": [
-   "2024",
-   "exports",
-   "guinea",
-   "papua",
-   "semitrailers",
-   "tanker",
-   "trailers"
-  ],
-  "size": 1,
-  "domains": [
-   "wits.worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "a4e054c03ce3",
-  "headline": "Institutions and Prosperity: Public Institutions for Enabling the Private Sector - World Bank Group",
-  "tokens": [
-   "enabling",
-   "institutions",
-   "private",
-   "prosperity",
-   "public",
-   "sector"
-  ],
-  "size": 1,
-  "domains": [
-   "worldbank.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-23T05:56:30+00:00"
   }
@@ -16634,29 +14783,6 @@
   }
  },
  {
-  "id": "7ccb199d8184",
-  "headline": "Russia: UN expert mandate remains vital as repression continues, in Russia and abroad - Human Rights Watch",
-  "tokens": [
-   "abroad",
-   "continues",
-   "expert",
-   "mandate",
-   "remains",
-   "repression",
-   "russia",
-   "vital"
-  ],
-  "size": 1,
-  "domains": [
-   "hrw.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
   "id": "33088841cc6b",
   "headline": "Myanmar: Women Political Prisoners Tortured, Ill-treated - Human Rights Watch",
   "tokens": [
@@ -16680,120 +14806,6 @@
   }
  },
  {
-  "id": "bb485606f0a1",
-  "headline": "Reforms to Hungary's Anti-LGBT Laws Welcome, but More to Do - Human Rights Watch",
-  "tokens": [
-   "antilgbt",
-   "but",
-   "hungarys",
-   "laws",
-   "more",
-   "reforms",
-   "welcome"
-  ],
-  "size": 1,
-  "domains": [
-   "hrw.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "4af65df56e11",
-  "headline": "Niger: Junta Strips 5 More Exiled Critics of Nationality - Human Rights Watch",
-  "tokens": [
-   "critics",
-   "exiled",
-   "junta",
-   "more",
-   "nationality",
-   "niger",
-   "strips"
-  ],
-  "size": 1,
-  "domains": [
-   "hrw.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "eeffdb56814c",
-  "headline": "Assaulted and threatened: risks surge for journalists ahead of Serbia elections",
-  "tokens": [
-   "ahead",
-   "assaulted",
-   "elections",
-   "journalists",
-   "risks",
-   "serbia",
-   "surge",
-   "threatened"
-  ],
-  "size": 1,
-  "domains": [
-   "cpj.org"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "dc8d30fc52be",
-  "headline": "U.S. Navy begins search for its first tranche of ‘loyal wingman’ uncrewed fighters",
-  "tokens": [
-   "begins",
-   "fighters",
-   "first",
-   "loyal",
-   "navy",
-   "search",
-   "tranche",
-   "uncrewed",
-   "wingman"
-  ],
-  "size": 1,
-  "domains": [
-   "theaircurrent.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "1ecccaa43cb3",
-  "headline": "SPEEA’s Bargaining Units Recommend Approval for Two Boeing Contracts",
-  "tokens": [
-   "approval",
-   "bargaining",
-   "boeing",
-   "contracts",
-   "recommend",
-   "speeas",
-   "two",
-   "units"
-  ],
-  "size": 1,
-  "domains": [
-   "leehamnews.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
   "id": "c11ffc0e15ad",
   "headline": "Strengthening India’s Space Sovereignty - PIB",
   "tokens": [
@@ -16811,50 +14823,6 @@
   ],
   "first_seen": "2026-09-23T05:56:30+00:00",
   "last_seen": "2026-09-25T06:09:23+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "e853060bd72e",
-  "headline": "NASA Awards Launch Services for StarBurst Gamma-Ray Detector - nasa.gov",
-  "tokens": [
-   "awards",
-   "detector",
-   "gammaray",
-   "launch",
-   "nasa",
-   "services",
-   "starburst"
-  ],
-  "size": 1,
-  "domains": [
-   "nasa.gov"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "cb2d4477179c",
-  "headline": "Why ISRO is handing its commercial empire to private industry - Finshots",
-  "tokens": [
-   "commercial",
-   "empire",
-   "handing",
-   "industry",
-   "isro",
-   "private",
-   "why"
-  ],
-  "size": 1,
-  "domains": [
-   "finshots.in"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-23T05:56:30+00:00"
   }
@@ -16885,36 +14853,6 @@
   }
  },
  {
-  "id": "c09e47cde4d5",
-  "headline": "Marist University and IBM Launch Innovation Incubator with IBM z17, Expanding 50-Year Partnership to Advance AI Research and Student Career Readiness - newsroom.ibm.com",
-  "tokens": [
-   "50year",
-   "advance",
-   "career",
-   "expanding",
-   "ibm",
-   "incubator",
-   "innovation",
-   "launch",
-   "marist",
-   "partnership",
-   "readiness",
-   "research",
-   "student",
-   "university",
-   "z17"
-  ],
-  "size": 1,
-  "domains": [
-   "newsroom.ibm.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
   "id": "73dfccb7397d",
   "headline": "Vivo V80 with OriginOS 7 set to launch in India on October 6 - 91mobiles.com",
   "tokens": [
@@ -16932,225 +14870,6 @@
   ],
   "first_seen": "2026-09-23T05:56:30+00:00",
   "last_seen": "2026-09-25T06:09:23+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "16ac6b69f3d4",
-  "headline": "Matters.AI, Cockroach Labs Launch Data Security Integration for DPDP-Regulated Data - analyticsindiamag.com",
-  "tokens": [
-   "cockroach",
-   "data",
-   "dpdpregulated",
-   "integration",
-   "labs",
-   "launch",
-   "mattersai",
-   "security"
-  ],
-  "size": 1,
-  "domains": [
-   "analyticsindiamag.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "6a9511442f1e",
-  "headline": "JSW Greentech's AMPSTAR Debuts In Commercial EV Space, To Launch Truck, Buses - NDTV",
-  "tokens": [
-   "ampstar",
-   "buses",
-   "commercial",
-   "debuts",
-   "greentechs",
-   "jsw",
-   "launch",
-   "space",
-   "truck"
-  ],
-  "size": 1,
-  "domains": [
-   "ndtv.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "4245411db044",
-  "headline": "2026 Mahindra Thar OG Launched At Rs 10.32 Lakh: More Features, Safety & Power - CarDekho",
-  "tokens": [
-   "1032",
-   "2026",
-   "features",
-   "lakh",
-   "launched",
-   "mahindra",
-   "more",
-   "power",
-   "safety",
-   "thar"
-  ],
-  "size": 2,
-  "domains": [
-   "cardekho.com",
-   "carwale.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "1867b3c9e0c1",
-  "headline": "Triumph Bonneville 400 Spied Testing Again before Launch - BikeWale",
-  "tokens": [
-   "400",
-   "again",
-   "before",
-   "bonneville",
-   "launch",
-   "spied",
-   "testing",
-   "triumph"
-  ],
-  "size": 1,
-  "domains": [
-   "bikewale.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "988e830de705",
-  "headline": "India's first blue bond set for launch next week, official says - BusinessLine",
-  "tokens": [
-   "blue",
-   "bond",
-   "first",
-   "indias",
-   "launch",
-   "next",
-   "official",
-   "set",
-   "week"
-  ],
-  "size": 1,
-  "domains": [
-   "thehindubusinessline.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "5e0a1cc6fa29",
-  "headline": "vivo X500 Ultra's China launch timeline revealed - GSMArena.com news - GSMArena.com",
-  "tokens": [
-   "china",
-   "gsmarenacom",
-   "launch",
-   "news",
-   "revealed",
-   "timeline",
-   "ultras",
-   "vivo",
-   "x500"
-  ],
-  "size": 1,
-  "domains": [
-   "gsmarena.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "eee8314dc526",
-  "headline": "Apple is building a screenless Whoop rival, but it may not launch before 2028 - The Times of India",
-  "tokens": [
-   "2028",
-   "apple",
-   "before",
-   "building",
-   "but",
-   "launch",
-   "may",
-   "rival",
-   "screenless",
-   "whoop"
-  ],
-  "size": 1,
-  "domains": [
-   "timesofindia.indiatimes.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "36f5b7c61586",
-  "headline": "Civil Aviation Minister Ram Mohan Naidu launches Challenge Mode for Aerodrome Development - PIB",
-  "tokens": [
-   "aerodrome",
-   "aviation",
-   "challenge",
-   "civil",
-   "development",
-   "launches",
-   "minister",
-   "mode",
-   "mohan",
-   "naidu",
-   "ram"
-  ],
-  "size": 1,
-  "domains": [
-   "pib.gov.in"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
-  "first_by_lang": {
-   "en": "2026-09-23T05:56:30+00:00"
-  }
- },
- {
-  "id": "6b02f9a043d3",
-  "headline": "Hyundai’s Nexon EV Rival Launch by Year-End; Fast Charging, Pleos Connect - CarLelo",
-  "tokens": [
-   "charging",
-   "connect",
-   "fast",
-   "hyundais",
-   "launch",
-   "nexon",
-   "pleos",
-   "rival",
-   "yearend"
-  ],
-  "size": 1,
-  "domains": [
-   "carlelo.com"
-  ],
-  "first_seen": "2026-09-23T05:56:30+00:00",
-  "last_seen": "2026-09-23T05:56:30+00:00",
   "first_by_lang": {
    "en": "2026-09-23T05:56:30+00:00"
   }
@@ -19068,12 +16787,13 @@
    "war",
    "zelensky"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "hindustantimes.com"
+   "hindustantimes.com",
+   "orfonline.org"
   ],
   "first_seen": "2026-09-23T06:29:13+00:00",
-  "last_seen": "2026-09-23T06:29:13+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-23T06:29:13+00:00"
   }
@@ -21651,12 +19371,13 @@
    "strengthens",
    "support"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "ptinews.com"
+   "ptinews.com",
+   "orfonline.org"
   ],
   "first_seen": "2026-09-23T11:59:52+00:00",
-  "last_seen": "2026-09-23T11:59:52+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-23T11:59:52+00:00"
   }
@@ -22163,12 +19884,13 @@
    "partnership",
    "unga"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "aninews.in"
+   "aninews.in",
+   "orfonline.org"
   ],
   "first_seen": "2026-09-23T11:59:52+00:00",
-  "last_seen": "2026-09-23T11:59:52+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-23T11:59:52+00:00"
   }
@@ -36261,12 +33983,13 @@
    "bangladesh",
    "return"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "bdnews24.com"
+   "bdnews24.com",
+   "themeghalayanexpress.com"
   ],
   "first_seen": "2026-09-23T12:05:34+00:00",
-  "last_seen": "2026-09-23T12:05:34+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-23T12:05:34+00:00"
   }
@@ -45239,12 +42962,14 @@
    "rewards",
    "rupee"
   ],
-  "size": 1,
+  "size": 3,
   "domains": [
-   "business-standard.com"
+   "business-standard.com",
+   "orfonline.org",
+   "imf.org"
   ],
   "first_seen": "2026-09-23T17:26:49+00:00",
-  "last_seen": "2026-09-23T17:26:49+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-23T17:26:49+00:00"
   }
@@ -55698,12 +53423,13 @@
    "strategy",
    "trade"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
-   "business-standard.com"
+   "business-standard.com",
+   "orfonline.org"
   ],
   "first_seen": "2026-09-23T21:45:50+00:00",
-  "last_seen": "2026-09-24T12:10:37+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-23T21:45:50+00:00"
   }
@@ -59824,12 +57550,13 @@
    "tigray",
    "warns"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "aljazeera.com"
+   "aljazeera.com",
+   "hrw.org"
   ],
   "first_seen": "2026-09-23T23:54:12+00:00",
-  "last_seen": "2026-09-23T23:54:12+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-23T23:54:12+00:00"
   }
@@ -63785,12 +61512,13 @@
    "rbi",
    "samvriddhi"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "thehindu.com"
+   "thehindu.com",
+   "imf.org"
   ],
   "first_seen": "2026-09-24T05:20:49+00:00",
-  "last_seen": "2026-09-24T05:20:49+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T05:20:49+00:00"
   }
@@ -70403,13 +68131,13 @@
    "very",
    "weather"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "downtoearth.org.in",
    "bdnews24.com"
   ],
   "first_seen": "2026-09-24T06:09:26+00:00",
-  "last_seen": "2026-09-24T17:31:55+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T06:09:26+00:00"
   }
@@ -70425,14 +68153,14 @@
    "test",
    "warming"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "downtoearth.org.in",
    "english.onlinekhabar.com",
    "scroll.in"
   ],
   "first_seen": "2026-09-24T06:09:26+00:00",
-  "last_seen": "2026-09-25T21:48:58+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T06:09:26+00:00"
   }
@@ -70636,12 +68364,12 @@
    "torches",
    "village"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "myanmar-now.org"
   ],
   "first_seen": "2026-09-24T06:09:26+00:00",
-  "last_seen": "2026-09-24T06:09:26+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T06:09:26+00:00"
   }
@@ -70726,13 +68454,13 @@
    "suu",
    "toward"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "irrawaddy.com",
    "myanmar-now.org"
   ],
   "first_seen": "2026-09-24T06:09:26+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T06:09:26+00:00"
   }
@@ -71314,12 +69042,13 @@
    "spacex",
    "work"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "asia.nikkei.com"
+   "asia.nikkei.com",
+   "nytimes.com"
   ],
   "first_seen": "2026-09-24T06:09:26+00:00",
-  "last_seen": "2026-09-24T06:09:26+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T06:09:26+00:00"
   }
@@ -72030,13 +69759,14 @@
    "revealed",
    "specs"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "91mobiles.com",
-   "gadgets360.com"
+   "gadgets360.com",
+   "carwale.com"
   ],
   "first_seen": "2026-09-24T06:09:26+00:00",
-  "last_seen": "2026-09-24T06:09:26+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T06:09:26+00:00"
   }
@@ -72057,12 +69787,12 @@
    "starship",
    "video"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "space.com"
   ],
   "first_seen": "2026-09-24T06:09:26+00:00",
-  "last_seen": "2026-09-24T06:09:26+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T06:09:26+00:00"
   }
@@ -73041,12 +70771,13 @@
    "sidelines",
    "unga"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "aninews.in"
+   "aninews.in",
+   "imf.org"
   ],
   "first_seen": "2026-09-24T10:23:50+00:00",
-  "last_seen": "2026-09-24T10:23:50+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T10:23:50+00:00"
   }
@@ -77755,12 +75486,13 @@
    "sector",
    "setty"
   ],
-  "size": 2,
+  "size": 4,
   "domains": [
-   "business-standard.com"
+   "business-standard.com",
+   "imf.org"
   ],
   "first_seen": "2026-09-24T12:10:37+00:00",
-  "last_seen": "2026-09-24T17:31:55+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T12:10:37+00:00"
   }
@@ -93394,13 +91126,14 @@
    "more",
    "pain"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "economictimes.indiatimes.com",
-   "aljazeera.com"
+   "aljazeera.com",
+   "orfonline.org"
   ],
   "first_seen": "2026-09-24T17:31:55+00:00",
-  "last_seen": "2026-09-25T01:46:14+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T17:31:55+00:00"
   }
@@ -101789,13 +99522,14 @@
    "sirens",
    "six"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
    "pakobserver.net",
-   "tribune.com.pk"
+   "tribune.com.pk",
+   "asia.nikkei.com"
   ],
   "first_seen": "2026-09-24T17:31:55+00:00",
-  "last_seen": "2026-09-25T05:21:47+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "english": "2026-09-24T17:31:55+00:00",
    "en": "2026-09-25T05:21:47+00:00"
@@ -107176,12 +104910,13 @@
    "upi",
    "way"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "business-standard.com"
+   "business-standard.com",
+   "asia.nikkei.com"
   ],
   "first_seen": "2026-09-24T21:46:30+00:00",
-  "last_seen": "2026-09-24T21:46:30+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T21:46:30+00:00"
   }
@@ -109909,12 +107644,13 @@
    "fiscal",
    "policy"
   ],
-  "size": 1,
+  "size": 3,
   "domains": [
-   "bdnews24.com"
+   "bdnews24.com",
+   "imf.org"
   ],
   "first_seen": "2026-09-24T21:46:30+00:00",
-  "last_seen": "2026-09-24T21:46:30+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-24T21:46:30+00:00"
   }
@@ -121232,12 +118968,12 @@
    "toyoda",
    "toyota"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "asia.nikkei.com"
   ],
   "first_seen": "2026-09-25T06:09:23+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T06:09:23+00:00"
   }
@@ -121516,12 +119252,12 @@
    "opportunity",
    "turn"
   ],
-  "size": 1,
+  "size": 3,
   "domains": [
    "orfonline.org"
   ],
   "first_seen": "2026-09-25T06:09:23+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T06:09:23+00:00"
   }
@@ -121694,12 +119430,12 @@
    "defence",
    "minerals"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "orfonline.org"
   ],
   "first_seen": "2026-09-25T06:09:23+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T06:09:23+00:00"
   }
@@ -121819,12 +119555,13 @@
    "tables",
    "web"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
-   "elibrary.imf.org"
+   "elibrary.imf.org",
+   "imf.org"
   ],
   "first_seen": "2026-09-25T06:09:23+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T06:09:23+00:00"
   }
@@ -121881,12 +119618,12 @@
    "mineral",
    "waters"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "wits.worldbank.org"
   ],
   "first_seen": "2026-09-25T06:09:23+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T06:09:23+00:00"
   }
@@ -121974,12 +119711,12 @@
    "ukraine",
    "war"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "hrw.org"
   ],
   "first_seen": "2026-09-25T06:09:23+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T06:09:23+00:00"
   }
@@ -122269,14 +120006,15 @@
    "tata",
    "updates"
   ],
-  "size": 3,
+  "size": 4,
   "domains": [
    "carandbike.com",
    "autoindiadaily.in",
-   "carlelo.com"
+   "carlelo.com",
+   "carwale.com"
   ],
   "first_seen": "2026-09-25T06:09:23+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T06:09:23+00:00"
   }
@@ -122441,12 +120179,12 @@
    "space",
    "worlds"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
    "space.com"
   ],
   "first_seen": "2026-09-25T06:09:23+00:00",
-  "last_seen": "2026-09-25T06:09:23+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T06:09:23+00:00"
   }
@@ -127995,12 +125733,13 @@
    "shares",
    "story"
   ],
-  "size": 1,
+  "size": 2,
   "domains": [
-   "business-standard.com"
+   "business-standard.com",
+   "imf.org"
   ],
   "first_seen": "2026-09-25T12:10:52+00:00",
-  "last_seen": "2026-09-25T12:10:52+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T12:10:52+00:00"
   }
@@ -128674,12 +126413,13 @@
    "launches",
    "nitin"
   ],
-  "size": 2,
+  "size": 3,
   "domains": [
-   "economictimes.indiatimes.com"
+   "economictimes.indiatimes.com",
+   "newsonair.gov.in"
   ],
   "first_seen": "2026-09-25T12:10:52+00:00",
-  "last_seen": "2026-09-25T17:31:47+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T12:10:52+00:00"
   }
@@ -152120,7 +149860,7 @@
    "shipping",
    "unacceptable"
   ],
-  "size": 4,
+  "size": 5,
   "domains": [
    "aninews.in",
    "hindustantimes.com",
@@ -152128,7 +149868,7 @@
    "ndtv.com"
   ],
   "first_seen": "2026-09-25T18:49:39+00:00",
-  "last_seen": "2026-09-25T22:42:02+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
   "first_by_lang": {
    "en": "2026-09-25T18:49:39+00:00"
   }
@@ -169101,6 +166841,2699 @@
   "last_seen": "2026-09-26T05:25:47+00:00",
   "first_by_lang": {
    "en": "2026-09-26T05:25:47+00:00"
+  }
+ },
+ {
+  "id": "a37c52acb53d",
+  "headline": "Typhoon Dujuan: How 832 mm of rain flooded Japan in 48 hours - Down To Earth",
+  "tokens": [
+   "832",
+   "dujuan",
+   "flooded",
+   "hours",
+   "how",
+   "japan",
+   "rain",
+   "typhoon"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "ea01b2e29804",
+  "headline": "Will the village survive? Question that haunts everyone after landslide at Rimbi in West Sikkim - Down To Earth",
+  "tokens": [
+   "everyone",
+   "haunts",
+   "landslide",
+   "question",
+   "rimbi",
+   "sikkim",
+   "survive",
+   "village",
+   "west"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "6fac60179b57",
+  "headline": "Now that India can see its farms, what next? - Down To Earth",
+  "tokens": [
+   "can",
+   "farms",
+   "india",
+   "next",
+   "now",
+   "see",
+   "what"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "0dc4fb3167de",
+  "headline": "Disruptions across Strait of Hormuz, Black Sea and alternative routes raise global food and fuel security risks - Down To Earth",
+  "tokens": [
+   "across",
+   "alternative",
+   "black",
+   "disruptions",
+   "food",
+   "fuel",
+   "global",
+   "hormuz",
+   "raise",
+   "risks",
+   "routes",
+   "sea",
+   "security",
+   "strait"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "010da960509a",
+  "headline": "Maharashtra reels under drought-like conditions, nearly half of tehsils likely to be classified as affected - Down To Earth",
+  "tokens": [
+   "affected",
+   "classified",
+   "conditions",
+   "droughtlike",
+   "half",
+   "likely",
+   "maharashtra",
+   "nearly",
+   "reels",
+   "tehsils",
+   "under"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "3b7387f2f8d5",
+  "headline": "Germany aims to phase out fossil fuels by 2045, but still relies on them for 65% of energy - Down To Earth",
+  "tokens": [
+   "2045",
+   "aims",
+   "but",
+   "energy",
+   "fossil",
+   "fuels",
+   "germany",
+   "phase",
+   "relies",
+   "still",
+   "them"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "bb0223e88d10",
+  "headline": "The global electrification agenda: Low-hanging fruit, with high-hanging costs that must be addressed - Down To Earth",
+  "tokens": [
+   "addressed",
+   "agenda",
+   "costs",
+   "electrification",
+   "fruit",
+   "global",
+   "highhanging",
+   "lowhanging",
+   "must"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "179f923389b9",
+  "headline": "Simply Put: India‘s drought crisis - Down To Earth",
+  "tokens": [
+   "crisis",
+   "drought",
+   "indias",
+   "put",
+   "simply"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "7d5af7d6e208",
+  "headline": "Export finance - Down To Earth",
+  "tokens": [
+   "export",
+   "finance"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "8e300a2fa5f1",
+  "headline": "Chopra Gadhera - Down To Earth",
+  "tokens": [
+   "chopra",
+   "gadhera"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "87d648da8a49",
+  "headline": "rail project - Down To Earth",
+  "tokens": [
+   "project",
+   "rail"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "b91d1fab0c92",
+  "headline": "India’s sudden baby bust - Down To Earth",
+  "tokens": [
+   "baby",
+   "bust",
+   "indias",
+   "sudden"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "88bd772a00f5",
+  "headline": "Bay of Bengal depression weakens, but rain threat spreads across India and Nepal - Down To Earth",
+  "tokens": [
+   "across",
+   "bay",
+   "bengal",
+   "but",
+   "depression",
+   "india",
+   "nepal",
+   "rain",
+   "spreads",
+   "threat",
+   "weakens"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "1f6d14c23265",
+  "headline": "Species of our making: The speed of AI development raises serious concerns on consciousness and whether machines can ever gain it - Down To Earth",
+  "tokens": [
+   "can",
+   "concerns",
+   "consciousness",
+   "development",
+   "ever",
+   "gain",
+   "machines",
+   "making",
+   "our",
+   "raises",
+   "serious",
+   "species",
+   "speed",
+   "whether"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "e572e25fb87c",
+  "headline": "Hugh Locke - Down To Earth",
+  "tokens": [
+   "hugh",
+   "locke"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "70d753dd40fe",
+  "headline": "regenerative farming - Down To Earth",
+  "tokens": [
+   "farming",
+   "regenerative"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "3f22c26a2376",
+  "headline": "Frank Zappa at 6,000 metres: How vapour becomes spectacle over Kangchenjunga - Down To Earth",
+  "tokens": [
+   "6000",
+   "becomes",
+   "frank",
+   "how",
+   "kangchenjunga",
+   "metres",
+   "spectacle",
+   "vapour",
+   "zappa"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "97e598caf542",
+  "headline": "Kiran Pandey - Down To Earth",
+  "tokens": [
+   "kiran",
+   "pandey"
+  ],
+  "size": 1,
+  "domains": [
+   "downtoearth.org.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "8dba6169dc06",
+  "headline": "From the Wild, For Trade",
+  "tokens": [
+   "trade",
+   "wild"
+  ],
+  "size": 1,
+  "domains": [
+   "india.mongabay.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "2640afbb944c",
+  "headline": "NGOs call for permanent moratorium on animal imports to Vantara",
+  "tokens": [
+   "animal",
+   "call",
+   "imports",
+   "moratorium",
+   "ngos",
+   "permanent",
+   "vantara"
+  ],
+  "size": 1,
+  "domains": [
+   "india.mongabay.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "83f045feeb9c",
+  "headline": "Abandoning exotic pets raises ecological concerns",
+  "tokens": [
+   "abandoning",
+   "concerns",
+   "ecological",
+   "exotic",
+   "pets",
+   "raises"
+  ],
+  "size": 1,
+  "domains": [
+   "india.mongabay.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "26ef201e578c",
+  "headline": "El Niño, the monsoon, and the confusion of Kerala’s fishers [Commentary]",
+  "tokens": [
+   "commentary",
+   "confusion",
+   "fishers",
+   "keralas",
+   "monsoon",
+   "niño"
+  ],
+  "size": 1,
+  "domains": [
+   "india.mongabay.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "b0f4787cf286",
+  "headline": "Why Diverting Maize For Ethanol Is Affecting Poultry Farmers - isignal.in",
+  "tokens": [
+   "affecting",
+   "diverting",
+   "ethanol",
+   "farmers",
+   "maize",
+   "poultry",
+   "why"
+  ],
+  "size": 1,
+  "domains": [
+   "indiaspend.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "01b939a02353",
+  "headline": "How deficient rainfall is affecting ragi farmers in Karnataka’s Mandya - inkl",
+  "tokens": [
+   "affecting",
+   "deficient",
+   "farmers",
+   "how",
+   "karnatakas",
+   "mandya",
+   "ragi",
+   "rainfall"
+  ],
+  "size": 1,
+  "domains": [
+   "inkl.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "4efa521cce0b",
+  "headline": "Rethinking risk and development in the Himalaya - Nepali Times",
+  "tokens": [
+   "development",
+   "himalaya",
+   "rethinking",
+   "risk"
+  ],
+  "size": 1,
+  "domains": [
+   "nepalitimes.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "901c49743144",
+  "headline": "China Fires Warning Shots as Regime Jets Circle KIA’s Border HQ - The Irrawaddy",
+  "tokens": [
+   "border",
+   "china",
+   "circle",
+   "fires",
+   "jets",
+   "kias",
+   "regime",
+   "shots",
+   "warning"
+  ],
+  "size": 1,
+  "domains": [
+   "irrawaddy.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "fc6e56791a48",
+  "headline": "Junta chief’s AI agriculture vision collides with realities facing Myanmar farmers - myanmar-now.org",
+  "tokens": [
+   "agriculture",
+   "chiefs",
+   "collides",
+   "facing",
+   "farmers",
+   "junta",
+   "myanmar",
+   "realities",
+   "vision"
+  ],
+  "size": 1,
+  "domains": [
+   "myanmar-now.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "dc9e057e2e9d",
+  "headline": "Myanmar junta attacks Bago villages near the 115-Mile Rest Stop - myanmar-now.org",
+  "tokens": [
+   "115mile",
+   "attacks",
+   "bago",
+   "junta",
+   "myanmar",
+   "near",
+   "rest",
+   "stop",
+   "villages"
+  ],
+  "size": 1,
+  "domains": [
+   "myanmar-now.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "f3c7f94243af",
+  "headline": "Prominent Defector Among 6 Killed as Regime Bombs NUG Regional HQ - The Irrawaddy",
+  "tokens": [
+   "among",
+   "bombs",
+   "defector",
+   "killed",
+   "nug",
+   "prominent",
+   "regime",
+   "regional"
+  ],
+  "size": 1,
+  "domains": [
+   "irrawaddy.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "5e9f2d392098",
+  "headline": "Junta Uses Civilian Transport to Disguise Reinforcements in Phayathonzu - Karen News",
+  "tokens": [
+   "civilian",
+   "disguise",
+   "junta",
+   "phayathonzu",
+   "reinforcements",
+   "transport",
+   "uses"
+  ],
+  "size": 1,
+  "domains": [
+   "karennews.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "dfa8e8421368",
+  "headline": "Myanmar Regime Boss Downplays China Dependency, Shadow Govt’s Beijing Ties, and More - The Irrawaddy",
+  "tokens": [
+   "beijing",
+   "boss",
+   "china",
+   "dependency",
+   "downplays",
+   "govts",
+   "more",
+   "myanmar",
+   "regime",
+   "shadow",
+   "ties"
+  ],
+  "size": 1,
+  "domains": [
+   "irrawaddy.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "66c171737712",
+  "headline": "Guest Column | ASEAN’s Puppet Show: ‘Calibrated Re-engagement’ Lets Myanmar’s Regime Pull the Strings - The Irrawaddy",
+  "tokens": [
+   "aseans",
+   "calibrated",
+   "column",
+   "guest",
+   "lets",
+   "myanmars",
+   "pull",
+   "puppet",
+   "reengagement",
+   "regime",
+   "show",
+   "strings"
+  ],
+  "size": 1,
+  "domains": [
+   "irrawaddy.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "139fd972af92",
+  "headline": "The FE - Myanmar's Min Aung Hlaing: The general who made himself president - The Financial Express",
+  "tokens": [
+   "aung",
+   "general",
+   "himself",
+   "hlaing",
+   "made",
+   "min",
+   "myanmars",
+   "president",
+   "who"
+  ],
+  "size": 1,
+  "domains": [
+   "thefinancialexpress.com.bd"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "4a1759e5844d",
+  "headline": "Coup Leader Says Myanmar Is a Democracy, Urges US to Drop Sanctions - The Irrawaddy",
+  "tokens": [
+   "coup",
+   "democracy",
+   "drop",
+   "leader",
+   "myanmar",
+   "sanctions",
+   "urges"
+  ],
+  "size": 1,
+  "domains": [
+   "irrawaddy.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a2ab56258c87",
+  "headline": "Is the ‘armed group’ label still appropriate for the Arakan Army? - Frontier Myanmar",
+  "tokens": [
+   "appropriate",
+   "arakan",
+   "armed",
+   "army",
+   "group",
+   "label",
+   "still"
+  ],
+  "size": 1,
+  "domains": [
+   "frontiermyanmar.net"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "5fc5cd36c7f3",
+  "headline": "Urbányi: Maldives Still Have a Gap to Close - Adhadhu",
+  "tokens": [
+   "close",
+   "gap",
+   "maldives",
+   "still",
+   "urbányi"
+  ],
+  "size": 1,
+  "domains": [
+   "adhadhu.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "dv": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "20c269968dc8",
+  "headline": "Government resumes \"Ahaa\" forum after year-long hiatus - Adhadhu",
+  "tokens": [
+   "ahaa",
+   "forum",
+   "government",
+   "hiatus",
+   "resumes",
+   "yearlong"
+  ],
+  "size": 1,
+  "domains": [
+   "adhadhu.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "dv": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d1b41671fb90",
+  "headline": "Star Medical to host free pre-pregnancy session for couples - Adhadhu",
+  "tokens": [
+   "couples",
+   "free",
+   "host",
+   "medical",
+   "prepregnancy",
+   "session",
+   "star"
+  ],
+  "size": 1,
+  "domains": [
+   "adhadhu.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "dv": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "87beb3c48348",
+  "headline": "Houthi threat tests Pakistan's Mecca defense pact commitment - asia.nikkei.com",
+  "tokens": [
+   "commitment",
+   "defense",
+   "houthi",
+   "mecca",
+   "pact",
+   "pakistans",
+   "tests",
+   "threat"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "af90daa0ad26",
+  "headline": "Toyota's China EV push leaves Japanese suppliers in the cold - asia.nikkei.com",
+  "tokens": [
+   "china",
+   "cold",
+   "japanese",
+   "leaves",
+   "push",
+   "suppliers",
+   "toyotas"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "8dfa6218a134",
+  "headline": "Mbappe sponsor On chases Apple-style 'discipline' with automated shoe factories - asia.nikkei.com",
+  "tokens": [
+   "applestyle",
+   "automated",
+   "chases",
+   "discipline",
+   "factories",
+   "mbappe",
+   "shoe",
+   "sponsor"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "351a8501af84",
+  "headline": "Japan's Kokuyo charms China's students with stylish notebooks - asia.nikkei.com",
+  "tokens": [
+   "charms",
+   "chinas",
+   "japans",
+   "kokuyo",
+   "notebooks",
+   "students",
+   "stylish"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "bd70621d8dbf",
+  "headline": "Japan herbal remedy makers seek to reduce China from supply chain - asia.nikkei.com",
+  "tokens": [
+   "chain",
+   "china",
+   "herbal",
+   "japan",
+   "makers",
+   "reduce",
+   "remedy",
+   "seek",
+   "supply"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "9e6d8b6f0aeb",
+  "headline": "China now holds the whip hand over Trump - asia.nikkei.com",
+  "tokens": [
+   "china",
+   "hand",
+   "holds",
+   "now",
+   "trump",
+   "whip"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "db49aa0b3ffd",
+  "headline": "Indonesia coffee trade wilts under brunt of climate change - asia.nikkei.com",
+  "tokens": [
+   "brunt",
+   "change",
+   "climate",
+   "coffee",
+   "indonesia",
+   "trade",
+   "under",
+   "wilts"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "509a72fca4cf",
+  "headline": "Global oil and gas discoveries hit 40-year low on investment cutbacks - asia.nikkei.com",
+  "tokens": [
+   "40year",
+   "cutbacks",
+   "discoveries",
+   "gas",
+   "global",
+   "hit",
+   "investment",
+   "low",
+   "oil"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "72ed6cd69842",
+  "headline": "The US needs a new Taiwan policy beyond strategic ambiguity - asia.nikkei.com",
+  "tokens": [
+   "ambiguity",
+   "beyond",
+   "needs",
+   "policy",
+   "strategic",
+   "taiwan"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "3fa0f0001e5d",
+  "headline": "SoftBank-backed SB Energy seen delaying IPO on valuation concerns - asia.nikkei.com",
+  "tokens": [
+   "concerns",
+   "delaying",
+   "energy",
+   "ipo",
+   "seen",
+   "softbankbacked",
+   "valuation"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "029c815ebadc",
+  "headline": "Trump, Takaichi reaffirm alliance days before US-China summit - asia.nikkei.com",
+  "tokens": [
+   "alliance",
+   "before",
+   "days",
+   "reaffirm",
+   "summit",
+   "takaichi",
+   "trump",
+   "uschina"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a7dbc5347257",
+  "headline": "Global bond sell-off intensifies, hitting housing markets - asia.nikkei.com",
+  "tokens": [
+   "bond",
+   "global",
+   "hitting",
+   "housing",
+   "intensifies",
+   "markets",
+   "selloff"
+  ],
+  "size": 1,
+  "domains": [
+   "asia.nikkei.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "2ebd9fd410a3",
+  "headline": "India’s IBGs: Why Quality Matters as Much as Quantity - orfonline.org",
+  "tokens": [
+   "ibgs",
+   "indias",
+   "matters",
+   "much",
+   "quality",
+   "quantity",
+   "why"
+  ],
+  "size": 1,
+  "domains": [
+   "orfonline.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a19f8074ba56",
+  "headline": "Trump’s Syria Policy: Between a Rock and a Hard Place - orfonline.org",
+  "tokens": [
+   "between",
+   "hard",
+   "place",
+   "policy",
+   "rock",
+   "syria",
+   "trumps"
+  ],
+  "size": 1,
+  "domains": [
+   "orfonline.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "f3413c8a6aea",
+  "headline": "Securing India’s Future through Healthy Ageing: Building an Economic Case for Adult Immunisation - orfonline.org",
+  "tokens": [
+   "adult",
+   "ageing",
+   "building",
+   "case",
+   "economic",
+   "future",
+   "healthy",
+   "immunisation",
+   "indias",
+   "securing",
+   "through"
+  ],
+  "size": 1,
+  "domains": [
+   "orfonline.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "fa3edc1fbecd",
+  "headline": "Fake Citations, Real Consequences: AI Hallucinations in Indian Courts - orfonline.org",
+  "tokens": [
+   "citations",
+   "consequences",
+   "courts",
+   "fake",
+   "hallucinations",
+   "indian",
+   "real"
+  ],
+  "size": 1,
+  "domains": [
+   "orfonline.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "91eb1e06c0a8",
+  "headline": "Oommen C Kurian | ORF - orfonline.org",
+  "tokens": [
+   "kurian",
+   "oommen",
+   "orf"
+  ],
+  "size": 1,
+  "domains": [
+   "orfonline.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "67a649c82e47",
+  "headline": "Model-Based Monetary Policy Analysis and Forecasting (MPAF) - imf.org",
+  "tokens": [
+   "analysis",
+   "forecasting",
+   "modelbased",
+   "monetary",
+   "mpaf",
+   "policy"
+  ],
+  "size": 2,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "ff6b9d223c5b",
+  "headline": "Systemic Macro Financial Risk Analysis (MFRA) - imf.org",
+  "tokens": [
+   "analysis",
+   "financial",
+   "macro",
+   "mfra",
+   "risk",
+   "systemic"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "dccdd01af262",
+  "headline": "Selected Issues in the Regulation and Supervision of Fintech (SIFR) - imf.org",
+  "tokens": [
+   "fintech",
+   "issues",
+   "regulation",
+   "selected",
+   "sifr",
+   "supervision"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "91b375933bd0",
+  "headline": "Macroeconomic Management in Resource-Rich Countries (MRC) - imf.org",
+  "tokens": [
+   "countries",
+   "macroeconomic",
+   "management",
+   "mrc",
+   "resourcerich"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "5187455f5b9e",
+  "headline": "Cyber Risk Regulation and Supervision (CRS) - imf.org",
+  "tokens": [
+   "crs",
+   "cyber",
+   "regulation",
+   "risk",
+   "supervision"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "ac070ca487da",
+  "headline": "Financial Development and Financial Inclusion (FDFI) - imf.org",
+  "tokens": [
+   "development",
+   "fdfi",
+   "financial",
+   "inclusion"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "9c586317f7b4",
+  "headline": "National Accounts Statistics - Advanced (NAS-A) - imf.org",
+  "tokens": [
+   "accounts",
+   "advanced",
+   "nasa",
+   "national",
+   "statistics"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "0dd43eabe0ae",
+  "headline": "SOE Oversight. Ownership, Financial Performance and Fiscal Risks (SOE) - imf.org",
+  "tokens": [
+   "financial",
+   "fiscal",
+   "oversight",
+   "ownership",
+   "performance",
+   "risks",
+   "soe"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "b471338f1653",
+  "headline": "Financial Markets and Instruments (FMI) - imf.org",
+  "tokens": [
+   "financial",
+   "fmi",
+   "instruments",
+   "markets"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "4e491b86fafa",
+  "headline": "Exchange Rate Policy (ERP) - imf.org",
+  "tokens": [
+   "erp",
+   "exchange",
+   "policy",
+   "rate"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "06002427b57b",
+  "headline": "Reserves Assets and IRFCL (IRS) - imf.org",
+  "tokens": [
+   "assets",
+   "irfcl",
+   "irs",
+   "reserves"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "845bfe29739f",
+  "headline": "Managing Capital Flows: Macroeconomic Analysis and Policies (MCF) - imf.org",
+  "tokens": [
+   "analysis",
+   "capital",
+   "flows",
+   "macroeconomic",
+   "managing",
+   "mcf",
+   "policies"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "afbdcfa0c1d1",
+  "headline": "Analyze This! Global Imbalances - imf.org",
+  "tokens": [
+   "analyze",
+   "global",
+   "imbalances"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "6bc7511aaddf",
+  "headline": "Financial Programming and Policies (FPP) - imf.org",
+  "tokens": [
+   "financial",
+   "fpp",
+   "policies",
+   "programming"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "7275cba2e1a0",
+  "headline": "Reflecting Digitalization in Financial Sector Statistics - imf.org",
+  "tokens": [
+   "digitalization",
+   "financial",
+   "reflecting",
+   "sector",
+   "statistics"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a249e0a5bcf8",
+  "headline": "Bank Restructuring and Resolution - Operational Aspects (BR) - imf.org",
+  "tokens": [
+   "aspects",
+   "bank",
+   "operational",
+   "resolution",
+   "restructuring"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "ebdf6833b46a",
+  "headline": "Vulnerability Diagnostics (VDS) - imf.org",
+  "tokens": [
+   "diagnostics",
+   "vds",
+   "vulnerability"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "c961d9413039",
+  "headline": "Macroeconomic Diagnostics (MDS) - imf.org",
+  "tokens": [
+   "diagnostics",
+   "macroeconomic",
+   "mds"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "9a2907ab6e37",
+  "headline": "Fiscal Frameworks (FF) - imf.org",
+  "tokens": [
+   "fiscal",
+   "frameworks"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "c862c625cda0",
+  "headline": "International Issues in Tax Law Design (TLWD) - imf.org",
+  "tokens": [
+   "design",
+   "international",
+   "issues",
+   "law",
+   "tax",
+   "tlwd"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "820cba3db850",
+  "headline": "Macroeconomic Policy Communication (MPC) - imf.org",
+  "tokens": [
+   "communication",
+   "macroeconomic",
+   "mpc",
+   "policy"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d3869035b9b0",
+  "headline": "Climate in Macroeconomic Frameworks (CMF) - imf.org",
+  "tokens": [
+   "climate",
+   "cmf",
+   "frameworks",
+   "macroeconomic"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d65f0df6956c",
+  "headline": "Corporate Governance and Legal Framework of SOEs - imf.org",
+  "tokens": [
+   "corporate",
+   "framework",
+   "governance",
+   "legal",
+   "soes"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "6e2563a88cbc",
+  "headline": "Montek Singh Ahluwalia: Change Architect - imf.org",
+  "tokens": [
+   "ahluwalia",
+   "architect",
+   "change",
+   "montek",
+   "singh"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "3924753b3c75",
+  "headline": "Thriving in a Fragmented World - imf.org",
+  "tokens": [
+   "fragmented",
+   "thriving",
+   "world"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d151bdc97874",
+  "headline": "The Rewards of Rebalancing - imf.org",
+  "tokens": [
+   "rebalancing",
+   "rewards"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "ff7ed5ad1162",
+  "headline": "Graduating into Uncertainty - imf.org",
+  "tokens": [
+   "graduating",
+   "into",
+   "uncertainty"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "173697f88692",
+  "headline": "27th Jacques Polak Annual Research Conference: Towards a Multipolar World – Technology and Geopolitics - imf.org",
+  "tokens": [
+   "27th",
+   "annual",
+   "conference",
+   "geopolitics",
+   "jacques",
+   "multipolar",
+   "polak",
+   "research",
+   "technology",
+   "towards",
+   "world"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "6d77589773d9",
+  "headline": "Public Finances in Modern History - Government expenditure, percent of GDP - imf.org",
+  "tokens": [
+   "expenditure",
+   "finances",
+   "gdp",
+   "government",
+   "history",
+   "modern",
+   "percent",
+   "public"
+  ],
+  "size": 1,
+  "domains": [
+   "imf.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "3e61f91fbbbc",
+  "headline": "Tracking air pollution across more than 32,000 cities with new global data - World Bank Blogs",
+  "tokens": [
+   "32000",
+   "across",
+   "air",
+   "cities",
+   "data",
+   "global",
+   "more",
+   "pollution",
+   "than",
+   "tracking"
+  ],
+  "size": 1,
+  "domains": [
+   "blogs.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "b33402f9ea47",
+  "headline": "Bhutan - SOUTH ASIA- P174399- Human Capital Recovery and Resilience Program - Procurement Plan (English) - World Bank Group",
+  "tokens": [
+   "asia",
+   "bhutan",
+   "capital",
+   "english",
+   "human",
+   "p174399",
+   "plan",
+   "procurement",
+   "program",
+   "recovery",
+   "resilience",
+   "south"
+  ],
+  "size": 1,
+  "domains": [
+   "documents.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "f7b9bca0bdf1",
+  "headline": "Pumps fitted or designed to be fitted with a me exports to Liberia |2021 - World Bank Group",
+  "tokens": [
+   "2021",
+   "designed",
+   "exports",
+   "fitted",
+   "liberia",
+   "pumps"
+  ],
+  "size": 1,
+  "domains": [
+   "wits.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "0583b73a1e7e",
+  "headline": "Medical Test kits(300215) exports to Rwanda - World Bank Group",
+  "tokens": [
+   "exports",
+   "kits300215",
+   "medical",
+   "rwanda",
+   "test"
+  ],
+  "size": 1,
+  "domains": [
+   "wits.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a7a2e8a6bb95",
+  "headline": "Ghana Sodium sulphites imports by country - World Bank Group",
+  "tokens": [
+   "country",
+   "ghana",
+   "imports",
+   "sodium",
+   "sulphites"
+  ],
+  "size": 1,
+  "domains": [
+   "wits.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "0ef44bb9b2ec",
+  "headline": "Uganda Insulated (including enamelled or anodised) win imports by country - World Bank Group",
+  "tokens": [
+   "anodised",
+   "country",
+   "enamelled",
+   "imports",
+   "including",
+   "insulated",
+   "uganda",
+   "win"
+  ],
+  "size": 1,
+  "domains": [
+   "wits.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "1310933bb961",
+  "headline": "Namibia Springs, leaf and leaves therefor, iron or stee imports by country - World Bank Group",
+  "tokens": [
+   "country",
+   "imports",
+   "iron",
+   "leaf",
+   "leaves",
+   "namibia",
+   "springs",
+   "stee",
+   "therefor"
+  ],
+  "size": 1,
+  "domains": [
+   "wits.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d930cd19c9b7",
+  "headline": "Papua New Guinea Cartons, boxes and cases, of corrugated paper o exports by country - World Bank Group",
+  "tokens": [
+   "boxes",
+   "cartons",
+   "cases",
+   "corrugated",
+   "country",
+   "exports",
+   "guinea",
+   "paper",
+   "papua"
+  ],
+  "size": 1,
+  "domains": [
+   "wits.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "4c6d8f841e0a",
+  "headline": "Open Knowledge Repository - World Bank Open Knowledge Repository",
+  "tokens": [
+   "knowledge",
+   "open",
+   "repository"
+  ],
+  "size": 2,
+  "domains": [
+   "openknowledge.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "6bed6116985f",
+  "headline": "Laws and Regulations Generally Promoting SMEs/Local Content Public Private Partnership - World Bank Group",
+  "tokens": [
+   "content",
+   "generally",
+   "laws",
+   "partnership",
+   "private",
+   "promoting",
+   "public",
+   "regulations",
+   "smeslocal"
+  ],
+  "size": 1,
+  "domains": [
+   "ppp.worldbank.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d9e23d64f261",
+  "headline": "With North Korea testing missiles as the UN General Assembly meets, is DMZ friction about to boil over? - ACLED",
+  "tokens": [
+   "about",
+   "assembly",
+   "boil",
+   "dmz",
+   "friction",
+   "general",
+   "korea",
+   "meets",
+   "missiles",
+   "north",
+   "testing"
+  ],
+  "size": 1,
+  "domains": [
+   "acleddata.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "cbceb4b412d6",
+  "headline": "Iran: No Prospects for Justice as Atrocities and Conflict-Related Crimes Continue - Human Rights Watch",
+  "tokens": [
+   "atrocities",
+   "conflictrelated",
+   "continue",
+   "crimes",
+   "iran",
+   "justice",
+   "prospects"
+  ],
+  "size": 1,
+  "domains": [
+   "hrw.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "17c278ab521c",
+  "headline": "Array of Experts Back Lawsuit Challenging Trump’s ICC Sanctions Regime - Human Rights Watch",
+  "tokens": [
+   "array",
+   "back",
+   "challenging",
+   "experts",
+   "icc",
+   "lawsuit",
+   "regime",
+   "sanctions",
+   "trumps"
+  ],
+  "size": 1,
+  "domains": [
+   "hrw.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "668f820dd9b9",
+  "headline": "Niger Rejects Key Rights Recommendations at UN Review - Human Rights Watch",
+  "tokens": [
+   "key",
+   "niger",
+   "recommendations",
+   "rejects",
+   "review",
+   "rights"
+  ],
+  "size": 1,
+  "domains": [
+   "hrw.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "35c08ae320a1",
+  "headline": "US: Trump Administration Rejects External Election Observers - Human Rights Watch",
+  "tokens": [
+   "administration",
+   "election",
+   "external",
+   "observers",
+   "rejects",
+   "trump"
+  ],
+  "size": 1,
+  "domains": [
+   "hrw.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "04384f49b89d",
+  "headline": "FISCAL YEAR-END MATCH: 2X your gift to protect human rights in the year ahead! - Human Rights Watch",
+  "tokens": [
+   "ahead",
+   "fiscal",
+   "gift",
+   "human",
+   "match",
+   "protect",
+   "rights",
+   "year",
+   "yearend",
+   "your"
+  ],
+  "size": 1,
+  "domains": [
+   "donate.hrw.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "cd1d86070286",
+  "headline": "Journalist Henry Constantín detained in Cuba on ‘disobedience’ charge",
+  "tokens": [
+   "charge",
+   "constantín",
+   "cuba",
+   "detained",
+   "disobedience",
+   "henry",
+   "journalist"
+  ],
+  "size": 1,
+  "domains": [
+   "cpj.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a17a4e3b5b61",
+  "headline": "CPJ urges US senators to seek accountability for Israel’s killing of journalist Shireen Abu Akleh",
+  "tokens": [
+   "abu",
+   "accountability",
+   "akleh",
+   "cpj",
+   "israels",
+   "journalist",
+   "killing",
+   "seek",
+   "senators",
+   "shireen",
+   "urges"
+  ],
+  "size": 1,
+  "domains": [
+   "cpj.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "8cdde0b470b6",
+  "headline": "How the Pentagon is adapting its Pacific fuel strategy for island-hopping warfare",
+  "tokens": [
+   "adapting",
+   "fuel",
+   "how",
+   "island",
+   "pacific",
+   "pentagon",
+   "strategy"
+  ],
+  "size": 1,
+  "domains": [
+   "theaircurrent.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "fbb67282792d",
+  "headline": "Bjorn’s Corner: Aircraft Structures, Part 20: Thermoplastic Composites",
+  "tokens": [
+   "aircraft",
+   "bjorns",
+   "composites",
+   "corner",
+   "part",
+   "structures",
+   "thermoplastic"
+  ],
+  "size": 1,
+  "domains": [
+   "leehamnews.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d6f376ba1c53",
+  "headline": "India divided into two by clouds: Isro satellite captures strange view from space - India Today",
+  "tokens": [
+   "captures",
+   "clouds",
+   "divided",
+   "india",
+   "into",
+   "isro",
+   "satellite",
+   "space",
+   "strange",
+   "two",
+   "view"
+  ],
+  "size": 1,
+  "domains": [
+   "indiatoday.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "8958a9bc6bdf",
+  "headline": "2026 Tata Aeris Sub-4 Metre Sedan Launched At Rs 5.29 Lakh; Replaces Tigor With Refreshed Styling & New Features - CarDekho",
+  "tokens": [
+   "2026",
+   "529",
+   "aeris",
+   "features",
+   "lakh",
+   "launched",
+   "metre",
+   "refreshed",
+   "replaces",
+   "sedan",
+   "styling",
+   "sub4",
+   "tata",
+   "tigor"
+  ],
+  "size": 4,
+  "domains": [
+   "cardekho.com",
+   "carwale.com",
+   "autopunditz.com",
+   "carandbike.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "37ebfee165b0",
+  "headline": "Launch event: Indian States’ Electricity Transition (SET) 2026 report - Institute for Energy Economics and Financial Analysis (IEEFA)",
+  "tokens": [
+   "2026",
+   "analysis",
+   "economics",
+   "electricity",
+   "energy",
+   "event",
+   "financial",
+   "ieefa",
+   "indian",
+   "institute",
+   "launch",
+   "report",
+   "set",
+   "states",
+   "transition"
+  ],
+  "size": 1,
+  "domains": [
+   "ieefa.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "388a9909e518",
+  "headline": "Renault Duster hybrid launch on October 17 - Autocar India",
+  "tokens": [
+   "duster",
+   "hybrid",
+   "launch",
+   "october",
+   "renault"
+  ],
+  "size": 1,
+  "domains": [
+   "autocarindia.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "ab9148c19273",
+  "headline": "NASA Tests Dual Mode Propulsion CubeSat Ahead of Launch - nasa.gov",
+  "tokens": [
+   "ahead",
+   "cubesat",
+   "dual",
+   "launch",
+   "mode",
+   "nasa",
+   "propulsion",
+   "tests"
+  ],
+  "size": 1,
+  "domains": [
+   "nasa.gov"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d7f4461bfb5b",
+  "headline": "Google, OpenAI and Anthropic may launch AI safety standard by early 2027 - The Times of India",
+  "tokens": [
+   "2027",
+   "anthropic",
+   "early",
+   "google",
+   "launch",
+   "may",
+   "openai",
+   "safety",
+   "standard"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "00bd0ae01826",
+  "headline": "Redmi 17C launching in India on October 1st, specs revealed - 91mobiles.com",
+  "tokens": [
+   "17c",
+   "1st",
+   "india",
+   "launching",
+   "october",
+   "redmi",
+   "revealed",
+   "specs"
+  ],
+  "size": 1,
+  "domains": [
+   "91mobiles.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "8ebe8c956d55",
+  "headline": "Launch of the United Nations Decade for Afforestation and Reforestation - Food and Agriculture Organization",
+  "tokens": [
+   "afforestation",
+   "decade",
+   "launch",
+   "nations",
+   "reforestation",
+   "united"
+  ],
+  "size": 1,
+  "domains": [
+   "fao.org"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "d7c3df5973df",
+  "headline": "BYD to launch Da Han sedan on October 13 with up to 1,008 km of EV range - CnEVPost",
+  "tokens": [
+   "1008",
+   "byd",
+   "han",
+   "launch",
+   "october",
+   "range",
+   "sedan"
+  ],
+  "size": 1,
+  "domains": [
+   "cnevpost.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "58647d85fd83",
+  "headline": "Xiaomi 18 Pro series launched with Snapdragon 8 Elite Extreme Gen 6, privacy display; global launch confirmed - 91mobiles.com",
+  "tokens": [
+   "confirmed",
+   "display",
+   "elite",
+   "extreme",
+   "gen",
+   "global",
+   "launch",
+   "launched",
+   "privacy",
+   "pro",
+   "series",
+   "snapdragon",
+   "xiaomi"
+  ],
+  "size": 1,
+  "domains": [
+   "91mobiles.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "f49ddcd6de07",
+  "headline": "Union Minister Dr. Jitendra Singh Formalises Commercial Launch of Bio-based Biodegradable Plastic under BioE3 - PIB",
+  "tokens": [
+   "biobased",
+   "biodegradable",
+   "bioe3",
+   "commercial",
+   "formalises",
+   "jitendra",
+   "launch",
+   "minister",
+   "plastic",
+   "singh",
+   "under",
+   "union"
+  ],
+  "size": 1,
+  "domains": [
+   "pib.gov.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "8f56a499695f",
+  "headline": "SS Rajamouli launches trailer of 'Sigma'; says Vijay's son Jason Sanjay's film is a fun adventure ride wi - The Times of India",
+  "tokens": [
+   "adventure",
+   "film",
+   "fun",
+   "jason",
+   "launches",
+   "rajamouli",
+   "ride",
+   "sanjays",
+   "sigma",
+   "son",
+   "trailer",
+   "vijays"
+  ],
+  "size": 1,
+  "domains": [
+   "timesofindia.indiatimes.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a151576bbab6",
+  "headline": "Artemis II | Mission, Crew, Launch, Landing, Speed, & Moon - Britannica",
+  "tokens": [
+   "artemis",
+   "crew",
+   "landing",
+   "launch",
+   "mission",
+   "moon",
+   "speed"
+  ],
+  "size": 1,
+  "domains": [
+   "britannica.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "2ed1ea50f755",
+  "headline": "Chevron ENGINE and IIT Madras launch Energy Technology Incubation program to support innovation addressing energy challenges | Indian Institute of Technology Madras - iitm.ac.in",
+  "tokens": [
+   "addressing",
+   "challenges",
+   "chevron",
+   "energy",
+   "engine",
+   "iit",
+   "incubation",
+   "indian",
+   "innovation",
+   "institute",
+   "launch",
+   "madras",
+   "program",
+   "support",
+   "technology"
+  ],
+  "size": 1,
+  "domains": [
+   "iitm.ac.in"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a21e2ec0b628",
+  "headline": "Toyota to accelerate production before Innova facelift launch - CarDekho",
+  "tokens": [
+   "accelerate",
+   "before",
+   "facelift",
+   "innova",
+   "launch",
+   "production",
+   "toyota"
+  ],
+  "size": 1,
+  "domains": [
+   "cardekho.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "7a253b67e565",
+  "headline": "NPS Swasthya: FM Sitharaman Expected To Launch The Scheme On October 1 - Outlook Money",
+  "tokens": [
+   "expected",
+   "launch",
+   "nps",
+   "october",
+   "scheme",
+   "sitharaman",
+   "swasthya"
+  ],
+  "size": 1,
+  "domains": [
+   "outlookmoney.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "a0725d3b2300",
+  "headline": "Tata Sierra Dark Edition launched at Rs 13.99 lakh - Autocar India",
+  "tokens": [
+   "1399",
+   "dark",
+   "edition",
+   "lakh",
+   "launched",
+   "sierra",
+   "tata"
+  ],
+  "size": 1,
+  "domains": [
+   "autocarindia.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
+  }
+ },
+ {
+  "id": "5fdfd3f4f943",
+  "headline": "Audi Q3 Local Assembly Begins: Launch on 16 October - CarWale",
+  "tokens": [
+   "assembly",
+   "audi",
+   "begins",
+   "launch",
+   "local",
+   "october"
+  ],
+  "size": 1,
+  "domains": [
+   "carwale.com"
+  ],
+  "first_seen": "2026-09-26T06:08:36+00:00",
+  "last_seen": "2026-09-26T06:08:36+00:00",
+  "first_by_lang": {
+   "en": "2026-09-26T06:08:36+00:00"
   }
  }
 ]

@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "ts": "2026-10-15T04:23:52+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 2,
+    "removed": 2,
+    "sample_added": [
+      "DRI busts illegal import of more than 73,00,000 kg of Pakistan-origin rock salt; four arrested",
+      "From Skilling to Sustainable Employment: Captive Employer CXO Meet to mobilise indust..."
+    ],
+    "sample_removed": [
+      "Cabinet approves Productivity Linked Bonus (PLB) for 78 days to Railway Employees",
+      "MCL commits \u20b922.64 Crore for Five CSR projects in Sundargarh District"
+    ],
+    "diff": "@@ -131,4 +131,5 @@\n MOST VIEWED\n-Cabinet approves Productivity Linked Bonus (PLB) for 78 days to Railway Employees\n+DRI busts illegal import of more than 73,00,000 kg of Pakistan-origin rock salt; four arrested\n Union Minister Shri Pralhad Joshi inaugurates Windergy India 2026 in Chennai; Outline...\n+From Skilling to Sustainable Employment: Captive Employer CXO Meet to mobilise indust...\n Advanced Chemicals, Petrochemicals and Material Technologies Included under Research,...\n@@ -145,3 +146,2 @@\n CEA Brainstorming Event: Making Indian Power Sector AI Enabled (International Confere...\n-MCL commits \u20b922.64 Crore for Five CSR projects in Sundargarh District\n Latest Explainers"
+  }
+]

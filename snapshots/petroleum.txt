@@ -2,6 +2,98 @@ Large modal
 ×
 Previous
 Next
+Warning
+(2)
+: Undefined property: Cake\Http\ServerRequest::$getParams [in
+/var/www/html/src/Template/element/header.php
+, line
+]
+Code
+<?php
+if(
+$this
+->
+request
+->
+getParams
+[
+'controller'
+]==
+"InvestmentCorner"
+){
+/var/www/html/vendor/cakephp/cakephp/src/View/View.php /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1748
+Cake\View\View->_renderElement() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 701
+Cake\View\View->element() /var/www/html/src/Template/layout/home.php, line 77
+/var/www/html/vendor/cakephp/cakephp/src/View/View.php /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 862
+Cake\View\View->renderLayout() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 821
+Cake\View\View->render() /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 166
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 42
+[main]
+Warning
+(2)
+: Trying to access array offset on null [in
+/var/www/html/src/Template/element/header.php
+, line
+]
+Code
+<?php
+if(
+$this
+->
+request
+->
+getParams
+[
+'controller'
+]==
+"InvestmentCorner"
+){
+/var/www/html/vendor/cakephp/cakephp/src/View/View.php /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1748
+Cake\View\View->_renderElement() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 701
+Cake\View\View->element() /var/www/html/src/Template/layout/home.php, line 77
+/var/www/html/vendor/cakephp/cakephp/src/View/View.php /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 862
+Cake\View\View->renderLayout() /var/www/html/vendor/cakephp/cakephp/src/View/View.php, line 821
+Cake\View\View->render() /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 166
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 42
+[main]
 ×
 Ministry of Petroleum and Natural Gas
 पेट्रोलियम और प्राकृतिक गैस मंत्रालय
@@ -58,8 +150,6 @@ Investment Opportunities Unconventionals
 Investment Opportunities Gas
 Refinery Division
 ›
-Oil Refinery
-›
 History and Evolution
 Refining Capacity
 PSU Refinery
@@ -83,6 +173,8 @@ Auto Fuel Vision and Policy-2025
 Guidelines for laying product pipelines
 Auto Fuel Policy
 Petroleum Products (Maintenance of Production, Storage and Supply) Amendment Order, 2026
+Bio-Refinery
+›
 Bio Fuel
 ›
 About Bio Fuel
@@ -99,15 +191,6 @@ Synthetic Fuels
 2G-Ethanol
 Bio-Diesel
 Policy/Acts/Regulations of Other Ministries
-Flagship Program
-›
-Make in India
-Matters related to MSMEs
-Skill Development
-Start-Up
-Ease of Doing Business
-Research and Development
-›
 Hydrogen Mission
 Marketing Division
 ›
@@ -177,6 +260,16 @@ About Global Biofuels Alliance (GBA)
 The Launch of Global Biofuels Alliance (GBA)
 Latest News and Updates
 Vigilance
+Development
+›
+Development
+Flagship Program
+›
+Make in India
+Matters related to MSMEs
+Skill Development
+Start-Up
+Ease of Doing Business
 Documents
 ⌄
 Swachhta Pakhwada compendium
@@ -194,8 +287,6 @@ Ready Reckoners
 Accounts
 ›
 Outstanding Utilization certificate
-Chief Controller of Accounts
-Receipt and Expenditure
 Statement of Receipt & Expenditure
 Demands for Grants
 Outcome Budget
@@ -290,13 +381,26 @@ Resources
 Investment Opportunities Unconventionals
 Investment Opportunities Gas
 Refinery Division
-Oil Refinery
 History and Evolution
 Refining Capacity
 PSU Refinery
+Indian Oil Corporation Limited
+Bharat Petroleum Corporation Limited
+Hindustan Petroleum Corporation Limited
 Standalone Refinery
+Numaligarh Refinery Limited
+Mangalore Refinery and Petrochemicals Limited
+Chennai Petroleum Corporation Limited
 Other Aligned Organisation
+OIL INDUSTRY SAFETY DIRECTORATE
+CENTRE FOR HIGH TECHNOLOGY
+ENGINEERS INDIA LIMITED
 Policy/ Acts/ Regulations
+Auto Fuel Vision and Policy-2025
+Guidelines for laying product pipelines
+Auto Fuel Policy
+Petroleum Products (Maintenance of Production, Storage and Supply) Amendment Order, 2026
+Bio-Refinery
 Bio Fuel
 About Bio Fuel
 Ethanol Blended Petrol (EBP) Programme
@@ -304,13 +408,6 @@ Second Generation (2G) Ethanol
 Bio Diesel
 Compressed Bio Gas
 Policy/Acts/Regulations
-Flagship Program
-Make in India
-Matters related to MSMEs
-Skill Development
-Start-Up
-Ease of Doing Business
-Research and Development
 Hydrogen Mission
 Marketing Division
 About the Marketing Division
@@ -365,6 +462,13 @@ About Global Biofuels Alliance (GBA)
 The Launch of Global Biofuels Alliance (GBA)
 Latest News and Updates
 Vigilance
+Development
+Flagship Program
+Make in India
+Matters related to MSMEs
+Skill Development
+Start-Up
+Ease of Doing Business
 Documents
 Swachhta Pakhwada compendium
 Monthly Cabinet Summary
@@ -379,8 +483,6 @@ POL Prices and Under Recoveries
 Ready Reckoners
 Accounts
 Outstanding Utilization certificate
-Chief Controller of Accounts
-Receipt and Expenditure
 Statement of Receipt & Expenditure
 Demands for Grants
 Outcome Budget

@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "ts": "2026-10-18T04:17:40+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 0,
+    "removed": 1,
+    "sample_added": [],
+    "sample_removed": [
+      "Clarification on Legislative Developments concerning Government\u2019s shareholding in IDBI"
+    ],
+    "diff": "@@ -130,3 +130,3 @@\n MOST VIEWED\n-Clarification on Legislative Developments concerning Government\u2019s shareholding in IDBI\n+Trade Margin Rationalisation on 137 Anti-Cancer Drugs\n Prime Minister expresses grief over loss of lives in stampede in Kolkata"
+  }
+]

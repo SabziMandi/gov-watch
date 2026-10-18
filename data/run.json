@@ -1,17 +1,203 @@
 [
   {
-    "ts": "2026-10-18T04:17:40+00:00",
-    "slug": "pib-releases",
-    "name": "PIB \u2014 release stream (reg 48)",
-    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
-    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "ts": "2026-10-18T08:31:03+00:00",
+    "slug": "mha",
+    "name": "Ministry of Home Affairs",
+    "url": "https://www.mha.gov.in/en",
+    "type": "error",
+    "detail": "HTTPError: 404 Client Error: Not Found for url: https://www.mha.gov.in/en"
+  },
+  {
+    "ts": "2026-10-18T08:31:23+00:00",
+    "slug": "civil-aviation",
+    "name": "Civil Aviation",
+    "url": "https://www.civilaviation.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "17/10/2026"
+    ],
+    "sample_removed": [
+      "15/10/2026"
+    ],
+    "diff": "@@ -391,3 +391,3 @@\n Hosted by National Informatics Centre ( NIC )\n-15/10/2026\n+17/10/2026\n Scroll to top"
+  },
+  {
+    "ts": "2026-10-18T08:31:25+00:00",
+    "slug": "coal",
+    "name": "Coal",
+    "url": "https://coal.nic.in/",
+    "notes": "",
     "type": "change",
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "sample_added": [],
-    "sample_removed": [
-      "Clarification on Legislative Developments concerning Government\u2019s shareholding in IDBI"
+    "sample_removed": [],
+    "diff": "@@ -145,10 +145,10 @@\n What's New\n+Stakeholder Consultation on the draft Colliery Control (Amendment) Rules, 2026\n+730.79 KB (16/10/2026)\n National Lignite Index with Base Year 2021-22 for the month of August 2026\n 1.78 MB (16/10/2026)\n-Stakeholder Consultation on the draft Colliery Control (Amendment) Rules, 2026\n-730.79 KB (16/10/2026)\n+Notice inviting suggestions from the Stakeholders under rule_8_1 of Coal Exchange Rules 2026- ICEL\n+5.23 MB (15/10/2026)\n Notice inviting suggestions from the Stakeholders under rule_8_1 of Coal Exchange Rules 2026- MCXCEIL\n 6.37 MB (15/10/2026)\n-Notice inviting suggestions from the Stakeholders under rule_8_1 of Coal Exchange Rules 2026- ICEL\n-5.23 MB (15/10/2026)\n Financial Incentive Scheme for Coal/Lignite Gasification (\u20b98,500 crore) Round III \u2013 Categories II and III"
+  },
+  {
+    "ts": "2026-10-18T08:31:27+00:00",
+    "slug": "heavy-industries",
+    "name": "Heavy Industries",
+    "url": "https://heavyindustries.gov.in/en",
+    "notes": "Switched from the /hi build to English. Confirm the path on first run.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "Last Upated : 18/10/2026 Total visitor: 2320582"
     ],
-    "diff": "@@ -130,3 +130,3 @@\n MOST VIEWED\n-Clarification on Legislative Developments concerning Government\u2019s shareholding in IDBI\n+Trade Margin Rationalisation on 137 Anti-Cancer Drugs\n Prime Minister expresses grief over loss of lives in stampede in Kolkata"
+    "sample_removed": [
+      "Last Upated : 17/10/2026 Total visitor: 2320582"
+    ],
+    "diff": "@@ -405,2 +405,2 @@\n reserved\n-Last Upated : 17/10/2026 Total visitor: 2320582\n+Last Upated : 18/10/2026 Total visitor: 2320582"
+  },
+  {
+    "ts": "2026-10-18T08:31:35+00:00",
+    "slug": "mohua",
+    "name": "Housing and Urban Affairs",
+    "url": "https://www.mohua.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 12,
+    "removed": 8,
+    "sample_added": [
+      "Recent Documents",
+      "Whereas the Government constituted the Heritage Conservation Committee HCC , vide notification No S O 5454 E dated 23 12 2023, wherein Dr Archana Verma Historian was a member",
+      "Appointment of Shri Mohit Sood, Supdt. as Estates Officer in Directorate of Estates",
+      "MoHUA celebrates World Habitat Day 2026 with focus on advancing affordable, resilient and Inclusive housing",
+      "Ministry of Housing and Urban Affairs (MoHUA) Organized Voluntary Blood Donation Camp",
+      "Explore User Personas",
+      "Important Links",
+      "Press Information Bureau",
+      "Holiday Homes/Government Residential Accommodation",
+      "NITI Aayog (National Institution for Transforming India)",
+      "eGazette Portal",
+      "SHe-Box"
+    ],
+    "sample_removed": [
+      "Swachh Bharat Mission",
+      "Atal Mission for Rejuvenation and Urban Transformation -AMRUT 2.0",
+      "Urban Challenge Fund",
+      "What\u2019s New",
+      "Brochure for Ph.D. Sponsorship Programme 2026-27",
+      "Master Plan for Delhi 2047 (MPD-2047) (Hindi)",
+      "Master Plan for Delhi 2047 (MPD-2047) (English)",
+      "Filling up the post of Executive Director, Building Materials and Technology Promotion Council (BMTPC) through Direct Recruitment failing which by deputation failing which by contract appointment"
+    ],
+    "diff": "@@ -115,10 +115,2 @@\n 2026.06.05\n-Schemes and Services\n-Vacancies\n-Tenders\n-Swachh Bharat Mission\n-arrow_forward_ios\n-Atal Mission for Rejuvenation and Urban Transformation -AMRUT 2.0\n-arrow_forward_ios\n-Urban Challenge Fund\n arrow_forward_ios\n@@ -128,11 +120,4 @@\n arrow_forward_ios\n+View more\n chevron_right\n-What\u2019s New\n-Brochure for Ph.D. Sponsorship Programme 2026-27\n-arrow_forward_ios\n-Master Plan for Delhi 2047 (MPD-2047) (Hindi)\n-arrow_forward_ios\n-Master Plan for Delhi 2047 (MPD-2047) (English)\n-arrow_forward_ios\n-Filling up the post of Executive Director, Building Materials and Technology Promotion Council (BMTPC) through Direct Recruitment failing which by deputation failing which by contract appointment\n arrow_forward_ios\n@@ -142,4 +127,14 @@\n chevron_right\n+Recent Documents\n+Gazettes Notifications\n+Whereas the Government constituted the Heritage Conservation Committee HCC , vide notification No S O 5454 E dated 23 12 2023, wherein Dr Archana Verma Historian was a member\n+Gazettes Notifications\n+Appointment of Shri Mohit Sood, Supdt. as Estates Officer in Directorate of Estates\n+Press Release\n+MoHUA celebrates World Habitat Day 2026 with focus on advancing affordable, resilient and Inclusive housing\n+Press Release\n+Ministry of Housing and Urban Affairs (MoHUA) Organized Voluntary Blood Donation Camp\n View more\n chevron_right\n+Explore User Personas\n chevron_left\n@@ -151,2 +146,12 @@\n Skill Seeker\n+Important Links\n+Press Information Bureau\n+arrow_forward_ios\n+Holiday Homes/Government Residential Accommodation\n+arrow_forward_ios\n+NITI Aayog (National Institution for Transforming India)\n+arrow_forward_ios\n+eGazette Portal\n+arrow_forward_ios\n+SHe-Box\n arrow_forward_ios"
+  },
+  {
+    "ts": "2026-10-18T08:32:28+00:00",
+    "slug": "mospi",
+    "name": "Statistics and Programme Implementation",
+    "url": "https://www.mospi.gov.in/",
+    "notes": "GDP, CPI and IIP releases. Repoint at the press-release listing once confirmed.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "\u0915\u0941\u0932 \u0906\u0917\u0902\u0924\u0941\u0915: 2846727"
+    ],
+    "sample_removed": [
+      "\u0915\u0941\u0932 \u0906\u0917\u0902\u0924\u0941\u0915: 2843012"
+    ],
+    "diff": "@@ -230,3 +230,3 @@\n Links to install GoIStats app\n-\u0915\u0941\u0932 \u0906\u0917\u0902\u0924\u0941\u0915: 2843012\n+\u0915\u0941\u0932 \u0906\u0917\u0902\u0924\u0941\u0915: 2846727\n Sourced from Google Analytics"
+  },
+  {
+    "ts": "2026-10-18T08:32:34+00:00",
+    "slug": "dst",
+    "name": "Science and Technology",
+    "url": "https://dst.gov.in/",
+    "type": "error",
+    "detail": "only 0 chars extracted (floor 400)"
+  },
+  {
+    "ts": "2026-10-18T08:33:45+00:00",
+    "slug": "finmin",
+    "name": "Finance Ministry",
+    "url": "https://finmin.gov.in/",
+    "type": "error",
+    "detail": "ConnectTimeout: HTTPSConnectionPool(host='finmin.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='finmin.gov.in', port=443) at 0x7f79fb7d9520>, 'Connection to finmin.gov.in timed out. (connect timeout=30)'))"
+  },
+  {
+    "ts": "2026-10-18T08:33:47+00:00",
+    "slug": "commerce-dept",
+    "name": "Department of Commerce",
+    "url": "https://commerce.gov.in/",
+    "type": "error",
+    "detail": "only 0 chars extracted (floor 400)"
+  },
+  {
+    "ts": "2026-10-18T08:33:49+00:00",
+    "slug": "rbi-notifications",
+    "name": "RBI \u2014 notifications",
+    "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx",
+    "notes": "",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "(652 kb)"
+    ],
+    "sample_removed": [
+      "(652 KB)"
+    ],
+    "diff": "@@ -625,3 +625,3 @@\n RBI\u2019s Vision and Values\n-(652 KB)\n+(652 kb)\n Right to Information Act"
+  },
+  {
+    "ts": "2026-10-18T08:33:52+00:00",
+    "slug": "sebi",
+    "name": "SEBI \u2014 all listings",
+    "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes",
+    "notes": "Every SEBI posting in one dated stream, newest first. Server-rendered.",
+    "type": "change",
+    "added": 2,
+    "removed": 2,
+    "sample_added": [
+      "1 to 25 of 85034 records",
+      "1 to 25 of 85034 records"
+    ],
+    "sample_removed": [
+      "1 to 25 of 85041 records",
+      "1 to 25 of 85041 records"
+    ],
+    "diff": "@@ -104,3 +104,3 @@\n Reset\n-1 to 25 of 85041 records\n+1 to 25 of 85034 records\n \uf105\n@@ -184,3 +184,3 @@\n Release Order dated October 15, 2026 for RC 8924 of 2025 issued against Yuvika Tradewing LLP (PAN - AABFY4620R) in the matter of Cressanda Solutions Limited\n-1 to 25 of 85041 records\n+1 to 25 of 85034 records\n \uf105"
+  },
+  {
+    "ts": "2026-10-18T08:34:33+00:00",
+    "slug": "cbic",
+    "name": "CBIC \u2014 indirect taxes and customs",
+    "url": "https://www.cbic.gov.in/",
+    "notes": "",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      ": 18-10-2026"
+    ],
+    "sample_removed": [
+      ": 17-10-2026"
+    ],
+    "diff": "@@ -94,3 +94,3 @@\n LastUpdate\n-: 17-10-2026\n+: 18-10-2026\n Visitor's Count"
+  },
+  {
+    "ts": "2026-10-18T08:34:35+00:00",
+    "slug": "cci",
+    "name": "Competition Commission of India",
+    "url": "https://www.cci.gov.in/",
+    "notes": "Merger clearances and penalty orders.",
+    "type": "change",
+    "added": 1,
+    "removed": 1,
+    "sample_added": [
+      "Website last updated on : 17/10/2026 |"
+    ],
+    "sample_removed": [
+      "Website last updated on : 16/10/2026 |"
+    ],
+    "diff": "@@ -133,2 +133,2 @@\n Copyright \u00a9 2026 Competition Commission of India, Government of India.\n-Website last updated on : 16/10/2026 |\n+Website last updated on : 17/10/2026 |"
   }
 ]

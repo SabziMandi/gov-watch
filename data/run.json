@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "ts": "2026-10-20T04:36:45+00:00",
+    "slug": "pib-releases",
+    "name": "PIB \u2014 release stream (reg 48)",
+    "url": "https://www.pib.gov.in/indexd.aspx?reg=48&lang=1",
+    "notes": "Primary government announcement wire. Timestamps are stripped before diffing.",
+    "type": "change",
+    "added": 2,
+    "removed": 2,
+    "sample_added": [
+      "Prime Minister shares a Sanskrit Subhashitam, highlighting Lord Rama as the living em...",
+      "Prime Minister greets everyone on the occasion of Vijayadashami"
+    ],
+    "sample_removed": [
+      "5TH EDITION OF INDIA-AUSTRALIA JOINT MILITARY EXERCISE AUSTRAHIND COMMENCES AT THIRUV...",
+      "CSIR-NIScPR Successfully Concludes Two-Week Skill Training Programme on Library Autom..."
+    ],
+    "diff": "@@ -131,2 +131,4 @@\n Pumped Storage Hydropower\n+Prime Minister shares a Sanskrit Subhashitam, highlighting Lord Rama as the living em...\n+Prime Minister greets everyone on the occasion of Vijayadashami\n Prime Minister congratulates Radha Venkatesh on winning Silver in Women\u2019s 1500m T12/1...\n@@ -143,4 +145,2 @@\n India and Saudi Arabia Discuss the bilateral Electrical Interconnection Initiative\n-5TH EDITION OF INDIA-AUSTRALIA JOINT MILITARY EXERCISE AUSTRAHIND COMMENCES AT THIRUV...\n-CSIR-NIScPR Successfully Concludes Two-Week Skill Training Programme on Library Autom...\n Latest Explainers"
+  }
+]
